@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<!--[if lt IE 7 ]>
+<html lang="en" class="no-js ie6"> <![endif]--> 
+<!--[if IE 7 ]>
+<html lang="en" class="no-js ie7"> <![endif]--> 
+<!--[if IE 8 ]>
+<html lang="en" class="no-js ie8"> <![endif]--> 
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"> <![endif]--> 
+<!--[if (gt IE 9)|!(IE)]><!--> 
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="keywords" content="Spawnfest Erlang" />
+  <meta name="author" content="Pol Cámara (Soft10)" />
+  <meta name="description" content="{{ site.description }}" />
+
+  <title>Spawnfest | {{page.title}} </title>
+
+  <link href="/static/css/normalize.css" rel="stylesheet" type="text/css"         
+    media="screen" />
+  <link href="/static/css/style.css" rel="stylesheet" type="text/css"         
+    media="screen" />
+  <script src="/static/js/jquery.min.js"> </script>           
+  <script src="/static/js/custom.js"> </script>     
+</head>
+<body>
+  <div id="headerBase">
+    <div id="innerHeader" class="contained">
+      <div id="logo">
+        <a title="Back to home" id="navLogo"></a>
+      </div>
+      <div id="navigation"> 
+        <ul id="mainNav">
+	  {% for page in site.nav %}
+          <li><a href="{{page.url}}">{{page.name}}</a></li>
+	  {% endfor %}
+        </ul>
+        <ul id="socialNav">
+          <li> <a href="http://www.twitter.com/spawnfest"><img alt="visit us on twitter"  src="/static/img/twitter.jpg"></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="contained" id="contents">
+    {% if page.bubble %}
+    <div id="bubbleIntro">
+        <div id="leftTight" class="bubbleLeft">
+          <p id="function"><span>ƒ(x)</span>
+	    <em>{{page.bubble.title}}</em>
+	  </p>
+        </div>
+        <div id="rightWide" class="bubbleText">
+	  <p>{{page.bubble.text}}</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    {% endif %}
+    <div id="leftWide">
+      {{content}}
+    </div>
+    <div id="rightTight">
+      <div id="remainingDays">
+	<p>
+	  <span id="number"></span> Days left<br>
+	  <a href="/take-part/">Join the competition</a><br>
+	  <a href="/find-a-team/">Find a team</a>
+	</p>
+      </div>      
+<!--
+      <h2>Categories</h2>
+      <ul id="blogCategories">
+        <li><a href="">Lorem ipsum</a><span class="categoryCount">23</span></li>        
+        <li><a href="">Sir dolor amet</a><span class="categoryCount">8</span></li>        
+        <li><a href="">Consectetur adipiscingt</a><span class="categoryCount">5</span></li>        
+        <li><a href="">Vestibulum vel</a><span class="categoryCount">3</span></li>        
+      </ul>
+-->
+      <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+      <script>
+      new TWTR.Widget({
+        version: 2,
+        type: 'profile',
+        rpp: 3,
+        interval: 6000,
+        width: 300,
+        height: 200,
+        theme: {
+          shell: {
+            background: '#43abd1',
+            color: '#ffffff'
+          },
+          tweets: {
+            background: '#ffffff',
+            color: '#000000',
+            links: '#676767'
+          }
+        },
+        features: {
+          scrollbar: false,
+          loop: false,
+          live: true,
+          hashtags: true,
+          timestamp: true,
+          avatars: false,
+          behavior: 'all'
+        }
+      }).render().setUser('spawnfest').start();
+      </script>
+    </div>
+
+    <div class="clear"></div>    
+  </div>
+  <div class="clear"></div>
+
+  <div id="footer">
+    <div id="footerBroughtBase">
+      <div class="contained" id="footerBroughtInner">
+        <span>Spawnfest is Brought to you By</span>
+      </div>
+      <div class="contained" id="footerSponsors">
+	{% for sponsor in site.sponsors %}
+        <a href="{{sponsor.url}}"><img alt="{{sponsor.alt_text}}" src="{{sponsor.img_src}}"></a>
+	{% endfor %}
+      </div>
+    </div>
+</div>
+
+
+</body>
+</html>

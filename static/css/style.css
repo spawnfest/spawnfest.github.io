@@ -1,0 +1,238 @@
+body {
+    font-family: verdana;
+    font-size: 12px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
+}
+a {
+    color: #2E8CAF;
+    text-decoration: none;
+}
+article p {
+    text-align: justify;
+}
+a:hover {
+    text-decoration: underline;
+}
+@font-face {
+    font-family: "Cantarell";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Cantarell-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Cantarell-Regular-webfont.woff") format("woff"), url("../font/Cantarell-Regular-webfont.ttf") format("truetype"), url("../font/Cantarell-Regular-webfont.svg#CantarellRegular") format("svg");
+}
+.clear {
+    clear: both;
+}
+.contained {
+    margin: 0 auto;
+    width: 960px;
+}
+#headerBase {
+    background: url("../img/logo.png") repeat-x scroll 0 -72px transparent;
+    color: #FFFFFF;
+    height: 72px;
+    min-width: 960px;
+    text-align: center;
+}
+#innerHeader {
+    text-align: left;
+}
+#logo {
+    float: left;
+    margin-right: 10px;
+}
+#navLogo {
+    background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 72px;
+    width: 340px;
+}
+#navigation li {
+    float: left;
+    font-size: 19px;
+    height: 31px;
+    padding-top: 0;
+}
+#navigation #mainNav {
+    font-family: 'Cantarell',"trebuchet MS",sans-serif;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+#navigation #mainNav li a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #43ABD0;
+    margin-top: 8px;
+    text-decoration: none;
+}
+#navigation li a {
+    color: #FFFFFF;
+    display: inline-block;
+    height: 31px;
+    margin-top: 8px;
+    padding: 13px 15px 4px;
+    text-decoration: none;
+}
+#navigation #socialNav li a {
+    padding: 0 5px;
+}
+#navigation #socialNav {
+    float: right;
+    list-style: none outside none;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+#footer {
+    min-width: 960px;
+}
+#footerBroughtBase {
+    background: none repeat scroll 0 0 #43ABD1;
+    color: #444444;
+    height: 26px;
+}
+#footerBroughtInner {
+    background: url("../img/logo.png") repeat scroll 0 -144px transparent;
+    font-family: 'Cantarell',"trebuchet MS",sans-serif;
+    font-size: 18px;
+    height: 26px;
+    text-align: center;
+    width: 344px;
+}
+#footerBroughtInner span {
+    vertical-align: top;
+}
+#footerSponsors {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+#footerSponsors img {
+    margin: 10px;
+}
+#contents {
+    margin: 10px auto;
+}
+#contents p {
+    line-height: 1.2em;
+}
+#leftTight {
+    float: left;
+    width: 165px;
+}
+#rightWide {
+    float: left;
+    width: 740px;
+}
+#rightTight {
+    float: left;
+    width: 300px;
+}
+#leftWide {
+    float: left;
+    margin-right: 30px;
+    width: 630px;
+}
+.bubbleText {
+    background: none repeat scroll 0 0 #F0EFE8;
+    border-radius: 12px 12px 12px 12px;
+    color: #444444;
+    font-family: 'Cantarell',"trebuchet MS",sans-serif;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+#bubbleIntro {
+    margin: 0 auto;
+    width: 960px;
+}
+.bubbleLeft {
+    background: url("../img/bubbletriangle.png") no-repeat scroll right 35px transparent;
+    padding-top: 15px;
+    text-align: center;
+}
+.bubbleLeft p span {
+    display: block;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+.bubbleLeft #function {
+    font-size: 14px;
+}
+.bubbleLeft p em {
+    color: #555555;
+}
+h1, h2, h3, h4 {
+    color: #444444;
+    font-family: cantarell,trebuchet MS,sans-serif;
+}
+.articleDate {
+    background: none repeat scroll 0 0 #DDDDDD;
+    font-size: 12px;
+}
+.articleComments, .articleDate {
+    border-radius: 4px 4px 4px 4px;
+    font-size: 11px;
+    padding: 5px 12px;
+}
+.articleComments {
+    background: none repeat scroll 0 0 #676767;
+    color: white;
+}
+.articleTags {
+    color: #676767;
+    font-weight: bold;
+}
+.articleTags a {
+    color: #676767;
+    font-style: italic;
+    font-weight: normal;
+}
+#remainingDays {
+    background: none repeat scroll 0 0 #43ABD1;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    font-family: cantarell,trebuchet MS,sans-serif;
+    font-size: 24px;
+    margin: 32px 0;
+    padding: 3px 15px;
+}
+#remainingDays #number {
+    background: none repeat scroll 0 0 white;
+    border-radius: 35px 35px 35px 35px;
+    color: #43ABD1;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 35px;
+}
+#remainingDays a {
+    color: white;
+}
+#remainingDays p {
+    line-height: 1.5em;
+    margin: 10px;
+}
+#blogCategories {
+    list-style: none outside none;
+    padding-left: 10px;
+}
+#blogCategories li {
+    margin: 5px 0;
+}
+#blogCategories li a {
+    color: #676767;
+}
+#blogCategories li span {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-radius: 7px 7px 7px 7px;
+    color: #676767;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width: 30px;
+}
+#twtr-widget-1 {
+    margin: 30px 0;
+}
