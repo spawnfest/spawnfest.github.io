@@ -23,3 +23,9 @@ sponsors:
     - url: http://dev-extend.eu
       alt_text: Visit Dev:Extend
       img_src: /static/img/devextend.jpg
+    - url: http://erlang-solutions.com
+      alt_text: Visit Erlang Solutions
+      img_src: /static/img/esl.png
+    - url: http://spawngrid.com
+      alt_text: Visit Spawngrid
+      img_src: /static/img/spawngrid.png
