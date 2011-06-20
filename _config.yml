@@ -26,6 +26,9 @@ sponsors:
     - url: http://erlang-solutions.com
       alt_text: Visit Erlang Solutions
       img_src: /static/img/esl.png
+    - url: http://kodiak.is
+      alt_text: Visit Kodiak
+      img_src: /static/img/kodiak.png
     - url: http://spawngrid.com
       alt_text: Visit Spawngrid
       img_src: /static/img/spawngrid.png
