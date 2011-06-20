@@ -32,3 +32,6 @@ sponsors:
     - url: http://spawngrid.com
       alt_text: Visit Spawngrid
       img_src: /static/img/spawngrid.png
+    - url: http://www.manning.com/
+      alt_text: Visit Manning
+      img_src: /static/img/manning.gif
