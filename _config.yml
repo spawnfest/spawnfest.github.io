@@ -11,6 +11,8 @@ nav:
       url: /take-part/
     - name: Find a team
       url: /find-a-team/
+    - name: Prizes
+      url: /prizes/
     - name: Judges
       url: /judges/
 
