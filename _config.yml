@@ -35,3 +35,6 @@ sponsors:
     - url: http://www.manning.com/
       alt_text: Visit Manning
       img_src: /static/img/manning.gif
+    - url: http://www.oreilly.com/
+      alt_text: Visit O'Reilly
+      img_src: /static/img/oreilly.png
