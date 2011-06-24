@@ -38,3 +38,6 @@ sponsors:
     - url: http://www.oreilly.com/
       alt_text: Visit O'Reilly
       img_src: /static/img/oreilly.png
+    - url: http://inakanetworks.com/
+      alt_text: Visit Inaka Networks
+      img_src: /static/img/inaka.png
