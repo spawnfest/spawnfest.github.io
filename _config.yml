@@ -44,6 +44,9 @@ sponsors:
     - url: http://inakanetworks.com/
       alt_text: Visit Inaka Networks
       img_src: /static/img/inaka.png
+    - url: http://www.managedhosting.de/products/vmware_en.php?svlang=en&sid=a54e17eb435128d2a8d8a0d41d8c8cc0&svpage=product_vcloud
+      alt_text: visit managedhosting.de
+      img_src: /static/img/managedhosting.png
     - url: http://www.gandi.net/
       alt_text: Visit Gandi
       img_src: /static/img/gandi.gif
