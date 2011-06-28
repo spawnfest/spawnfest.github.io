@@ -44,3 +44,6 @@ sponsors:
     - url: http://inakanetworks.com/
       alt_text: Visit Inaka Networks
       img_src: /static/img/inaka.png
+    - url: http://www.gandi.net/
+      alt_text: Visit Gandi
+      img_src: /static/img/gandi.gif
