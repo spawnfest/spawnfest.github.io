@@ -53,3 +53,6 @@ sponsors:
     - url: http://www.gandi.net/
       alt_text: Visit Gandi
       img_src: /static/img/gandi.gif
+    - url: http://www.irccloud.com/
+      alt_text: Visit IRC Cloud
+      img_src: /static/img/irccloud.png
