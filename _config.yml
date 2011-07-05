@@ -56,6 +56,9 @@ sponsors:
     - url: http://www.irccloud.com/
       alt_text: Visit IRC Cloud
       img_src: /static/img/irccloud.png
+    - url: http://www.vmware.com/
+      alt_text: VMWare
+      img_src: /static/img/vmware.jpeg
     - url: http://www.rabbitmq.com/
       alt_text: VMWare RabbitMQ
       img_src: /static/img/rabbitmq.png
