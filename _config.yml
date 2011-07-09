@@ -5,10 +5,8 @@ pygments: true
 description: "An annual 48 hour development competition in which teams of skilled application developers get exactly one weekend to develop the best Erlang software that they can"
 
 nav:
-    - name: Register
-      url: /take-part/
-    - name: Find a team
-      url: /find-a-team/
+    - name: Pictures
+      url: /pics/
     - name: Rules
       url: /rules/
     - name: Prizes
