@@ -5,7 +5,7 @@ permalink: /pics/
 ---
 <h1>Pictures</h1>
 <script>
-var pic = -1;
+var pic = Math.floor(Math.random()*4);
 function next_pic() {
   $('#pic-'+pic).hide();
   pic++;
