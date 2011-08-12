@@ -13,6 +13,8 @@ nav:
       url: /prizes/
     - name: Judges
       url: /judges/
+    - name: Winners
+      url: /winners/
 
 sponsors:
     - url: http://www.soft10.es
