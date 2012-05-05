@@ -5,60 +5,20 @@ pygments: true
 description: "An annual 48 hour development competition in which teams of skilled application developers get exactly one weekend to develop the best Erlang software that they can"
 
 nav:
-    - name: Pictures
-      url: /pics/
     - name: Rules
       url: /rules/
-    - name: Prizes
-      url: /prizes/
     - name: Judges
       url: /judges/
-    - name: Winners
-      url: /winners/
+    - name: Sponsors
+      url: /sponsors/
 
 sponsors:
-    - url: http://www.soft10.es
-      alt_text: Visit Soft10
-      img_src: /static/img/soft10.jpg
     - url: http://dev-extend.eu
       alt_text: Visit Dev:Extend
       img_src: /static/img/devextend.jpg
-    - url: http://github.com/
-      alt_tetx: Visit GitHub
-      img_src: /static/img/github.png
-    - url: http://erlang-solutions.com
-      alt_text: Visit Erlang Solutions
-      img_src: /static/img/esl.png
     - url: http://kodiak.is
       alt_text: Visit Kodiak
       img_src: /static/img/kodiak.png
     - url: http://spawngrid.com
       alt_text: Visit Spawngrid
       img_src: /static/img/spawngrid.png
-    - url: http://www.manning.com/
-      alt_text: Visit Manning
-      img_src: /static/img/manning.gif
-    - url: http://www.oreilly.com/
-      alt_text: Visit O'Reilly
-      img_src: /static/img/oreilly.png
-    - url: http://inakanetworks.com/
-      alt_text: Visit Inaka Networks
-      img_src: /static/img/inaka.png
-    - url: http://www.travelping.com/
-      alt_text: Visit Travelping
-      img_src: /static/img/travelping.png
-    - url: http://www.managedhosting.de/products/vmware_en.php?svlang=en&sid=a54e17eb435128d2a8d8a0d41d8c8cc0&svpage=product_vcloud
-      alt_text: Visit managedhosting.de
-      img_src: /static/img/managedhosting.png
-    - url: http://www.gandi.net/
-      alt_text: Visit Gandi
-      img_src: /static/img/gandi.gif
-    - url: http://www.irccloud.com/
-      alt_text: Visit IRC Cloud
-      img_src: /static/img/irccloud.png
-    - url: http://www.vmware.com/
-      alt_text: VMWare
-      img_src: /static/img/vmware.jpeg
-    - url: http://www.rabbitmq.com/
-      alt_text: VMWare RabbitMQ
-      img_src: /static/img/rabbitmq.png
