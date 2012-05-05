@@ -11,8 +11,6 @@ nav:
       url: /rules/
     - name: Judges
       url: /judges/
-    - name: Sponsors
-      url: /sponsors/
 
 sponsors:
     - url: http://dev-extend.eu
