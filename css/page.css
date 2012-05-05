@@ -105,3 +105,12 @@ footer h1 {
    font-color: rgb(200,200,200);
    font-size: 1.3em;
 }
+
+footer ul {
+   display: inline;
+}
+
+footer ul li {
+   display: inline;
+   padding: 4px;
+}
