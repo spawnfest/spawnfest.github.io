@@ -97,6 +97,10 @@ div#page div.story p {
    line-height: 1.4em;
 }
 
+div.judge h2 {
+   color: #333;
+}
+
 footer {
    margin-bottom: 25px;
 }

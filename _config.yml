@@ -13,9 +13,9 @@ nav:
       url: /judges/
 
 sponsors:
-    - url: http://dev-extend.eu
-      alt_text: Visit Dev:Extend
-      img_src: /static/img/devextend.jpg
+    - url: http://ninenines.eu
+      alt_text: Nine Nines
+      img_src: /static/img/99s.jpg
     - url: http://kodiak.is
       alt_text: Visit Kodiak
       img_src: /static/img/kodiak.png
