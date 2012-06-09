@@ -13,6 +13,9 @@ nav:
       url: /judges/
 
 sponsors:
+    - url: http://heroku.com
+      alt_text: Visit Heroku
+      img_src: /static/img/heroku.png
     - url: http://oreilly.com/
       alt_text: Visit O'Reilly
       img_src: /static/img/oreilly.png
