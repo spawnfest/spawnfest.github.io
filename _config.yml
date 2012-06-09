@@ -13,6 +13,15 @@ nav:
       url: /judges/
 
 sponsors:
+    - url: http://oreilly.com/
+      alt_text: Visit O'Reilly
+      img_src: /static/img/oreilly.png
+    - url: http://github.com
+      alt_text: Visit Github
+      img_src: /static/img/github.png
+    - url: http://inaka.net
+      alt_text: Visit Inaka
+      img_src: /static/img/inaka.png
     - url: http://basho.com/
       alt_text: Visit Basho
       img_src: /static/img/basho.png
