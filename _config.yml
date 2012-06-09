@@ -13,30 +13,30 @@ nav:
       url: /judges/
 
 sponsors:
-    - url: http://heroku.com
-      alt_text: Visit Heroku
-      img_src: /static/img/heroku.png
-    - url: http://oreilly.com/
-      alt_text: Visit O'Reilly
-      img_src: /static/img/oreilly.png
+    - url: http://basho.com/
+      alt_text: Visit Basho
+      img_src: /static/img/basho.png
     - url: http://github.com
       alt_text: Visit Github
       img_src: /static/img/github.png
     - url: http://inaka.net
       alt_text: Visit Inaka
       img_src: /static/img/inaka.png
-    - url: http://basho.com/
-      alt_text: Visit Basho
-      img_src: /static/img/basho.png
     - url: http://www.erlang-solutions.com/
       alt_text: Visit Erlang Solutions
       img_src: /static/img/esl.png
+    - url: http://oreilly.com/
+      alt_text: Visit O'Reilly
+      img_src: /static/img/oreilly.png
+    - url: http://heroku.com
+      alt_text: Visit Heroku
+      img_src: /static/img/heroku.png
     - url: http://ninenines.eu
       alt_text: Nine Nines
       img_src: /static/img/99s.png
-    - url: http://kodiak.is
-      alt_text: Visit Kodiak
-      img_src: /static/img/kodiak.png
     - url: http://spawngrid.com
       alt_text: Visit Spawngrid
       img_src: /static/img/spawngrid.png
+    - url: http://kodiak.is
+      alt_text: Visit Kodiak
+      img_src: /static/img/kodiak.png
