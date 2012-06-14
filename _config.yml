@@ -11,6 +11,8 @@ nav:
       url: /rules/
     - name: Judges
       url: /judges/
+    - name: Find a team
+      url: /find-a-team/
 
 sponsors:
     - url: http://basho.com/
