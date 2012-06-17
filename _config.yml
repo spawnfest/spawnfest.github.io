@@ -18,6 +18,9 @@ sponsors:
     - url: http://basho.com/
       alt_text: Visit Basho
       img_src: /static/img/basho.png
+    - url: http://greenqloud.com
+      alt_text: Visit GreenQloud
+      img_src: /static/img/greenqloud.png
     - url: http://github.com
       alt_text: Visit Github
       img_src: /static/img/github.png
