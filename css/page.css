@@ -89,6 +89,7 @@ div#page {
 
 div#page div.story {
    border-bottom: 1px solid rgb(200,200,200);
+   margin-botom: 10px;
 }
 
 div#page div.story h1 {
@@ -100,10 +101,6 @@ div#page div.story p {
    padding: 6px;
    font-size: 1.1em;
    line-height: 1.4em;
-}
-
-div.judge {
-   margin-bottom: 5px;
 }
 
 div.judge h2 {
