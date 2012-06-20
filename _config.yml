@@ -11,6 +11,8 @@ nav:
       url: /rules/
     - name: Judges
       url: /judges/
+    - name: Sponsors & Prizes
+      url: /sponsors_and_prizes/
     - name: Find a team
       url: /find-a-team/
 
