@@ -102,6 +102,10 @@ div#page div.story p {
    line-height: 1.4em;
 }
 
+div.judge {
+   margin-bottom: 5px;
+}
+
 div.judge h2 {
    color: #333;
 }
