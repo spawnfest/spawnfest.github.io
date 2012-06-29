@@ -43,7 +43,7 @@ sponsors:
       img_src: /static/img/heroku.png
     - url: http://vmware.com
       alt_text: vmware
-      img_src: /static/img/vmware.png
+      img_src: /static/img/vmware.jpeg
     - url: http://rabbitmq.com
       alt_text: RabbitMQ
       img_src: /static/img/rabbitmq.png
