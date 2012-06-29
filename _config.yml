@@ -26,6 +26,9 @@ sponsors:
     - url: http://github.com
       alt_text: Visit Github
       img_src: /static/img/github.png
+    - url: https://cloudant.com
+      alt_text: Visit Cloudant
+      img_src: /static/img/cloudant.png
     - url: http://inaka.net
       alt_text: Visit Inaka
       img_src: /static/img/inaka.png
