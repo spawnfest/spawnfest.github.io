@@ -41,6 +41,12 @@ sponsors:
     - url: http://heroku.com
       alt_text: Visit Heroku
       img_src: /static/img/heroku.png
+    - url: http://vmware.com
+      alt_text: vmware
+      img_src: /static/img/vmware.png
+    - url: http://rabbitmq.com
+      alt_text: RabbitMQ
+      img_src: /static/img/rabbitmq.png
     - url: http://ninenines.eu
       alt_text: Nine Nines
       img_src: /static/img/99s.png
