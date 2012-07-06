@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+body { font-family: sans-serif;}
+.instagram-placeholder {
+float: left;
+}
+</style>
+</head>
+<body>
+<h1>Insta Spawnfest!</h1>
+<p>All Spawnfest pictures tagged with <em>spawnfest</em> for Spawnfest 2012!</p>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<div class="instagram"></div>
+
+<script>
+$(function() {
+    $.ajax({
+    	type: "GET",
+        dataType: "jsonp",
+        cache: false,
+	url: "https://api.instagram.com/v1/tags/spawnfest/media/recent?access_token=18360510.f59def8.d8d77acfa353492e8842597295028fd3",
+        success: function(data) {
+            var l = data.data.length;
+            var i = 0;
+	    while( i < 10 && i <= l - 1) {
+		console.log(i);
+		$(".instagram").append("<div class='instagram-placeholder'><a target='_blank' href='" + data.data[i].link +"'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url +"' /></a></div>");   
+		i++;
+	    }
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>
