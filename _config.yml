@@ -13,8 +13,6 @@ nav:
       url: /judges/
     - name: Sponsors & Prizes
       url: /sponsors_and_prizes/
-    - name: Find&nbsp;a&nbsp;team
-      url: /find-a-team/
 
 sponsors:
     - url: http://basho.com/
