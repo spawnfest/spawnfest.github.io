@@ -32,8 +32,8 @@ $(function() {
               success: function(data) {
 		  var l = data.data.length;
 		  var i = 0;
-		  while( i < 50 && i <= l - 1) {
-		      $(".instagram").append("<div class='instagram-placeholder'><a target='_blank' href='" + data.data[i].link +"'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url +"' /></a></div>");   
+		  while( i <= l - 1) {
+		      $(".instagram").append("<div class='instagram-placeholder'><a href='" + data.data[i].link +"'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url +"' /></a></div>");   
 		      i++;
 		  }
               }
@@ -47,8 +47,8 @@ $(function() {
 		  d.results.reverse();
 		  var l = d.results.length;
 		  var i = 0;
-		  while( i < 10 && i <= l - 1) {
-		      $(".twitter").append("<div class='instagram-placeholder'><a target='_blank' href='" + d.results[i].url +"'><img class='instagram-image' src='" + d.results[i].thumb +"' /></a></div>");   
+		  while( i <= l - 1) {
+		      $(".twitter").append("<div class='instagram-placeholder'><a href='" + d.results[i].url +"'><img class='instagram-image' src='" + d.results[i].thumb +"' /></a></div>");   
 		      i++;
 		  }
 	      }
