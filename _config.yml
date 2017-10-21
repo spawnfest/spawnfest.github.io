@@ -1,0 +1,49 @@
+nav:
+  - name: Home
+    url: /
+  - name: Rules
+    url: /rules/
+  - name: Sponsors
+    url: /#sponsors
+  - name: Contact
+    url: /#contact
+
+rules:
+  - text: "Date: <strong>To be defined</strong>"
+  - text: Team size is 1 to 4
+    details:
+      - text: Every team member has to be a human being, not an organization
+  - text: "Languages of choice: Any language running on top of BEAM (Erlang, Elixir, LFE, etc)"
+    details:
+      - text: Supplementary languages such as JavaScript (and JS frameworks)
+              are allowed (for example, for web applications)
+  - text: 48 hours
+  - text: No code can be created before the start of the contest
+  - text: You should commit regularly to show your progress
+  - text: You have to use a private Git repository that will be provided to you
+  - text: No prior artwork can be created but third party artwork can be used
+  - text: Usage of third party libraries and web services is not prohibited, even encouraged
+  - text: Eligibility
+    details:
+      - text: 13 years or older
+      - text: Unless such skill-based contests are prohibited in entrant&#8217;s jurisdiction
+      - text: Not judging this contest
+      - text: Registered no later than two days before the actual contest
+  - text: "Hosting: <strong>To be defined</strong>"
+  - text: "Ownership and Copyright: you retain all the rights to your submission;
+           we&#8217;re only running a contest"
+  - text: "User Privacy: for online applications (such as web applications) that collect personal
+          information do not reveal any of personally identifiable information unless required to
+          do so by law. Please respect people&#8217;s privacy"
+  - text: "Lawful submissions only: please do not submit anything that can be considered harmful,
+          unlawful or both. Your submission should abide the laws of your jurisdiction and the
+          United States of America laws"
+  - text: You Will Be Judged, unless disqualified
+  - text: You Will Be Disqualified, unless you abide to these rule
+  - text: Contest organizers will not reimburse you for any expenses or losses
+  - text: Contest organizers are not responsible for any damage, legal actions or any other
+          outcomes that might be a result of your participation
+  - text: Prizes
+    details:
+      - text: Contest organizers are not responsible for the delivery of any prizes or other awards
+  - text: We reserve a right to change these rules without prior notification
