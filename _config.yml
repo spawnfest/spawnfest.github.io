@@ -1,8 +1,8 @@
 nav:
   - name: Home
     url: /
-  - name: Rules
-    url: /rules/
+  # - name: Rules
+  #   url: /rules/
   - name: Sponsors
     url: /#sponsors
   - name: Contact
@@ -19,31 +19,30 @@ rules:
               are allowed (for example, for web applications)
   - text: 48 hours
   - text: No code can be created before the start of the contest
-  - text: You should commit regularly to show your progress
-  - text: You have to use a private Git repository that will be provided to you
-  - text: No prior artwork can be created but third party artwork can be used
+  - text: You have to use a private Git repository that will be provided to you.
+          If you need more than one, you can ask the organizers to create them for you.
   - text: Usage of third party libraries and web services is not prohibited, even encouraged
   - text: Eligibility
     details:
-      - text: 13 years or older
-      - text: Unless such skill-based contests are prohibited in entrant&#8217;s jurisdiction
-      - text: Not judging this contest
+      - text: All members of the team should be 13 years old or older
+      - text: Judges of this contest can not be members of any team
       - text: Registered no later than two days before the actual contest
-  - text: "Hosting: <strong>To be defined</strong>"
   - text: "Ownership and Copyright: you retain all the rights to your submission;
            we&#8217;re only running a contest"
   - text: "User Privacy: for online applications (such as web applications) that collect personal
           information do not reveal any of personally identifiable information unless required to
           do so by law. Please respect people&#8217;s privacy"
   - text: "Lawful submissions only: please do not submit anything that can be considered harmful,
-          unlawful or both. Your submission should abide the laws of your jurisdiction and the
-          United States of America laws"
-  - text: You Will Be Judged, unless disqualified
-  - text: You Will Be Disqualified, unless you abide to these rule
+          unlawful or both"
+  - text: Your work will be judged by a publicly know jury, unless previously disqualified
+  - text: Individual participants or even entire teams can be disqualified if they don't abide to
+          these rules. The organizers reserve the rights to apply the punishment they consider fit
+          to any transgression
   - text: Contest organizers will not reimburse you for any expenses or losses
   - text: Contest organizers are not responsible for any damage, legal actions or any other
           outcomes that might be a result of your participation
   - text: Prizes
     details:
-      - text: Contest organizers are not responsible for the delivery of any prizes or other awards
-  - text: We reserve a right to change these rules without prior notification
+      - text: Each sponsor is responsible for delivering the prize they provided
+              to the corresponding winner team
+  - text: Event organizers reserve the right to change these rules without prior notification
