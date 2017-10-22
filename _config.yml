@@ -1,0 +1,48 @@
+nav:
+  - name: Home
+    url: /
+  # - name: Rules
+  #   url: /rules/
+  - name: Sponsors
+    url: /#sponsors
+  - name: Contact
+    url: /#contact
+
+rules:
+  - text: "Date: <strong>To be defined</strong>"
+  - text: Team size is 1 to 4
+    details:
+      - text: Every team member has to be a human being, not an organization
+  - text: "Languages of choice: Any language running on top of BEAM (Erlang, Elixir, LFE, etc)"
+    details:
+      - text: Supplementary languages such as JavaScript (and JS frameworks)
+              are allowed (for example, for web applications)
+  - text: 48 hours
+  - text: No code can be created before the start of the contest
+  - text: You have to use a private Git repository that will be provided to you.
+          If you need more than one, you can ask the organizers to create them for you.
+  - text: Usage of third party libraries and web services is not prohibited, even encouraged
+  - text: Eligibility
+    details:
+      - text: All members of the team should be 13 years old or older
+      - text: Judges of this contest can not be members of any team
+      - text: Registered no later than two days before the actual contest
+  - text: "Ownership and Copyright: you retain all the rights to your submission;
+           we&#8217;re only running a contest"
+  - text: "User Privacy: for online applications (such as web applications) that collect personal
+          information do not reveal any of personally identifiable information unless required to
+          do so by law. Please respect people&#8217;s privacy"
+  - text: "Lawful submissions only: please do not submit anything that can be considered harmful,
+          unlawful or both"
+  - text: Your work will be judged by a publicly know jury, unless previously disqualified
+  - text: Individual participants or even entire teams can be disqualified if they don't abide to
+          these rules. The organizers reserve the rights to apply the punishment they consider fit
+          to any transgression
+  - text: Contest organizers will not reimburse you for any expenses or losses
+  - text: Contest organizers are not responsible for any damage, legal actions or any other
+          outcomes that might be a result of your participation
+  - text: Prizes
+    details:
+      - text: Each sponsor is responsible for delivering the prize they provided
+              to the corresponding winner team
+  - text: Event organizers reserve the right to change these rules without prior notification

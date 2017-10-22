@@ -1,0 +1,27 @@
+---
+layout: default
+title: Rules
+permalink: /rules/
+---
+
+<div class="container">
+  <div class="col-md-12">
+    <div class="p-5">
+      <h2 class="display-4">Rules</h2>
+      <u class="rules">
+        {% for rule in site.rules %}
+          <li class="rule">
+            {{ rule.text }}
+            {% if rule.details %}
+              <ul class="rule-details">
+                {% for detail in rule.details %}
+                  <li>{{ detail.text }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </u>
+    </div>
+  </div>
+</div>

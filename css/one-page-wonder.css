@@ -41,3 +41,17 @@ header.masthead>.overlay {
 .align-text-center {
   text-align: center;
 }
+
+.rules {
+  text-decoration: none;
+}
+
+.rule-details {
+  list-style: circle;
+}
+
+li {
+  margin: 0 0 4px 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
