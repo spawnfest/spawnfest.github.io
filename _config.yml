@@ -11,9 +11,9 @@ nav:
 rules:
   - text: TODO
     details:
-      - text: Choose <pre>XX</pre>
-      - text: <pre>YY = XX + 1</pre>
-      - text: <pre>ZZ = XX - 2</pre>
+      - text: Choose <code>XX</code>
+      - text: <code>YY = XX + 1</code>
+      - text: <code>ZZ = XX - 2</code>
       - text: Add specific prizes if we can
   - text: "Schedule"
     details:
@@ -55,7 +55,7 @@ rules:
       - text: "The team with the highest final score will be the winner of the contest."
       - text: "Other prizes, besides the one for the winner, will be awarded as well."
   - text: Other Rules
-    defails:
+    details:
       - text: "Individual participants or even entire teams can be disqualified if they don't abide to these rules. The organizers reserve the rights to apply the punishment they consider fit to any transgression."
       - text: "Event organizers will not reimburse you for any expenses or losses."
       - text: "Event organizers are not responsible for any damage, legal actions or any other outcomes that might be a result of your participation."
