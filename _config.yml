@@ -1,24 +1,18 @@
 nav:
   - name: Home
     url: /
-  # - name: Rules
-  #   url: /rules/
+  - name: Rules
+    url: /rules/
   - name: Sponsors
     url: /#sponsors
   - name: Contact
     url: /#contact
 
 rules:
-  - text: TODO
-    details:
-      - text: Choose <code>XX</code>
-      - text: <code>YY = XX + 1</code>
-      - text: <code>ZZ = XX - 2</code>
-      - text: Add specific prizes if we can
   - text: "Schedule"
     details:
-      - text: "The event will start on <strong>2017-12-XX 00:00 UTC</strong>."
-      - text: "The event will end on <strong>2017-12-YY 23:59 UTC</strong>."
+      - text: <strong>The start date of the event will be confirmed soon.</strong>
+      - text: The registration will close 2 days prior to the start date.
       - text: "Each team will have exactly 48 hours to work on their projects."
   - text: Teams
     details:
@@ -26,7 +20,6 @@ rules:
       - text: "Every team member has to be a human being, not an organization."
       - text: "All members of the team should be 13 years old or older."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: "All teams should be registered by <strong>2017-12-ZZ 23:59 UTC</strong>."
   - text: Projects
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
