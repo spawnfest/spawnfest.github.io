@@ -44,7 +44,7 @@ rules:
           - text: "Each team retains all the rights to their submissions."
       - text: User Privacy
         details:
-          - text: "If a project is an online applications (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
+          - text: "If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - text: Evaluation
     details:
