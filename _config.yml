@@ -39,12 +39,8 @@ rules:
       - text: "The only required deliverable is the code, but everything in the repository will be used for evaluation."
       - text: "Suggested extra deliverables to include: Documentation, comprehensive README.md, project-related art (e.g. Logos), tests and anything that makes building and understanding the system easier for the judges."
       - text: "Usage of third party libraries and web services is not prohibited, even encouraged."
-      - text: Ownership and Copyright
-        details:
-          - text: "Each team retains all the rights to their submissions."
-      - text: User Privacy
-        details:
-          - text: "If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
+      - text: "<em>Ownership and Copyright:</em> Each team retains all the rights to their submissions."
+      - text: "<em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - text: Evaluation
     details:
