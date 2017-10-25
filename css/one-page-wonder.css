@@ -30,7 +30,7 @@ header.masthead>.overlay {
 
 @media (min-width: 992px) {
   header.masthead>.overlay {
-    padding: 10rem 0;
+    /*padding: 10rem 0;*/
   }
 }
 
@@ -52,6 +52,4 @@ header.masthead>.overlay {
 
 li {
   margin: 0 0 4px 0;
-  padding-left: 1em;
-  text-indent: -1em;
 }

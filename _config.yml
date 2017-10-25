@@ -11,9 +11,10 @@ nav:
 rules:
   - text: "Schedule"
     details:
-      - text: <strong>The start date of the event will be confirmed soon.</strong>
+      - text: The event will start on <strong>2017-12-09 00:00 UTC</strong>.
+      - text: The event will end on <strong>2017-12-10 23:59 UTC</strong>.
       - text: The registration will close 2 days prior to the start date.
-      - text: "Each team will have exactly 48 hours to work on their projects."
+      - text: Each team will have exactly 48 hours to work on their projects.
   - text: Teams
     details:
       - text: "Team size is 1 to 4."
