@@ -60,6 +60,24 @@
 
     {{content}}
 
+    <hr>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center">
+          <h2>Gold Sponsors</h2>
+        </div>
+          {% for sponsor in site.gold_sponsors %}
+            <div class="col-md-6 text-center">
+              <div class="p-4">
+                <a class="nav-link" target="_blank" href="{{sponsor.url}}">
+                  <img class="img-fluid img-fluid-small" src="/img/{{sponsor.image}}" alt="{{sponsor.name}}">
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">

@@ -6,9 +6,19 @@ nav:
   - name: Rules
     url: /rules
   - name: Sponsors
-    url: /#sponsors
+    url: /sponsors
   - name: Contact
     url: /#contact
+
+gold_sponsors:
+  - name: AdRoll
+    image: adroll.png
+    url: https://www.adroll.com/
+    description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide.
+  - name: BairesDev
+    image: bairesdev.png
+    url: https://www.bairesdev.com/
+    description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects."
 
 rules:
   - text: "Schedule"
