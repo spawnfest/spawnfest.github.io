@@ -1,0 +1,47 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors
+---
+
+<div class="container">
+
+  <div class="col-md-12">
+    <div class="p-3 text-center">
+      <p>This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/29Ng4gFTRbkbIQ0H2">join them</a>.</p>
+    </div>
+    <div class="text-center">
+      <h2 class="display-4">Gold Sponsors</h2>
+    </div>
+    {% for sponsor in site.gold_sponsors %}
+      <div class="p-3 text-center">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <a class="nav-link" target="_blank" href="{{sponsor.url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{sponsor.image}}" alt="{{sponsor.name}}">
+              </a>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        <div class="col-md-12">
+          <a class="nav-link" target="_blank" href="{{sponsor.url}}">{{sponsor.url}}</a>
+        </div>
+        <div class="col-md-12">
+          <p>{{sponsor.description}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <hr/>
+
+  <div class="col-md-12">
+    <div class="p-5">
+      <h2 class="display-5">Be a Sponsor!</h2>
+      <p>If you want to be a sponsor of this event, you just need to contribute with some prizes.
+      You can find more information and register as a sponsor in <a href="https://goo.gl/forms/29Ng4gFTRbkbIQ0H2" target="_blank">this form</a>.
+      Or you can contact us at <a href="mailto:spawnfest-organizers@googlegroups.com">spawnfest-organizers@googlegroups.com</a></p>
+    </div>
+  </div>
+</div>
