@@ -33,7 +33,7 @@ rules:
       - text: "Every team member has to be a human being, not an organization."
       - text: "All members of the team should be 13 years old or older."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: Every team has to be registered completing the <a target="_blank" href="https://goo.gl/forms/kCY0ekjqZI6PPZRl2">registration form</a>.
+      - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/kCY0ekjqZI6PPZRl2">registration form</a>.
   - text: Projects
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
@@ -51,15 +51,15 @@ rules:
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - text: Evaluation
     details:
-      - text: "Your work will be judged by a publicly know jury, unless previously disqualified."
-      - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winner team."
+      - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
+      - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
       - text: "Each project will be evaluated in 6 different categories: Creativity, Usefulness, Innovation, Correctness, Maintainability and Completion."
       - text: "Final score of each team will be computed as the sum of the points received in all those categories."
       - text: "The team with the highest final score will be the winner of the contest."
       - text: "Other prizes, besides the one for the winner, will be awarded as well."
   - text: Other Rules
     details:
-      - text: "Individual participants or even entire teams can be disqualified if they don't abide to these rules. The organizers reserve the rights to apply the punishment they consider fit to any transgression."
+      - text: "Individual participants or even entire teams can be disqualified if they don't abide by these rules. The organizers reserve the right to apply the punishment they consider fit to any transgression.
       - text: "Event organizers will not reimburse you for any expenses or losses."
       - text: "Event organizers are not responsible for any damage, legal actions or any other outcomes that might be a result of your participation."
       - text: "Event organizers reserve the right to change these rules without prior notification."
