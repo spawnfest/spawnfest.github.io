@@ -21,6 +21,9 @@ gold_sponsors:
     image: bairesdev.png
     url: https://www.bairesdev.com/
     description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects."
+  - name: Alert Logic
+    image: alertlogic.png
+    url: https://www.alertlogic.com/
 
 prizes:
   - name: 600USD ThinkGeek Gift Certificate
@@ -28,6 +31,11 @@ prizes:
     sponsor_url: https://www.bairesdev.com/
     url: https://www.thinkgeek.com/brain/order/certificate.cgi
     image: thinkgeek-gift-card.jpg
+  - name: 500USD Gyft Card
+    sponsor: Alert Logic
+    sponsor_url: https://www.alertlogic.com/
+    url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
+    image: gyft-card.png
   - name: 300USD Amazon Gift Card
     sponsor: AdRoll
     sponsor_url: https://www.adroll.com/
