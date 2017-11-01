@@ -5,6 +5,8 @@ nav:
     url: /registration
   - name: Rules
     url: /rules
+  - name: Judges
+    url: /judges
   - name: Sponsors
     url: /sponsors
   - name: Prizes
@@ -46,6 +48,20 @@ prizes:
     sponsor_url: https://www.adroll.com/
     url: https://www.sparkfun.com/products/13726
     image: sparkfun-gift-certificate.jpg
+
+judges:
+  - name: Fred Hebert
+    url: https://ferd.ca/
+    twitter: mononcqc
+    image: fred.jpg
+  - name: Joe Armstrong
+    url: https://joearms.github.io/
+    twitter: joeerl
+    image: joe.jpg
+  - name: Christopher Meiklejohn
+    url: http://christophermeiklejohn.com/
+    twitter: cmeik
+    image: chris.jpg
 
 rules:
   - text: "Schedule"
