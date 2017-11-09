@@ -62,6 +62,10 @@ judges:
     url: http://christophermeiklejohn.com/
     twitter: cmeik
     image: chris.jpg
+  - name: René Föhring
+    url: http://trivelop.de/
+    twitter: rrrene
+    image: rrrene.png
 
 rules:
   - text: "Schedule"
