@@ -65,7 +65,7 @@ judges:
   - name: René Föhring
     url: http://trivelop.de/
     twitter: rrrene
-    image: rrrene.jpg
+    image: rrrene.png
 
 rules:
   - text: "Schedule"
