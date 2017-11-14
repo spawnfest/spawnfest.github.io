@@ -4,38 +4,33 @@ title: Sponsors
 permalink: /sponsors
 ---
 
-<div class="container">
-
-  <div class="col-md-12">
-    <div class="p-3 text-center">
-      <p>This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/29Ng4gFTRbkbIQ0H2">join them</a>.</p>
-    </div>
-    <div class="text-center">
-      <h2 class="display-4">Gold Sponsors</h2>
-    </div>
-    {% for sponsor in site.gold_sponsors %}
-      <div class="p-3 text-center">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-              <a class="nav-link" target="_blank" href="{{sponsor.url}}">
-                <img class="img-fluid img-fluid-small" src="/img/{{sponsor.image}}" alt="{{sponsor.name}}">
-              </a>
-            </div>
-            <div class="col-md-3"></div>
-          </div>
-        <div class="col-md-12">
-          <a class="nav-link" target="_blank" href="{{sponsor.url}}">{{sponsor.url}}</a>
-        </div>
-        <div class="col-md-12">
-          <p>{{sponsor.description}}</p>
-        </div>
-      </div>
-    {% endfor %}
+  <div class="p-3 text-center">
+    <p>This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/29Ng4gFTRbkbIQ0H2">join them</a>.</p>
   </div>
+  <div class="text-center">
+    <h2 class="display-5">Platinum Sponsor</h2>
+    <a class="btn sponsor-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
+      <div class="p-3 text-center sponsor-box" style="background-color: {{ site.platinum_sponsor.background_color }};">
+        <img class="p-3 img-fluid sponsor-img" src="/img/{{ site.platinum_sponsor.image }}" alt="{{ site.platinum_sponsor.name }}">
+        <p>{{site.platinum_sponsor.description}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="text-center">
+    <h2 class="display-5">Gold Sponsors</h2>
+  </div>
+  {% for sponsor in site.gold_sponsors %}
+    <a class="btn sponsor-link" target="_blank" href="{{ sponsor.url }}">
+      <div class="p-3 text-center sponsor-box" style="background-color: {{ sponsor.background_color }};">
+        <img class="p-3 img-fluid sponsor-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        <p>{{ sponsor.description }}</p>
+      </div>
+    </a>
+  {% endfor %}
 
-  <hr/>
+<hr/>
 
+<div class="container">
   <div class="col-md-12">
     <div class="p-5">
       <h2 class="display-5">Be a Sponsor!</h2>

@@ -14,18 +14,33 @@ nav:
   - name: Contact
     url: /#contact
 
+platinum_sponsor:
+  name: PegB
+  image: pegb.svg
+  logo: pegb_logo.svg
+  url: https://www.pegb.tech/
+  description: Secure Cashless Payments for everyone, everywhere
+  background_color: "#f05323"
+
 gold_sponsors:
   - name: AdRoll
-    image: adroll.png
+    image: adroll.svg
+    logo: adroll.png
     url: https://www.adroll.com/
-    description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide.
-  - name: BairesDev
-    image: bairesdev.png
-    url: https://www.bairesdev.com/
-    description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects."
+    description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
+    background_color: "#00aeef"
   - name: Alert Logic
-    image: alertlogic.png
+    image: alertlogic.svg
+    logo: alertlogic.png
     url: https://www.alertlogic.com/
+    description: Security as a Service
+    background_color: "#ff7e00"
+  - name: BairesDev
+    image: bairesdev.svg
+    logo: bairesdev.png
+    url: https://www.bairesdev.com/
+    description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects"
+    background_color: "#1774b3"
 
 prizes:
   - name: 600USD ThinkGeek Gift Certificate
@@ -61,7 +76,7 @@ judges:
   - name: Christopher Meiklejohn
     url: http://christophermeiklejohn.com/
     twitter: cmeik
-    image: chris.jpg
+    image: chris.jpeg
   - name: René Föhring
     url: http://trivelop.de/
     twitter: rrrene

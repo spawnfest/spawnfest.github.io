@@ -6,28 +6,28 @@ permalink: /judges
 
 <div class="container">
 
-  <div class="row align-items-center">
-    <div class="col-md-12 text-center">
-      <h2>Judges</h2>
+  <div class="text-center p-5">
+      <h2 class="display-4">Judges</h2>
     </div>
-      {% for judge in site.judges %}
-        <div class="col-md-4 text-center">
-          <div class="p-4">
-            <a class="nav-link" target="_blank" href="{{judge.url}}">
-              <img class="img-fluid img-fluid-small" src="/img/{{judge.image}}" alt="{{judge.name}}">
-              <p>
-                {{judge.name}}
-                <br />
-                <strong>
-                  <a href="https://twitter.com/{{judge.twitter}}" alt="@{{judge.twitter}}" target="_blank">
-                    @{{judge.twitter}}
-                  </a>
-                </strong>
-              </p>
-            </a>
-          </div>
+  <div class="row align-items-center">
+    {% for judge in site.judges %}
+      <div class="col-md-4 text-center">
+        <div class="p-4">
+          <a class="nav-link" target="_blank" href="{{judge.url}}">
+            <img class="img-fluid img-fluid-small" src="/img/{{judge.image}}" alt="{{judge.name}}">
+            <p>
+              {{judge.name}}
+              <br />
+              <strong>
+                <a href="https://twitter.com/{{judge.twitter}}" alt="@{{judge.twitter}}" target="_blank">
+                  @{{judge.twitter}}
+                </a>
+              </strong>
+            </p>
+          </a>
         </div>
-      {% endfor %}
+      </div>
+    {% endfor %}
   </div>
 
 </div>

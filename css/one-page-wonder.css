@@ -57,3 +57,21 @@ header.masthead>.overlay {
 li {
   margin: 0 0 4px 0;
 }
+
+.sponsor-box {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  text-decoration: none !important;
+}
+
+.sponsor-link {
+  display: inline;
+  white-space: normal;
+}
+
+.sponsor-link p {
+  color: white;
+}
+
+img.sponsor-img {
+  width: 228px;
+}
