@@ -9,9 +9,9 @@ permalink: /sponsors
   </div>
   <div class="text-center">
     <h2 class="display-5">Platinum Sponsor</h2>
-    <a class="btn sponsor-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
-      <div class="p-3 text-center sponsor-box" style="background-color: {{ site.platinum_sponsor.background_color }};">
-        <img class="p-3 img-fluid sponsor-img" src="/img/{{ site.platinum_sponsor.image }}" alt="{{ site.platinum_sponsor.name }}">
+    <a class="btn sp-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
+      <div class="p-3 text-center sp-box" style="background-color: {{ site.platinum_sponsor.background_color }};">
+        <img class="p-3 img-fluid sp-img" src="/img/{{ site.platinum_sponsor.image }}" alt="{{ site.platinum_sponsor.name }}">
         <p>{{site.platinum_sponsor.description}}</p>
       </div>
     </a>
@@ -20,9 +20,9 @@ permalink: /sponsors
     <h2 class="display-5">Gold Sponsors</h2>
   </div>
   {% for sponsor in site.gold_sponsors %}
-    <a class="btn sponsor-link" target="_blank" href="{{ sponsor.url }}">
-      <div class="p-3 text-center sponsor-box" style="background-color: {{ sponsor.background_color }};">
-        <img class="p-3 img-fluid sponsor-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+    <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
+      <div class="p-3 text-center sp-box" style="background-color: {{ sponsor.background_color }};">
+        <img class="p-3 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}">
         <p>{{ sponsor.description }}</p>
       </div>
     </a>

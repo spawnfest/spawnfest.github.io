@@ -58,20 +58,20 @@ li {
   margin: 0 0 4px 0;
 }
 
-.sponsor-box {
+.sp-box {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   text-decoration: none !important;
 }
 
-.sponsor-link {
+.sp-link {
   display: inline;
   white-space: normal;
 }
 
-.sponsor-link p {
+.sp-link p {
   color: white;
 }
 
-img.sponsor-img {
+img.sp-img {
   width: 228px;
 }

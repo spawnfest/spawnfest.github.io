@@ -24,8 +24,8 @@ platinum_sponsor:
 
 gold_sponsors:
   - name: AdRoll
-    image: adroll.svg
-    logo: adroll.png
+    image: droll.svg
+    logo: droll.png
     url: https://www.adroll.com/
     description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
     background_color: "#00aeef"
