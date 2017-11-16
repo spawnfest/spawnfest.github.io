@@ -106,7 +106,7 @@ rules:
       - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
       - text: "No code can be created before the start of the contest."
-      - text: "Each team should come up with their own project idea (If you need inspiration check [this website](https://appideagenerator.com/))"
+      - text: Each team should come up with their own project idea (If you need inspiration check <a target="_blank" href="https://appideagenerator.com/">this website</a>)
       - text: "The organizing team will create a git repository at GitHub for each team."
       - text: "If a team needs more than one, they can ask the organizers to create extra repos for them."
       - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
