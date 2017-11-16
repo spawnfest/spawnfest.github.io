@@ -81,6 +81,10 @@ judges:
     url: http://trivelop.de/
     twitter: rrrene
     image: rrrene.png
+  - name: Marcelo Gornstein
+    url: https://marcelog.github.io/
+    twitter: mgornstein
+    image: chelo.jpeg
 
 rules:
   - text: "Schedule"
