@@ -1,6 +1,4 @@
 nav:
-  - name: Home
-    url: /
   - name: Registration
     url: /registration
   - name: Rules
