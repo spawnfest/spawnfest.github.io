@@ -5,29 +5,23 @@ permalink: /prizes
 ---
 
 <div class="container">
-
-  <div class="col-md-12">
-    <div class="p-3 text-center">
-      <p>These are the prizes you may win, thanks to our generous <a href="/sponsors">sponsors</a>:</p>
-    </div>
+  <div class="p-3 text-center">
+    <p>These are the prizes you may win, thanks to our generous <a href="/sponsors">sponsors</a></p>
+  </div>
+  <div class="row align-items-center">
     {% for prize in site.prizes %}
-      <div class="p-3 text-center">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-              <a class="nav-link" target="_blank" href="{{prize.url}}">
-                <img class="img-fluid img-fluid-small" src="/img/{{prize.image}}" alt="{{prize.name}}">
-                <p>{{prize.name}}</p>
-              </a>
-            </div>
-            <div class="col-md-3"></div>
-          </div>
+      <div class="col-md-6 text-center">
+        <a class="nav-link" target="_blank" href="{{prize.url}}">
+          <img class="img-fluid img-fluid-small" src="/img/{{prize.image}}" alt="{{prize.name}}">
+        </a>
         <div class="col-md-12">
-          Provided by <strong><a target="_blank" href="{{prize.sponsor_url}}">{{prize.sponsor}}</a></strong>
+          <p>{{prize.name}}
+          - by <strong><a target="_blank" href="{{prize.sponsor_url}}">{{prize.sponsor}}</a></strong></p>
         </div>
         <div class="col-md-12">
           <p>{{prize.description}}</p>
         </div>
+        <hr/>
       </div>
     {% endfor %}
   </div>

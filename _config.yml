@@ -41,26 +41,41 @@ gold_sponsors:
     background_color: "#1774b3"
 
 prizes:
-  - name: 600USD ThinkGeek Gift Certificate
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
+  - name: <strong>600USD</strong> ThinkGeek Gift Card
     sponsor: BairesDev
     sponsor_url: https://www.bairesdev.com/
     url: https://www.thinkgeek.com/brain/order/certificate.cgi
     image: thinkgeek-gift-card.jpg
-  - name: 500USD Gyft Card
+  - name: <strong>500USD</strong> Gyft Card
     sponsor: Alert Logic
     sponsor_url: https://www.alertlogic.com/
     url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
-    image: gyft-card.png
-  - name: 300USD Amazon Gift Card
-    sponsor: AdRoll
-    sponsor_url: https://www.adroll.com/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card.png
-  - name: 300USD Sparkfun Gift Certificate
+    image: gyft-card2.png
+  - name: <strong>300USD</strong> Sparkfun Gift Card
     sponsor: AdRoll
     sponsor_url: https://www.adroll.com/
     url: https://www.sparkfun.com/products/13726
     image: sparkfun-gift-certificate.jpg
+  - name: <strong>300USD</strong> Amazon Gift Card
+    sponsor: AdRoll
+    sponsor_url: https://www.adroll.com/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
 
 judges:
   - name: Fred Hebert
