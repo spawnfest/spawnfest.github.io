@@ -98,6 +98,10 @@ judges:
     url: https://marcelog.github.io/
     twitter: mgornstein
     image: chelo.jpeg
+  - name: Robert Virding
+    url: http://rvirding.blogspot.com.ar/
+    twitter: rvirding
+    image: rvirding.png
 
 rules:
   - text: "Schedule"
