@@ -5,25 +5,29 @@ permalink: /rules/
 ---
 
 <div class="container">
-  <div class="col-md-12">
-    <div class="p-5">
-      <div class="text-center">
-        <h2 class="display-4">Rules</h2>
+  <div class="p-5 row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="">
+        <div class="text-center">
+          <h2 class="display-4">Rules</h2>
+        </div>
+        <u class="rules">
+          {% for rule in site.rules %}
+            <li class="rule">
+              {{ rule.text }}
+              {% if rule.details %}
+                <ul class="rule-details">
+                  {% for detail in rule.details %}
+                    <li>{{ detail.text }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </u>
       </div>
-      <u class="rules">
-        {% for rule in site.rules %}
-          <li class="rule">
-            {{ rule.text }}
-            {% if rule.details %}
-              <ul class="rule-details">
-                {% for detail in rule.details %}
-                  <li>{{ detail.text }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </u>
     </div>
+    <div class="col-md-2"></div>
   </div>
 </div>
