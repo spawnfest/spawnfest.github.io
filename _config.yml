@@ -39,8 +39,19 @@ gold_sponsors:
     url: https://www.bairesdev.com/
     description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects"
     background_color: "#1774b3"
+  - name: Erlang Solutions
+    image: esl.svg
+    logo: esl.png
+    url: https://www.erlang-solutions.com/
+    description: "World-leading Erlang & Elixir Consultancy"
+    background_color: "#ab191e"
 
 prizes:
+  - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com/
+    url: http://www.erlang-factory.com/codebeamsf2018/
+    image: codebeamsf2018.jpg
   - name: <strong>500USD</strong> Amazon Gift Card
     sponsor: PegB
     sponsor_url: https://www.pegb.tech/
@@ -66,6 +77,11 @@ prizes:
     sponsor_url: https://www.alertlogic.com/
     url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
     image: gyft-card2.png
+  - name: <strong>400USD</strong> Free ticket to Any CodeBEAM Lite
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com/
+    url: http://www.erlang-factory.com
+    image: codebeamlite2018.jpg
   - name: <strong>300USD</strong> Sparkfun Gift Card
     sponsor: AdRoll
     sponsor_url: https://www.adroll.com/
