@@ -22,7 +22,7 @@ permalink: /sponsors
   {% for sponsor in site.gold_sponsors %}
     <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
       <div class="p-3 text-center sp-box" style="background-color: {{ sponsor.background_color }};">
-        <img class="p-3 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}">
+        <img class="p-3 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-height: 75px">
         <p>{{ sponsor.description }}</p>
       </div>
     </a>

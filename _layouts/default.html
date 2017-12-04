@@ -1,107 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108346329-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108346329-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-108346329-1');
-    </script>
+    gtag('config', 'UA-108346329-1');
+  </script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>SpawnFest</title>
+  <title>SpawnFest</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/one-page-wonder.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="/css/one-page-wonder.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/">SpawnFest 2017</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            {% for page in site.nav %}
-              <li class="nav-item">
-                <a class="nav-link text-white" href="{{page.url}}">{{page.name}}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="masthead">
-      <div class="overlay">
-        <div class="container">
-          <p class="h1 display-3 text-white">SpawnFest is back</h1>
-          <p class="h2 display-4 text-white">9-10 December</h2>
-        </div>
-      </div>
-    </header>
-
-    {{content}}
-
-    <hr>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-3 text-center">
-          <div class="p-2">
-            <a class="nav-link" target="_blank" href="{{site.platinum_sponsor.url}}">
-              <img class="img-fluid img-fluid-small" src="/img/{{site.platinum_sponsor.logo}}" alt="{{site.platinum_sponsor.name}}">
+      <a class="navbar-brand" href="/">SpawnFest 2017</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          {% for page in site.nav %}
+          <li class="nav-item">
+            <a class="nav-link text-white" href="{{page.url}}">{{page.name}}
             </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay">
+      <div class="container">
+        <p class="h1 display-3 text-white">SpawnFest is back</h1>
+          <p class="h2 display-4 text-white">9-10 December</h2>
           </div>
         </div>
-        {% for sponsor in site.gold_sponsors %}
-          <div class="col-md-3 text-center">
+      </header>
+
+      {{content}}
+
+      <hr>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-2 text-center">
             <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{sponsor.url}}">
-                <img class="img-fluid img-fluid-small" src="/img/{{sponsor.logo}}" alt="{{sponsor.name}}">
+              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[0].url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{site.gold_sponsors[0].logo}}" alt="{{site.gold_sponsors[0].name}}">
               </a>
             </div>
           </div>
-        {% endfor %}
+          <div class="col-md-2 text-center">
+            <div class="p-2">
+              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[1].url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{site.gold_sponsors[1].logo}}" alt="{{site.gold_sponsors[1].name}}">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="p-2">
+              <a class="nav-link" target="_blank" href="{{site.platinum_sponsor.url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{site.platinum_sponsor.logo}}" alt="{{site.platinum_sponsor.name}}">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="p-2">
+              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[2].url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{site.gold_sponsors[2].logo}}" alt="{{site.gold_sponsors[2].name}}">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="p-2">
+              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[3].url}}">
+                <img class="img-fluid img-fluid-small" src="/img/{{site.gold_sponsors[3].logo}}" alt="{{site.gold_sponsors[3].name}}">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <ul class="list-inline text-center">
-          {% for page in site.nav %}
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+        <div class="container">
+          <ul class="list-inline text-center">
+            {% for page in site.nav %}
             <li class="list-inline-item">
               <a class="nav-link text-white" href="{{page.url}}">{{page.name}}
               </a>
             </li>
-          {% endfor %}
-        </ul>
-        <p class="m-0 text-center text-white">&copy; SpawnFest 2017</p>
-      </div>
-    </footer>
+            {% endfor %}
+          </ul>
+          <p class="m-0 text-center text-white">&copy; SpawnFest 2017</p>
+        </div>
+      </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
-    <script src="/vendor/popper/popper.min.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Bootstrap core JavaScript -->
+      <script src="/vendor/jquery/jquery.min.js"></script>
+      <script src="/vendor/popper/popper.min.js"></script>
+      <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  </body>
+    </body>
 
-</html>
+    </html>
