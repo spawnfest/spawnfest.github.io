@@ -28,6 +28,12 @@ header.masthead>.overlay {
   background: rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 1024px) {
+  #countdown {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   header.masthead>.overlay {
     /*padding: 10rem 0;*/
@@ -81,4 +87,8 @@ li {
 
 img.sp-img {
   width: 228px;
+}
+
+#countdown {
+  margin-left: 2%;
 }
