@@ -124,7 +124,7 @@ rules:
     details:
       - text: The event will start on <strong>2017-12-09 00:00 UTC</strong>.
       - text: The event will end on <strong>2017-12-10 23:59 UTC</strong>.
-      - text: The registration will close 2 days prior to the start date.
+      - text: The registration will close <span class="line-through">2 days</span> 1 day prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
   - text: Teams
     details:
