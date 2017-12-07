@@ -100,3 +100,7 @@ img.sp-img {
 .line-through {
   text-decoration: line-through;
 }
+
+.col-first-img {
+  margin-left: 5%;
+}
