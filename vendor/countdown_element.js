@@ -1,7 +1,7 @@
 var Countdown = new Countdown({
   year     : 2017,
   month    : 12,
-  day      : 9,
+  day      : 11,
   hour     : 0,
   minute   : 0,
   second   : 0,
@@ -15,7 +15,7 @@ var Countdown = new Countdown({
   numbers  : {
     font  : "Arial",
     color : "#FFFFFF",
-    bkgd  : "#1abf17",
+    bkgd  : "#ff5e00",
     rounded : 0.15,
     shadow  : {
       x : 0,
