@@ -34,6 +34,12 @@ header.masthead>.overlay {
   }
 }
 
+@media (min-width: 1024px) {
+  #countdown-small {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   header.masthead>.overlay {
     /*padding: 10rem 0;*/
