@@ -120,37 +120,37 @@ judges:
     image: rvirding.png
 
 winner:
-  - team: ElixirChain
-    project: elixir-bench
-    repo: elixirbench
-    description: A service to maintain long running benchmarks for Elixir projects
-    link: https://www.elixirbench.org/
-    members:
-      - name: Michał Muskała
-        user: michalmuskala
-        avatar: https://avatars0.githubusercontent.com/u/477062
-      - name: Andrew Dryga
-        user: AndrewDryga
-        avatar: https://avatars0.githubusercontent.com/u/1877644
-      - name: Alexey Bondarenko
-        user: alexeybondarenko
-        avatar: https://avatars1.githubusercontent.com/u/3592553
-    prizes:
-      - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
-        sponsor: Erlang Solutions
-        sponsor_url: https://www.erlang-solutions.com/
-        url: http://www.erlang-factory.com/codebeamsf2018/
-        image: codebeamsf2018.jpg
-      - name: <strong>500USD</strong> Amazon Gift Card
-        sponsor: PegB
-        sponsor_url: https://www.pegb.tech/
-        url: https://www.amazon.com/gift-cards/
-        image: amazon-gift-card-500.png
-    comments:
-      - text: This could be very useful for the community
-        author: Robert, René, Fred, Chelo
-      - text: Surprising amount of work done
-        author: Fred
+  team: ElixirChain
+  project: ElixirBench
+  repo: elixirbench
+  description: A service to maintain long running benchmarks for Elixir projects.
+  link: https://www.elixirbench.org/
+  members:
+    - name: Michał Muskała
+      user: michalmuskala
+      avatar: https://avatars0.githubusercontent.com/u/477062
+    - name: Andrew Dryga
+      user: AndrewDryga
+      avatar: https://avatars0.githubusercontent.com/u/1877644
+    - name: Alexey Bondarenko
+      user: alexeybondarenko
+      avatar: https://avatars1.githubusercontent.com/u/3592553
+  prizes:
+    - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+      sponsor: Erlang Solutions
+      sponsor_url: https://www.erlang-solutions.com/
+      url: http://www.erlang-factory.com/codebeamsf2018/
+      image: codebeamsf2018.jpg
+    - name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+  comments:
+    - text: This could be very useful for the community
+      author: Robert, René, Fred, Chelo
+    - text: Surprising amount of work done
+      author: Fred
 
 category_winners:
   - team: weLaika

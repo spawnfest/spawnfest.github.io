@@ -123,3 +123,24 @@ img.sp-img {
 .navbar .important {
   color: yellow;
 }
+
+img.member {
+  width: 30px;
+  vertical-align: bottom;
+}
+
+img.winner-prize {
+  max-width: 150px;
+}
+
+.winner-title {
+  margin-top: 20px;
+}
+
+.winner-description {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-left: 20px;
+}
