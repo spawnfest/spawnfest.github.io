@@ -123,7 +123,8 @@ winner:
   - team: ElixirChain
     project: elixir-bench
     repo: elixirbench
-    description: A service to maintain long running benchmarks for Elixir projects ( https://www.elixirbench.org/ )
+    description: A service to maintain long running benchmarks for Elixir projects
+    link: https://www.elixirbench.org/
     members:
       - name: Michał Muskała
         user: michalmuskala
@@ -156,6 +157,7 @@ category_winners:
     project: Sputnik
     repo: sputnik
     description: A website crawler written in Elixir (Crawling since 1957)
+    link: https://spawnfest.github.io/sputnik/Sputnik.html
     category: Completion
     members:
       - name: Riccardo Magliocchetti
@@ -177,14 +179,15 @@ category_winners:
         url: https://www.amazon.com/gift-cards/
         image: amazon-gift-card-500.png
     comments:
-      - text: Nicely documented; Good UI; Extra points for good accessibility
+      - text: Nicely documented; Good UI; Extra points for good accessibility.
         author: René
-      - text: Nice ASCII art, useful to find dead links
+      - text: Nice ASCII art, useful to find dead links.
         author: Fred
-  - team: 0xfafafa
+  - team: "0xfafafa"
     project: Flock
     repo: flock
     description: Flock is a lightweight process registry and forgiving supervisor library for Erlang/Elixir applications.
+    link: https://spawnfest.github.io/flock/Flock.html
     category: Maintainability
     members:
       - name: Ricardo Lanziano
@@ -237,6 +240,7 @@ category_winners:
     project: Nobody Expects Polish Inquisition
     repo: nepi
     description: It provides sensors based on Nerves to help automate flower growing process. All data can be checked in realtime on web app based on Phoenix.
+    link: https://twitter.com/Dreat_/status/939890791115296768
     category: Innovation
     members:
       - name: Arkadiusz Plichta
@@ -278,7 +282,7 @@ category_winners:
         url: http://www.erlang-factory.com
         image: codebeamlite2018.jpg
     comments:
-      - text: While not a novel technology, creating an IMAP lib in Elixir is a great idea
+      - text: While not a novel technology, creating an IMAP lib in Elixir is a great idea.
         author: Robert
       - text: Excited to see IMAP support around.
         author: Fred, Chris
@@ -312,6 +316,7 @@ category_winners:
     project: lagom
     repo: lagom
     description: A robot that really listens what you have to say (in English).
+    link: https://lagom.facorro.com/
     category: Creativity
     members:
       - name: Juan Facorro
