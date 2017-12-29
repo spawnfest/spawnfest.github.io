@@ -8,13 +8,16 @@ permalink: /winners/
   <div class="p-5 row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
+      <hr class="col-md-16" />
       <div class="text-center">
         <h2 class="display-5">Main Winner</h2>
         <div class="winner-title">
-          <h3><a href="https://github.com/spawnfest/{{ site.winner.repo }}" target="_blank">{{ site.winner.project }}</a></h3>
+          <h1><a href="https://github.com/spawnfest/{{ site.winner.repo }}" target="_blank">{{ site.winner.project }}</a></h1>
         </div>
         <div>
-          by <strong>{{ site.winner.team }}</strong>  {% for member in site.winner.members %}
+          by <strong>{{ site.winner.team }}</strong>
+          <br/>
+          {% for member in site.winner.members %}
             <a href="https://github.com/{{ member.user }}" target="_blank">
               <img class="member"  src="{{ member.avatar }}">
             </a>
@@ -22,33 +25,36 @@ permalink: /winners/
         </div>
       </div>
       <div class="winner-description">
-        <span>{{ site.winner.description }}</span>
-        <p>Website: <a href="{{ site.winner.link }}" target="_blank">{{ site.winner.link }}</a></p>
+        <h4>{{ site.winner.description }}</h4>
+        <p><a href="{{ site.winner.link }}" target="_blank">{{ site.winner.link }}</a></p>
       </div>
+      <h5>Comments by the Judges</h5>
       <div>
-        <span>Judge Comments:</span>
         {% for comment in site.winner.comments %}
           <div class="comment">
-            <i>- {{ comment.text }}</i>
-            <span class="cmt-author">({{ comment.author }})</span>
-          </div>        
+            <blockquote>
+              <p>{{ comment.text }}</p>
+              <footer class="cmt-author">- {{ comment.author }}</footer>
+            </blockquote>
+          </div>
         {% endfor %}
       </div>
       <hr class="col-md-4">
+      <h5>Prizes</h5>
       <div class="row text-center">
         {% for prize in site.winner.prizes %}
           <div class="col-md-6">
-            <a class="nav-link" target="_blank" href="{{ prize.url }}">
-            <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
-            </a>
             <div class="col-md-12">
-              <p>{{ prize.name }}
+              <p><a class="nav-link" target="_blank" href="{{ prize.url }}">{{ prize.name }}</a>
               - by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
             </div>
           </div>
         {% endfor %}
       </div>
+      <hr class="col-md-16" />
+
     </div>
+
     <div class="col-md-2"></div>
   </div>
 </div>
