@@ -129,12 +129,17 @@ img.member {
   vertical-align: bottom;
 }
 
-img.winner-prize {
-  max-width: 150px;
+img.member-small {
+  width: 80px;
+  vertical-align: bottom;
 }
 
-.winner-title {
-  margin-top: 20px;
+img.winner-prize {
+  max-width: 100px;
+}
+
+.winner-box {
+  margin-top: 35px;
 }
 
 .winner-description {
@@ -156,7 +161,7 @@ blockquote {
 blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
