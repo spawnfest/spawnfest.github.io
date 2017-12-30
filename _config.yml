@@ -119,6 +119,221 @@ judges:
     twitter: rvirding
     image: rvirding.png
 
+winner:
+  team: ElixirChain
+  project: ElixirBench
+  repo: elixirbench
+  description: A service to maintain long running benchmarks for Elixir projects.
+  link: https://www.elixirbench.org/
+  members:
+    - name: Michał Muskała
+      user: michalmuskala
+      avatar: https://avatars0.githubusercontent.com/u/477062
+    - name: Andrew Dryga
+      user: AndrewDryga
+      avatar: https://avatars0.githubusercontent.com/u/1877644
+    - name: Alexey Bondarenko
+      user: alexeybondarenko
+      avatar: https://avatars1.githubusercontent.com/u/3592553
+  prizes:
+    - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+      sponsor: Erlang Solutions
+      sponsor_url: https://www.erlang-solutions.com/
+      url: http://www.erlang-factory.com/codebeamsf2018/
+      image: codebeamsf2018.jpg
+    - name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+  comments:
+    - text: This could be very useful for the community
+      author: Robert, René, Fred, Chelo
+    - text: Surprising amount of work done
+      author: Fred
+
+category_winners:
+  - team: weLaika
+    project: Sputnik
+    repo: sputnik
+    description: A website crawler written in Elixir (Crawling since 1957)
+    link: https://spawnfest.github.io/sputnik/Sputnik.html
+    category: Completion
+    members:
+      - name: Riccardo Magliocchetti
+        user: xrmx
+        avatar: https://avatars3.githubusercontent.com/u/12932
+      - name: Fabrizio Monti
+        user: delphaber
+        avatar: https://avatars2.githubusercontent.com/u/139284
+      - name: Filippo Gangi Dino
+        user: mukkoo
+        avatar: https://avatars0.githubusercontent.com/u/1052512
+      - name: Stefano Pau
+        user: ramensoup
+        avatar: https://avatars0.githubusercontent.com/u/9130232
+    prize:
+      name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+    comments:
+      - text: Nicely documented; Good UI; Extra points for good accessibility.
+        author: René
+      - text: Nice ASCII art, useful to find dead links.
+        author: Fred
+  - team: "0xfafafa"
+    project: Flock
+    repo: flock
+    description: Flock is a lightweight process registry and forgiving supervisor library for Erlang/Elixir applications.
+    link: https://spawnfest.github.io/flock/Flock.html
+    category: Maintainability
+    members:
+      - name: Ricardo Lanziano
+        user: arpunk
+        avatar: https://avatars3.githubusercontent.com/u/11342
+      - name: Cristian Rosa
+        user: rosacris
+        avatar: https://avatars3.githubusercontent.com/u/697234
+      - name: Germán Botto
+        user: germanbotto
+        avatar: https://avatars0.githubusercontent.com/u/5189728
+      - name: Federico Bergero
+        user: fbergero
+        avatar: https://avatars1.githubusercontent.com/u/8310634
+    prize:
+      name: <strong>500USD</strong> Gyft Card
+      sponsor: Alert Logic
+      sponsor_url: https://www.alertlogic.com/
+      url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
+      image: gyft-card2.png
+    comments:
+      - text: Decent docs, tests pass. The process registry idea is not new, but the CRDT approach here is fun.
+        author: Fred
+      - text: Extra points for including and running dialyzer!
+        author: Chelo
+  - team: Fluid Views Tribune
+    project: Stories Evolved
+    repo: fluid_views_tribune
+    description: A completely unnecessary evolution based story generator.
+    category: Correctness
+    members:
+      - name: James Edward Gray II
+        user: JEG2
+        avatar: https://avatars1.githubusercontent.com/u/5639
+      - name: Paul Dawson
+        user: piisalie
+        avatar: https://avatars3.githubusercontent.com/u/3163390
+    prize:
+      name: <strong>600USD</strong> ThinkGeek Gift Card
+      sponsor: BairesDev
+      sponsor_url: https://www.bairesdev.com/
+      url: https://www.thinkgeek.com/brain/order/certificate.cgi
+      image: thinkgeek-gift-card.jpg
+    comments:
+      - text: I like the simulation-first approach; code is clean and structured; bonus points for terminal-size-dependant ASCII animations.
+        author: René
+      - text: Nice simulation, nice use of processes, nice display.  All around nice work.
+        author: Chris
+  - team: NEPI
+    project: Nobody Expects Polish Inquisition
+    repo: nepi
+    description: It provides sensors based on Nerves to help automate flower growing process. All data can be checked in realtime on web app based on Phoenix.
+    link: https://twitter.com/Dreat_/status/939890791115296768
+    category: Innovation
+    members:
+      - name: Arkadiusz Plichta
+        user: elpikel
+        avatar: https://avatars0.githubusercontent.com/u/29837
+      - name: Filip Małachowicz
+        user: Exef
+        avatar: https://avatars3.githubusercontent.com/u/1412001
+      - name: Łukasz Skotarek
+        user: Dreat
+        avatar: https://avatars2.githubusercontent.com/u/3110673
+      - name: Maciej Rylko
+        user: rylek90
+        avatar: https://avatars0.githubusercontent.com/u/10184544
+    prize:
+      name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+    comments:
+      - text: Bonus points for README illustrations.
+        author: René
+      - text: Nice mix of techs!! :)
+        author: Chelo
+  - team: Around25 IMAP
+    project: Eximap
+    repo: around25-imap
+    description: Eximap is an elixir library that can connect to IMAP servers via TLS and execute commands.
+    category: Usefulness
+    members:
+      - name: Cosmin Harangus
+        user: cosmin-harangus
+        avatar: https://avatars2.githubusercontent.com/u/381639
+    prize:
+      name: <strong>400USD</strong> Free ticket to Any CodeBEAM Lite
+      sponsor: Erlang Solutions
+      sponsor_url: https://www.erlang-solutions.com/
+      url: http://www.erlang-factory.com
+      image: codebeamlite2018.jpg
+    comments:
+      - text: While not a novel technology, creating an IMAP lib in Elixir is a great idea.
+        author: Robert
+      - text: Excited to see IMAP support around.
+        author: Fred, Chris
+  - team: Erisata
+    project: FireFork
+    repo: fire-fork
+    description: This is an application for launching fireworks remotely.
+    category: Creativity
+    members:
+      - name: Karolis Petrauskas
+        user: kape1395
+        avatar: https://avatars3.githubusercontent.com/u/442726
+      - name: Donatas
+        user: DonHub
+        avatar: https://avatars0.githubusercontent.com/u/3988116
+      - name: Kazimieras Senvaitis
+        user: Eseas
+        avatar: https://avatars0.githubusercontent.com/u/19321727
+    prize:
+      name: <strong>300USD</strong> Sparkfun Gift Card
+      sponsor: AdRoll
+      sponsor_url: https://www.adroll.com/
+      url: https://www.sparkfun.com/products/13726
+      image: sparkfun-gift-certificate.jpg
+    comments:
+      - text: Very cool concept, but hard to test -- actually has a working Wx GUI though, so props for that.
+        author: Fred
+      - text: Cool idea -- I had a friend who was touring trying to do similar things with Erlang and sync'ing audio and video streams.
+        author: Chris
+  - team: Lagom
+    project: lagom
+    repo: lagom
+    description: A robot that really listens what you have to say (in English).
+    link: https://lagom.facorro.com/
+    category: Creativity
+    members:
+      - name: Juan Facorro
+        user: jfacorro
+        avatar: https://avatars3.githubusercontent.com/u/1522569
+    prize:
+      name: <strong>300USD</strong> Amazon Gift Card
+      sponsor: AdRoll
+      sponsor_url: https://www.adroll.com/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card5.png
+    comments:
+      - text: Clojerl! Nice choice. Instructions were clear and the concept cool.
+        author: Fred
+      - text: Extra points for using clojerl in an ambitious project, leaving an online demo, and also packing everything into a nice docker image.
+        author: Chelo
+
 rules:
   - text: "Schedule"
     details:
