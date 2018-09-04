@@ -1,7 +1,7 @@
 var Countdown = new Countdown({
-  year     : 2017,
-  month    : 12,
-  day      : 9,
+  year     : 2018,
+  month    : 11,
+  day      : 24,
   hour     : 0,
   minute   : 0,
   second   : 0,

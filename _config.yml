@@ -1,129 +1,92 @@
 nav:
-  - name: Registration
+  - name: <span class="important">Registration</span>
     url: /registration
   - name: Rules
     url: /rules
-  - name: Judges
-    url: /judges
+  # - name: Judges
+  #   url: /judges
   - name: Sponsors
     url: /sponsors
-  - name: Prizes
-    url: /prizes
+  # - name: Prizes
+  #   url: /prizes
   - name: Contact
     url: /#contact
 
-platinum_sponsor:
-  name: PegB
-  image: pegb.svg
-  logo: pegb_logo.svg
-  url: https://www.pegb.tech/
-  description: Secure Cashless Payments for everyone, everywhere
-  background_color: "#f05323"
+# platinum_sponsor:
+#   name: PegB
+#   image: pegb.svg
+#   logo: pegb_logo.svg
+#   url: https://www.pegb.tech/
+#   description: Secure Cashless Payments for everyone, everywhere
+#   background_color: "#f05323"
 
 gold_sponsors:
-  - name: AdRoll
-    image: droll.svg
-    logo: droll.png
-    url: https://www.adroll.com/
-    description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
-    background_color: "#00aeef"
-  - name: Alert Logic
-    image: alertlogic.svg
-    logo: alertlogic.png
-    url: https://www.alertlogic.com/
-    description: Security as a Service
-    background_color: "#ff7e00"
-  - name: BairesDev
-    image: bairesdev.svg
-    logo: bairesdev.png
-    url: https://www.bairesdev.com/
-    description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects"
-    background_color: "#1774b3"
-  - name: Erlang Solutions
-    image: esl.svg
-    logo: esl.png
-    url: https://www.erlang-solutions.com/
-    description: "Erlang, Elixir & BEAM Technology Consultancy"
-    background_color: "#ab191e"
+  # - name: AdRoll
+  #   image: droll.svg
+  #   logo: droll.png
+  #   url: https://www.adroll.com/
+  #   description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
+  #   background_color: "#00aeef"
 
 prizes:
-  - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
-    sponsor: Erlang Solutions
-    sponsor_url: https://www.erlang-solutions.com/
-    url: http://www.erlang-factory.com/codebeamsf2018/
-    image: codebeamsf2018.jpg
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>600USD</strong> ThinkGeek Gift Card
-    sponsor: BairesDev
-    sponsor_url: https://www.bairesdev.com/
-    url: https://www.thinkgeek.com/brain/order/certificate.cgi
-    image: thinkgeek-gift-card.jpg
-  - name: <strong>500USD</strong> Gyft Card
-    sponsor: Alert Logic
-    sponsor_url: https://www.alertlogic.com/
-    url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
-    image: gyft-card2.png
-  - name: <strong>400USD</strong> Free ticket to Any CodeBEAM Lite
-    sponsor: Erlang Solutions
-    sponsor_url: https://www.erlang-solutions.com/
-    url: http://www.erlang-factory.com
-    image: codebeamlite2018.jpg
-  - name: <strong>300USD</strong> Sparkfun Gift Card
-    sponsor: AdRoll
-    sponsor_url: https://www.adroll.com/
-    url: https://www.sparkfun.com/products/13726
-    image: sparkfun-gift-certificate.jpg
-  - name: <strong>300USD</strong> Amazon Gift Card
-    sponsor: AdRoll
-    sponsor_url: https://www.adroll.com/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card5.png
+  # - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+  #   sponsor: Erlang Solutions
+  #   sponsor_url: https://www.erlang-solutions.com/
+  #   url: http://www.erlang-factory.com/codebeamsf2018/
+  #   image: codebeamsf2018.jpg
 
 judges:
-  - name: Fred Hebert
-    url: https://ferd.ca/
-    twitter: mononcqc
-    image: fred.jpg
-  - name: Joe Armstrong
-    url: https://joearms.github.io/
-    twitter: joeerl
-    image: joe.jpg
-  - name: Christopher Meiklejohn
-    url: http://christophermeiklejohn.com/
-    twitter: cmeik
-    image: chris.jpeg
-  - name: René Föhring
-    url: http://trivelop.de/
-    twitter: rrrene
-    image: rrrene.png
-  - name: Marcelo Gornstein
-    url: https://marcelog.github.io/
-    twitter: mgornstein
-    image: chelo.jpeg
-  - name: Robert Virding
-    url: http://rvirding.blogspot.com.ar/
-    twitter: rvirding
-    image: rvirding.png
+  # - name: Fred Hebert
+  #   url: https://ferd.ca/
+  #   twitter: mononcqc
+  #   image: fred.jpg
+
+winner:
+  # team: SampleTeam
+  # project: SampleProject
+  # repo: sample_repo_name
+  # description: Sample Description
+  # link: https://www.sample.link.org/
+  # members:
+  #   - name: Sample Name
+  #     user: sample_user
+  #     avatar: https://avatars0.githubusercontent.com/u/477062
+  # prizes:
+  #   - name: <strong>###USD</strong> Sample Price
+  #     sponsor: Sample Sponsor
+  #     sponsor_url: https://www.sample.sponsor.url.com/
+  #     url: http://sample.prize.url
+  #     image: sample_image.jpg
+  # comments:
+  #   - text: Sample comment
+  #     author: Sample Author
+
+category_winners:
+  # - team: SampleTeam
+  #   project: SampleProject
+  #   repo: sample_repo_name
+  #   description: Sample Description
+  #   link: https://www.sample.link.org/
+  #   category: SampleCategory
+  #   members:
+  #     - name: Sample Name
+  #       user: sample_user
+  #       avatar: https://avatars0.githubusercontent.com/u/477062
+  #   prize:
+  #     name: <strong>###USD</strong> Sample Price
+  #     sponsor: Sample Sponsor
+  #     sponsor_url: https://www.sample.sponsor.url.com/
+  #     url: http://sample.prize.url
+  #     image: sample_image.jpg
+  #   comments:
+  #     - text: Sample comment
+  #       author: Sample Author
 
 rules:
   - text: "Schedule"
     details:
-      - text: The event will start on <strong>2017-12-09 00:00 UTC</strong>.
-      - text: The event will end on <strong>2017-12-10 23:59 UTC</strong>.
+      - text: The event will start on <strong>2018-11-24 00:00 UTC</strong>.
+      - text: The event will end on <strong>2018-11-25 23:59 UTC</strong>.
       - text: The registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
   - text: Teams
@@ -132,7 +95,7 @@ rules:
       - text: "Every team member has to be a human being, not an organization."
       - text: "All members of the team should be 13 years old or older."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/kCY0ekjqZI6PPZRl2">registration form</a>.
+      - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a>.
   - text: Projects
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."

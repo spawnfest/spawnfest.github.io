@@ -34,6 +34,12 @@ header.masthead>.overlay {
   }
 }
 
+@media (min-width: 1024px) {
+  #countdown-small {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   header.masthead>.overlay {
     /*padding: 10rem 0;*/
@@ -97,6 +103,14 @@ img.sp-img {
   opacity: 0.4;
 }
 
+.disabled-section {
+  opacity: 0.4;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
 .col-first-img {
   margin-left: 5%;
 }
@@ -108,4 +122,59 @@ img.sp-img {
 
 .contact-section {
   margin-left: 20px;
+}
+
+.navbar .important {
+  color: yellow;
+}
+
+img.member {
+  width: 100px;
+  vertical-align: bottom;
+}
+
+img.member-small {
+  width: 80px;
+  vertical-align: bottom;
+}
+
+img.winner-prize {
+  max-width: 100px;
+}
+
+.winner-box {
+  margin-top: 35px;
+}
+
+.winner-description {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote footer {
+  text-align: right;
 }
