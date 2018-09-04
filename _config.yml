@@ -1,6 +1,4 @@
 nav:
-  - name: <span class="important">Winners</span>
-    url: /winners
   - name: Rules
     url: /rules
   - name: Judges
