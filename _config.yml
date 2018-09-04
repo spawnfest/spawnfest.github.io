@@ -1,4 +1,6 @@
 nav:
+  - name: Registration
+    url: /registration
   - name: Rules
     url: /rules
   - name: Judges
