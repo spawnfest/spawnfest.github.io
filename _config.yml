@@ -1,345 +1,93 @@
 nav:
-  - name: <span class="important">Winners</span>
-    url: /winners
+  - name: <span class="important">Registration</span>
+    url: /registration
   - name: Rules
     url: /rules
-  - name: Judges
-    url: /judges
+  # - name: Judges
+  #   url: /judges
   - name: Sponsors
     url: /sponsors
-  - name: Prizes
-    url: /prizes
+  # - name: Prizes
+  #   url: /prizes
   - name: Contact
     url: /#contact
 
-platinum_sponsor:
-  name: PegB
-  image: pegb.svg
-  logo: pegb_logo.svg
-  url: https://www.pegb.tech/
-  description: Secure Cashless Payments for everyone, everywhere
-  background_color: "#f05323"
+# platinum_sponsor:
+#   name: PegB
+#   image: pegb.svg
+#   logo: pegb_logo.svg
+#   url: https://www.pegb.tech/
+#   description: Secure Cashless Payments for everyone, everywhere
+#   background_color: "#f05323"
 
 gold_sponsors:
-  - name: AdRoll
-    image: droll.svg
-    logo: droll.png
-    url: https://www.adroll.com/
-    description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
-    background_color: "#00aeef"
-  - name: Alert Logic
-    image: alertlogic.svg
-    logo: alertlogic.png
-    url: https://www.alertlogic.com/
-    description: Security as a Service
-    background_color: "#ff7e00"
-  - name: BairesDev
-    image: bairesdev.svg
-    logo: bairesdev.png
-    url: https://www.bairesdev.com/
-    description: "Leaders in Staff Augmentation: The extra talent needed to boost your projects"
-    background_color: "#1774b3"
-  - name: Erlang Solutions
-    image: esl.svg
-    logo: esl.png
-    url: https://www.erlang-solutions.com/
-    description: "Erlang, Elixir & BEAM Technology Consultancy"
-    background_color: "#ab191e"
+  # - name: AdRoll
+  #   image: droll.svg
+  #   logo: droll.png
+  #   url: https://www.adroll.com/
+  #   description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
+  #   background_color: "#00aeef"
 
 prizes:
-  - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
-    sponsor: Erlang Solutions
-    sponsor_url: https://www.erlang-solutions.com/
-    url: http://www.erlang-factory.com/codebeamsf2018/
-    image: codebeamsf2018.jpg
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>500USD</strong> Amazon Gift Card
-    sponsor: PegB
-    sponsor_url: https://www.pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card-500.png
-  - name: <strong>600USD</strong> ThinkGeek Gift Card
-    sponsor: BairesDev
-    sponsor_url: https://www.bairesdev.com/
-    url: https://www.thinkgeek.com/brain/order/certificate.cgi
-    image: thinkgeek-gift-card.jpg
-  - name: <strong>500USD</strong> Gyft Card
-    sponsor: Alert Logic
-    sponsor_url: https://www.alertlogic.com/
-    url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
-    image: gyft-card2.png
-  - name: <strong>400USD</strong> Free ticket to Any CodeBEAM Lite
-    sponsor: Erlang Solutions
-    sponsor_url: https://www.erlang-solutions.com/
-    url: http://www.erlang-factory.com
-    image: codebeamlite2018.jpg
-  - name: <strong>300USD</strong> Sparkfun Gift Card
-    sponsor: AdRoll
-    sponsor_url: https://www.adroll.com/
-    url: https://www.sparkfun.com/products/13726
-    image: sparkfun-gift-certificate.jpg
-  - name: <strong>300USD</strong> Amazon Gift Card
-    sponsor: AdRoll
-    sponsor_url: https://www.adroll.com/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card5.png
+  # - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+  #   sponsor: Erlang Solutions
+  #   sponsor_url: https://www.erlang-solutions.com/
+  #   url: http://www.erlang-factory.com/codebeamsf2018/
+  #   image: codebeamsf2018.jpg
 
 judges:
-  - name: Fred Hebert
-    url: https://ferd.ca/
-    twitter: mononcqc
-    image: fred.jpg
-  - name: Joe Armstrong
-    url: https://joearms.github.io/
-    twitter: joeerl
-    image: joe.jpg
-  - name: Christopher Meiklejohn
-    url: http://christophermeiklejohn.com/
-    twitter: cmeik
-    image: chris.jpeg
-  - name: René Föhring
-    url: http://trivelop.de/
-    twitter: rrrene
-    image: rrrene.png
-  - name: Marcelo Gornstein
-    url: https://marcelog.github.io/
-    twitter: mgornstein
-    image: chelo.jpeg
-  - name: Robert Virding
-    url: http://rvirding.blogspot.com.ar/
-    twitter: rvirding
-    image: rvirding.png
+  # - name: Fred Hebert
+  #   url: https://ferd.ca/
+  #   twitter: mononcqc
+  #   image: fred.jpg
 
 winner:
-  team: ElixirChain
-  project: ElixirBench
-  repo: elixirbench
-  description: A service to maintain long running benchmarks for Elixir projects.
-  link: https://www.elixirbench.org/
-  members:
-    - name: Michał Muskała
-      user: michalmuskala
-      avatar: https://avatars0.githubusercontent.com/u/477062
-    - name: Andrew Dryga
-      user: AndrewDryga
-      avatar: https://avatars0.githubusercontent.com/u/1877644
-    - name: Alexey Bondarenko
-      user: alexeybondarenko
-      avatar: https://avatars1.githubusercontent.com/u/3592553
-  prizes:
-    - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
-      sponsor: Erlang Solutions
-      sponsor_url: https://www.erlang-solutions.com/
-      url: http://www.erlang-factory.com/codebeamsf2018/
-      image: codebeamsf2018.jpg
-    - name: <strong>500USD</strong> Amazon Gift Card
-      sponsor: PegB
-      sponsor_url: https://www.pegb.tech/
-      url: https://www.amazon.com/gift-cards/
-      image: amazon-gift-card-500.png
-  comments:
-    - text: This could be very useful for the community
-      author: Robert, René, Fred, Chelo
-    - text: Surprising amount of work done
-      author: Fred
+  # team: SampleTeam
+  # project: SampleProject
+  # repo: sample_repo_name
+  # description: Sample Description
+  # link: https://www.sample.link.org/
+  # members:
+  #   - name: Sample Name
+  #     user: sample_user
+  #     avatar: https://avatars0.githubusercontent.com/u/477062
+  # prizes:
+  #   - name: <strong>###USD</strong> Sample Price
+  #     sponsor: Sample Sponsor
+  #     sponsor_url: https://www.sample.sponsor.url.com/
+  #     url: http://sample.prize.url
+  #     image: sample_image.jpg
+  # comments:
+  #   - text: Sample comment
+  #     author: Sample Author
 
 category_winners:
-  - team: weLaika
-    project: Sputnik
-    repo: sputnik
-    description: A website crawler written in Elixir (Crawling since 1957)
-    link: https://spawnfest.github.io/sputnik/Sputnik.html
-    category: Completion
-    members:
-      - name: Riccardo Magliocchetti
-        user: xrmx
-        avatar: https://avatars3.githubusercontent.com/u/12932
-      - name: Fabrizio Monti
-        user: delphaber
-        avatar: https://avatars2.githubusercontent.com/u/139284
-      - name: Filippo Gangi Dino
-        user: mukkoo
-        avatar: https://avatars0.githubusercontent.com/u/1052512
-      - name: Stefano Pau
-        user: ramensoup
-        avatar: https://avatars0.githubusercontent.com/u/9130232
-    prize:
-      name: <strong>500USD</strong> Amazon Gift Card
-      sponsor: PegB
-      sponsor_url: https://www.pegb.tech/
-      url: https://www.amazon.com/gift-cards/
-      image: amazon-gift-card-500.png
-    comments:
-      - text: Nicely documented; Good UI; Extra points for good accessibility.
-        author: René
-      - text: Nice ASCII art, useful to find dead links.
-        author: Fred
-  - team: "0xfafafa"
-    project: Flock
-    repo: flock
-    description: Flock is a lightweight process registry and forgiving supervisor library for Erlang/Elixir applications.
-    link: https://spawnfest.github.io/flock/Flock.html
-    category: Maintainability
-    members:
-      - name: Ricardo Lanziano
-        user: arpunk
-        avatar: https://avatars3.githubusercontent.com/u/11342
-      - name: Cristian Rosa
-        user: rosacris
-        avatar: https://avatars3.githubusercontent.com/u/697234
-      - name: Germán Botto
-        user: germanbotto
-        avatar: https://avatars0.githubusercontent.com/u/5189728
-      - name: Federico Bergero
-        user: fbergero
-        avatar: https://avatars1.githubusercontent.com/u/8310634
-    prize:
-      name: <strong>500USD</strong> Gyft Card
-      sponsor: Alert Logic
-      sponsor_url: https://www.alertlogic.com/
-      url: https://www.gyft.com/buy-gift-cards/gyft-card/?category=Featured%20Gift%20Cards
-      image: gyft-card2.png
-    comments:
-      - text: Decent docs, tests pass. The process registry idea is not new, but the CRDT approach here is fun.
-        author: Fred
-      - text: Extra points for including and running dialyzer!
-        author: Chelo
-  - team: Fluid Views Tribune
-    project: Stories Evolved
-    repo: fluid_views_tribune
-    description: A completely unnecessary evolution based story generator.
-    category: Correctness
-    members:
-      - name: James Edward Gray II
-        user: JEG2
-        avatar: https://avatars1.githubusercontent.com/u/5639
-      - name: Paul Dawson
-        user: piisalie
-        avatar: https://avatars3.githubusercontent.com/u/3163390
-    prize:
-      name: <strong>600USD</strong> ThinkGeek Gift Card
-      sponsor: BairesDev
-      sponsor_url: https://www.bairesdev.com/
-      url: https://www.thinkgeek.com/brain/order/certificate.cgi
-      image: thinkgeek-gift-card.jpg
-    comments:
-      - text: I like the simulation-first approach; code is clean and structured; bonus points for terminal-size-dependant ASCII animations.
-        author: René
-      - text: Nice simulation, nice use of processes, nice display.  All around nice work.
-        author: Chris
-  - team: NEPI
-    project: Nobody Expects Polish Inquisition
-    repo: nepi
-    description: It provides sensors based on Nerves to help automate flower growing process. All data can be checked in realtime on web app based on Phoenix.
-    link: https://twitter.com/Dreat_/status/939890791115296768
-    category: Innovation
-    members:
-      - name: Arkadiusz Plichta
-        user: elpikel
-        avatar: https://avatars0.githubusercontent.com/u/29837
-      - name: Filip Małachowicz
-        user: Exef
-        avatar: https://avatars3.githubusercontent.com/u/1412001
-      - name: Łukasz Skotarek
-        user: Dreat
-        avatar: https://avatars2.githubusercontent.com/u/3110673
-      - name: Maciej Rylko
-        user: rylek90
-        avatar: https://avatars0.githubusercontent.com/u/10184544
-    prize:
-      name: <strong>500USD</strong> Amazon Gift Card
-      sponsor: PegB
-      sponsor_url: https://www.pegb.tech/
-      url: https://www.amazon.com/gift-cards/
-      image: amazon-gift-card-500.png
-    comments:
-      - text: Bonus points for README illustrations.
-        author: René
-      - text: Nice mix of techs!! :)
-        author: Chelo
-  - team: Around25 IMAP
-    project: Eximap
-    repo: around25-imap
-    description: Eximap is an elixir library that can connect to IMAP servers via TLS and execute commands.
-    category: Usefulness
-    members:
-      - name: Cosmin Harangus
-        user: cosmin-harangus
-        avatar: https://avatars2.githubusercontent.com/u/381639
-    prize:
-      name: <strong>400USD</strong> Free ticket to Any CodeBEAM Lite
-      sponsor: Erlang Solutions
-      sponsor_url: https://www.erlang-solutions.com/
-      url: http://www.erlang-factory.com
-      image: codebeamlite2018.jpg
-    comments:
-      - text: While not a novel technology, creating an IMAP lib in Elixir is a great idea.
-        author: Robert
-      - text: Excited to see IMAP support around.
-        author: Fred, Chris
-  - team: Erisata
-    project: FireFork
-    repo: fire-fork
-    description: This is an application for launching fireworks remotely.
-    category: Creativity
-    members:
-      - name: Karolis Petrauskas
-        user: kape1395
-        avatar: https://avatars3.githubusercontent.com/u/442726
-      - name: Donatas
-        user: DonHub
-        avatar: https://avatars0.githubusercontent.com/u/3988116
-      - name: Kazimieras Senvaitis
-        user: Eseas
-        avatar: https://avatars0.githubusercontent.com/u/19321727
-    prize:
-      name: <strong>300USD</strong> Sparkfun Gift Card
-      sponsor: AdRoll
-      sponsor_url: https://www.adroll.com/
-      url: https://www.sparkfun.com/products/13726
-      image: sparkfun-gift-certificate.jpg
-    comments:
-      - text: Very cool concept, but hard to test -- actually has a working Wx GUI though, so props for that.
-        author: Fred
-      - text: Cool idea -- I had a friend who was touring trying to do similar things with Erlang and sync'ing audio and video streams.
-        author: Chris
-  - team: Lagom
-    project: lagom
-    repo: lagom
-    description: A robot that really listens what you have to say (in English).
-    link: https://lagom.facorro.com/
-    category: Creativity
-    members:
-      - name: Juan Facorro
-        user: jfacorro
-        avatar: https://avatars3.githubusercontent.com/u/1522569
-    prize:
-      name: <strong>300USD</strong> Amazon Gift Card
-      sponsor: AdRoll
-      sponsor_url: https://www.adroll.com/
-      url: https://www.amazon.com/gift-cards/
-      image: amazon-gift-card5.png
-    comments:
-      - text: Clojerl! Nice choice. Instructions were clear and the concept cool.
-        author: Fred
-      - text: Extra points for using clojerl in an ambitious project, leaving an online demo, and also packing everything into a nice docker image.
-        author: Chelo
+  # - team: SampleTeam
+  #   project: SampleProject
+  #   repo: sample_repo_name
+  #   description: Sample Description
+  #   link: https://www.sample.link.org/
+  #   category: SampleCategory
+  #   members:
+  #     - name: Sample Name
+  #       user: sample_user
+  #       avatar: https://avatars0.githubusercontent.com/u/477062
+  #   prize:
+  #     name: <strong>###USD</strong> Sample Price
+  #     sponsor: Sample Sponsor
+  #     sponsor_url: https://www.sample.sponsor.url.com/
+  #     url: http://sample.prize.url
+  #     image: sample_image.jpg
+  #   comments:
+  #     - text: Sample comment
+  #       author: Sample Author
 
 rules:
   - text: "Schedule"
     details:
-      - text: The event will start on <strong>2017-12-09 00:00 UTC</strong>.
-      - text: The event will end on <strong>2017-12-10 23:59 UTC</strong>.
-      - text: The registration will close <span class="line-through">2 days</span> 1 day prior to the start date.
+      - text: The event will start on <strong>2018-11-24 00:00 UTC</strong>.
+      - text: The event will end on <strong>2018-11-25 23:59 UTC</strong>.
+      - text: The registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
   - text: Teams
     details:
@@ -347,7 +95,7 @@ rules:
       - text: "Every team member has to be a human being, not an organization."
       - text: "All members of the team should be 13 years old or older."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/kCY0ekjqZI6PPZRl2">registration form</a>.
+      - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a>.
   - text: Projects
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."

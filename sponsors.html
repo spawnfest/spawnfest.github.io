@@ -4,38 +4,44 @@ title: Sponsors
 permalink: /sponsors
 ---
 
-  <div class="p-3 text-center">
-    <p>This event is made possible by our sponsors</p>
-  </div>
-  <div class="text-center sp-platinum">
-    <h2 class="display-5">Platinum Sponsor</h2>
-    <a class="btn sp-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
-      <div class="p-3 text-center sp-box" style="background-color: {{ site.platinum_sponsor.background_color }};">
-        <img class="p-3 img-fluid sp-img" src="/img/{{ site.platinum_sponsor.image }}" alt="{{ site.platinum_sponsor.name }}">
-        <p>{{ site.platinum_sponsor.description }}</p>
+  {% if site.gold_sponsors %}
+    <div class="p-3 text-center">
+      <p>This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/N3FkwrzluZiLsTXj2">join them</a>.</p>
+    </div>
+  {% endif %}
+  {% if site.platinum_sponsor.description %}
+      <div class="text-center sp-platinum">
+        <h2 class="display-5">Platinum Sponsor</h2>
+        <a class="btn sp-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
+          <div class="p-3 text-center sp-box" style="background-color: {{ site.platinum_sponsor.background_color }};">
+            <img class="p-3 img-fluid sp-img" src="/img/{{ site.platinum_sponsor.image }}" alt="{{ site.platinum_sponsor.name }}">
+            <p>{{ site.platinum_sponsor.description }}</p>
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-  <div class="text-center">
-    <h2 class="display-5">Gold Sponsors</h2>
-  </div>
-  {% for sponsor in site.gold_sponsors %}
-    <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
-      <div class="p-3 text-center sp-box" style="background-color: {{ sponsor.background_color }};">
-        <img class="p-3 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-height: 75px">
-        <p>{{ sponsor.description }}</p>
+  {% endif %}
+  {% if site.gold_sponsors %}
+      <div class="text-center">
+        <h2 class="display-5">Gold Sponsors</h2>
       </div>
-    </a>
-  {% endfor %}
+      {% for sponsor in site.gold_sponsors %}
+        <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
+          <div class="p-3 text-center sp-box" style="background-color: {{ sponsor.background_color }};">
+            <img class="p-3 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-height: 75px">
+            <p>{{ sponsor.description }}</p>
+          </div>
+        </a>
+      {% endfor %}
+  {% endif %}
 
 <hr/>
 
 <div class="container">
   <div class="col-md-12">
-    <div class="p-5 disabled-section">
-      <h2 class="display-5">Be a Sponsor! [Closed]</h2>
+    <div class="p-5">
+      <h2 class="display-5">Be a Sponsor!</h2>
       <p>If you want to be a sponsor of this event, you just need to contribute with some prizes.
-      You can find more information and register as a sponsor in <a href="https://goo.gl/forms/29Ng4gFTRbkbIQ0H2" target="_blank">this form</a>.
+      You can find more information and register as a sponsor in <a href="https://goo.gl/forms/N3FkwrzluZiLsTXj2" target="_blank">this form</a>.
       Or you can contact us at <a href="mailto:spawnfest-organizers@googlegroups.com">spawnfest-organizers@googlegroups.com</a></p>
     </div>
   </div>
