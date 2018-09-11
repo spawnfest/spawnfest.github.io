@@ -3,43 +3,48 @@ nav:
     url: /registration
   - name: Rules
     url: /rules
-  # - name: Judges
-  #   url: /judges
+  - name: Judges
+    url: /judges
   - name: Sponsors
     url: /sponsors
-  # - name: Prizes
-  #   url: /prizes
+  - name: Prizes
+    url: /prizes
   - name: Contact
     url: /#contact
 
-# platinum_sponsor:
-#   name: PegB
-#   image: pegb.svg
-#   logo: pegb_logo.svg
-#   url: https://www.pegb.tech/
-#   description: Secure Cashless Payments for everyone, everywhere
-#   background_color: "#f05323"
+platinum_sponsor:
+  # - name: Erlang Solutions
+  #   image: esl.svg
+  #   logo: esl.png
+  #   url: https://www.erlang-solutions.com/
+  #   description: "Erlang, Elixir & BEAM Technology Consultancy"
+  #   background_color: "#ab191e"
 
 gold_sponsors:
-  # - name: AdRoll
-  #   image: droll.svg
-  #   logo: droll.png
-  #   url: https://www.adroll.com/
-  #   description: The retargeting and prospecting platform of choice for over 35,000 advertisers worldwide
-  #   background_color: "#00aeef"
+  - name: Erlang Solutions
+    image: esl.svg
+    logo: esl.png
+    url: https://www.erlang-solutions.com/
+    description: "Erlang, Elixir & BEAM Technology Consultancy"
+    background_color: "#ab191e"
 
 prizes:
-  # - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
-  #   sponsor: Erlang Solutions
-  #   sponsor_url: https://www.erlang-solutions.com/
-  #   url: http://www.erlang-factory.com/codebeamsf2018/
-  #   image: codebeamsf2018.jpg
+  - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com/
+    url: http://www.erlang-factory.com/codebeamsf2018/
+    image: codebeamsf2018.jpg
+  - name: <strong>4x</strong> <strong>150USD</strong> Free tickets to Any CodeBEAM Lite
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com/
+    url: http://www.erlang-factory.com
+    image: codebeamlite2018.jpg
 
 judges:
-  # - name: Fred Hebert
-  #   url: https://ferd.ca/
-  #   twitter: mononcqc
-  #   image: fred.jpg
+  - name: René Föhring
+    url: http://trivelop.de/
+    twitter: rrrene
+    image: rrrene.png
 
 winner:
   # team: SampleTeam
