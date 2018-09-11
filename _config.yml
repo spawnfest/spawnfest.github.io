@@ -12,7 +12,7 @@ nav:
   - name: Contact
     url: /#contact
 
-platinum_sponsor:
+# platinum_sponsor:
 #   name: PegB
 #   image: pegb.svg
 #   logo: pegb_logo.svg
