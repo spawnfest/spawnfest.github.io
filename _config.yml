@@ -13,12 +13,12 @@ nav:
     url: /#contact
 
 platinum_sponsor:
-  # - name: Erlang Solutions
-  #   image: esl.svg
-  #   logo: esl.png
-  #   url: https://www.erlang-solutions.com/
-  #   description: "Erlang, Elixir & BEAM Technology Consultancy"
-  #   background_color: "#ab191e"
+#   name: PegB
+#   image: pegb.svg
+#   logo: pegb_logo.svg
+#   url: https://www.pegb.tech/
+#   description: Secure Cashless Payments for everyone, everywhere
+#   background_color: "#f05323"
 
 gold_sponsors:
   - name: Erlang Solutions
