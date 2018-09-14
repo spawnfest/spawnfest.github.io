@@ -45,6 +45,10 @@ judges:
     url: http://trivelop.de/
     twitter: rrrene
     image: rrrene.png
+  - name: Kenji Rikitake
+    url: https://rikitake.jp/
+    twitter: jj1bdx
+    image: kenji.jpg
 
 winner:
   # team: SampleTeam
