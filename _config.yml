@@ -57,6 +57,10 @@ judges:
     url: https://www.linkedin.com/in/miriampena/
     twitter: miriampena
     image: miriam.jpg
+  - name: Andrea Leopardi
+    url: https://andrealeopardi.com/
+    twitter: whatyouhide
+    image: andrea.jpg
 
 winner:
   # team: SampleTeam
