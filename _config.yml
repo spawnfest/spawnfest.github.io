@@ -49,6 +49,10 @@ judges:
     url: https://rikitake.jp/
     twitter: jj1bdx
     image: kenji.jpg
+  - name: Tristan Sloughter
+    url: http://blog.erlware.org
+    twitter: t_sloughter
+    image: tristan.jpg
 
 winner:
   # team: SampleTeam
