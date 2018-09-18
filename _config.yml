@@ -28,6 +28,14 @@ gold_sponsors:
     description: "Erlang, Elixir & BEAM Technology Consultancy"
     background_color: "#ab191e"
 
+bronze_sponsors:
+  - name: LambdaClass
+    image: lambdaclass-gray.png
+    logo: lambdaclass.png
+    url: http://lambdaclass.com/
+    description: "A Software Company from Another Dimension"
+    background_color: "#000000"
+
 prizes:
   - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
     sponsor: Erlang Solutions
@@ -39,6 +47,16 @@ prizes:
     sponsor_url: https://www.erlang-solutions.com/
     url: http://www.erlang-factory.com
     image: codebeamlite2018.jpg
+  - name: A bunch of books (TBD)
+    sponsor: LambdaClass
+    sponsor_url: http://lambdaclass.com/
+    url: https://youtu.be/oHg5SJYRHA0
+    image: books.png
+  - name: Designing Data-Intensive Applications (the book)
+    sponsor: LambdaClass
+    sponsor_url: http://lambdaclass.com/
+    url: https://dataintensive.net/
+    image: book-1.png
 
 judges:
   - name: René Föhring
