@@ -3,8 +3,6 @@ nav:
     url: /registration
   - name: Rules
     url: /rules
-  - name: Ideas
-    url: /ideas
   - name: Judges
     url: /judges
   - name: Sponsors
