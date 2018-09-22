@@ -3,7 +3,7 @@ nav:
     url: /registration
   - name: Rules
     url: /rules
-  - ideas: Ideas
+  - name: Ideas
     url: /ideas
   - name: Judges
     url: /judges
