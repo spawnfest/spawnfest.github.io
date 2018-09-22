@@ -33,6 +33,12 @@ gold_sponsors:
     url: https://www.adroll.com/
     description: "The future of e-commerce marketing"
     background_color: "#00aeef"
+  - name: Peer Stritzinger GmbH
+    image: PS_Logo.svg
+    logo: peer.svg
+    url: https://www.stritzinger.com/
+    description: "Dive into a new experience of building wireless embedded systems"
+    background_color: "#438"
 
 bronze_sponsors:
   - name: LambdaClass
@@ -53,6 +59,11 @@ prizes:
     sponsor_url: https://www.erlang-solutions.com/
     url: http://www.erlang-factory.com
     image: codebeamlite2018.jpg
+  - name: 2 GRiSP boards, a Motor Robot Kit and assorted PMODs
+    sponsor: Peer Stritzinger GmbH
+    sponsor_url: https://www.stritzinger.com/
+    url: https://www.grisp.org
+    image: Grisp.jpeg
   - name: A bunch of books (TBD)
     sponsor: LambdaClass
     sponsor_url: http://lambdaclass.com/
