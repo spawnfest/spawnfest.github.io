@@ -190,7 +190,7 @@ ideas:
   - title: Process Mocker
     description: <a target="_blank" href="https://hex.pm/packages/meck">Meck</a> allows you to mock modules and functions. A similar tool that would allow you to mock processes (i.e. step between a registered process and its callers and mock its behavior, passthrough others, count messages received, etc) would be great.
   - title: Some Application
-    description: If you feel adventureous, why not implementing something suggested by <a target="_blank" href="https://appideagenerator.com/">The API Idea Generator</a>?
+    description: If you feel adventureous, why not implementing something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
   - title: A Game
     description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
   - title: Dialyzer Simplifier
