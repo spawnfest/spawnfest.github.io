@@ -47,6 +47,12 @@ bronze_sponsors:
     url: http://lambdaclass.com/
     description: "A Software Company from Another Dimension"
     background_color: "#000000"
+  - name: Fiqus
+    image: fiqus.png
+    logo: fiqusoscuro.png
+    url: http://www.fiqus.com
+    description: "Software Cooperative"
+    background_color: "#333333"
 
 prizes:
   - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
@@ -84,6 +90,11 @@ prizes:
     sponsor_url: https://www.stritzinger.com/
     url: https://www.grisp.org
     image: Grisp.jpeg
+  - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
+    sponsor: Fiqus
+    sponsor_url: http://www.fiqus.com
+    url: https://elixircasts.io/alchemists-edition
+    image: alchemist.png
 
 judges:
   - name: René Föhring
