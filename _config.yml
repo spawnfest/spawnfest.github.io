@@ -53,6 +53,12 @@ bronze_sponsors:
     url: http://www.fiqus.com
     description: "Software Cooperative"
     background_color: "#333333"
+  - name: 10Pines
+    image: 10pines-blanco.svg
+    logo: 10pines-color.svg
+    url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+    description: "We don't just write code. We craft your ideas."
+    background_color: "#9FC52E"
 
 prizes:
   - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
@@ -95,6 +101,11 @@ prizes:
     sponsor_url: http://www.fiqus.com
     url: https://elixircasts.io/alchemists-edition
     image: alchemist.png
+  - name: 4 unique t-shirts
+    sponsor: 10Pines
+    sponsor_url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+    url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+    image: remeras.png
 
 judges:
   - name: René Föhring
