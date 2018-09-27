@@ -12,20 +12,22 @@ permalink: /rules/
         <div class="text-center">
           <h2 class="display-4">Rules</h2>
         </div>
-        <u class="rules">
+        <ul class="rules">
           {% for rule in site.rules %}
             <li class="rule">
-              {{ rule.text }}
+              <span class="mb-1 mt-3 badge-success badge rule-title">{{ rule.text }}</span>
+
               {% if rule.details %}
-                <ul class="rule-details">
+                <ul class="rule-details alert alert-dark">
                   {% for detail in rule.details %}
-                    <li>{{ detail.text }}</li>
+                    <li class="ml-3">{{ detail.text }}</li>
                   {% endfor %}
                 </ul>
               {% endif %}
+
             </li>
           {% endfor %}
-        </u>
+        </ul>
       </div>
     </div>
     <div class="col-md-2"></div>
