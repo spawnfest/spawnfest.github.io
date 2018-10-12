@@ -1,156 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>SpawnFest 2018</title>
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108346329-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    gtag('config', 'UA-108346329-1');
-  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108346329-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+      gtag('config', 'UA-108346329-1');
+    </script>
 
-  <title>SpawnFest</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/one-page-wonder.css" rel="stylesheet"> -->
 
-  <!-- Custom styles for this template -->
-  <link href="/css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-</head>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Acme|Aldrich|Archivo+Black|Cabin|Dosis|Fjalla+One|Kalam|Kanit:400,700|KoHo:400,700|Noto+Sans+JP:400,900|Patua+One|Quattrocento+Sans|Questrial|Righteous|Source+Code+Pro|Ubuntu+Condensed" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
 
-<body>
+  <body>
+    {{ content }}
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="/">SpawnFest 2018</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          {% for page in site.nav %}
-          <li class="nav-item">
-            <a class="nav-link text-white" href="{{page.url}}">{{page.name}}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <header class="masthead">
-      <div class="overlay">
-        <div class="container">
-          <p class="h1 display-3 text-white">SpawnFest 2018</h1>
-          <p class="h2 display-4 text-white">24-25 November</p>
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div id="countdown" class="col-md-6"></div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-      {{content}}
-
-      <hr>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-1 text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.platinum_sponsor.url}}">
-                <img class="img-fluid" src="/img/{{site.platinum_sponsor.logo}}" alt="{{site.platinum_sponsor.name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 col-first-img text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[0].url}}">
-                <img class="img-fluid" src="/img/{{site.gold_sponsors[0].logo}}" alt="{{site.gold_sponsors[0].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[1].url}}">
-                <img class="img-fluid" src="/img/{{site.gold_sponsors[1].logo}}" alt="{{site.gold_sponsors[1].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.gold_sponsors[2].url}}">
-                <img class="img-fluid" src="/img/{{site.gold_sponsors[2].logo}}" alt="{{site.gold_sponsors[2].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-1 text-center">
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-2 text-center">
-          </div>
-          <div class="col-md-2 col-first-img text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.bronze_sponsors[0].url}}">
-                <img class="img-fluid" src="/img/{{site.bronze_sponsors[0].logo}}" alt="{{site.bronze_sponsors[0].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.bronze_sponsors[1].url}}">
-                <img class="img-fluid" src="/img/{{site.bronze_sponsors[1].logo}}" alt="{{site.bronze_sponsors[1].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-            <div class="p-2">
-              <a class="nav-link" target="_blank" href="{{site.bronze_sponsors[2].url}}">
-                <img class="img-fluid" src="/img/{{site.bronze_sponsors[2].logo}}" alt="{{site.bronze_sponsors[2].name}}">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-2 text-center">
-          </div>
-        </div>
-      </div>
-
-      <!-- Footer -->
-      <footer class="py-5 bg-dark">
-        <div class="container">
-          <ul class="list-inline text-center">
-            {% for page in site.nav %}
-            <li class="list-inline-item">
-              <a class="nav-link text-white" href="{{page.url}}">{{page.name}}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          <p class="m-0 text-center text-white">&copy; SpawnFest 2018</p>
-        </div>
-      </footer>
-
-      <!-- Bootstrap core JavaScript -->
-      <script src="/vendor/jquery/jquery.min.js"></script>
-      <script src="/vendor/popper/popper.min.js"></script>
-      <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="/vendor/countdown/countdown.js"></script>
-      <script src="/vendor/countdown_element.js"></script>
-    </body>
-
-    </html>
+    <!-- Custom scripts for this template -->
+    <script src="vendor/agency.min.js"></script>
+  </body>
+</html>

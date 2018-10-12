@@ -4,54 +4,563 @@ title: Home
 permalink: /
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <section id="intro">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">SpawnFest is...</h2>
-            <p>An annual 48 hour <strong>free online development competition</strong> in which teams of skilled developers from <strong>around the world</strong> get exactly one weekend to create the best BEAM-based applications they can.</p>
-            <p>You can check the <strong>Rules</strong> of the contest <a href="/rules">here</a>.</p>
-            <p><a class="btn btn-success btn-lg center-block" href="/registration" role="button">Register Your Team for FREE</a></p>
-          </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container bg-primary">
+    <a class="navbar-brand js-scroll-trigger font-weight-bold" href="#page-top">SpawnFest 2018</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#registration">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#rules">Rules</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#judges">Judges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-heading text-uppercase">SpawnFest 2018</div>
+      <div class="intro-lead-in">24-25 November</div>
+      <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#registration">Register your Team for FREE</a>
+    </div>
+  </div>
+</header>
+
+<!-- Registration -->
+{% include registration.html %}
+
+<!-- Rules -->
+{% include rules.html %}
+
+<!-- Judges cards -->
+<section  id="judges">
+  <div class="container-fluid alert-secondary">
+     <h2 class="section-heading text-uppercase text-center">Judges</h2>
+
+    <div class="row  ">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/rrrene.png" alt="">
+          <h4>René Föhring </h4>
+          <strong> <a href="https://twitter.com/rrrene">@rrrene</a>
+          </strong>
+
         </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/kenji.jpg" alt="">
+          <h4>Kenji Rikitake </h4>
+            <strong>
+          <a href="https://twitter.com/jj1bdx">@jj1bdx</a>
+          </strong>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/tristan.jpg" alt="">
+          <h4>Tristan Sloughter </h4>
+          <strong>
+          <a href="https://twitter.com/t_sloughter">@t_sloughter</a>
+          </strong>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/miriam.jpg" alt="">
+          <h4>Miriam Pena </h4>
+          <strong>
+          <a href="https://twitter.com/miriampena">@miriampena</a>
+          </strong>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/juan.jpeg" alt="">
+          <h4>Juan Facorro</h4>
+          <strong>
+          <a href="https://twitter.com/jfacorro">@jfacorro</a>
+          </strong>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/whatyouhide.jpg" alt="">
+          <h4>Andrea Leopardi </h4>
+          <strong>
+          <a href="https://twitter.com/whatyouhide">@whatyouhide</a>
+          </strong>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Team -->
+<section class="alert alert-primary" id="sponsors">
+  <div class="">
+    <div class="row ">
+      <div class="col-lg-12 text-center ">
+        <h2 class="section-heading text-uppercase">Sponsors</h2>
+        <h3 class="section-subheading text-muted">This event is made possible by our sponsors. You can still <a href="https://docs.google.com/forms/d/e/1FAIpQLScNIyRkA60CKGAtyMZ-pd7wqBcl0BK93sjIuSEbRx5z2xfI4w/viewform">join them.</a></h3>
+
+                      <h2>Gold Sponsors</h2>
+      </div>
+    </div>
+    <div class="d-sm-flex">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <a href="https://www.erlang-solutions.com/"> <img class="mx-auto rounded-top"  src="img/esl.png" alt=""></a>
+
+
+          <p class="text-muted"> Erlang,Elixir & BEAM Technology Consultancy</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <a href="https://www.stritzinger.com/">
+          <img class="mx-auto rounded-top" src="img/peer.svg" alt=""></a>
+
+          <p class="text-muted">Dive into a new experience of building wireless embedded systems</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4 ">
+        <div class="team-member">
+          <a href="https://tech.adroll.com/">
+          <img class=" rounded-top adroll" src="img/adroll.jpg " alt="" ></a>
+          <p class="text-muted">The future of e-commerce marketing</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-lg-12 mx-auto ">
+        <h3 class="text-center pb-3">Bronze Sponsors</h3>
+      </div>
+    </div>
+  </div>
+
+<div class="d-sm-flex text-center">
+      <div class="col-sm-4">
+        <div class="">
+          <a href="https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018"> <img class="mx-auto rounded-top pines"  src="img/10pines-blanco.svg" alt=""></a>
+
+
+          <p class="text-muted"> We don't just write code. We craft your ideas</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4 ">
+        <div class=" align-items-center">
+          <a href="https://wwwhttp://lambdaclass.com/">
+          <img class="rounded-top lambda " src="img/lambdaclass-gray.png" alt=""></a>
+
+          <p class="text-muted">A Software Company from Another Dimension</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4 ">
+        <div class="">
+          <a href="https://fiqus.com/">
+          <img class=" rounded-top fiqus" src="img/fiqus.png " alt="" ></a>
+          <p class="text-muted">Software Corporative</p>
+
+        </div>
+      </div>
       </section>
 
-      <section id="contact">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">Contact</h2>
-            <div class="contact-section">
-              <p><img class="share-icon" src="img/twitter-icon.png">Tweet your <strong>#spawnfest</strong> status during the event.</p>
-              <p><a href="https://twitter.com/spawnfest" target="_blank"><img class="share-icon" src="img/twitter-icon.png">spawnfest</a></p>
-              <p><a href="https://www.facebook.com/spawnfest2017" target="_blank"><img class="share-icon"  src="img/facebook-icon.png">spawnfest2017</a></p>
-              <p><a href="mailto:spawnfest-organizers@googlegroups.com"><img class="share-icon" src="img/gmail-icon.png">spawnfest-organizers@googlegroups.com</a></p>
-              <p><a href="https://erlanger.slack.com/messages/C7M2PNZHB"><img class="share-icon" src="img/slack-icon.png">#spawnfest</a></p></a></p>
-              <p><a href="https://github.com/orgs/spawnfest/teams/players"><img class="share-icon" src="img/github-icon.png">spawnfest/teams/players</a></p></a></p>
+
+<section class="alert alert-secondary" id="prizes">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Prizes</h2>
+        <h3 class="section-subheading text-muted">These are the prizes you may win, thanks to our generous sponsors</h3>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top" src="img/codebeamsf2018.jpg" alt="">
+          <p><strong>900USD </strong>Free 2-day CodeBEAM SF ticket</p>
+          <p class="text-muted">by <a href="https://www.erlang-solutions.com/">Erlang Solutions</a></p>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/codebeamlite2018.jpg" alt="">
+          <p> <strong>4x 150USD</strong> Free tickets to Any CodeBEAM Lite</p>
+          <p class="text-muted">by <a href="https://www.erlang-solutions.com/">Erlang Solutions</a></p>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/amazon-gift-card5.png" alt="">
+          <p><strong>300USD </strong>Amazon Gift Card</p>
+          <p class="text-muted">by <a href="https://tech.adroll.com/">AdRoll</a></p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/amazon-gift-card5.png" alt="">
+          <p><strong>300USD </strong>Amazon Gift Card</p>
+          <p class="text-muted">by <a href="https://tech.adroll.com/">AdRoll</a></p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/books.png" alt="">
+          <p>A bunch of books (TBD)</p>
+          <p class="text-muted">by <a href="http://lambdaclass.com/">LambdaClass</a></p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/book-1.png" alt="">
+          <p>Designing Data-Intensive Applications (the book)</p>
+          <p class="text-muted">by <a href="http://lambdaclass.com/">LambdaClass</a></p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/grisp.jpeg" alt="">
+          <p>2 GRiSP boards, a Motor Robot Kit and assorted PMODs</p>
+          <p class="text-muted">by <a href="https://www.stritzinger.com/">Peer Stritzinger GmbH</a></p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/alchemist.png" alt="">
+          <p>8 months of subscriptions to ElixirCasts Alchemist's Edition</p>
+          <p class="text-muted">by <a href="https://fiqus.com/"></a>Fiqus</p>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member-prizes">
+          <img class="mx-auto rounded-top img-fluid img-fluid-small" src="img/remeras.png" alt="">
+          <p>4 unique t-shirts</p>
+          <p class="text-muted">by <a href="https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018">10Pines</a></p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class=" col-md-12 bg-dark">
+
+
+
+
+   <!-- Contacts -->
+<section class="col-md-12 text-center contact "  id="contact">
+  <div class="container-fluid my-3 ">
+    <div class="d-inline-flex ">
+      <div class="col-md-3 col-sm-3">
+
+          <div><a href="https://www.facebook.com/spawnfest2017"><i class="fab fa-facebook"></i></a></div>
+
+
+      </div>
+
+      <div class="col-md-3 col-sm-3">
+
+        <div><a href="https://github.com/orgs/spawnfest/teams/players"><i class="fab fa-github"></i></a></div>
+      </div>
+
+      <div class="col-md-3 col-sm-3">
+        <div><a href="https://twitter.com/spawnfest"><i class="fab fa-twitter-square"></i></a></div>
+      </div>
+
+
+      <div class="col-md-3 col-sm-3">
+
+        <div><a href="https://erlanger.slack.com/?redir=%2Fmessages%2FC7M2PNZHB"><i class="fab fa-slack"></i></a></div>
+      </div>
+
+       <div class="col-md-3 col-sm-3">
+
+        <div> <a href="mailto:spawnfest-organizers@googlegroups.com </a>"><i class="fas fa-envelope"></i></a></div>
+      </div>
+
+
+
+    </div>
+  </div>
+    <div class="ml-5 text-center  ">
+
+      <div class=" hashtag pt-3 ">
+        <span class=" text-white "> Tweet your #SPAWNFEST status during the event.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <div class="col-md-12 text-center">
+    <div class="d-flex m-5 ">
+
+      <div class="footer col-md-12 pb-3">
+        <span class="copyright text-center text-white">&copy; SpawnFest 2018 </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Portfolio Modals -->
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Threads</li>
+                <li>Category: Illustration</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
             </div>
           </div>
         </div>
-      </section>
-
-      <section id="previous">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">Previous editions</h2>
-            <p>Check what happened in our previous editions:
-                <ul>
-                    <li><a href="https://spawnfest.github.io/2017/" target="_blank">2017</a></li>
-                    <li><a href="https://spawnfest.github.io/2012/" target="_blank">2012</a></li>
-                </ul>
-            </p>
-          </div>
-        </div>
-      </section>
-
-    </div>
-    <div class="col-md-4 p-4">
-      <a class="twitter-timeline" href="https://twitter.com/spawnfest?ref_src=twsrc%5Etfw" data-height="900">Tweets by Spawnfest</a>
+      </div>
     </div>
   </div>
 </div>
-<script src="/vendor/twitter_widget.js"></script>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Explore</li>
+                <li>Category: Graphic Design</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Finish</li>
+                <li>Category: Identity</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Lines</li>
+                <li>Category: Branding</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Southwest</li>
+                <li>Category: Website Design</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Project Name</h2>
+              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Window</li>
+                <li>Category: Photography</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
