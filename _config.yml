@@ -1,16 +1,28 @@
 nav:
-  - name: <span class="important">Registration</span>
-    url: /registration
+  - name: Registration
+    ref: "#registration"
   - name: Rules
-    url: /rules
+    ref: "#rules"
   - name: Judges
-    url: /judges
+    ref: "#judges"
   - name: Sponsors
-    url: /sponsors
+    ref: "#sponsors"
   - name: Prizes
-    url: /prizes
+    ref: "#prizes"
   - name: Contact
-    url: /#contact
+    ref: "#contact"
+
+social:
+  - url: https://www.facebook.com/spawnfest2017
+    icon: "fab fa-facebook"
+  - url: https://github.com/orgs/spawnfest/teams/players
+    icon: "fab fa-github"
+  - url: https://twitter.com/spawnfest
+    icon: "fab fa-twitter-square"
+  - url: https://erlanger.slack.com/?redir=%2Fmessages%2FC7M2PNZHB
+    icon: "fab fa-slack"
+  - url: "mailto:spawnfest-organizers@googlegroups.com"
+    icon: "fas fa-envelope"
 
 # platinum_sponsor:
 #   name: PegB
@@ -47,18 +59,18 @@ bronze_sponsors:
     url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
     description: "We don't just write code. We craft your ideas."
     background_color: "#9FC52E"
-  - name: LambdaClass
-    image: lambdaclass-gray.png
-    logo: lambdaclass.png
-    url: http://lambdaclass.com/
-    description: "A Software Company from Another Dimension"
-    background_color: "#000000"
   - name: Fiqus
     image: fiqus.png
     logo: fiqusoscuro.png
     url: http://www.fiqus.com
     description: "Software Cooperative"
     background_color: "#333333"
+  - name: LambdaClass
+    image: lambdaclass-gray.png
+    logo: lambdaclass.png
+    url: http://lambdaclass.com/
+    description: "A Software Company from Another Dimension"
+    background_color: "#000000"
 
 prizes:
   - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
@@ -175,20 +187,20 @@ category_winners:
   #       author: Sample Author
 
 rules:
-  - text: "Schedule"
+  - title: "Schedule"
     details:
       - text: The event will start on <strong>2018-11-24 00:00 UTC</strong>.
       - text: The event will end on <strong>2018-11-25 23:59 UTC</strong>.
       - text: The registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
-  - text: Teams
+  - title: Teams
     details:
       - text: "Team size is 1 to 4."
       - text: "Every team member has to be a human being, not an organization."
       - text: "All members of the team should be 13 years old or older."
       - text: "Judges of this contest can not participate in it as members of a team."
       - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a>.
-  - text: Projects
+  - title: Projects
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
       - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
@@ -204,7 +216,7 @@ rules:
       - text: "<em>Ownership and Copyright:</em> Each team retains all the rights to their submissions."
       - text: "<em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
-  - text: Evaluation
+  - title: Evaluation
     details:
       - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
       - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
@@ -222,7 +234,7 @@ rules:
       - text: "Final score of each team will be computed as the sum of the points received in all those categories."
       - text: "The team with the highest final score will be the winner of the contest."
       - text: "Other prizes, besides the one for the winner, will be awarded as well."
-  - text: Other Rules
+  - title: Other Rules
     details:
       - text: "Individual participants or even entire teams can be disqualified if they don't abide by these rules. The organizers reserve the right to apply the punishment they consider fit to any transgression."
       - text: "Event organizers will not reimburse you for any expenses or losses."

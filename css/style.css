@@ -6,24 +6,12 @@
 
 body {
   overflow-x: hidden;
-font-family: 'Noto Sans JP', sans-serif;
-background-color: #E1DCDC;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #E1DCDC;
 }
 
 p {
   line-height: 1.75;
-}
-
-a {
-  color: #007bff;
-}
-
-a:hover {
-  color: #007bff;
-}
-
-.text-primary {
-  color: #007bff !important;
 }
 
 h1,
@@ -143,12 +131,17 @@ ul.rule-details{
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-
-
-
 #mainNav {
-  background-color: #007bff;
+  padding-right: 0;
+  padding-left: 0;
 }
+
+#mainNav .container {
+  max-width: 100%;
+  background-color: #032b56!important;
+}
+
+
 
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -157,12 +150,10 @@ ul.rule-details{
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #1826E1;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: black;
   font-family: 'KoHo:700', sans-serif;
 }
 
@@ -203,7 +194,6 @@ ul.rule-details{
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #007bff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -425,6 +415,31 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+.sp-box {
+  box-shadow: inset 0 -2px 8px 0px rgba(0, 0, 0, 0.5);
+  text-decoration: none !important;
+}
+
+.sp-link {
+  display: inline;
+  white-space: normal;
+  border: 0;
+  color: white;
+  padding: 0;
+}
+
+.sp-link p {
+  color: white;
+}
+
+.sp-platinum {
+  margin-bottom: 45px;
+}
+
+img.sp-img {
+  width: 228px;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -632,8 +647,8 @@ header.masthead .intro-text .intro-heading {
 .team-member-prizes img{
   width: auto;
   height: 150px;
-  border: 5px solid #fff;
 }
+
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
@@ -709,6 +724,7 @@ section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Noto Sans JP', sans-serif;
+}
 
 section#contact :-moz-placeholder {
   font-weight: 700;
@@ -731,18 +747,15 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
-
-
+  background-color: #032b56!important;
 }
-
-
 
 footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
   font-family: 'Noto Sans JP', sans-serif;
-    }
+}
 
 footer ul.quicklinks {
   font-size: 90%;
@@ -752,24 +765,14 @@ footer ul.quicklinks {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: block;
-  width: 50px;
-  height: 50px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+footer a {
   color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #212529;
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+footer a:hover {
+  color: #9e9a9a;
+}
+
+footer .social-link {
+  margin-right: 15px;
 }

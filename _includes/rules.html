@@ -1,112 +1,23 @@
-<section id="rules">
-  <div class="container-fluid alert alert-primary">
+<section id="rules" class="sp-box">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Rules</h2>
-
       </div>
     </div>
-
-
-
-<div class="col-md-8  ">
-<li class="rule">
-  <span class="rule mb-1 mt-3 badge badge-info ">Teams</span>
-
-
-            <ul class="rule-details  ">
-
-                <li>Team size is 1 to 4.</li>
-
-                <li>Every team member has to be a human being, not an organization.</li>
-
-                <li>All members of the team should be 13 years old or older.</li>
-
-                <li>Judges of this contest can not participate in it as members of a team.</li>
-
-                <li>Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a>.</li>
-
+    <div class="col-md-8">
+      <ul>
+        {% for rule in site.rules %}
+          <li class="rule">
+            <span class="rule mb-1 mt-3 badge badge-info">{{ rule.title }}</span>
+            <ul class="rule-details">
+              {% for detail in rule.details %}
+                <li>{{ detail.text }}</li>
+              {% endfor %}
             </ul>
-
-        </li>
-
-        <li class="rule">
-          <span class="rule mb-1 mt-3 badge badge-info ">Project</span>
-
-            <ul class="rule-details ">
-
-                <li>All projects should be written to run on the Erlang VM / BEAM.</li>
-
-                <li>They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.).</li>
-
-                <li>Supplementary languages such as Javascript (and JS frameworks) are allowed.</li>
-
-                <li>No code can be created before the start of the contest.</li>
-
-                <li>Each team should come up with their own project idea (If you need inspiration check <a href="/ideas">our list of project ideas</a>)</li>
-
-                <li>The organizing team will create a git repository at GitHub for each team.</li>
-
-                <li>If a team needs more than one, they can ask the organizers to create extra repos for them.</li>
-
-                <li>All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects.</li>
-
-                <li>The only required deliverable is the code, but everything in the repository will be used for evaluation.</li>
-
-                <li>Suggested extra deliverables to include: Documentation, comprehensive README.md, project-related art (e.g. Logos), tests and anything that makes building and understanding the system easier for the judges.</li>
-
-                <li>Usage of third party libraries and web services is not prohibited, even encouraged.</li>
-
-                <li><em>Ownership and Copyright:</em> Each team retains all the rights to their submissions.</li>
-
-                <li><em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy.</li>
-
-                <li>Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both.</li>
-
-            </ul>
-
-        </li>
-
-        <li class="rule">
-          <span class="rule mb-1 mt-3 badge badge-info ">Evaluation</span>
-
-            <ul class="rule-details ">
-
-                <li>Your work will be judged by a publicly known jury, unless previously disqualified.</li>
-
-                <li>Each sponsor is responsible for delivering the prize they provided to the corresponding winning team.</li>
-
-                <li>Each project will be evaluated in 6 different categories: Creativity, Usefulness, Innovation, Correctness, Maintainability and Completion.</li>
-
-                <li>Final interpretation of each category meaning is up to the judges, but as general guidelines: <dl> <dt>Creativity</dt><dd>This category assigns points for unexpectedness, eccentricity, fun. This is a broad category that may apply to the project, its code, the team, etc.</dd> <dt>Usefulness</dt><dd>How useful the project will be for its target users. Does it solve an existing problem? Does it significantly reduce work time for its users?</dd> <dt>Innovation</dt><dd>How groundbreaking the project is. The more unique and unprecedented the idea behind the project, the better. Also applies to projects developed in a unique way.</dd> <dt>Correctness</dt><dd>The less bugs, the better. This category values working products over complete ones.</dd> <dt>Maintainability</dt><dd>How easy will be for future developers to keep contributing to this project after SpawnFest is over.</dd> <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd> </dl> </li>
-
-                <li>Final score of each team will be computed as the sum of the points received in all those categories.</li>
-
-                <li>The team with the highest final score will be the winner of the contest.</li>
-
-                <li>Other prizes, besides the one for the winner, will be awarded as well.</li>
-
-            </ul>
-
-        </li>
-
-        <li class="rule">
-          <span class="rule mb-1 mt-3 badge badge-info ">Other Rules</span>
-
-            <ul class="rule-details" >
-
-                <li>Individual participants or even entire teams can be disqualified if they don't abide by these rules. The organizers reserve the right to apply the punishment they consider fit to any transgression.</li>
-
-                <li>Event organizers will not reimburse you for any expenses or losses.</li>
-
-                <li>Event organizers are not responsible for any damage, legal actions or any other outcomes that might be a result of your participation.</li>
-
-                <li>Event organizers reserve the right to change these rules without prior notification.</li>
-
-            </ul>
-
-        </li>
-      </div>
-
-     </div>
+          </li>
+        {%  endfor %}
+      </ul>
+    </div>
+  </div>
 </section>

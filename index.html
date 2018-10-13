@@ -5,50 +5,10 @@ permalink: /
 ---
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-  <div class="container bg-primary">
-    <a class="navbar-brand js-scroll-trigger font-weight-bold" href="#page-top">SpawnFest 2018</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav text-uppercase ml-auto">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#registration">Registration</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#rules">Rules</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#judges">Judges</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#prizes">Prizes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+{% include navigation.html %}
 
 <!-- Header -->
-<header class="masthead">
-  <div class="container">
-    <div class="intro-text">
-      <div class="intro-heading text-uppercase">SpawnFest 2018</div>
-      <div class="intro-lead-in">24-25 November</div>
-      <div id="registration-btn">
-        <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#registration">Register your Team for FREE</a>
-      </div>
-    </div>
-  </div>
-</header>
+{% include header.html %}
 
 <!-- Registration -->
 {% include registration.html %}
@@ -59,20 +19,11 @@ permalink: /
 <!-- Judges -->
 {% include judges.html %}
 
-
-
-
 <!-- Sponsors -->
-
 {% include sponsors.html %}
 
 <!-- Prizes -->
-
-
 {% include prizes.html %}
 
-
 <!-- Footer -->
-
-
 {% include footer.html %}
