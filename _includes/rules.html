@@ -1,18 +1,17 @@
-<section id="rules" class="sp-box">
+<section id="rules" class="sp-box bg2">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Rules</h2>
+        <h2 class="section-heading text-uppercase ">Rules</h2>
       </div>
     </div>
     <div class="col-md-8">
       <ul>
         {% for rule in site.rules %}
-          <li class="rule">
-            <span class="rule mb-1 mt-3 badge badge-info">{{ rule.title }}</span>
-            <ul class="rule-details">
+          <li class="rule  ">
+            <span class="rule mb-1 mt-3 badge badge-info ">{{ rule.title }}</span>
               {% for detail in rule.details %}
-                <li>{{ detail.text }}</li>
+                <li class="row ">{{ detail.text }}</li>
               {% endfor %}
             </ul>
           </li>
