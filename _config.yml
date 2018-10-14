@@ -1,4 +1,6 @@
 nav:
+  - name: About
+    ref: "#about"
   - name: Registration
     ref: "#registration"
   - name: Rules
@@ -9,8 +11,6 @@ nav:
     ref: "#sponsors"
   - name: Prizes
     ref: "#prizes"
-  - name: Contact
-    ref: "#contact"
 
 social:
   - url: https://www.facebook.com/spawnfest2017

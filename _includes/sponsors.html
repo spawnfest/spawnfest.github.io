@@ -22,7 +22,7 @@
     {% endif %}
 
     {% if site.gold_sponsors %}
-      <div class="text-center">
+      <div class="text-center p-3">
         <h2 class="display-5">Gold Sponsors</h2>
       </div>
       {% for sponsor in site.gold_sponsors %}
@@ -36,8 +36,8 @@
     {% endif %}
 
     {% if site.bronze_sponsors %}
-      <div class="text-center">
-        <h4 class="display-5">Bronze Sponsors</h2>
+      <div class="text-center pt-5 pb-1">
+        <h2 class="display-5">Bronze Sponsors</h2>
       </div>
       {% for sponsor in site.bronze_sponsors %}
         <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
