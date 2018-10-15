@@ -108,6 +108,11 @@ ul.rule-details{
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
 }
+.btn.azul{
+  background-color: #032b56;
+
+}
+
 
 .btn-xl {
   font-size: 20px;
@@ -442,6 +447,8 @@ header.masthead .intro-text .intro-heading {
   padding: 0;
 }
 
+
+
 .sp-link p {
   color: white;
 }
@@ -459,7 +466,9 @@ img.sp-img {
   padding: 0;
   list-style: none;
 }
-
+ul.style{
+  list-style:none;
+}
 .timeline:before {
   position: absolute;
   top: 0;
@@ -694,10 +703,12 @@ font-size: 30px;
 }
 
 .hashtag{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Ubuntu Condensed';
 }
-
+p.hashtag {
+  background-color:#032b56; 
+}
 }
 section#contact {
   background-image: url("../img/map-image.png");
