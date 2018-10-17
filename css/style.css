@@ -29,7 +29,6 @@ section {
 
 section h2.section-heading {
   font-size: 40px;
-  /*margin-right: 50px;*/
   margin-bottom: 15px;
 }
 
@@ -96,6 +95,14 @@ img.lambda{
   }
 }
 
+section#rules {
+  background-image: url("../img/spawnfest.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
 .rules {
   padding-right: 12%;
   padding-left: 12%;
@@ -106,7 +113,8 @@ img.lambda{
   padding: 3px;
   margin-top:-2%;
   margin-bottom: 4%;
-  border: 1px solid black!important;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .rule-icon {
@@ -305,7 +313,7 @@ header.masthead {
   color: white;
   background-image: url("../img/spawnfest.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   height: 35em;
