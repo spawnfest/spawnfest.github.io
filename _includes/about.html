@@ -8,6 +8,22 @@
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
       <br>
        <p class="hashtag text-center text-white rounded-top">Tweet your <strong>#spawnfest</strong> status during the event.</p>
+       <section class="col-md-12 text-center contact "  id="contact">
+    <div class="container-fluid">
+      <div class="d-inline-flex">
+        {% for contact in site.social %}
+          <div class="social-link">
+            <a class="style" href="{{ contact.url }}"><i class="{{ contact.icon }}"></i></a>
+          </div>
+        {%  endfor %}
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="hashtag pt-3">
+        <span class=" text-white ">Tweet your #SPAWNFEST status during the event.</span>
+      </div>
+    </div>
+  </section>
       <!-- <div class="container d-flex justify-content-sm-center contact-section bg-secondary rounded-bottom" >
         <span class="text-center pt-4 hashtag ">
        Contact us during the event, follow us on our networks.</span>
@@ -21,10 +37,12 @@
       <br>
       <div class="container">
         <div class="align-items-center">
-          <h4 class="pt-2 ">Previous editions</h4>
-          <p>Check what happened in our previous editions:</p>
+          <h4 class="pt-2 text-center">Previous editions</h4>
+          <p class="text-center">Check what happened in our previous editions:</p>
+          <div class="text-center">
             <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="https://spawnfest.github.io/2012/" target="_blank">2012</a>
             <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="https://spawnfest.github.io/2017/" target="_blank">2017</a>
+            </div>
         </div>
       </div>
     </div>

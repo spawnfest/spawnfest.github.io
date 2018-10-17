@@ -29,7 +29,7 @@ section {
 
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
+  margin-right: 50px;
   margin-bottom: 15px;
 }
 
@@ -97,9 +97,8 @@ img.lambda{
 }
 
 .rule {
-  font-size: 16px;
+  font-size: 15px;
   padding: 3px;
-  justify-content: center;
 }
 
 .card-body{
@@ -116,6 +115,88 @@ img.lambda{
   height: auto;
 }
 
+li.bord{
+  margin-top:-1%;
+ margin-bottom: 4%;
+ font-size: 18px;
+ text-align: justify;
+
+}
+i.border{
+  padding: 1%;
+  border: 2px solid black!important;
+}
+
+li.border{
+  border: 1px solid black!important;
+}
+a.style{
+  color: black;
+  padding: 12px;
+}
+.icon{
+height: auto;
+position: relative;
+float: inherit;
+margin-left: 43%;
+margin-top: -2%;
+}
+
+
+
+ @media(max-device-width:480px){
+   .icon {
+    width: auto;
+    height: auto;
+    position: relative;
+    float: inherit;
+    margin-left: 42%;
+    margin-bottom: -3%;
+  }
+
+  section h2.section-heading {
+  font-size: 32px;
+  margin-left: 100px;
+  margin-bottom: -15px;
+}
+.rule {
+  font-size: 13px;
+  padding: 3px;
+}
+section{
+ padding: 1%;
+}
+
+
+ }
+    @media(max-device-width:480px){
+   li.bord{
+    font-size: 14px;
+    display:inline-block; 
+    width: 95%; 
+    border:1px solid #000000!important;
+    
+
+    }
+
+    li.rule{
+      margin-right: -11%;
+    }
+  span.rule{
+    margin-left: 20%;
+    position: relative;
+  }
+ 
+}
+    
+ul.box{
+
+    list-style-type: none!important;
+
+}  
+
+
+
 ul.rule-details{
  justify-content: center;
 }
@@ -127,7 +208,7 @@ ul.rule-details{
 }
 
 a.btn-previous-edition{
-  background-color: #032b56;
+  background-color: black;
 }
 
 a.btn-previous-edition:focus {
@@ -579,6 +660,7 @@ section#contact {
   margin-right: 0;
 }
 
+
 section#contact .section-heading {
   color: #fff;
 }
@@ -641,6 +723,7 @@ footer span.copyright {
   line-height: 40px;
   text-transform: none;
   font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 10px;
 }
 
 footer ul.quicklinks {

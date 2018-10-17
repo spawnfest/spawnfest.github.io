@@ -188,12 +188,14 @@ category_winners:
 
 rules:
   - title: "Schedule"
+    icon: "fas fa-calendar-alt"
     details:
       - text: The event will start on <strong>2018-11-24 00:00 UTC</strong>.
       - text: The event will end on <strong>2018-11-25 23:59 UTC</strong>.
       - text: The registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
   - title: Teams
+    icon: "fas fa-users"
     details:
       - text: "Team size is 1 to 4."
       - text: "Every team member has to be a human being, not an organization."
@@ -201,6 +203,7 @@ rules:
       - text: "Judges of this contest can not participate in it as members of a team."
       - text: Every team has to be registered by completing the <a target="_blank" href="https://goo.gl/forms/sFt34VNjWaMzGD0r2">registration form</a>.
   - title: Projects
+    icon: "fas fa-rocket"
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
       - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
@@ -217,6 +220,7 @@ rules:
       - text: "<em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - title: Evaluation
+    icon: "fas fa-gavel"
     details:
       - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
       - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
@@ -235,6 +239,7 @@ rules:
       - text: "The team with the highest final score will be the winner of the contest."
       - text: "Other prizes, besides the one for the winner, will be awarded as well."
   - title: Other Rules
+    icon: "fas fa-list-alt"
     details:
       - text: "Individual participants or even entire teams can be disqualified if they don't abide by these rules. The organizers reserve the right to apply the punishment they consider fit to any transgression."
       - text: "Event organizers will not reimburse you for any expenses or losses."
