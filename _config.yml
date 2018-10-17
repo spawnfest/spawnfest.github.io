@@ -39,6 +39,12 @@ gold_sponsors:
     url: https://tech.adroll.com/
     description: "The future of e-commerce marketing"
     background_color: "#00aeef"
+  - name: Scrapinghub
+    image: scrapinghub.svg
+    logo: shub-standard-logo.png
+    url: https://scrapinghub.com/
+    description: "Turn websites into data"
+    background_color: "#607d8b"
 
 bronze_sponsors:
   - name: 10Pines
@@ -96,6 +102,16 @@ prizes:
     sponsor_url: https://www.stritzinger.com/
     url: https://www.grisp.org
     image: Grisp.jpeg
+  - name: GoPro HERO5
+    sponsor: Scrapinghub
+    sponsor_url: https://scrapinghub.com/
+    url: http://a.co/d/i6w4LVH
+    image: gopro.jpg
+  - name: Bose QuietComfort 35 (Series II) Wireless Headphones
+    sponsor: Scrapinghub
+    sponsor_url: https://scrapinghub.com/
+    url: http://a.co/d/20tFeCm
+    image: headphones.jpg
   - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
     sponsor: Fiqus
     sponsor_url: http://www.fiqus.com
