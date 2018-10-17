@@ -51,6 +51,12 @@ gold_sponsors:
     url: https://tech.adroll.com/
     description: "The future of e-commerce marketing"
     background_color: "#00aeef"
+  - name: Scrapinghub
+    image: scrapinghub.svg
+    logo: shub-standard-logo.png
+    url: https://scrapinghub.com/
+    description: "Turn websites into data"
+    background_color: "#607d8b"
 
 bronze_sponsors:
   - name: 10Pines
