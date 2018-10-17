@@ -29,7 +29,7 @@ section {
 
 section h2.section-heading {
   font-size: 40px;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
   margin-bottom: 15px;
 }
 
@@ -96,53 +96,46 @@ img.lambda{
   }
 }
 
+.rules {
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
 .rule {
   font-size: 15px;
   padding: 3px;
-}
-
-.card-body{
-  width: 65%;
-  height: auto;
-}
-.card-img-top{
-  width: 60%;
-  height: auto;
-}
-
-.card-deck{
-   width: 80%;
-  height: auto;
-}
-
-li.bord{
-  margin-top:-1%;
- margin-bottom: 4%;
- font-size: 18px;
- text-align: justify;
-
-}
-i.border{
-  padding: 1%;
-  border: 2px solid black!important;
-}
-
-li.border{
+  margin-top:-2%;
+  margin-bottom: 4%;
   border: 1px solid black!important;
 }
+
+.rule-icon {
+  text-align: center;
+}
+
+.rule-icon i {
+  padding: 10px;
+  border: 2px solid black!important;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.rule-title {
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
 a.style{
   color: black;
   padding: 12px;
 }
+
 .icon{
-height: auto;
-position: relative;
-float: inherit;
-margin-left: 43%;
-margin-top: -2%;
+  height: auto;
+  position: relative;
+  float: inherit;
 }
-
-
 
  @media(max-device-width:480px){
    .icon {
@@ -150,55 +143,43 @@ margin-top: -2%;
     height: auto;
     position: relative;
     float: inherit;
-    margin-left: 42%;
     margin-bottom: -3%;
   }
 
   section h2.section-heading {
-  font-size: 32px;
-  margin-left: 100px;
-  margin-bottom: -15px;
-}
-.rule {
-  font-size: 13px;
-  padding: 3px;
-}
-section{
- padding: 1%;
-}
-
-
- }
-    @media(max-device-width:480px){
-   li.bord{
-    font-size: 14px;
-    display:inline-block; 
-    width: 95%; 
-    border:1px solid #000000!important;
-    
-
-    }
-
-    li.rule{
-      margin-right: -11%;
-    }
-  span.rule{
-    margin-left: 20%;
-    position: relative;
+    font-size: 32px;
   }
- 
+
+  section{
+   padding: 1%;
+  }
+
+  .rules {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .rule {
+    border-color: #e9ecef!important;
+  }
+
+  .rule-title {
+    padding-top: 4%;
+  }
+
+  ul.rule-details{
+    padding-left: 2%;
+  }
 }
-    
+
 ul.box{
-
-    list-style-type: none!important;
-
-}  
-
-
+  list-style-type: none!important;
+  padding: 0;
+}
 
 ul.rule-details{
- justify-content: center;
+  list-style: none;
+  padding-right: 5%;
 }
 
 }
@@ -658,6 +639,7 @@ section#contact {
 
 .row {
   margin-right: 0;
+  margin-left: 0;
 }
 
 

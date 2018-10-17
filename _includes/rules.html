@@ -5,18 +5,21 @@
         <h2 class="section-heading text-uppercase">Rules</h2>
       </div>
     </div>
-    <div class="d-inline-flex p-5 ">
+    <div class="d-inline-flex py-5 rules">
       <ul class="box">
         {% for rule in site.rules %}
-      <i class="icon border bg-white {{ rule.icon }}"></i>
-          <li class="rule bord border">
-            <span class=" rule mb-1 mt-3 badge badge-info">{{ rule.title }}</span>
-             <ul>
-              {% for detail in rule.details %}
-
-                <li>{{ detail.text }}</li>
-              {% endfor %}
-            </ul>
+          <li>
+            <div class="rule-icon">
+              <i class="icon {{ rule.icon }}"></i>
+            </div>
+            <div class="rule border">
+              <div class="rule-title"><b>{{ rule.title }}</b></div>
+              <ul class="rule-details">
+                {% for detail in rule.details %}
+                  <li><p>- {{ detail.text }}</p></li>
+                {% endfor %}
+              </ul>
+            </div>
           </li>
         {%  endfor %}
       </ul>

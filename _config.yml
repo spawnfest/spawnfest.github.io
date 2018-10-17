@@ -3,10 +3,10 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-  - name: Rules
-    ref: "#rules"
   - name: Judges
     ref: "#judges"
+  - name: Rules
+    ref: "#rules"
   - name: Sponsors
     ref: "#sponsors"
   - name: Prizes
@@ -114,6 +114,16 @@ prizes:
     sponsor_url: https://www.stritzinger.com/
     url: https://www.grisp.org
     image: Grisp.jpeg
+  - name: GoPro HERO5
+    sponsor: Scrapinghub
+    sponsor_url: https://scrapinghub.com/
+    url: http://a.co/d/i6w4LVH
+    image: gopro.jpg
+  - name: Bose QuietComfort 35 (Series II) Wireless Headphones
+    sponsor: Scrapinghub
+    sponsor_url: https://scrapinghub.com/
+    url: http://a.co/d/20tFeCm
+    image: headphones.jpg
   - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
     sponsor: Fiqus
     sponsor_url: http://www.fiqus.com
@@ -229,10 +239,9 @@ rules:
     icon: "fas fa-gavel"
     details:
       - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
-      - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
       - text: "Each project will be evaluated in 6 different categories: Creativity, Usefulness, Innovation, Correctness, Maintainability and Completion."
       - text: "Final interpretation of each category meaning is up to the judges, but as general guidelines:
-              <dl>
+              <dl class=\"pl-3\">
                 <dt>Creativity</dt><dd>This category assigns points for unexpectedness, eccentricity, fun. This is a broad category that may apply to the project, its code, the team, etc.</dd>
                 <dt>Usefulness</dt><dd>How useful the project will be for its target users. Does it solve an existing problem? Does it significantly reduce work time for its users?</dd>
                 <dt>Innovation</dt><dd>How groundbreaking the project is. The more unique and unprecedented the idea behind the project, the better. Also applies to projects developed in a unique way.</dd>
@@ -244,6 +253,7 @@ rules:
       - text: "Final score of each team will be computed as the sum of the points received in all those categories."
       - text: "The team with the highest final score will be the winner of the contest."
       - text: "Other prizes, besides the one for the winner, will be awarded as well."
+      - text: "Each sponsor is responsible for delivering the prize they provided to the corresponding winning team."
   - title: Other Rules
     icon: "fas fa-list-alt"
     details:
