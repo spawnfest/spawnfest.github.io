@@ -4,54 +4,29 @@ title: Home
 permalink: /
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <section id="intro">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">SpawnFest is...</h2>
-            <p>An annual 48 hour <strong>free online development competition</strong> in which teams of skilled developers from <strong>around the world</strong> get exactly one weekend to create the best BEAM-based applications they can.</p>
-            <p>You can check the <strong>Rules</strong> of the contest <a href="/rules">here</a>.</p>
-            <p><a class="btn btn-success btn-lg center-block" href="/registration" role="button">Register Your Team for FREE</a></p>
-          </div>
-        </div>
-      </section>
+<!-- Navigation -->
+{% include navigation.html %}
 
-      <section id="contact">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">Contact</h2>
-            <div class="contact-section">
-              <p><img class="share-icon" src="img/twitter-icon.png">Tweet your <strong>#spawnfest</strong> status during the event.</p>
-              <p><a href="https://twitter.com/spawnfest" target="_blank"><img class="share-icon" src="img/twitter-icon.png">spawnfest</a></p>
-              <p><a href="https://www.facebook.com/spawnfest2017" target="_blank"><img class="share-icon"  src="img/facebook-icon.png">spawnfest2017</a></p>
-              <p><a href="mailto:spawnfest-organizers@googlegroups.com"><img class="share-icon" src="img/gmail-icon.png">spawnfest-organizers@googlegroups.com</a></p>
-              <p><a href="https://erlanger.slack.com/messages/C7M2PNZHB"><img class="share-icon" src="img/slack-icon.png">#spawnfest</a></p></a></p>
-              <p><a href="https://github.com/orgs/spawnfest/teams/players"><img class="share-icon" src="img/github-icon.png">spawnfest/teams/players</a></p></a></p>
-            </div>
-          </div>
-        </div>
-      </section>
+<!-- Header -->
+{% include header.html %}
 
-      <section id="previous">
-        <div class="container">
-          <div class="p-4 align-items-center">
-            <h2 class="display-4">Previous editions</h2>
-            <p>Check what happened in our previous editions:
-                <ul>
-                    <li><a href="https://spawnfest.github.io/2017/" target="_blank">2017</a></li>
-                    <li><a href="https://spawnfest.github.io/2012/" target="_blank">2012</a></li>
-                </ul>
-            </p>
-          </div>
-        </div>
-      </section>
+<!-- About -->
+{% include about.html %}
 
-    </div>
-    <div class="col-md-4 p-4">
-      <a class="twitter-timeline" href="https://twitter.com/spawnfest?ref_src=twsrc%5Etfw" data-height="900">Tweets by Spawnfest</a>
-    </div>
-  </div>
-</div>
-<script src="/vendor/twitter_widget.js"></script>
+<!-- Registration -->
+{% include registration.html %}
+
+<!-- Judges -->
+{% include judges.html %}
+
+<!-- Rules -->
+{% include rules.html %}
+
+<!-- Sponsors -->
+{% include sponsors.html %}
+
+<!-- Prizes -->
+{% include prizes.html %}
+
+<!-- Footer -->
+{% include footer.html %}

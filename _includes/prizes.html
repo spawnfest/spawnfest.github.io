@@ -1,0 +1,23 @@
+<section class=" bg1 sp-box" id="prizes">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Prizes</h2>
+        <h3 class="section-subheading text-muted">These are the prizes you may win, thanks to our generous sponsors</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for prize in site.prizes %}
+        <div class="col-sm-4">
+          <div class="team-member-prizes">
+            <a class="nav-link" target="_blank" href="{{ prize.url }}">
+              <img class="mx-auto rounded-top" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+            </a>
+            <p>{{ prize.name }}</p>
+            <p class="text-muted">by <strong><a target="_blank" href="{{prize.sponsor_url}}">{{ prize.sponsor }}</a></strong></p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

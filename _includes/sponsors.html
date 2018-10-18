@@ -1,13 +1,12 @@
----
-layout: default
-title: Sponsors
-permalink: /sponsors
----
-
-    <div class="p-3 text-center">
-      <p>This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/N3FkwrzluZiLsTXj2">join them</a>.</p>
+<section class="sp-box bg2" id="sponsors">
+  <div >
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Sponsors</h2>
+        <h3 class="section-subheading text-muted">This event is made possible by our sponsors. You can still <a target="_blank" href="https://goo.gl/forms/N3FkwrzluZiLsTXj2">join them</a>.</h3>
+      </div>
     </div>
-  {% if site.platinum_sponsor.description %}
+    {% if site.platinum_sponsor.description %}
       <div class="text-center sp-platinum">
         <h2 class="display-5">Platinum Sponsor</h2>
         <a class="btn sp-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
@@ -17,9 +16,10 @@ permalink: /sponsors
           </div>
         </a>
       </div>
-  {% endif %}
-  {% if site.gold_sponsors %}
-      <div class="text-center">
+    {% endif %}
+
+    {% if site.gold_sponsors %}
+      <div class="text-center p-3">
         <h2 class="display-5">Gold Sponsors</h2>
       </div>
       {% for sponsor in site.gold_sponsors %}
@@ -30,10 +30,11 @@ permalink: /sponsors
           </div>
         </a>
       {% endfor %}
-  {% endif %}
-  {% if site.bronze_sponsors %}
-      <div class="text-center">
-        <h4 class="display-5">Bronze Sponsors</h2>
+    {% endif %}
+
+    {% if site.bronze_sponsors %}
+      <div class="text-center pt-5 pb-1">
+        <h2 class="display-5">Bronze Sponsors</h2>
       </div>
       {% for sponsor in site.bronze_sponsors %}
         <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
@@ -43,17 +44,17 @@ permalink: /sponsors
           </div>
         </a>
       {% endfor %}
-  {% endif %}
+    {% endif %}
 
-<hr/>
-
-<div class="container">
-  <div class="col-md-12">
-    <div class="p-5">
-      <h2 class="display-5">Be a Sponsor!</h2>
-      <p>If you want to be a sponsor of this event, you just need to contribute with some prizes.
-      You can find more information and register as a sponsor in <a href="https://goo.gl/forms/N3FkwrzluZiLsTXj2" target="_blank">this form</a>.
-      Or you can contact us at <a href="mailto:spawnfest-organizers@googlegroups.com">spawnfest-organizers@googlegroups.com</a></p>
+    <div class="container">
+      <div class="col-md-12">
+        <div class="p-5">
+          <h2 class="display-5">Be a Sponsor!</h2>
+          <p>If you want to be a sponsor of this event, you just need to contribute with some prizes.
+          You can find more information and register as a sponsor in <a href="https://goo.gl/forms/N3FkwrzluZiLsTXj2" target="_blank">this form</a>.
+          Or you can contact us at <a href="mailto:spawnfest-organizers@googlegroups.com">spawnfest-organizers@googlegroups.com</a></p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>
