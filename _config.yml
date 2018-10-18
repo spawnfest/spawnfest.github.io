@@ -5,12 +5,12 @@ nav:
     ref: "#registration"
   - name: Judges
     ref: "#judges"
-  - name: Rules
-    ref: "#rules"
   - name: Sponsors
     ref: "#sponsors"
   - name: Prizes
     ref: "#prizes"
+  - name: Rules
+    ref: "#rules"
 
 social:
   - url: https://www.facebook.com/spawnfest2017

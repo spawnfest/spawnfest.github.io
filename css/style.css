@@ -30,6 +30,8 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-bottom: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 section h3.section-subheading {
@@ -115,6 +117,7 @@ section#rules {
   margin-bottom: 4%;
   border-radius: 20px;
   background-color: white;
+  padding-bottom: 3%;
 }
 
 .rule-icon {
@@ -156,6 +159,8 @@ a.style{
 
   section h2.section-heading {
     font-size: 32px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   section{
@@ -178,7 +183,27 @@ a.style{
   ul.rule-details{
     padding-left: 2%;
   }
-}
+
+  div.sponsors{
+    display: inline-block!important;
+    max-width:75%;
+    height: auto;
+  }
+  div.brands{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 19%;
+    width: 100%;
+  }
+  .twiter-mobile{
+    display: none;
+  }
+  img.logo-mobile{
+    max-width: 82%;
+    height: auto;
+  }
+  }
 
 ul.box{
   list-style-type: none!important;
