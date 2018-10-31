@@ -1,6 +1,18 @@
 <hr>
 <div class="container brands">
   <div class="d-flex justify-content-center align-items-center sponsors">
+    <div class="col-md-3 text-center">
+      <div class="p-2">
+        <a class="nav-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
+          <img class="img-fluid" src="/img/{{ site.platinum_sponsor.logo }}" alt="{{ site.platinum_sponsor.name }}">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container brands">
+  <div class="d-flex justify-content-center align-items-center sponsors">
     {% for sponsor in site.gold_sponsors %}
       <div class="col-md-2 text-center">
         <div class="p-2">
