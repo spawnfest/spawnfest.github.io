@@ -24,13 +24,13 @@ social:
   - url: "mailto:spawnfest-organizers@googlegroups.com"
     icon: "fas fa-envelope"
 
-# platinum_sponsor:
-#   name: PegB
-#   image: pegb.svg
-#   logo: pegb_logo.svg
-#   url: https://www.pegb.tech/
-#   description: Secure Cashless Payments for everyone, everywhere
-#   background_color: "#f05323"
+platinum_sponsor:
+  name: PegB
+  image: pegb.svg
+  logo: pegb_logo.svg
+  url: https://www.pegb.tech/
+  description: Secure Cashless Payments for everyone, everywhere
+  background_color: "#f05323"
 
 gold_sponsors:
   - name: Erlang Solutions
@@ -79,6 +79,21 @@ bronze_sponsors:
     background_color: "#000000"
 
 prizes:
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
+  - name: <strong>500USD</strong> Amazon Gift Card
+    sponsor: PegB
+    sponsor_url: https://www.pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card-500.png
   - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
     sponsor: Erlang Solutions
     sponsor_url: https://www.erlang-solutions.com/
