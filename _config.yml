@@ -239,7 +239,8 @@ rules:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
       - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
-      - text: "No code can be created before the start of the contest."
+      - text: "Only code created after the start of the contest will be evaluated by the judges."
+      - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
       - text: Each team should come up with their own project idea (If you need inspiration check <a href="/ideas">our list of project ideas</a>)
       - text: "The organizing team will create a git repository at GitHub for each team."
       - text: "If a team needs more than one, they can ask the organizers to create extra repos for them."
