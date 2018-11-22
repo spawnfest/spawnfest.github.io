@@ -9,13 +9,13 @@ var Countdown = new Countdown({
   rangeHi  : "day",
   target   : "countdown",
   interval : 1000,
-  width    : 300,
-  height   : 70,
+  width    : 450,
+  height   : 100,
   hideLine : 1,
   numbers  : {
     font  : "Arial",
     color : "#FFFFFF",
-    bkgd  : "#14316F",
+    bkgd  : "#04458c",
     rounded : 0.15,
     shadow  : {
       x : 0,
@@ -26,7 +26,7 @@ var Countdown = new Countdown({
     }
   },
   labels: {
-    color  : "#c1bbbb",
+    color  : "#FFFFFF",
     weight : "normal"
   }
 });
