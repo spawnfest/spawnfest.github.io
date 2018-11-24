@@ -97,7 +97,7 @@ img.lambda{
     padding-left: 0;
   }
 
-  #countdown {
+  .countdown {
     display: none!important;
   }
 
