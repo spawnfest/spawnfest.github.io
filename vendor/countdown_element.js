@@ -3,7 +3,7 @@ var Countdown = new Countdown({
   month    : 11,
   day      : 26,
   hour     : 0,
-  minute   : 0,
+  minute   : 30,
   second   : 0,
   timezone : 0,
   rangeHi  : "day",
