@@ -83,6 +83,16 @@ img.lambda{
   background-color: grey;
 }
 
+.head-message {
+  background-color: #ff4500;
+  box-shadow: 0 0 0 4px #ff4500, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 2px;
+  max-width: 70%;
+  transform: rotate(-6deg);
+}
+
 @media (min-width: 768px) {
   section {
     padding: 11px 0;
@@ -97,7 +107,7 @@ img.lambda{
     padding-left: 0;
   }
 
-  .countdown {
+  .big-screen {
     display: none!important;
   }
 
