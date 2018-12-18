@@ -644,11 +644,10 @@ img.sp-img {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .team-member-prizes {
   margin-bottom: 50px;
   text-align: center;
-
-
 }
 
 .team-member img {
@@ -676,30 +675,31 @@ img.sp-img {
 }
 
 
-.fab{
-
-font-size: 30px;
+.fab {
+  font-size: 30px;
 }
+
 .team-member p {
   margin-top: 0;
 }
 
-.fas{
-
-font-size: 30px;
+.fas {
+  font-size: 30px;
 }
 
 .team-member-prizes p {
   margin-top: 0;
 }
 
-.hashtag{
+.hashtag {
   font-size: 18px;
   font-family: 'Ubuntu Condensed';
 }
+
 p.hashtag {
   background-color:#032b56;
 }
+
 }
 section#contact {
   background-image: url("../img/map-image.png");
@@ -712,6 +712,59 @@ section#contact {
   margin-left: 0;
 }
 
+img.member {
+  width: 100px;
+  vertical-align: bottom;
+}
+
+img.member-small {
+  width: 80px;
+  vertical-align: bottom;
+}
+
+.winner-prize {
+  width: auto;
+  height: 90px;
+}
+
+.winner-box {
+  margin-top: 35px;
+}
+
+.winner-description {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote footer {
+  background-color: transparent!important;
+  padding: 0;
+  text-align: right;
+}
 
 section#contact .section-heading {
   color: #fff;

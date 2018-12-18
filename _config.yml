@@ -177,45 +177,56 @@ judges:
     image: juan.jpeg
 
 winner:
-  # team: SampleTeam
-  # project: SampleProject
-  # repo: sample_repo_name
-  # description: Sample Description
-  # link: https://www.sample.link.org/
-  # members:
-  #   - name: Sample Name
-  #     user: sample_user
-  #     avatar: https://avatars0.githubusercontent.com/u/477062
-  # prizes:
-  #   - name: <strong>###USD</strong> Sample Price
-  #     sponsor: Sample Sponsor
-  #     sponsor_url: https://www.sample.sponsor.url.com/
-  #     url: http://sample.prize.url
-  #     image: sample_image.jpg
-  # comments:
-  #   - text: Sample comment
-  #     author: Sample Author
+  team: Iñaqus
+  project: Lambdex
+  repo: lambdex
+  description: Lambdex is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
+  link:
+  members:
+    - user: mlambir
+      avatar: https://avatars2.githubusercontent.com/u/117318
+    - user: pbrudnick
+      avatar: https://avatars1.githubusercontent.com/u/896524
+    - user: diegomanuel
+      avatar: https://avatars1.githubusercontent.com/u/5076158
+    - user: igaray
+      avatar: https://avatars3.githubusercontent.com/u/167193
+  prizes:
+    - name: <strong>500USD</strong> Amazon Gift Card
+      sponsor: PegB
+      sponsor_url: https://www.pegb.tech/
+      url: https://www.amazon.com/gift-cards/
+      image: amazon-gift-card-500.png
+    - name: GoPro HERO5
+      sponsor: Scrapinghub
+      sponsor_url: https://scrapinghub.com/
+      url: http://a.co/d/i6w4LVH
+      image: gopro.jpg
+  comments:
+    - text: Fully running code, fun to use, looks practical.
+      author: Kenji
+    - text: Really interesting and complete project.
+      author: Juan Facorro
 
 category_winners:
-  # - team: SampleTeam
-  #   project: SampleProject
-  #   repo: sample_repo_name
-  #   description: Sample Description
-  #   link: https://www.sample.link.org/
-  #   category: SampleCategory
-  #   members:
-  #     - name: Sample Name
-  #       user: sample_user
-  #       avatar: https://avatars0.githubusercontent.com/u/477062
-  #   prize:
-  #     name: <strong>###USD</strong> Sample Price
-  #     sponsor: Sample Sponsor
-  #     sponsor_url: https://www.sample.sponsor.url.com/
-  #     url: http://sample.prize.url
-  #     image: sample_image.jpg
-  #   comments:
-  #     - text: Sample comment
-  #       author: Sample Author
+  - team: SampleTeam
+    project: SampleProject
+    repo: sample_repo_name
+    description: Sample Description
+    link: https://www.sample.link.org/
+    category: SampleCategory
+    members:
+      - user: sample_user
+        avatar: https://avatars0.githubusercontent.com/u/477062
+    prize:
+      name: <strong>###USD</strong> Sample Price
+      sponsor: Sample Sponsor
+      sponsor_url: https://www.sample.sponsor.url.com/
+      url: http://sample.prize.url
+      image: sample_image.jpg
+    comments:
+      - text: Sample comment
+        author: Sample Author
 
 rules:
   - title: "Schedule"
