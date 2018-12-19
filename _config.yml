@@ -180,8 +180,7 @@ winner:
   team: Iñaqus
   project: Lambdex
   repo: lambdex
-  description: Lambdex is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
-  link:
+  description: <a href="https://github.com/spawnfest/lambdex" target="_blank">Lambdex</a> is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
   members:
     - user: mlambir
       avatar: https://avatars2.githubusercontent.com/u/117318
@@ -209,24 +208,156 @@ winner:
       author: Juan Facorro
 
 category_winners:
-  - team: SampleTeam
-    project: SampleProject
-    repo: sample_repo_name
-    description: Sample Description
-    link: https://www.sample.link.org/
-    category: SampleCategory
+  - team: boxerboy
+    project: Boxerboy
+    repo: boxerboyapp
+    description: This is the beginnings of a game builder for old-school pixelated games. The idea was from my son, and although he really wanted it to run on his 3DS, we are taking small steps to get this done.
+    category: Creativity
     members:
-      - user: sample_user
-        avatar: https://avatars0.githubusercontent.com/u/477062
-    prize:
-      name: <strong>###USD</strong> Sample Price
-      sponsor: Sample Sponsor
-      sponsor_url: https://www.sample.sponsor.url.com/
-      url: http://sample.prize.url
-      image: sample_image.jpg
+      - user: aforward
+        avatar: https://avatars2.githubusercontent.com/u/48086
+    prizes:
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: AdRoll
+        sponsor_url: https://tech.adroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card5.png
+      - name: A bunch of books (TBD)
+        sponsor: LambdaClass
+        sponsor_url: http://lambdaclass.com/
+        url: https://youtu.be/oHg5SJYRHA0
+        image: books.png
     comments:
-      - text: Sample comment
-        author: Sample Author
+      - text: Fully running code, easy to use, easy to understand and play
+        author: Kenji
+  - team: Nordic Syntax Tree
+    project: FuncDiff
+    repo: func_diff
+    description: Diff Erlang/Elixir projects by modules and functions (including its doc and typespec) across git branches.
+    category: Usefulness
+    members:
+      - user: aquarhead
+        avatar: https://avatars2.githubusercontent.com/u/222272
+      - user: fdfzcq
+        avatar: https://avatars0.githubusercontent.com/u/5684684
+      - user: starrify
+        avatar: https://avatars1.githubusercontent.com/u/388828
+    prizes:
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: AdRoll
+        sponsor_url: https://tech.adroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card5.png
+      - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
+        sponsor: Fiqus
+        sponsor_url: http://www.fiqus.com
+        url: https://elixircasts.io/alchemists-edition
+        image: alchemist.png
+    comments:
+      - text: Something like this could be used to allow Hex to warn the user when publishing breaking changes as a minor release.
+        author: René
+  - team: K32
+    project: Lee
+    repo: lee
+    description: Lee helps creating type-safe, self-documenting configuration for Erlang applications. It is basically a data modeling DSL, vaguely inspired by YANG, however scaled down a lot.
+    category: Innovation
+    members:
+      - user: k32
+        avatar: https://avatars1.githubusercontent.com/u/10274441
+    prizes:
+      - name: <strong>500USD</strong> Amazon Gift Card
+        sponsor: PegB
+        sponsor_url: https://www.pegb.tech/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card-500.png
+      - name: Designing Data-Intensive Applications (the book)
+        sponsor: LambdaClass
+        sponsor_url: http://lambdaclass.com/
+        url: https://dataintensive.net/
+        image: book-1.png
+    comments:
+      - text: Plenty of potential as something like clique
+        author: Tristan
+  - team: BRB
+    project: Brink
+    repo: team-brb
+    description: Brink is a producer-consumer library for Redis Streams. It is an implementation of the GenStage behavior and is intended to be used with Flow.
+    category: Correctness
+    members:
+      - user: ramonsnir
+        avatar: https://avatars3.githubusercontent.com/u/1024028
+      - user: bgottlob
+        avatar: https://avatars1.githubusercontent.com/u/3633212
+    prizes:
+      - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
+        sponsor: Erlang Solutions
+        sponsor_url: https://www.erlang-solutions.com/
+        url: https://codesync.global/conferences/code-beam-sf-2019/
+        image: codebeamsf2018.jpg
+      - name: 2 GRiSP boards, a Motor Robot Kit and assorted PMODs
+        sponsor: Peer Stritzinger GmbH
+        sponsor_url: https://www.stritzinger.com/
+        url: https://www.grisp.org
+        image: Grisp.jpeg
+    comments:
+      - text: It was pretty nice having the docker-compose cluster to check how consumer(s) and producer(s) interacted together.
+        author: Juan Facorro
+  - team: Iñaqus
+    project: Lambdex
+    repo: lambdex
+    description: <a href="https://github.com/spawnfest/lambdex" target="_blank">Lambdex</a> is a code execution service, allowing one to run code without building the surrounding infrastructure. Just upload the code and trigger its execution, kind of like a DIY AWS Lambda.
+    category: Maintainability
+    members:
+      - user: mlambir
+        avatar: https://avatars2.githubusercontent.com/u/117318
+      - user: pbrudnick
+        avatar: https://avatars1.githubusercontent.com/u/896524
+      - user: diegomanuel
+        avatar: https://avatars1.githubusercontent.com/u/5076158
+      - user: igaray
+        avatar: https://avatars3.githubusercontent.com/u/167193
+    prizes:
+      - name: Bose QuietComfort 35 (Series II) Wireless Headphones
+        sponsor: Scrapinghub
+        sponsor_url: https://scrapinghub.com/
+        url: http://a.co/d/20tFeCm
+        image: headphones.jpg
+      - name: 4 unique t-shirts
+        sponsor: 10Pines
+        sponsor_url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+        url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
+        image: remeras.png
+    comments:
+      - text: extra points for providing a docker-compose setup
+        author: Tristan
+  - team: Pink Team
+    project: Vostok
+    repo: vostok
+    description: Vostok converts an image to a pixelated SVG.</br>Восток (Vostok in English) was the Russian spacecraft that in 1961 allowed the first human spaceflight.
+    category: Completion
+    members:
+      - user: xrmx
+        avatar: https://avatars3.githubusercontent.com/u/12932
+      - user: endorama
+        avatar: https://avatars3.githubusercontent.com/u/526307
+      - user: mukkoo
+        avatar: https://avatars0.githubusercontent.com/u/1052512
+      - user: ramensoup
+        avatar: https://avatars0.githubusercontent.com/u/9130232
+    prizes:
+      - name: <strong>500USD</strong> Amazon Gift Card
+        sponsor: PegB
+        sponsor_url: https://www.pegb.tech/
+        url: https://www.amazon.com/gift-cards/
+        image: amazon-gift-card-500.png
+      - name: <strong>4x</strong> <strong>150USD</strong> Free tickets to Any CodeBEAM Lite
+        sponsor: Erlang Solutions
+        sponsor_url: https://www.erlang-solutions.com/
+        url: https://codesync.global/conferences/#CodeBEAMLite
+        image: codebeamlite2018.jpg
+    comments:
+      - text: Extra points for the nice logo and curated README
+        author: Andrea
 
 rules:
   - title: "Schedule"

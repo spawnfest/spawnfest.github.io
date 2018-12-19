@@ -84,13 +84,17 @@ img.lambda{
 }
 
 .head-message {
-  background-color: #ff4500;
-  box-shadow: 0 0 0 4px #ff4500, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  background-color: #097716;
+  box-shadow: 0 0 0 4px #097716, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
   border-style: dashed;
   border-width: 2px;
   border-radius: 2px;
   max-width: 70%;
-  transform: rotate(-6deg);
+  color: white;
+}
+
+a.winners-link {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -733,6 +737,16 @@ img.member-small {
 
 .winner-description {
   margin-top: 20px;
+}
+
+
+.category-winner > div {
+  width: 75%;
+  margin-left: 10%;
+}
+
+h2.category {
+  text-decoration: underline;
 }
 
 .comment {
