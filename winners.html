@@ -1,0 +1,130 @@
+---
+layout: default
+title: Winners
+permalink: /winners
+---
+
+<!-- Navigation -->
+{% include navigation.html %}
+
+<div class="pt-5">
+  <div class="pt-5 row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="text-center">
+        <h2 class="display-4">Spawnfest Winner</h2>
+        <div class="winner-box">
+          <h2><a href="https://github.com/spawnfest/{{ site.winner.repo }}" target="_blank">{{ site.winner.project }}</a></h2>
+        </div>
+        <div>
+          by <strong>{{ site.winner.team }}</strong>
+          <br/>
+          {% for member in site.winner.members %}
+            <a href="https://github.com/{{ member.user }}" target="_blank">
+              <img class="member"  src="{{ member.avatar }}">
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="winner-description">
+        <span>{{ site.winner.description }}</span>
+        <p><a href="{{ site.winner.link }}" target="_blank">{{ site.winner.link }}</a></p>
+      </div>
+      <div class="comments-box">
+        <div>
+          {% for comment in site.winner.comments %}
+            <div class="comment">
+              <blockquote>
+                {{ comment.text }}
+                <footer class="cmt-author">- {{ comment.author }}</footer>
+              </blockquote>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="text-center"><p><strong>Prizes</strong></p></div>
+      <div class="row text-center">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 row">
+          {% for prize in site.winner.prizes %}
+            <div class="col-md-6">
+              <a class="nav-link" target="_blank" href="{{ prize.url }}">
+              <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+              </a>
+              <div class="col-md-12">
+                <span>{{ prize.name }}</span>
+                <p>by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <hr/>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+
+  <!-- Category Winners -->
+
+  <h2 class="text-center display-4">Category Winners</h2>
+  <div class="container-fluid">
+      {% assign rows = site.category_winners.size | divided_by: 2.0 | ceil %}
+      {% for i in (1..rows) %}
+        {% assign offset = forloop.index0 | times: 2 %}
+          <div class="row winner-box">
+            {% for winner in site.category_winners limit:2 offset:offset %}
+              <div class="col-md-6 category-winner">
+                <div class="text-center">
+                  <h2 class="display-5 p-4 category">{{ winner.category }}</h2>
+                  <h3><a href="https://github.com/spawnfest/{{ winner.repo }}" target="_blank">{{ winner.project }}</a></h3>
+                  by <strong>{{ winner.team }}</strong>
+                  <div>
+                    {% for member in winner.members %}
+                      <a href="https://github.com/{{ member.user }}" target="_blank">
+                        <img class="member-small"  src="{{ member.avatar }}">
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+                <div class="winner-description">
+                  <span>{{ winner.description }}</span>
+                  <p><a href="{{ winner.link }}" target="_blank">{{ winner.link }}</a></p>
+                </div>
+                <div>
+                  {% for comment in winner.comments %}
+                    <div class="comment">
+                      <blockquote>
+                        {{ comment.text }}
+                        <footer class="cmt-author">- {{ comment.author }}</footer>
+                      </blockquote>
+                    </div>
+                  {% endfor %}
+                </div>
+                <div class="text-center"><p><strong>Prizes</strong></p></div>
+                <div class="row text-center">
+                  {% for prize in winner.prizes %}
+                    <div class="col-md-6">
+                      <a class="nav-link" target="_blank" href="{{ prize.url }}">
+                      <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+                      </a>
+                      <div class="col-md-12">
+                        <span>{{ prize.name }}</span>
+                        <p>by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {% endfor %}
+            <hr class="col-md-6 mt-5">
+          </div>
+      {% endfor %}
+  </div>
+</div>
+
+<!-- Sponsor Logos -->
+{% include sponsor_logos.html %}
+
+<!-- Footer -->
+{% include footer.html %}

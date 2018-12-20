@@ -84,13 +84,17 @@ img.lambda{
 }
 
 .head-message {
-  background-color: #ff4500;
-  box-shadow: 0 0 0 4px #ff4500, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  background-color: #097716;
+  box-shadow: 0 0 0 4px #097716, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
   border-style: dashed;
   border-width: 2px;
   border-radius: 2px;
   max-width: 70%;
-  transform: rotate(-6deg);
+  color: white;
+}
+
+a.winners-link {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -644,11 +648,10 @@ img.sp-img {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .team-member-prizes {
   margin-bottom: 50px;
   text-align: center;
-
-
 }
 
 .team-member img {
@@ -676,30 +679,31 @@ img.sp-img {
 }
 
 
-.fab{
-
-font-size: 30px;
+.fab {
+  font-size: 30px;
 }
+
 .team-member p {
   margin-top: 0;
 }
 
-.fas{
-
-font-size: 30px;
+.fas {
+  font-size: 30px;
 }
 
 .team-member-prizes p {
   margin-top: 0;
 }
 
-.hashtag{
+.hashtag {
   font-size: 18px;
   font-family: 'Ubuntu Condensed';
 }
+
 p.hashtag {
   background-color:#032b56;
 }
+
 }
 section#contact {
   background-image: url("../img/map-image.png");
@@ -712,6 +716,69 @@ section#contact {
   margin-left: 0;
 }
 
+img.member {
+  width: 100px;
+  vertical-align: bottom;
+}
+
+img.member-small {
+  width: 80px;
+  vertical-align: bottom;
+}
+
+.winner-prize {
+  width: auto;
+  height: 90px;
+}
+
+.winner-box {
+  margin-top: 35px;
+}
+
+.winner-description {
+  margin-top: 20px;
+}
+
+
+.category-winner > div {
+  width: 75%;
+  margin-left: 10%;
+}
+
+h2.category {
+  text-decoration: underline;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote footer {
+  background-color: transparent!important;
+  padding: 0;
+  text-align: right;
+}
 
 section#contact .section-heading {
   color: #fff;
