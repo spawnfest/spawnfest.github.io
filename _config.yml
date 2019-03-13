@@ -363,8 +363,8 @@ rules:
   - title: "Schedule"
     icon: "fas fa-calendar-alt"
     details:
-      - text: The event will start on <strong>2018-11-24 00:00 UTC</strong>.
-      - text: The event will end on <strong>2018-11-25 23:59 UTC</strong>.
+      - text: The event will start on <strong>2019-09-21 00:00 UTC</strong>.
+      - text: The event will end on <strong>2019-09-22 23:59 UTC</strong>.
       - text: The registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
   - title: Teams
