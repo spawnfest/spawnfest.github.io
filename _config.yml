@@ -163,10 +163,10 @@ judges:
   #   url: http://blog.erlware.org
   #   twitter: t_sloughter
   #   image: tristan.jpg
-  # - name: Miriam Pena
-  #   url: https://www.linkedin.com/in/miriampena/
-  #   twitter: miriampena
-  #   image: miriam.jpg
+  - name: Anna Neyzberg
+    url: https://elixiroutlaws.com/hosts/anna
+    twitter: ANeyzb
+    image: anna.jpg
   # - name: Andrea Leopardi
   #   url: https://andrealeopardi.com/
   #   twitter: whatyouhide
