@@ -3,8 +3,8 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-  # - name: Judges
-  #   ref: "#judges"
+  - name: Judges
+    ref: "#judges"
   - name: Sponsors
     ref: "#sponsors"
   # - name: Prizes
@@ -155,10 +155,10 @@ judges:
   #   url: http://trivelop.de/
   #   twitter: rrrene
   #   image: rrrene.png
-  # - name: Kenji Rikitake
-  #   url: https://rikitake.jp/
-  #   twitter: jj1bdx
-  #   image: kenji.jpg
+  - name: Kenji Rikitake
+    url: https://rikitake.jp/
+    twitter: jj1bdx
+    image: kenji.jpg
   # - name: Tristan Sloughter
   #   url: http://blog.erlware.org
   #   twitter: t_sloughter
