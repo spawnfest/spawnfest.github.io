@@ -151,10 +151,6 @@ prizes:
   #   image: remeras.png
 
 judges:
-  # - name: René Föhring
-  #   url: http://trivelop.de/
-  #   twitter: rrrene
-  #   image: rrrene.png
   - name: Kenji Rikitake
     url: https://rikitake.jp/
     twitter: jj1bdx
@@ -167,6 +163,10 @@ judges:
     url: https://elixiroutlaws.com/hosts/anna
     twitter: ANeyzb
     image: anna.jpg
+  - name: René Föhring
+    url: http://trivelop.de/
+    twitter: rrrene
+    image: rrrene.png
   - name: Laura M. Castro
     url: https://about.me/laura.castro
     twitter: lauramcastro
