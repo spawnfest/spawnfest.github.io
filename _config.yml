@@ -155,26 +155,26 @@ judges:
     url: https://rikitake.jp/
     twitter: jj1bdx
     image: kenji.jpg
-  # - name: Tristan Sloughter
-  #   url: http://blog.erlware.org
-  #   twitter: t_sloughter
-  #   image: tristan.jpg
   - name: Anna Neyzberg
     url: https://elixiroutlaws.com/hosts/anna
     twitter: ANeyzb
     image: anna.jpg
-  - name: René Föhring
-    url: http://trivelop.de/
-    twitter: rrrene
-    image: rrrene.png
-  - name: Laura M. Castro
-    url: https://about.me/laura.castro
-    twitter: lauramcastro
-    image: laura.jpg
   - name: Norberto Ortigoza
     url: http://bunsan.io/
     twitter: hiphoox
     image: norberto.jpg
+  - name: René Föhring
+    url: http://trivelop.de/
+    twitter: rrrene
+    image: rrrene.png
+  # - name: Tristan Sloughter
+  #   url: http://blog.erlware.org
+  #   twitter: t_sloughter
+  #   image: tristan.jpg
+  - name: Laura M. Castro
+    url: https://about.me/laura.castro
+    twitter: lauramcastro
+    image: laura.jpg
 
 winner:
   team: Iñaqus
