@@ -171,10 +171,10 @@ judges:
     url: https://about.me/laura.castro
     twitter: lauramcastro
     image: laura.jpg
-  # - name: Juan Facorro
-  #   url: http://juan.facorro.com
-  #   twitter: jfacorro
-  #   image: juan.jpeg
+  - name: Norberto Ortigoza
+    url: http://bunsan.io/
+    twitter: hiphoox
+    image: norberto.jpg
 
 winner:
   team: Iñaqus
