@@ -167,14 +167,14 @@ judges:
     url: http://trivelop.de/
     twitter: rrrene
     image: rrrene.png
-  # - name: Tristan Sloughter
-  #   url: http://blog.erlware.org
-  #   twitter: t_sloughter
-  #   image: tristan.jpg
   - name: Laura M. Castro
     url: https://about.me/laura.castro
     twitter: lauramcastro
     image: laura.jpg
+  - name: Michał Muskała
+    url: https://michal.muskala.eu/
+    twitter: michalmuskala
+    image: michal.jpeg
 
 winner:
   team: Iñaqus
