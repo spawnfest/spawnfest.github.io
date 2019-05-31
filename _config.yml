@@ -7,8 +7,8 @@ nav:
     ref: "#judges"
   - name: Sponsors
     ref: "#sponsors"
-  # - name: Prizes
-  #   ref: "#prizes"
+  - name: Prizes
+    ref: "#prizes"
   - name: Rules
     ref: "#rules"
 
@@ -25,12 +25,12 @@ social:
     icon: "fas fa-envelope"
 
 platinum_sponsor:
-  # name: PegB
-  # image: pegb.svg
-  # logo: pegb_logo.svg
-  # url: https://www.pegb.tech/
-  # description: Secure Cashless Payments for everyone, everywhere
-  # background_color: "#f05323"
+  name: DigitalOcean
+  image: digitalocean.svg
+  logo: digitalocean_logo.svg
+  url: https://www.digitalocean.com/
+  description: The Developer Cloud
+  background_color: "#0080FF"
 
 gold_sponsors:
   # - name: Erlang Solutions
@@ -79,16 +79,16 @@ bronze_sponsors:
   #   background_color: "#000000"
 
 prizes:
-  # - name: <strong>500USD</strong> Amazon Gift Card
-  #   sponsor: PegB
-  #   sponsor_url: https://www.pegb.tech/
-  #   url: https://www.amazon.com/gift-cards/
-  #   image: amazon-gift-card-500.png
-  # - name: <strong>500USD</strong> Amazon Gift Card
-  #   sponsor: PegB
-  #   sponsor_url: https://www.pegb.tech/
-  #   url: https://www.amazon.com/gift-cards/
-  #   image: amazon-gift-card-500.png
+  - name: <strong>4x</strong> <strong>500USD</strong> in Credits
+    sponsor: DigitalOcean
+    sponsor_url: https://www.digitalocean.com/
+    url: https://www.digitalocean.com/
+    image: digitalocean_logo_prize.png
+  - name: Sammy T-Shirts
+    sponsor: DigitalOcean
+    sponsor_url: https://www.digitalocean.com/
+    url: http://store.digitalocean.com/doswag/unisex-apparel/unisex-space-sammy-tees/8662
+    image: sammy-t-shirt.jpeg
   # - name: <strong>500USD</strong> Amazon Gift Card
   #   sponsor: PegB
   #   sponsor_url: https://www.pegb.tech/
