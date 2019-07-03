@@ -34,7 +34,7 @@ platinum_sponsor:
 
 gold_sponsors:
   - name: æternity
-    image: aeternity.png
+    image: aeternity.svg
     logo: aeternity_logo.png
     url: https://aeternity.com/
     description: "Scalable smart contracts interfacing with real-world data"
