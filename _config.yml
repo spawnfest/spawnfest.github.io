@@ -58,7 +58,7 @@ gold_sponsors:
   #   description: "Turn websites into data"
   #   background_color: "#607d8b"
 
-bronze_sponsors:
+media_sponsors:
   # - name: 10Pines
   #   image: 10pines-blanco.svg
   #   logo: 10pines-color.svg
@@ -71,12 +71,12 @@ bronze_sponsors:
   #   url: http://www.fiqus.com
   #   description: "Software Cooperative"
   #   background_color: "#333333"
-  # - name: LambdaClass
-  #   image: lambdaclass-gray.png
-  #   logo: lambdaclass.png
-  #   url: http://lambdaclass.com/
-  #   description: "A Software Company from Another Dimension"
-  #   background_color: "#000000"
+  - name: LambdaClass
+    image: lambdaclass-gray.png
+    logo: lambdaclass.png
+    url: http://lambdaclass.com/
+    description: "A Software Company from Another Dimension"
+    background_color: "#000000"
 
 prizes:
   - name: <strong>4x</strong> <strong>500USD</strong> in Credits
