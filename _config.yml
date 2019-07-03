@@ -33,12 +33,12 @@ platinum_sponsor:
   background_color: "#0080FF"
 
 gold_sponsors:
-  # - name: Erlang Solutions
-  #   image: esl.svg
-  #   logo: esl.png
-  #   url: https://www.erlang-solutions.com/
-  #   description: "Erlang, Elixir & BEAM Technology Consultancy"
-  #   background_color: "#ab191e"
+  - name: æternity
+    image: aeternity.svg
+    logo: aeternity_logo.png
+    url: https://aeternity.com/
+    description: "Scalable smart contracts interfacing with real-world data"
+    background_color: "#DE3F6B"
   # - name: Peer Stritzinger GmbH
   #   image: PS_Logo.svg
   #   logo: peer.svg
@@ -89,11 +89,11 @@ prizes:
     sponsor_url: https://www.digitalocean.com/
     url: http://store.digitalocean.com/doswag/unisex-apparel/unisex-space-sammy-tees/8662
     image: sammy-t-shirt.jpeg
-  # - name: <strong>500USD</strong> Amazon Gift Card
-  #   sponsor: PegB
-  #   sponsor_url: https://www.pegb.tech/
-  #   url: https://www.amazon.com/gift-cards/
-  #   image: amazon-gift-card-500.png
+  - name: <strong>500USD</strong> in æternity credits
+    sponsor: æternity
+    sponsor_url: https://aeternity.com/
+    url: https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740#88a2
+    image: aeternity-tokens.png
   # - name: <strong>900USD</strong> Free 2-day CodeBEAM SF ticket
   #   sponsor: Erlang Solutions
   #   sponsor_url: https://www.erlang-solutions.com/
