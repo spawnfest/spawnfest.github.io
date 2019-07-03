@@ -46,6 +46,20 @@
       {% endfor %}
     {% endif %}
 
+    {% if site.media_sponsors %}
+      <div class="text-center pt-5 p-5 pb-1">
+        <h2 class="display-5">Media Sponsors</h2>
+      </div>
+      {% for sponsor in site.media_sponsors %}
+        <a class="btn sp-link" target="_blank" href="{{ sponsor.url }}">
+          <div class="p-1 text-center sp-box" style="background-color: {{ sponsor.background_color }};">
+            <img class="p-1 img-fluid sp-img" src="/img/{{ sponsor.image }}" alt="{{ sponsor.name }}" style="max-height: 50px">
+            <p>{{ sponsor.description }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    {% endif %}
+
     <div class="container">
       <div class="col-md-12">
         <div class="p-5">
