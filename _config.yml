@@ -45,12 +45,14 @@ gold_sponsors:
     url: http://www.codesync.global/
     description: "A family of tech conferences for the Erlang Ecosystem"
     background_color: "#A41495"
-  # - name: Peer Stritzinger GmbH
-  #   image: PS_Logo.svg
-  #   logo: peer.svg
-  #   url: https://www.stritzinger.com/
-  #   description: "Dive into a new experience of building wireless embedded systems"
-  #   background_color: "#438"
+
+silver_sponsors:
+  - name: Fiqus
+    image: fiqusclaro.png
+    logo: fiqus.png
+    url: https://fiqus.com/
+    description: "A cooperative company specialized in software"
+    background_color: "#323232"
   # - name: AdRoll Group
   #   image: droll.svg
   #   logo: logo-adroll-group.png
@@ -93,6 +95,11 @@ prizes:
     sponsor_url: http://www.codesync.global/
     url: https://codesync.global/conferences
     image: codesync_ticket.png
+  - name: 3 ebooks from The Pragmatic Bookshelf
+    sponsor: Fiqus
+    sponsor_url: http://www.fiqus.com
+    url: https://pragprog.com/
+    image: books.png
   # - name: <strong>300USD</strong> Amazon Gift Card
   #   sponsor: AdRoll
   #   sponsor_url: https://tech.adroll.com/
@@ -128,11 +135,6 @@ prizes:
   #   sponsor_url: https://scrapinghub.com/
   #   url: http://a.co/d/20tFeCm
   #   image: headphones.jpg
-  # - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
-  #   sponsor: Fiqus
-  #   sponsor_url: http://www.fiqus.com
-  #   url: https://elixircasts.io/alchemists-edition
-  #   image: alchemist.png
   # - name: 4 unique t-shirts
   #   sponsor: 10Pines
   #   sponsor_url: https://www.10pines.com/?utm_source=spawnfest&utm_medium=banner&utm_campaign=spawnfest-2018
