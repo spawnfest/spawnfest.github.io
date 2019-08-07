@@ -50,7 +50,7 @@ silver_sponsors:
   - name: Fiqus
     image: fiqusclaro.svg
     logo: fiqus.png
-    url: https://fiqus.com/
+    url: https://fiqus.coop/
     description: "A cooperative company specialized in software"
     background_color: "#323232"
   # - name: AdRoll Group
@@ -97,7 +97,7 @@ prizes:
     image: codesync_ticket.png
   - name: 3 ebooks from The Pragmatic Bookshelf
     sponsor: Fiqus
-    sponsor_url: http://www.fiqus.com
+    sponsor_url: http://fiqus.coop
     url: https://pragprog.com/
     image: books.png
   # - name: <strong>300USD</strong> Amazon Gift Card
@@ -241,7 +241,7 @@ category_winners:
         image: amazon-gift-card5.png
       - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
         sponsor: Fiqus
-        sponsor_url: http://www.fiqus.com
+        sponsor_url: http://fiqus.coop
         url: https://elixircasts.io/alchemists-edition
         image: alchemist.png
     comments:
