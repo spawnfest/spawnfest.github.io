@@ -45,6 +45,12 @@ gold_sponsors:
     url: http://www.codesync.global/
     description: "A family of tech conferences for the Erlang Ecosystem"
     background_color: "#A41495"
+  - name: Peg b Technology
+    image: pegb.svg
+    logo: pegb_logo.svg
+    url: https://pegb.tech/
+    description: "Simple secure cashless payments for everyone, everywhere"
+    background_color: "#f05323"
 
 silver_sponsors:
   - name: Fiqus
@@ -100,16 +106,16 @@ prizes:
     sponsor_url: http://fiqus.coop
     url: https://pragprog.com/
     image: books.png
-  # - name: <strong>300USD</strong> Amazon Gift Card
-  #   sponsor: AdRoll
-  #   sponsor_url: https://tech.adroll.com/
-  #   url: https://www.amazon.com/gift-cards/
-  #   image: amazon-gift-card5.png
-  # - name: <strong>300USD</strong> Amazon Gift Card
-  #   sponsor: AdRoll
-  #   sponsor_url: https://tech.adroll.com/
-  #   url: https://www.amazon.com/gift-cards/
-  #   image: amazon-gift-card5.png
+  - name: <strong>250USD</strong> Amazon Gift Card
+    sponsor: Peg b Technology
+    sponsor_url: https://pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
+  - name: <strong>250USD</strong> Amazon Gift Card
+    sponsor: Peg b Technology
+    sponsor_url: https://pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
   # - name: A bunch of books (TBD)
   #   sponsor: LambdaClass
   #   sponsor_url: http://lambdaclass.com/
