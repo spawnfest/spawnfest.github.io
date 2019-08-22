@@ -51,6 +51,13 @@ gold_sponsors:
     url: https://pegb.tech/
     description: "Simple secure cashless payments for everyone, everywhere"
     background_color: "#f05323"
+  - name: Peer Stritzinger GmbH
+    image: PS_Logo.svg
+    logo: peer.svg
+    url: https://www.stritzinger.com/
+    description: "Dive into a new experience of building wireless embedded systems"
+    background_color: "#438"
+
 
 silver_sponsors:
   - name: Fiqus
@@ -116,6 +123,11 @@ prizes:
     sponsor_url: https://pegb.tech/
     url: https://www.amazon.com/gift-cards/
     image: amazon-gift-card5.png
+  - name: 3 GRiSP2 boards
+    sponsor: Peer Stritzinger GmbH
+    sponsor_url: https://www.stritzinger.com/
+    url: https://www.grisp.org
+    image: GRiSP2.png
   # - name: A bunch of books (TBD)
   #   sponsor: LambdaClass
   #   sponsor_url: http://lambdaclass.com/
@@ -126,11 +138,6 @@ prizes:
   #   sponsor_url: http://lambdaclass.com/
   #   url: https://dataintensive.net/
   #   image: book-1.png
-  # - name: 2 GRiSP boards, a Motor Robot Kit and assorted PMODs
-  #   sponsor: Peer Stritzinger GmbH
-  #   sponsor_url: https://www.stritzinger.com/
-  #   url: https://www.grisp.org
-  #   image: Grisp.jpeg
   # - name: GoPro HERO5
   #   sponsor: Scrapinghub
   #   sponsor_url: https://scrapinghub.com/
