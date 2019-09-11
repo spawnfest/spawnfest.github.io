@@ -57,6 +57,12 @@ gold_sponsors:
     url: https://www.stritzinger.com/
     description: "Dive into a new experience of building wireless embedded systems"
     background_color: "#438"
+  - name: Derivco Sports
+    image: derivco.png
+    logo: derivco.png
+    url: https://jobs.microgaming-derivco.co.uk/go/Derivco-Stockholm/3222501/
+    description: "The leading software development house in the online gaming world"
+    background_color: "#00A1FF"
 
 
 silver_sponsors:
@@ -103,6 +109,11 @@ prizes:
     sponsor_url: https://aeternity.com/
     url: https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740#88a2
     image: aeternity-tokens.png
+  - name: <strong>430GBP</strong> voucher for thePiHut
+    sponsor: Derivco Sports
+    sponsor_url: https://jobs.microgaming-derivco.co.uk/go/Derivco-Stockholm/3222501/
+    url: https://thepihut.com
+    image: thepihut.jpg
   - name: "<strong>2 tickets</strong> to any major<br>CodeSync Conference"
     sponsor: CodeSync Conferences
     sponsor_url: http://www.codesync.global/
