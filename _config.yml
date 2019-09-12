@@ -58,8 +58,8 @@ gold_sponsors:
     description: "Dive into a new experience of building wireless embedded systems"
     background_color: "#438"
   - name: Derivco Sports
-    image: derivco.png
-    logo: derivco.png
+    image: derivco.svg
+    logo: derivco.svg
     url: https://jobs.microgaming-derivco.co.uk/go/Derivco-Stockholm/3222501/
     description: "The leading software development house in the online gaming world"
     background_color: "#00A1FF"
