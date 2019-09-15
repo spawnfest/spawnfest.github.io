@@ -72,18 +72,12 @@ silver_sponsors:
     url: https://fiqus.coop/
     description: "A cooperative company specialized in software"
     background_color: "#323232"
-  # - name: AdRoll Group
-  #   image: droll.svg
-  #   logo: logo-adroll-group.png
-  #   url: https://tech.adroll.com/
-  #   description: "The future of e-commerce marketing"
-  #   background_color: "#00aeef"
-  # - name: Scrapinghub
-  #   image: scrapinghub.svg
-  #   logo: shub-standard-logo.png
-  #   url: https://scrapinghub.com/
-  #   description: "Turn websites into data"
-  #   background_color: "#607d8b"
+  - name: PlayUS Media
+    image: playus-thin.png
+    logo: playus.jpg
+    url: https://www.playusmedia.com/
+    description: "Instinct + Reason"
+    background_color: "#0b0814"
 
 media_sponsors:
   - name: LambdaClass
@@ -124,21 +118,26 @@ prizes:
     sponsor_url: http://fiqus.coop
     url: https://pragprog.com/
     image: books.png
-  - name: <strong>250USD</strong> Amazon Gift Card
-    sponsor: Peg b Technology
-    sponsor_url: https://pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card5.png
-  - name: <strong>250USD</strong> Amazon Gift Card
-    sponsor: Peg b Technology
-    sponsor_url: https://pegb.tech/
-    url: https://www.amazon.com/gift-cards/
-    image: amazon-gift-card5.png
   - name: 3 GRiSP2 boards
     sponsor: Peer Stritzinger GmbH
     sponsor_url: https://www.stritzinger.com/
     url: https://www.grisp.org
     image: GRiSP2.png
+  - name: <strong>250USD</strong> Amazon Gift Card
+    sponsor: Peg b Technology
+    sponsor_url: https://pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
+  - name: <strong>250USD</strong> Amazon Gift Card
+    sponsor: Peg b Technology
+    sponsor_url: https://pegb.tech/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
+  - name: "<strong>3 tickets</strong> to ElixirConfLA"
+    sponsor: PlayUS Media
+    sponsor_url: https://www.playusmedia.com/
+    url: https://elixirconf.la
+    image: elixirconfla.jpeg
   # - name: A bunch of books (TBD)
   #   sponsor: LambdaClass
   #   sponsor_url: http://lambdaclass.com/
