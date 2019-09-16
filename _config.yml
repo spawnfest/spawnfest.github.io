@@ -72,6 +72,12 @@ silver_sponsors:
     url: https://fiqus.coop/
     description: "A cooperative company specialized in software"
     background_color: "#323232"
+  - name: Erisata
+    image: erisata.svg
+    logo: logo-erisata.svg
+    url: http://erisata.com/
+    description: "Erlang systems with extreme availability and reliability"
+    background_color: "#C02641"
   - name: PlayUS Media
     image: playus-thin.png
     logo: playus.jpg
@@ -123,6 +129,11 @@ prizes:
     sponsor_url: https://www.stritzinger.com/
     url: https://www.grisp.org
     image: GRiSP2.png
+  - name: <strong>300€</strong> Amazon Gift Card
+    sponsor: Erisata
+    sponsor_url: http://erisata.com/
+    url: https://www.amazon.com/gift-cards/
+    image: amazon-gift-card5.png
   - name: <strong>250USD</strong> Amazon Gift Card
     sponsor: Peg b Technology
     sponsor_url: https://pegb.tech/
