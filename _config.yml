@@ -75,7 +75,7 @@ silver_sponsors:
   - name: Erisata
     image: erisata.svg
     logo: logo-erisata.svg
-    url: http://erisata.com/
+    url: http://erisata.com/en
     description: "Erlang systems with extreme availability and reliability"
     background_color: "#C02641"
   - name: PlayUS Media
