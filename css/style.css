@@ -111,6 +111,10 @@ a.winners-link {
     padding-left: 0;
   }
 
+  #countdown {
+    display: none!important;
+  }
+
   .big-screen {
     display: none!important;
   }
