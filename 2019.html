@@ -49,7 +49,7 @@ permalink: /2019
           {% for prize in site.winner_2019.prizes %}
             <div class="col-md-6">
               <a class="nav-link" target="_blank" href="{{ prize.url }}">
-              <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+              <img class="winner-prize" src="/img/legacy/{{ prize.image }}" alt="{{ prize.name }}">
               </a>
               <div class="col-md-12">
                 <span>{{ prize.name }}</span>
@@ -106,7 +106,7 @@ permalink: /2019
                   {% for prize in winner.prizes %}
                     <div class="col-md-6">
                       <a class="nav-link" target="_blank" href="{{ prize.url }}">
-                      <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+                      <img class="winner-prize" src="/img/legacy/{{ prize.image }}" alt="{{ prize.name }}">
                       </a>
                       <div class="col-md-12">
                         <span>{{ prize.name }}</span>
