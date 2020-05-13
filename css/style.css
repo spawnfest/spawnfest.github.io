@@ -370,6 +370,29 @@ header.masthead {
   position: relative;
 }
 
+header.masthead .img-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+header.masthead .img-container .header-logo{
+  height: 100%;
+  margin: 40px auto 20px auto;  
+}
+
+@media(max-device-width:700px){
+  header.masthead .img-container .header-logo{
+    height: 50%;
+    margin: 40% auto 20px auto;  
+  }
+}
+
+
 header.masthead .background-video {
   position: absolute;
   top: 0;
@@ -381,6 +404,7 @@ header.masthead .background-video {
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .background-video video {
   position: absolute;
   top: 50%;
