@@ -64,30 +64,31 @@ social:
     image:
 
 judges:
-  - name: TBD
+  - name: Simon Thompson
+    url: 
+    twitter: thompson_si
+    image: judges_2020/Simon.jpg
+  - name: Johanna Larsson
+    url: 
+    twitter: joladev
+    image: judges_2020/Johanna.jpg
+  - name: To be anounced...
     url: 
     twitter:
     image: person-placeholder.jpg
-  - name: TBD
+  - name: To be anounced...
     url: 
     twitter:
     image: person-placeholder.jpg
-  - name: TBD
+  - name: To be anounced...
     url: 
     twitter:
     image: person-placeholder.jpg
-  - name: TBD
+  - name: To be anounced...
     url: 
     twitter:
     image: person-placeholder.jpg
-  - name: TBD
-    url: 
-    twitter:
-    image: person-placeholder.jpg
-  - name: TBD
-    url: 
-    twitter:
-    image: person-placeholder.jpg
+
 
 
 rules:
