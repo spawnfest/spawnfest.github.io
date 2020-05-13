@@ -312,6 +312,11 @@ a.btn-previous-edition:focus {
   font-family: 'KoHo:700', sans-serif;
 }
 
+
+#mainNav .nav-title {
+  height: 40px;
+}  
+
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: white;
 }
@@ -360,6 +365,13 @@ a.btn-previous-edition:focus {
     font-size: 1.25em;
     padding: 12px 0;
   }
+
+  #mainNav .nav-title {
+    height: 65px;
+    margin-top: -33px;
+    margin-bottom: -33px;
+  }
+  
 }
 
 header.masthead {
