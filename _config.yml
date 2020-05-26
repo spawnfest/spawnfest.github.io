@@ -1,8 +1,8 @@
 nav:
   - name: About
     ref: "#about"
-  # - name: Registration
-  #   ref: "#registration"
+  - name: Registration
+    ref: "#registration"
   - name: Judges
     ref: "#judges"
   - name: Sponsors
