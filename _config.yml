@@ -24,6 +24,14 @@ social:
   - url: "mailto:spawnfest-organizers@googlegroups.com"
     icon: "fas fa-envelope"
 
+
+organizer:
+  name: Fiqus
+  image: sponsors_2020/fiqus.png
+  url: https://fiqus.coop/en/
+  background_color: "#333333"
+
+
 # platinum_sponsor:
 #   name: 
 #   image: 
@@ -56,7 +64,7 @@ social:
 #     description:
 #     background_color:
 
-# prizes:
+prizes:
   - name: TBD
     sponsor:
     sponsor_url: 
