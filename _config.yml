@@ -252,7 +252,7 @@ category_winners_2018:
         image: amazon-gift-card5.png
       - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
         sponsor: Fiqus
-        sponsor_url: http://fiqus.coop
+        sponsor_url: http://fiqus.coop/en/
         url: https://elixircasts.io/alchemists-edition
         image: alchemist.png
     comments:
