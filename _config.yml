@@ -28,7 +28,7 @@ social:
 organizer:
   name: Fiqus
   image: sponsors_2020/fiqus.png
-  url: https://fiqus.coop
+  url: https://fiqus.coop/en/
   background_color: "#333333"
 
 
@@ -252,7 +252,7 @@ category_winners_2018:
         image: amazon-gift-card5.png
       - name: 8 months of subscriptions to ElixirCasts Alchemist's Edition
         sponsor: Fiqus
-        sponsor_url: http://fiqus.coop/en/
+        sponsor_url: http://fiqus.coop
         url: https://elixircasts.io/alchemists-edition
         image: alchemist.png
     comments:
