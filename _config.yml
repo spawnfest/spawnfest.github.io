@@ -40,13 +40,21 @@ organizer:
 #   description: 
 #   background_color:
 
-# gold_sponsors:
-#   - name: 
-#     image: 
-#     logo: 
-#     url: 
-#     description:
-#     background_color:
+gold_sponsors:
+  - name: Peer Stritzinger
+    image: sponsors_2020/peer.svg
+    logo: sponsors_2020/peer.svg
+    url: https://www.stritzinger.com/
+    description:
+    background_color: "#6f4dab"
+
+  - name: Nextroll
+    image: sponsors_2020/nextroll.png
+    logo: sponsors_2020/nextroll.png
+    url: https://www.nextroll.com/
+    description:
+    background_color: "#FFFFFF"
+
 
 # silver_sponsors:
 #   - name: 
@@ -65,11 +73,17 @@ organizer:
 #     background_color:
 
 prizes:
-  - name: TBD
-    sponsor:
-    sponsor_url: 
+  - name: $600 in Amazon gift cards
+    sponsor: Nextroll
+    sponsor_url: https://www.nextroll.com/
     url: 
-    image:
+    image: prizes_2020/amazon-gift-card5.png
+
+  - name: GRiSP2 boards
+    sponsor: Peer Stritzinger
+    sponsor_url: https://www.stritzinger.com/
+    url: 
+    image: prizes_2020/GRiSP2.png
 
 judges:
   - name: Simon Thompson
