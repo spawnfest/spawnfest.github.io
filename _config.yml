@@ -7,8 +7,8 @@ nav:
     ref: "#judges"
   - name: Sponsors
     ref: "#sponsors"
-  # - name: Prizes
-  #   ref: "#prizes"
+  - name: Prizes
+    ref: "#prizes"
   - name: Rules
     ref: "#rules"
 
@@ -48,7 +48,7 @@ gold_sponsors:
     description:
     background_color: "#6f4dab"
 
-  - name: Nextroll
+  - name: NextRoll
     image: sponsors_2020/nextroll.png
     logo: sponsors_2020/nextroll.png
     url: https://www.nextroll.com/
@@ -74,7 +74,7 @@ gold_sponsors:
 
 prizes:
   - name: $600 in Amazon gift cards
-    sponsor: Nextroll
+    sponsor: NextRoll
     sponsor_url: https://www.nextroll.com/
     url: 
     image: prizes_2020/amazon-gift-card5.png
