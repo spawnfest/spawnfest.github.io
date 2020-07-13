@@ -6,18 +6,8 @@
         <!-- <h3 class="section-subheading text-muted">This event is made possible by our sponsors. You can still <a target="_blank" href="https://forms.gle/34wfupArS1TsUMUH8">join them</a>.</h3> -->
       </div>
     </div>
-    {% if site.organizer.name %}
-      <div class="text-center sp-platinum">
-        <h2 class="display-5">Organizer</h2>
-        <a class="btn sp-link" target="_blank" href="{{ site.organizer.url }}">
-          <div class="p-3 text-center sp-box" style="background-color: {{ site.organizer.background_color }};">
-            <img class="p-3 img-fluid sp-img" src="/img/{{ site.organizer.image }}" alt="{{ site.organizer.name }}">
-          </div>
-        </a>
-      </div>
-    {% endif %}
 
-    {% if site.platinum_sponsor.description %}
+    {% if site.platinum_sponsor.name %}
       <div class="text-center sp-platinum">
         <h2 class="display-5">Platinum Sponsor</h2>
         <a class="btn sp-link" target="_blank" href="{{ site.platinum_sponsor.url }}">
@@ -69,6 +59,18 @@
           </div>
         </a>
       {% endfor %}
+    {% endif %}
+
+    {% if site.organizer.name %}
+      <div class="text-center pt-5 pb-0">
+        <h2 class="display-5">Organizer</h2>
+      </div>
+      <a class="btn sp-link" target="_blank" href="{{ site.organizer.url }}">
+        <div class="p-1 text-center" style="background-color: {{ site.organizer.background_color }};">
+          <img class="p-1 img-fluid sp-img" src="/img/{{ site.organizer.image }}" alt="{{ site.organizer.name }}">
+          <p>{{ sponsor.description }}</p>
+        </div>
+      </a>
     {% endif %}
 
     <div class="container">

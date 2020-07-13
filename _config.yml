@@ -29,16 +29,16 @@ organizer:
   name: Fiqus
   image: sponsors_2020/fiqus.png
   url: https://fiqus.coop/en/
-  background_color: "#333333"
+  background_color: "#FFFFFF"
 
 
-# platinum_sponsor:
-#   name: 
-#   image: 
-#   logo: 
-#   url:
-#   description: 
-#   background_color:
+platinum_sponsor:
+  name: DigitalOcean
+  image: sponsors_2020/digitalocean.png
+  logo: sponsors_2020/digitalocean.
+  url: https://www.digitalocean.com/
+  description: 
+  background_color: "#0080FF"
 
 gold_sponsors:
   - name: Peer Stritzinger
@@ -73,6 +73,12 @@ gold_sponsors:
 #     background_color:
 
 prizes:
+  - name: $2000 in DigitalOcean Credit
+    sponsor: DigitalOcean
+    sponsor_url: https://www.digitalocean.com/
+    url: 
+    image: prizes_2020/digitalocean_logo_prize.png
+
   - name: $600 in Amazon gift cards
     sponsor: NextRoll
     sponsor_url: https://www.nextroll.com/
