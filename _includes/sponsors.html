@@ -61,6 +61,18 @@
       {% endfor %}
     {% endif %}
 
+    {% if site.community_sponsor.name %}
+    <div class="text-center pt-5 pb-1">
+        <h2 class="display-5">Community Sponsor</h2>
+        <a class="btn sp-link" target="_blank" href="{{ site.community_sponsor.url }}">
+          <div class="p-3 text-center sp-box" style="background-color: {{ site.community_sponsor.background_color }};">
+            <img class="p-3 img-fluid sp-img" src="/img/{{ site.community_sponsor.image }}" alt="{{ site.community_sponsor.name }}">
+            <p>{{ site.community_sponsor.description }}</p>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+
     {% if site.organizer.name %}
       <div class="text-center pt-5 pb-0">
         <h2 class="display-5">Organizer</h2>

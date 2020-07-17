@@ -31,6 +31,13 @@ organizer:
   url: https://fiqus.coop/en/
   background_color: "#FFFFFF"
 
+community_sponsor:
+  name: Erlang Ecosystem Foundation
+  image: sponsors_2020/eef-logo.svg
+  logo: sponsors_2020/eef-logo.svg
+  url: http://www.erlef.org/
+  description: 
+  background_color: "#FFFFFF"
 
 platinum_sponsor:
   name: DigitalOcean
@@ -90,6 +97,12 @@ prizes:
     sponsor_url: https://www.stritzinger.com/
     url: 
     image: prizes_2020/GRiSP2.png
+
+  - name: $1000 (Community Prize)
+    sponsor: ErlEF
+    sponsor_url: http://www.erlef.org/
+    url: 
+    image: sponsors_2020/eef-logo.svg
 
 judges:
   - name: Simon Thompson
