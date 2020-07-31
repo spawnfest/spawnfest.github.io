@@ -64,13 +64,13 @@ gold_sponsors:
 #     description:
 #     background_color:
 
-# media_sponsors:
-#   - name: 
-#     image: 
-#     logo: 
-#     url: 
-#     description:
-#     background_color:
+media_sponsors:
+  - name: Lambdaclass
+    image: sponsors_2020/lambdaclass.png
+    logo: sponsors_2020/lambdaclass.png
+    url: https://lambdaclass.com/
+    description:
+    background_color: "#FFFFFF"
 
 prizes:
   - name: $2000 in DigitalOcean Credit
