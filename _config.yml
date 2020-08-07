@@ -31,13 +31,13 @@ organizer:
   url: https://fiqus.coop/en/
   background_color: "#FFFFFF"
 
-community_sponsor:
-  name: Erlang Ecosystem Foundation
-  image: sponsors_2020/eef-logo.svg
-  logo: sponsors_2020/eef-logo.svg
-  url: http://www.erlef.org/
-  description: 
-  background_color: "#FFFFFF"
+community_sponsors:
+  - name: Erlang Ecosystem Foundation
+    image: sponsors_2020/eef-logo.svg
+    logo: sponsors_2020/eef-logo.svg
+    url: http://www.erlef.org/
+    description: 
+    background_color: "#FFFFFF"
 
 platinum_sponsor:
   name: DigitalOcean
