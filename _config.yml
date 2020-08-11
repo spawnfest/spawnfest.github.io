@@ -62,6 +62,12 @@ gold_sponsors:
     description:
     background_color: "#FFFFFF"
 
+  - name: Code Sync
+    image: sponsors_2020/codesync.jpg
+    logo: sponsors_2020/codesync.jpg
+    url: https://codesync.global/
+    description:
+    background_color: "#510512"
 
 # silver_sponsors:
 #   - name: 
@@ -78,6 +84,20 @@ media_sponsors:
     url: https://lambdaclass.com/
     description:
     background_color: "#FFFFFF"
+
+  - name: Code Mesh V
+    image: sponsors_2020/codemesh.jpg
+    logo: sponsors_2020/codemesh.jpg
+    url: https://codesync.global/conferences/code-mesh-ldn/
+    description:
+    background_color: "#073840"
+
+  - name: Code Beam V
+    image: sponsors_2020/codebeam.jpg
+    logo: sponsors_2020/codebeam.jpg
+    url: https://codesync.global/conferences/code-beam-sto/
+    description:
+    background_color: "#400A76"
 
 prizes:
   - name: $2000 in DigitalOcean Credit
@@ -103,6 +123,12 @@ prizes:
     sponsor_url: http://www.erlef.org/
     url: 
     image: sponsors_2020/eef-logo.svg
+
+  - name: Free Tickets for Code Mesh V
+    sponsor: Code Sync
+    sponsor_url: https://codesync.global/
+    url: 
+    image: prizes_2020/code_mesh.jpg
 
 judges:
   - name: Simon Thompson
