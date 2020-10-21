@@ -28,6 +28,7 @@ social:
 organizer:
   name: Fiqus
   image: sponsors_2020/fiqus.png
+  logo: sponsors_2020/fiqus.png
   url: https://fiqus.coop/en/
   background_color: "#FFFFFF"
 
@@ -42,7 +43,7 @@ community_sponsors:
 platinum_sponsor:
   name: DigitalOcean
   image: sponsors_2020/digitalocean.png
-  logo: sponsors_2020/digitalocean.
+  logo: sponsors_2020/do_logo_vertical_blue.png
   url: https://www.digitalocean.com/
   description: 
   background_color: "#0080FF"
@@ -50,7 +51,7 @@ platinum_sponsor:
 gold_sponsors:
   - name: Peer Stritzinger
     image: sponsors_2020/peer.svg
-    logo: sponsors_2020/peer.svg
+    logo: sponsors_2020/peer_logo.svg
     url: https://www.stritzinger.com/
     description:
     background_color: "#6f4dab"
@@ -622,3 +623,201 @@ category_winners_2019:
     comments:
       - text: Great project! Would have loved this for many of the presentations I have created.
         author: Anna
+
+############
+### 2020 ###
+############
+
+winner:
+  team: Bakers gonna bake, bake, bake
+  project: bakeware
+  repo: bakeware
+  description: Compile Elixir applications into single, easily distributed executable binaries
+  members:
+    - user: fhunleth
+      avatar: https://avatars2.githubusercontent.com/u/64669
+    - user: jjcarstens
+      avatar: https://avatars2.githubusercontent.com/u/11321326
+    - user: ConnorRigby
+      avatar: https://avatars3.githubusercontent.com/u/21150830
+  prizes:
+    - name: <strong>1000USD</strong> in credits
+      sponsor: Digital Ocean
+      sponsor_url: https://www.digitalocean.com/
+      url: https://www.digitalocean.com/
+      image: prizes_2020/digitalocean_logo_prize.png
+    - name: <strong>300USD</strong> Amazon Gift Card
+      sponsor: Nextroll
+      sponsor_url: https://www.nextroll.com/
+      url: https://www.amazon.com/gift-cards/
+      image: prizes_2020/amazon-gift-card5.png
+  comments:
+    - text: Simple, yet interesting and potentially very useful tool, with room to live on in the community.
+      author: Laura
+    - text: Solves an actual problem. I’d have considered this for my own company’s CLI (assuming it’s stable, etc)
+      author: Brooklyn
+    - text: Great idea! I think it will be useful to many
+      author: Mariano
+      
+category_winners:
+  - team: Imaginary Metal Quartet Rabble
+    project: pixel-smash
+    repo: pixel-smash
+    description: Arena simulation game
+    category: Creativity
+    members:
+      - user: QuinnWilton
+        avatar: https://avatars3.githubusercontent.com/u/285821
+      - user: TheEndIsNear
+        avatar: https://avatars0.githubusercontent.com/u/2172212
+      - user: chouzar
+        avatar: https://avatars1.githubusercontent.com/u/4700113
+      - user: IvanRublev
+        avatar: https://avatars0.githubusercontent.com/u/5757941
+    prizes:
+      - name: <strong>500USD</strong> in Credits
+        sponsor: DigitalOcean
+        sponsor_url: https://www.digitalocean.com/
+        url: https://www.digitalocean.com/
+        image: prizes_2020/digitalocean_logo_prize.png
+    comments:
+      - text: app game; arena simulation; fun idea, well executed, great result for a weekend's work
+        author: René
+      - text: Fun project, seems simple but it is very well structured and organized.
+        author: Laura
+  - team: FRJ
+    project: frj
+    repo: frj
+    description: An Erlang server implementing Microsoft's Language Server Protocol 3.15.
+    category: Usefulness
+    members:
+      - user: robertoaloi
+        avatar: https://avatars2.githubusercontent.com/u/91769
+      - user: jfacorro
+        avatar: https://avatars1.githubusercontent.com/u/1522569
+      - user: alanz
+        avatar: https://avatars0.githubusercontent.com/u/409607
+    prizes:
+    - name: <strong>300USD</strong> Amazon Gift Card
+      sponsor: Nextroll
+      sponsor_url: https://www.nextroll.com/
+      url: https://www.amazon.com/gift-cards/
+      image: prizes_2020/amazon-gift-card5.png
+    comments:
+      - text: Nice stuff. And certainly useful. Well documented too, including useful videos. Also instructions for spawnfest judges ;-) 
+        author: Simon
+      - text: Really useful addition, nice overview video
+        author: Mariano
+  - team: Bakers gonna bake, bake, bake
+    project: bakeware
+    repo: bakeware
+    description: Compile Elixir applications into single, easily distributed executable binaries
+    category: Innovation
+    members:
+        - user: fhunleth
+          avatar: https://avatars2.githubusercontent.com/u/64669
+        - user: jjcarstens
+          avatar: https://avatars2.githubusercontent.com/u/11321326
+        - user: ConnorRigby
+          avatar: https://avatars3.githubusercontent.com/u/21150830
+    prizes:
+      - name: Free CodeMesh V tickets
+        sponsor: CodeSync
+        sponsor_url: https://codesync.global/
+        url: https://codesync.global/conferences/code-mesh-ldn/
+        image: prizes_2020/code_mesh.jpg
+    comments:
+      - text: Solves an actual problem. I’d have considered this for my own company’s CLI. If the team/community sticks with it, this could become a stable of the ecosystem.
+        author: Brooklyn
+      - text: tool "compiler" for standalone binaries of Elixir/Erlang apps; this is huge for all kinds of scenarios
+        author: René
+  - team: Dr. Who
+    project: eneo4j
+    repo: eneo4j
+    description: It aims to implement easy communication with neo4j database using its HTTP API. 
+    category: Correctness
+    members:
+      - user: aleklisi
+        avatar: https://avatars2.githubusercontent.com/u/16130626
+    prizes:
+      - name: Grisp2 boards
+        sponsor: Peer Stritzinger
+        sponsor_url: https://www.stritzinger.com/
+        url: https://www.grisp.org/
+        image: prizes_2020/GRiSP2.png
+    comments:
+      - text: Appears to be well described, and it does deliver something concrete. 
+        author: Simon
+      - text: Nice addition to the BEAM ecosystem, nice readme, it has tests!
+        author: Mariano
+  - team: Okbeamers
+    project: Uncharted
+    repo: livechart
+    description: A simple Elixir charting library that generates easy to customize charts.
+    category: Maintainability
+    members:
+      - user: tmecklem
+        avatar: https://avatars0.githubusercontent.com/u/966985
+      - user: zkayser
+        avatar: https://avatars3.githubusercontent.com/u/13272563
+      - user: macovedj
+        avatar: https://avatars1.githubusercontent.com/u/20097860
+      - user: rheubach
+        avatar: https://avatars1.githubusercontent.com/u/43445503
+    prizes:
+      - name: Free CodeMesh V tickets
+        sponsor: CodeSync
+        sponsor_url: https://codesync.global/
+        url: https://codesync.global/conferences/code-mesh-ldn/
+        image: prizes_2020/code_mesh.jpg
+    comments:
+      - text: Simple, but nice and useful idea, this could also live on.
+        author: Laura
+      - text: By far the best documented and one of the most tested projects
+        author: Brooklyn
+  - team: Irregular Apocalypse
+    project: Continuum
+    repo: continuum
+    description: Continuum is a queueing system.
+    category: Completion
+    members:
+      - user: JEG2
+        avatar: https://avatars1.githubusercontent.com/u/5639
+      - user: piisalie
+        avatar: https://avatars3.githubusercontent.com/u/3163390
+      - user: claytonflesher
+        avatar: https://avatars0.githubusercontent.com/u/9093519
+    prizes:
+      - name: <strong>500USD</strong> in Credits
+        sponsor: DigitalOcean
+        sponsor_url: https://www.digitalocean.com/
+        url: https://www.digitalocean.com/
+        image: prizes_2020/digitalocean_logo_prize.png
+    comments:
+      - text: tool queueing system; very much like it's simplicity and straight forward design; bonus points for a great README
+        author: René
+      - text: We definitely need more high(er)-level abstractions like this!
+        author: Brooklyn
+  - team: Bakers gonna bake, bake, bake
+    project: bakeware
+    repo: bakeware
+    description: Compile Elixir applications into single, easily distributed executable binaries
+    category: Community Prize
+    members:
+        - user: fhunleth
+          avatar: https://avatars2.githubusercontent.com/u/64669
+        - user: jjcarstens
+          avatar: https://avatars2.githubusercontent.com/u/11321326
+        - user: ConnorRigby
+          avatar: https://avatars3.githubusercontent.com/u/21150830
+    prizes:
+      - name: <strong>1000USD</strong>
+        sponsor: EEF
+        sponsor_url: https://erlef.org/
+        url: https://erlef.org/
+        image: sponsors_2020/eef-logo.svg
+    comments:
+      - text: This is pretty sophisticated 👍 
+        author: Brooklin
+      - text: works  as advertised; code is clean
+        author: René

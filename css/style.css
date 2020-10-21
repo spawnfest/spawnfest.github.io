@@ -89,12 +89,16 @@ img.lambda {
     border-style: dashed;
     border-width: 2px;
     border-radius: 2px;
-    max-width: 70%;
+    width: 400px;
     color: white;
 }
 
 a.winners-link {
     text-decoration: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35vh;
 }
 
 @media (min-width: 768px) {
@@ -739,6 +743,10 @@ img.member-small {
 }
 .winner-box {
     margin-top: 35px;
+    justify-content: center;
+}
+.prizes-container {
+    justify-content: center;
 }
 .winner-description {
     margin-top: 20px;
