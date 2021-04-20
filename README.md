@@ -1,6 +1,12 @@
-### Run jekyll locally
+# spawnfest/spawnfest.github.io
 
-You need Ruby version 2.1 or above
+This is the source code for <https://spawnfest.github.io/>.
 
-    $ gem install jekyll
-    $ jekyll serve
+## Development
+
+You need Ruby version 2.1 or above, then
+
+```shell
+$ gem install jekyll
+$ jekyll serve
+```
