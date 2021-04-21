@@ -163,17 +163,17 @@ rules:
   - title: "Schedule"
     icon: "fas fa-calendar-alt"
     details:
-      - text: The event will start on <strong>2020-09-12 00:00 UTC</strong>.
-      - text: The event will end on <strong>2020-09-13 23:59 UTC</strong>.
-      - text: The registration will close 2 days prior to the start date.
+      - text: The event will start on <strong>2021-09-18 00:00 UTC</strong>.
+      - text: The event will end on <strong>2021-09-19 23:59 UTC</strong>.
+      - text: Registration will close 2 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
       - text: The jury will have a month to evaluate all the submissions.
   - title: Teams
     icon: "fas fa-users"
     details:
       - text: "Team size is 1 to 4."
-      - text: "Every team member has to be a human being, not an organization."
-      - text: "All members of the team should be 13 years old or older."
+      - text: "Every team member has to be an individual, not an organization."
+      - text: "All members of a team should be at least 13 years old."
       - text: "Judges of this contest can not participate in it as members of a team."
       - text: Every team has to be registered by completing the <a href="#registration">registration form</a></span>.
   - title: Projects
@@ -184,16 +184,16 @@ rules:
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
-      - text: Each team should come up with their own project idea (If you need inspiration check <a href="/ideas">our list of project ideas</a>)
-      - text: "The organizing team will create a public git repository at GitHub for each team."
-      - text: "If a team needs more than one, they can ask the organizers to create extra repos for them."
+      - text: Each team should come up with their own project idea (if you need inspiration check <a href="/ideas">our list of project ideas</a>)
+      - text: "The organizing team will create a public Git repository at GitHub for each team."
+      - text: "If a team needs more than one repository, they can ask the organizers to create them."
       - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
       - text: "The only required deliverable is the code, but everything in the repository will be used for evaluation."
-      - text: "Suggested extra deliverables to include: Documentation, comprehensive README.md, project-related art (e.g. Logos), tests and anything that makes building and understanding the system easier for the judges."
+      - text: "Suggested extra deliverables to include: documentation, comprehensive README.md, project-related art (e.g. logos), tests and anything that makes building and understanding the system easier for the judges."
       - text: "Contributions to the project (e.g. Pull Requests) from developers outside the team will be forbidden during the contest, but encouraged afterwards"
-      - text: "Usage of third party libraries and web services is not prohibited, even encouraged."
-      - text: "<em>Ownership and Copyright:</em> Each team retains all the rights to their submissions."
-      - text: "<em>User Privacy:</em> If a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
+      - text: "Usage of third party libraries and web services is not prohibited, it's even encouraged."
+      - text: "<em>Ownership and Copyright:</em> each team retains all the rights to their submissions."
+      - text: "<em>User Privacy:</em> if a project is an online application (such as a web application) that collects personal information from its users, it should not reveal any of personally identifiable information unless required to do so by law. Please respect people&#8217;s privacy."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - title: Evaluation
     icon: "fas fa-gavel"
@@ -206,7 +206,7 @@ rules:
                 <dt>Usefulness</dt><dd>How useful the project will be for its target users. Does it solve an existing problem? Does it significantly reduce work time for its users?</dd>
                 <dt>Innovation</dt><dd>How groundbreaking the project is. The more unique and unprecedented the idea behind the project, the better. Also applies to projects developed in a unique way.</dd>
                 <dt>Correctness</dt><dd>The less bugs, the better. This category values working products over complete ones.</dd>
-                <dt>Maintainability</dt><dd>How easy will be for future developers to keep contributing to this project after SpawnFest is over.</dd>
+                <dt>Maintainability</dt><dd>How easy will it be for future developers to keep contributing to this project after SpawnFest is over.</dd>
                 <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd>
               </dl>
               "
