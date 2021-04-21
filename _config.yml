@@ -37,7 +37,7 @@ community_sponsors:
     image: sponsors_2020/eef-logo.svg
     logo: sponsors_2020/eef-logo.svg
     url: http://www.erlef.org/
-    description: 
+    description:
     background_color: "#FFFFFF"
 
 platinum_sponsor:
@@ -45,7 +45,7 @@ platinum_sponsor:
   image: sponsors_2020/digitalocean.png
   logo: sponsors_2020/DO_Logo_Vertical_Blue.png
   url: https://www.digitalocean.com/
-  description: 
+  description:
   background_color: "#0080FF"
 
 gold_sponsors:
@@ -71,10 +71,10 @@ gold_sponsors:
     background_color: "#510512"
 
 # silver_sponsors:
-#   - name: 
-#     image: 
-#     logo: 
-#     url: 
+#   - name:
+#     image:
+#     logo:
+#     url:
 #     description:
 #     background_color:
 
@@ -104,56 +104,56 @@ prizes:
   - name: $2000 in DigitalOcean Credit
     sponsor: DigitalOcean
     sponsor_url: https://www.digitalocean.com/
-    url: 
+    url:
     image: prizes_2020/digitalocean_logo_prize.png
 
   - name: $600 in Amazon gift cards
     sponsor: NextRoll
     sponsor_url: https://www.nextroll.com/
-    url: 
+    url:
     image: prizes_2020/amazon-gift-card5.png
 
   - name: GRiSP2 boards
     sponsor: Peer Stritzinger
     sponsor_url: https://www.stritzinger.com/
-    url: 
+    url:
     image: prizes_2020/GRiSP2.png
 
   - name: $1000 (Community Prize)
     sponsor: ErlEF
     sponsor_url: http://www.erlef.org/
-    url: 
+    url:
     image: sponsors_2020/eef-logo.svg
 
   - name: Free Tickets for Code Mesh V
     sponsor: Code Sync
     sponsor_url: https://codesync.global/
-    url: 
+    url:
     image: prizes_2020/code_mesh.jpg
 
 judges:
   - name: Simon Thompson
-    url: 
+    url:
     twitter: thompson_si
     image: judges_2020/Simon.jpg
   - name: Johanna Larsson
-    url: 
+    url:
     twitter: joladev
     image: judges_2020/Johanna.jpg
   - name: Brooklyn Zelenka
-    url: 
+    url:
     twitter: expede
     image: judges_2020/Brooklyn.jpg
   - name: René Föhring
-    url: 
+    url:
     twitter: rrrene
     image: judges_2020/Rene.jpg
   - name: Mariano Guerra
-    url: 
+    url:
     twitter: warianoguerra
     image: judges_2020/Mariano.jpg
   - name: Laura Castro
-    url: 
+    url:
     twitter: lauramcastro
     image: judges_2020/Laura.jpg
 
@@ -180,7 +180,7 @@ rules:
     icon: "fas fa-rocket"
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM."
-      - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, efene, clojerl, etc.)."
+      - text: "They can be written in any BEAM-based language (i.e. Erlang, Elixir, LFE, Gleam, Clojerl, Luerl, Caramel, etc.)."
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
@@ -658,7 +658,7 @@ winner:
       author: Brooklyn
     - text: Great idea! I think it will be useful to many
       author: Mariano
-      
+
 category_winners:
   - team: Imaginary Metal Quartet Rabble
     project: pixel-smash
@@ -704,7 +704,7 @@ category_winners:
       url: https://www.amazon.com/gift-cards/
       image: prizes_2020/amazon-gift-card5.png
     comments:
-      - text: Nice stuff. And certainly useful. Well documented too, including useful videos. Also instructions for spawnfest judges ;-) 
+      - text: Nice stuff. And certainly useful. Well documented too, including useful videos. Also instructions for spawnfest judges ;-)
         author: Simon
       - text: Really useful addition, nice overview video
         author: Mariano
@@ -734,7 +734,7 @@ category_winners:
   - team: Dr. Who
     project: eneo4j
     repo: eneo4j
-    description: It aims to implement easy communication with neo4j database using its HTTP API. 
+    description: It aims to implement easy communication with neo4j database using its HTTP API.
     category: Correctness
     members:
       - user: aleklisi
@@ -746,7 +746,7 @@ category_winners:
         url: https://www.grisp.org/
         image: prizes_2020/GRiSP2.png
     comments:
-      - text: Appears to be well described, and it does deliver something concrete. 
+      - text: Appears to be well described, and it does deliver something concrete.
         author: Simon
       - text: Nice addition to the BEAM ecosystem, nice readme, it has tests!
         author: Mariano
@@ -817,7 +817,7 @@ category_winners:
         url: https://erlef.org/
         image: sponsors_2020/eef-logo.svg
     comments:
-      - text: This is pretty sophisticated 👍 
+      - text: This is pretty sophisticated 👍
         author: Brooklin
       - text: works  as advertised; code is clean
         author: René
