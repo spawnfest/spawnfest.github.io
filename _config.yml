@@ -3,13 +3,13 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-  - name: Judges
-    ref: "#judges"
+#  - name: Judges
+#    ref: "#judges"
   - name: Sponsors
     ref: "#sponsors"
   - name: Prizes
-    ref: "#prizes"
-  - name: Rules
+#    ref: "#prizes"
+#  - name: Rules
     ref: "#rules"
 
 social:
@@ -25,50 +25,50 @@ social:
     icon: "fas fa-envelope"
 
 
-organizer:
-  name: Fiqus
-  image: sponsors_2020/fiqus.png
-  logo: sponsors_2020/fiqus.png
-  url: https://fiqus.coop/en/
-  background_color: "#FFFFFF"
+#organizer:
+#  name: Fiqus
+#  image: sponsors_2020/fiqus.png
+#  logo: sponsors_2020/fiqus.png
+#  url: https://fiqus.coop/en/
+#  background_color: "#FFFFFF"
 
-community_sponsors:
-  - name: Erlang Ecosystem Foundation
-    image: sponsors_2020/eef-logo.svg
-    logo: sponsors_2020/eef-logo.svg
-    url: http://www.erlef.org/
-    description:
-    background_color: "#FFFFFF"
+#community_sponsors:
+#  - name: Erlang Ecosystem Foundation
+#    image: sponsors_2020/eef-logo.svg
+#    logo: sponsors_2020/eef-logo.svg
+#    url: http://www.erlef.org/
+#    description:
+#    background_color: "#FFFFFF"
 
-platinum_sponsor:
-  name: DigitalOcean
-  image: sponsors_2020/digitalocean.png
-  logo: sponsors_2020/DO_Logo_Vertical_Blue.png
-  url: https://www.digitalocean.com/
-  description:
-  background_color: "#0080FF"
+#platinum_sponsor:
+#  name: DigitalOcean
+#  image: sponsors_2020/digitalocean.png
+#  logo: sponsors_2020/DO_Logo_Vertical_Blue.png
+#  url: https://www.digitalocean.com/
+#  description:
+#  background_color: "#0080FF"
 
-gold_sponsors:
-  - name: Peer Stritzinger
-    image: sponsors_2020/peer.svg
-    logo: sponsors_2020/peer_logo.svg
-    url: https://www.stritzinger.com/
-    description:
-    background_color: "#6f4dab"
-
-  - name: NextRoll
-    image: sponsors_2020/nextroll.png
-    logo: sponsors_2020/nextroll.png
-    url: https://www.nextroll.com/
-    description:
-    background_color: "#FFFFFF"
-
-  - name: Code Sync
-    image: sponsors_2020/codesync.jpg
-    logo: sponsors_2020/codesync.jpg
-    url: https://codesync.global/
-    description:
-    background_color: "#510512"
+#gold_sponsors:
+#  - name: Peer Stritzinger
+#    image: sponsors_2020/peer.svg
+#    logo: sponsors_2020/peer_logo.svg
+#    url: https://www.stritzinger.com/
+#    description:
+#    background_color: "#6f4dab"
+#
+#  - name: NextRoll
+#    image: sponsors_2020/nextroll.png
+#    logo: sponsors_2020/nextroll.png
+#    url: https://www.nextroll.com/
+#    description:
+#    background_color: "#FFFFFF"
+#
+#  - name: Code Sync
+#    image: sponsors_2020/codesync.jpg
+#    logo: sponsors_2020/codesync.jpg
+#    url: https://codesync.global/
+#    description:
+#    background_color: "#510512"
 
 # silver_sponsors:
 #   - name:
@@ -78,84 +78,84 @@ gold_sponsors:
 #     description:
 #     background_color:
 
-media_sponsors:
-  - name: Lambdaclass
-    image: sponsors_2020/lambdaclass.png
-    logo: sponsors_2020/lambdaclass.png
-    url: https://lambdaclass.com/
-    description:
-    background_color: "#FFFFFF"
+#media_sponsors:
+#  - name: Lambdaclass
+#    image: sponsors_2020/lambdaclass.png
+#    logo: sponsors_2020/lambdaclass.png
+#    url: https://lambdaclass.com/
+#    description:
+#    background_color: "#FFFFFF"
+#
+#  - name: Code Mesh V
+#    image: sponsors_2020/codemesh.jpg
+#    logo: sponsors_2020/codemesh.jpg
+#    url: https://codesync.global/conferences/code-mesh-ldn/
+#    description:
+#    background_color: "#073840"
+#
+#  - name: Code Beam V
+#    image: sponsors_2020/codebeam.jpg
+#    logo: sponsors_2020/codebeam.jpg
+#    url: https://codesync.global/conferences/code-beam-sto/
+#    description:
+#    background_color: "#400A76"
 
-  - name: Code Mesh V
-    image: sponsors_2020/codemesh.jpg
-    logo: sponsors_2020/codemesh.jpg
-    url: https://codesync.global/conferences/code-mesh-ldn/
-    description:
-    background_color: "#073840"
+#prizes:
+#  - name: $2000 in DigitalOcean Credit
+#    sponsor: DigitalOcean
+#    sponsor_url: https://www.digitalocean.com/
+#    url:
+#    image: prizes_2020/digitalocean_logo_prize.png
+#
+#  - name: $600 in Amazon gift cards
+#    sponsor: NextRoll
+#    sponsor_url: https://www.nextroll.com/
+#    url:
+#    image: prizes_2020/amazon-gift-card5.png
+#
+#  - name: GRiSP2 boards
+#    sponsor: Peer Stritzinger
+#    sponsor_url: https://www.stritzinger.com/
+#    url:
+#    image: prizes_2020/GRiSP2.png
+#
+#  - name: $1000 (Community Prize)
+#    sponsor: ErlEF
+#    sponsor_url: http://www.erlef.org/
+#    url:
+#    image: sponsors_2020/eef-logo.svg
+#
+#  - name: Free Tickets for Code Mesh V
+#    sponsor: Code Sync
+#    sponsor_url: https://codesync.global/
+#    url:
+#    image: prizes_2020/code_mesh.jpg
 
-  - name: Code Beam V
-    image: sponsors_2020/codebeam.jpg
-    logo: sponsors_2020/codebeam.jpg
-    url: https://codesync.global/conferences/code-beam-sto/
-    description:
-    background_color: "#400A76"
-
-prizes:
-  - name: $2000 in DigitalOcean Credit
-    sponsor: DigitalOcean
-    sponsor_url: https://www.digitalocean.com/
-    url:
-    image: prizes_2020/digitalocean_logo_prize.png
-
-  - name: $600 in Amazon gift cards
-    sponsor: NextRoll
-    sponsor_url: https://www.nextroll.com/
-    url:
-    image: prizes_2020/amazon-gift-card5.png
-
-  - name: GRiSP2 boards
-    sponsor: Peer Stritzinger
-    sponsor_url: https://www.stritzinger.com/
-    url:
-    image: prizes_2020/GRiSP2.png
-
-  - name: $1000 (Community Prize)
-    sponsor: ErlEF
-    sponsor_url: http://www.erlef.org/
-    url:
-    image: sponsors_2020/eef-logo.svg
-
-  - name: Free Tickets for Code Mesh V
-    sponsor: Code Sync
-    sponsor_url: https://codesync.global/
-    url:
-    image: prizes_2020/code_mesh.jpg
-
-judges:
-  - name: Simon Thompson
-    url:
-    twitter: thompson_si
-    image: judges_2020/Simon.jpg
-  - name: Johanna Larsson
-    url:
-    twitter: joladev
-    image: judges_2020/Johanna.jpg
-  - name: Brooklyn Zelenka
-    url:
-    twitter: expede
-    image: judges_2020/Brooklyn.jpg
-  - name: René Föhring
-    url:
-    twitter: rrrene
-    image: judges_2020/Rene.jpg
-  - name: Mariano Guerra
-    url:
-    twitter: warianoguerra
-    image: judges_2020/Mariano.jpg
-  - name: Laura Castro
-    url:
-    twitter: lauramcastro
-    image: judges_2020/Laura.jpg
+#judges:
+#  - name: Simon Thompson
+#    url:
+#    twitter: thompson_si
+#    image: judges_2020/Simon.jpg
+#  - name: Johanna Larsson
+#    url:
+#    twitter: joladev
+#    image: judges_2020/Johanna.jpg
+#  - name: Brooklyn Zelenka
+#    url:
+#    twitter: expede
+#    image: judges_2020/Brooklyn.jpg
+#  - name: René Föhring
+#    url:
+#    twitter: rrrene
+#    image: judges_2020/Rene.jpg
+#  - name: Mariano Guerra
+#    url:
+#    twitter: warianoguerra
+#    image: judges_2020/Mariano.jpg
+#  - name: Laura Castro
+#    url:
+#    twitter: lauramcastro
+#    image: judges_2020/Laura.jpg
 
 
 
@@ -184,7 +184,7 @@ rules:
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
-      - text: Each team should come up with their own project idea (if you need inspiration check <a href="/ideas">our list of project ideas</a>)
+      - text: Each team should come up with their own project idea.
       - text: "The organizing team will create a public Git repository at GitHub for each team."
       - text: "If a team needs more than one repository, they can ask the organizers to create them."
       - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
@@ -628,7 +628,7 @@ category_winners_2019:
 ### 2020 ###
 ############
 
-winner:
+winner_2020:
   team: Bakers gonna bake, bake, bake
   project: bakeware
   repo: bakeware
