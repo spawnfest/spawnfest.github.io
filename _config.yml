@@ -131,31 +131,31 @@ social:
 #    url:
 #    image: prizes_2020/code_mesh.jpg
 
-#judges:
-#  - name: Simon Thompson
-#    url:
-#    twitter: thompson_si
-#    image: judges_2020/Simon.jpg
-#  - name: Johanna Larsson
-#    url:
-#    twitter: joladev
-#    image: judges_2020/Johanna.jpg
-#  - name: Brooklyn Zelenka
-#    url:
-#    twitter: expede
-#    image: judges_2020/Brooklyn.jpg
-#  - name: René Föhring
-#    url:
-#    twitter: rrrene
-#    image: judges_2020/Rene.jpg
-#  - name: Mariano Guerra
-#    url:
-#    twitter: warianoguerra
-#    image: judges_2020/Mariano.jpg
-#  - name: Laura Castro
-#    url:
-#    twitter: lauramcastro
-#    image: judges_2020/Laura.jpg
+judges:
+  - name: Laura Castro
+    url:
+    twitter: lauramcastro
+    image: judges_2021/Laura.jpg
+  - name: Evadne Wu
+    url:
+    twitter: evadne
+    image: judges_2021/Evadne.png
+  - name: Brooklyn Zelenka
+    url:
+    twitter: expede
+    image: judges_2021/Brooklyn.png
+  - name: Quinn Wilton
+    url:
+    twitter: wilton_quinn
+    image: judges_2021/Quinn.jpg
+  - name: Kenji Rikitake
+    url:
+    twitter: jj1bdx
+    image: judges_2021/Kenji.jpg
+  - name: René Föhring
+    url:
+    twitter: rrrene
+    image: judges_2021/Rene.png
 
 
 
