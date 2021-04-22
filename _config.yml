@@ -184,7 +184,7 @@ rules:
       - text: "Supplementary languages such as Javascript (and JS frameworks) are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
-      - text: Each team should come up with their own project idea (if you need inspiration check <a href="/ideas">our list of project ideas</a>)
+      - text: Each team should come up with their own project idea.
       - text: "The organizing team will create a public Git repository at GitHub for each team."
       - text: "If a team needs more than one repository, they can ask the organizers to create them."
       - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
