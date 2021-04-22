@@ -659,7 +659,7 @@ winner_2020:
     - text: Great idea! I think it will be useful to many
       author: Mariano
 
-category_winners:
+category_winners_2020:
   - team: Imaginary Metal Quartet Rabble
     project: pixel-smash
     repo: pixel-smash
