@@ -5,10 +5,23 @@
       <p>
         SpawnFest is an annual 48 hour online software development contest in which teams from around the world get exactly one weekend to create the best BEAM-based applications they can.
       </p>
+
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
       <p>We'll be opening registration soon. <strong>Stay tuned!</strong></p>
+      
+      <b>All BEAM languages are welcome!</b>
+      <div id="langs" class="row text-center text-lg-left mt-3">
+        {% for lang in site.languages %}  
+            <div class="lang col-lg-2 col-md-4 col-6">
+              <a href="{{ lang.url }}" target="_blank" class="d-block mb-2">
+                  <img class="img-fluid img-thumbnail border-0" src="{{ lang.image }}" alt="{{ lang.name }}">
+              </a>
+            </div>
+        {% endfor %}
+      </div>
+
       <br>
-      <div class="pt-5">
+      <div class="pt-2">
         <h4>Previous editions</h4>
         <p>Check what happened in our previous editions:</p>
         <div class="pl-2">
@@ -33,4 +46,9 @@
       <a class="twitter-timeline" href="https://twitter.com/spawnfest?ref_src=twsrc%5Etfw" data-height="550">Tweets by SpawnFest</a>
     </div>
   </div>
+
 </section>
+
+<script>
+$('.lang').shuffle();
+</script>
