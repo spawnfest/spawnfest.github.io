@@ -128,6 +128,25 @@ a.winners-link {
     }
 }
 
+
+section#registration { 
+    background: #3f66b2;
+    color: #FFFFFF;
+}
+
+.registration-section-link { 
+    color: #001120;
+}
+
+.registration-section-link:hover { 
+    color: #001120;
+}
+
+section#judges {
+    background: #5F9BDD;
+    color: #FFFFFF;
+}
+
 section#rules {
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
@@ -683,8 +702,13 @@ img.sp-img {
 .team-member img {
     width: 51%;
     height: auto;
-    border: 7px solid #fff;
+    border: 7px solid #c5d3ea;
 }
+
+.team-member-info { 
+    color: #e7edf7; 
+}
+
 .team-member-prizes img {
     width: auto;
     height: 150px;
