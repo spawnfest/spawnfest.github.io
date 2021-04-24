@@ -13,15 +13,13 @@ nav:
     ref: "#rules"
 
 social:
-  - url: https://www.facebook.com/spawnfest2017
-    icon: "fab fa-facebook"
   - url: https://github.com/orgs/spawnfest/teams/players
     icon: "fab fa-github"
   - url: https://twitter.com/spawnfest
     icon: "fab fa-twitter-square"
   - url: https://erlanger.slack.com/?redir=%2Fmessages%2FC7M2PNZHB
     icon: "fab fa-slack"
-  - url: "mailto:spawnfest-organizers@googlegroups.com"
+  - url: "mailto:organizers@spawnfest.org"
     icon: "fas fa-envelope"
 
 languages: 
