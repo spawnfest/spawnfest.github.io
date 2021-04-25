@@ -322,6 +322,7 @@ a.btn-previous-edition:focus {
     padding: 2px 4px;
 }
 #mainNav {
+    padding-top: 0;
     padding-right: 0;
     padding-left: 0;
 }
@@ -398,8 +399,8 @@ a.btn-previous-edition:focus {
     
     #mainNav .nav-title {
         height: 65px;
-        margin-top: -33px;
-        margin-bottom: -33px;
+        margin-top: -10px;
+        margin-bottom: -10px;
     }
 }
 header.masthead {
