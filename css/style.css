@@ -135,11 +135,13 @@ section#registration {
 }
 
 .registration-section-link { 
-    color: #001120;
+    color: #00cab7;
+    text-decoration: underline;
 }
 
 .registration-section-link:hover { 
-    color: #001120;
+    color: #00cab7;
+    text-decoration: underline;
 }
 
 section#judges {
