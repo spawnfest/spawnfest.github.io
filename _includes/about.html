@@ -3,11 +3,25 @@
     <div class="col-md-1"></div>
     <div class="col-md-7">
       <p>
-        Spawnfest is an annual 48 hour free online development competition in which teams of skilled developers from around the world get exactly one weekend to create the best BEAM-based applications they can.
+        SpawnFest is an annual 48 hour online software development contest in which teams from around the world get exactly one weekend to create the best BEAM-based applications they can.
       </p>
+
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
+      <p>We'll be opening registration soon. <strong>Stay tuned!</strong></p>
+      
+      <b>All BEAM languages are welcome!</b>
+      <div id="langs" class="row text-center text-lg-left mt-3">
+        {% for lang in site.languages %}  
+            <div class="lang col-lg-2 col-md-4 col-6">
+              <a href="{{ lang.url }}" target="_blank" class="d-block mb-2">
+                  <img class="img-fluid img-thumbnail border-0" src="{{ lang.image }}" alt="{{ lang.name }}">
+              </a>
+            </div>
+        {% endfor %}
+      </div>
+
       <br>
-      <div class="pt-5">
+      <div class="pt-2">
         <h4>Previous editions</h4>
         <p>Check what happened in our previous editions:</p>
         <div class="pl-2">
@@ -15,20 +29,25 @@
           <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="https://spawnfest.github.io/2017/" target="_blank">2017</a>
           <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="2018">2018</a>
           <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="2019">2019</a>
+          <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="2020">2020</a>
         </div>
       </div>
       <br>
       <span>You can reach us through any of our channels:</span>
       <div class="container d-flex pb-5" >
         <a href="https://twitter.com/spawnfest" target="_blank"><img class="share-icon pr-4 pt-2" src="img/twitter-icon.png"/></a>
-          <a href="https://www.facebook.com/spawnfest2017" target="_blank"><img class="pr-4 pt-2 share-icon"  src="img/facebook-icon.png"></a>
-          <a href="mailto:spawnfest-organizers@googlegroups.com"><img class="share-icon pr-4 pt-2" src="img/gmail-icon.png"></a>
+          <a href="mailto:organizers@spawnfest.org"><img class="share-icon pr-4 pt-2" src="img/gmail-icon.png"></a>
           <a href="https://erlanger.slack.com/messages/C7M2PNZHB"><img class="share-icon pr-4 pt-2" src="img/slack-icon.png"></a>
-          <a href="https://github.com/orgs/spawnfest/teams/players"><img class="share-icon pr-4 pt-2" src="img/github-icon.png"></a>
+          <a href="https://github.com/spawnfest"><img class="share-icon pr-4 pt-2" src="img/github-icon.png"></a>
       </div>
     </div>
     <div class="col-md-4 border twiter-mobile ">
-      <a class="twitter-timeline" href="https://twitter.com/spawnfest?ref_src=twsrc%5Etfw" data-height="550">Tweets by Spawnfest</a>
+      <a class="twitter-timeline" href="https://twitter.com/spawnfest?ref_src=twsrc%5Etfw" data-height="550">Tweets by SpawnFest</a>
     </div>
   </div>
+
 </section>
+
+<script>
+$('.lang').shuffle();
+</script>
