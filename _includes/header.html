@@ -1,7 +1,7 @@
 <header class="masthead">
     <div class="container">
         <div class="img-container">
-            <img class="header-logo" src="img/header_logo.png" alt="spawnfest 2021 september 18-19">
+            <img class="header-logo" src="img/header_logo.png" alt="{{ site.alt_for_logo }}">
         </div>
     </div>
     <div class="background-video">
@@ -14,7 +14,7 @@
         <div class="d-flex justify-content-center">
             <div class="head-message p-3 {% if site.registration_open %}d-none{% else %}{% endif %}">
                  <h2 class="d-flex justify-content-center">We'll be coming back soon...</h2>
-                 <h2 class="d-flex justify-content-center">Checkout the WINNERS from our latest edition!</h2>
+                 <h2 class="d-flex justify-content-center">Checkout the WINNERS from {{ site.last_edition_year }}!</h2>
             </div>
         </div>
     </a>
