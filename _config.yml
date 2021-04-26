@@ -3,13 +3,13 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-#  - name: Judges
-#    ref: "#judges"
-  - name: Sponsors
-    ref: "#sponsors"
-  - name: Prizes
+  - name: Judges
+    ref: "#judges"
+#  - name: Sponsors
+#    ref: "#sponsors"
+#  - name: Prizes
 #    ref: "#prizes"
-#  - name: Rules
+  - name: Rules
     ref: "#rules"
 
 social:
@@ -22,7 +22,7 @@ social:
   - url: "mailto:organizers@spawnfest.org"
     icon: "fas fa-envelope"
 
-languages: 
+languages:
   - name: Erlang
     url: https://erlang.org/
     image: img/languages/erlang.svg
