@@ -9,7 +9,7 @@ nav:
     ref: "#sponsors"
   - name: Prizes
 #    ref: "#prizes"
-#  - name: Rules
+  - name: Rules
     ref: "#rules"
 
 social:
