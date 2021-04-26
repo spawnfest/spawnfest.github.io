@@ -1,7 +1,7 @@
---- 
-layout: default 
-title: Winners 
-ermalink: /winners 
+---
+layout: default
+title: Winners
+ermalink: /winners
 ---
 
 <!-- Navigation -->
@@ -20,7 +20,7 @@ ermalink: /winners
                     by <strong>{{ site.winner.team }}</strong>
                     <br/> {% for member in site.winner.members %}
                     <a href="https://github.com/{{ member.user }}" target="_blank">
-                        <img class="member" src="{{ member.avatar }}">
+                        <img class="member" src="{{ member.avatar }}" alt="member avatar for {{ member.avatar }}">
                     </a>
                     {% endfor %}
                 </div>
@@ -80,7 +80,7 @@ ermalink: /winners
                     <div>
                         {% for member in winner.members %}
                         <a href="https://github.com/{{ member.user }}" target="_blank">
-                            <img class="member-small" src="{{ member.avatar }}">
+                            <img class="member-small" src="{{ member.avatar }}" alt="member avatar for {{ member.avatar }}">
                         </a>
                         {% endfor %}
                     </div>
