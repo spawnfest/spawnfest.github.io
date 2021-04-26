@@ -12,6 +12,8 @@ nav:
   - name: Rules
     ref: "#rules"
 
+registration_open: true
+
 social:
   - url: https://github.com/orgs/spawnfest/teams/players
     icon: "fab fa-github"
@@ -191,8 +193,6 @@ judges:
     url:
     twitter: rrrene
     image: judges_2021/Rene.png
-
-
 
 rules:
   - title: "Schedule"

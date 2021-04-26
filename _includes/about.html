@@ -7,11 +7,13 @@
       </p>
 
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
+      {% if site.registration_open %}
+      {% else %}
       <p>We'll be opening registration soon. <strong>Stay tuned!</strong></p>
-      
+      {% endif %}
       <b>All BEAM languages are welcome!</b>
       <div id="langs" class="row text-center text-lg-left mt-3">
-        {% for lang in site.languages %}  
+        {% for lang in site.languages %}
             <div class="lang col-lg-2 col-md-4 col-6">
               <a href="{{ lang.url }}" target="_blank" class="d-block mb-2">
                   <img class="img-fluid img-thumbnail border-0" src="{{ lang.image }}" alt="{{ lang.name }}">

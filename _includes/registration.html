@@ -5,11 +5,12 @@
                 <h2 class="section-heading text-uppercase">Register your team</h2>
                 <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
                 <p>
+                {% if site.registration_open %}
                 Fill in <a class="registration-section-link" target="_blank" href="https://forms.gle/g3GB8SCzjxSde7h1A">this form</a> to register your team in SpawnFest.
                 <br />
-                <!--
+                {% else %}
                 <b>The registration is not open yet, but it will be soon.</b>
-                -->
+                {% endif %}
                 </p>
                 <p>
                 Don't forget to check the <a class="registration-section-link" href="#rules">rules</a> to know how the contest works.
@@ -19,13 +20,14 @@
             <div class="col-md-6">
                 <h2 class="section-heading text-uppercase">Find a team</h2>
                 <p>
+                    {% if site.registration_open %}
                     You want to take part in SpawnFest but don't have a team yet?
                     Fill out <a class="registration-section-link"  target="_blank" href="https://forms.gle/sLzS8EPmFi8a5ooP8">this form</a>.
                     We will try to hook you up with a team as soon as possible!
                     <br />
-                    <!--
+                    {% else %}
                     <b>The registration is not open yet, but it will be soon.</b>
-                    -->
+                    {% endif %}
                 </p>
             </div>
         </div>
