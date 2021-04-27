@@ -110,13 +110,13 @@ languages:
 #    description:
 #    background_color: "#510512"
 
-# silver_sponsors:
-#   - name:
-#     image:
-#     logo:
-#     url:
-#     description:
-#     background_color:
+silver_sponsors:
+  - name: NineFX 
+    image: sponsors_2021/ninefx.png 
+    logo:  sponsors_2021/ninefx.png
+    url: https://www.ninefx.com/
+    description: 
+    background_color: "#FFFFFF"
 
 #media_sponsors:
 #  - name: Lambdaclass
@@ -140,7 +140,11 @@ languages:
 #    description:
 #    background_color: "#400A76"
 
-#prizes:
+prizes:
+  - name: $150 Amazon Gift Card
+    sponsor: NineFX
+    sponsor_url: https://www.ninefx.com/
+    image: prizes_2021/amazon-gift-card5.png
 #  - name: $2000 in DigitalOcean Credit
 #    sponsor: DigitalOcean
 #    sponsor_url: https://www.digitalocean.com/
