@@ -7,11 +7,13 @@
       </p>
 
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
+      {% if site.registration_open %}
+      {% else %}
       <p>We'll be opening registration soon. <strong>Stay tuned!</strong></p>
-      
-      <b>All BEAM languages are welcome!</b>
+      {% endif %}
+      <strong>All BEAM languages are welcome!</strong>
       <div id="langs" class="row text-center text-lg-left mt-3">
-        {% for lang in site.languages %}  
+        {% for lang in site.languages %}
             <div class="lang col-lg-2 col-md-4 col-6">
               <a href="{{ lang.url }}" target="_blank" class="d-block mb-2">
                   <img class="img-fluid img-thumbnail border-0" src="{{ lang.image }}" alt="{{ lang.name }}">
@@ -22,7 +24,7 @@
 
       <br>
       <div class="pt-2">
-        <h4>Previous editions</h4>
+        <h2>Previous editions</h2>
         <p>Check what happened in our previous editions:</p>
         <div class="pl-2">
           <a class="text-white btn btn-previous-edition btn-sm p-2 m-1" href="https://spawnfest.github.io/2012/" target="_blank">2012</a>
@@ -35,10 +37,10 @@
       <br>
       <span>You can reach us through any of our channels:</span>
       <div class="container d-flex pb-5" >
-        <a href="https://twitter.com/spawnfest" target="_blank"><img class="share-icon pr-4 pt-2" src="img/twitter-icon.png"/></a>
-          <a href="mailto:organizers@spawnfest.org"><img class="share-icon pr-4 pt-2" src="img/gmail-icon.png"></a>
-          <a href="https://erlanger.slack.com/messages/C7M2PNZHB"><img class="share-icon pr-4 pt-2" src="img/slack-icon.png"></a>
-          <a href="https://github.com/spawnfest"><img class="share-icon pr-4 pt-2" src="img/github-icon.png"></a>
+        <a href="https://twitter.com/spawnfest" target="_blank"><img class="share-icon pr-4 pt-2" src="img/twitter-icon.png" alt="link to competition's twitter"/></a>
+          <a href="mailto:organizers@spawnfest.org"><img class="share-icon pr-4 pt-2" src="img/gmail-icon.png" alt="link to competition's email"></a>
+          <a href="https://erlanger.slack.com/messages/C7M2PNZHB"><img class="share-icon pr-4 pt-2" src="img/slack-icon.png" alt="link to competition's slack"></a>
+          <a href="https://github.com/spawnfest"><img class="share-icon pr-4 pt-2" src="img/github-icon.png" alt="link to competition's github"></a>
       </div>
     </div>
     <div class="col-md-4 border twiter-mobile ">

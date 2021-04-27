@@ -3,14 +3,19 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-#  - name: Judges
-#    ref: "#judges"
-  - name: Sponsors
-    ref: "#sponsors"
-  - name: Prizes
+  - name: Judges
+    ref: "#judges"
+#  - name: Sponsors
+#    ref: "#sponsors"
+#  - name: Prizes
 #    ref: "#prizes"
-#  - name: Rules
+  - name: Rules
     ref: "#rules"
+
+registration_open: true
+last_edition_year: 2020
+this_edition_year: 2021
+alt_for_logo: spawnfest 2021 september 18-19
 
 social:
   - url: https://github.com/orgs/spawnfest/teams/players
@@ -22,7 +27,7 @@ social:
   - url: "mailto:organizers@spawnfest.org"
     icon: "fas fa-envelope"
 
-languages: 
+languages:
   - name: Erlang
     url: https://erlang.org/
     image: img/languages/erlang.svg
@@ -167,7 +172,7 @@ languages:
 #    image: prizes_2020/code_mesh.jpg
 
 judges:
-  - name: Laura Castro
+  - name: Laura M. Castro
     url:
     twitter: lauramcastro
     image: judges_2021/Laura.jpg
@@ -191,8 +196,6 @@ judges:
     url:
     twitter: rrrene
     image: judges_2021/Rene.png
-
-
 
 rules:
   - title: "Schedule"

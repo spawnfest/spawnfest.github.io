@@ -4,7 +4,7 @@
       <div class="d-inline-flex">
         {% for contact in site.social %}
           <div class="social-link">
-            <a href="{{ contact.url }}"> <i class="{{ contact.icon }}"></i></a>
+            <a href="{{ contact.url }}"> <em class="{{ contact.icon }}"></em></a>
           </div>
         {%  endfor %}
       </div>
@@ -18,7 +18,7 @@
   <div class="col-md-12 text-center">
     <div class="d-flex">
       <div class="footer col-md-12 pb-3">
-        <span class="copyright text-center text-white">&copy; SpawnFest 2021</span>
+        <span class="copyright text-center text-white">&copy; SpawnFest {{ site.this_edition_year }}</span>
       </div>
    </div>
   </div>
