@@ -170,7 +170,8 @@ section#rules {
 .rule {
     font-size: 15px;
     padding: 3px;
-    margin-top: -2%;
+    padding-top: 2%;
+    margin-top: -4%;
     margin-bottom: 4%;
     border-radius: 20px;
     background-color: white;
@@ -248,6 +249,11 @@ a.style {
         max-width: 82%;
         height: auto;
     }
+}
+
+#sponsors{
+    padding-top: 40px;
+    padding-bottom: 0;
 }
 
 .sponsors-container {
@@ -583,7 +589,7 @@ img.sp-img {
     border-radius: 100%;
     background-color: #fed136;
 }
-.timeline>li .timeline-image h4 {
+.timeline>li .timeline-image h3 {
     font-size: 10px;
     line-height: 14px;
     margin-top: 12px;
@@ -608,11 +614,11 @@ img.sp-img {
 .timeline>li:last-child {
     margin-bottom: 0;
 }
-.timeline .timeline-heading h4 {
+.timeline .timeline-heading h3 {
     margin-top: 0;
     color: inherit;
 }
-.timeline .timeline-heading h4.subheading {
+.timeline .timeline-heading h3.subheading {
     text-transform: none;
 }
 .timeline .timeline-body>ul,
@@ -643,7 +649,7 @@ img.sp-img {
         margin-left: -50px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image h3 {
         font-size: 13px;
         line-height: 18px;
         margin-top: 16px;
@@ -670,7 +676,7 @@ img.sp-img {
         margin-left: -75px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image h3 {
         font-size: 18px;
         line-height: 26px;
         margin-top: 30px;
@@ -695,7 +701,7 @@ img.sp-img {
         margin-left: -85px;
     }
 
-    .timeline>li .timeline-image h4 {
+    .timeline>li .timeline-image h3 {
         margin-top: 40px;
     }
 
@@ -725,12 +731,12 @@ img.sp-img {
     width: auto;
     height: 150px;
 }
-.team-member h4 {
+.team-member h3 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
-.team-member-prizes h4 {
+.team-member-prizes h3 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
