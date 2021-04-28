@@ -176,8 +176,7 @@ section#rules {
 .rule {
     font-size: 15px;
     padding: 3px;
-    padding-top: 2%;
-    margin-top: -4%;
+    margin-top: -2%;
     margin-bottom: 4%;
     border-radius: 20px;
     background-color: white;
