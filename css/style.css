@@ -34,8 +34,8 @@ section hr {
 section h2.section-heading {
     font-size: 40px;
     margin-bottom: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 section h3.section-subheading {
@@ -142,6 +142,12 @@ section#registration {
 .registration-section-link:hover {
     color: #00cab7;
     text-decoration: underline;
+}
+
+.registration-team {
+    max-width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 section#judges {

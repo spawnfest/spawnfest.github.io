@@ -1,34 +1,26 @@
 <section class="sp-box bg1" id="registration">
     <div class="p-5 container">
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center registration-team">
                 <h2 class="section-heading text-uppercase">Register your team</h2>
-                <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
-                <p>
                 {% if site.registration_open %}
-                Fill in <a class="registration-section-link" target="_blank" href="https://forms.gle/g3GB8SCzjxSde7h1A">this form</a> to register your team in SpawnFest.
-                <br />
+                <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
+                <p>Fill out <a class="registration-section-link" target="_blank" href="https://forms.gle/g3GB8SCzjxSde7h1A">this form</a> to register your team.</p>
+                <p>Also check out the contest rules <a class="registration-section-link" href="#rules">here</a>.</p>
                 {% else %}
-                <strong>The registration is not open yet, but it will be soon.</strong>
+                <p><strong>The registration is not open yet, but it will be soon.</strong></p>
                 {% endif %}
-                </p>
-                <p>
-                Don't forget to check the <a class="registration-section-link" href="#rules">rules</a> to know how the contest works.
-                </p>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 text-center registration-team">
                 <h2 class="section-heading text-uppercase">Find a team</h2>
-                <p>
-                    {% if site.registration_open %}
-                    You want to take part in SpawnFest but don't have a team yet?
-                    Fill out <a class="registration-section-link"  target="_blank" href="https://forms.gle/sLzS8EPmFi8a5ooP8">this form</a>.
-                    We will try to hook you up with a team as soon as possible!
-                    <br />
-                    {% else %}
-                    <strong>The registration is not open yet, but it will be soon.</strong>
-                    {% endif %}
-                </p>
+                {% if site.registration_open %}
+                <p>Don't have a team yet?</p>
+                <p>Fill out <a class="registration-section-link"  target="_blank" href="https://forms.gle/sLzS8EPmFi8a5ooP8">this form</a>.</p>
+                <p>We'll hook you up with a team as soon as possible!</p>
+                {% else %}
+                <p><strong>The registration is not open yet, but it will be soon.</strong></p>
+                {% endif %}
             </div>
         </div>
     </div>
