@@ -1,4 +1,3 @@
-s
 <hr>
 <div class="container brands">
     <div class="d-flex justify-content-center align-items-center sponsors">
@@ -42,14 +41,12 @@ s
 
 <div class="container brands">
     <div class="d-flex justify-content-center align-items-center sponsors">
-        {% for sponsor in site.community_sponsors %}
         <div class="col-md-2 text-center">
             <div class="p-2">
-                <a class="nav-link" target="_blank" href="{{ sponsor.url }}">
-                    <img class="img-fluid" src="/img/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+                <a class="nav-link" target="_blank" href="{{ site.social_media_management.url }}">
+                    <img class="img-fluid" src="/img/{{ site.social_media_management.logo }}" alt="{{ site.social_media_management.name }}">
                 </a>
             </div>
         </div>
-        {% endfor %}
     </div>
 </div>
