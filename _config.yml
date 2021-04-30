@@ -80,13 +80,13 @@ social_media_management:
     description:
     background_color: "#FFFFFF"
 
-#platinum_sponsors:
-#  - name: DigitalOcean
-#   image: sponsors_2020/digitalocean.png
-#   logo: sponsors_2020/DO_Logo_Vertical_Blue.png
-#   url: https://www.digitalocean.com/
-#   description:
-#   background_color: "#0080FF"
+platinum_sponsors:
+  - name: Erlang Ecosystem Foundation
+    image: sponsors_2021/eef-logo.svg
+    logo: sponsors_2021/eef-logo.svg
+    url: http://www.erlef.org/
+    description:
+    background_color: "#FFFFFF"
 
 #gold_sponsors:
 #  - name: Peer Stritzinger

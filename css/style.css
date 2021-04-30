@@ -278,20 +278,20 @@ a.style {
 }
 
 .sponsor-platinum {
-    height: 100px;
+    height: 200px;
 }
 
 .sponsor-gold,
 .sponsor-community {
-    height: 80px
+    height: 125px
 }
 
 .sponsor-silver {
-    height: 70px
+    height: 75px
 }
 
 .sponsor-bronze {
-    height: 50px
+    height: 30px
 }
 
 .sponsor>img {
