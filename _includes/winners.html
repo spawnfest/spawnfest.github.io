@@ -38,9 +38,13 @@
       <div class="row text-center">
         {% for prize in site.winner.prizes %}
           <div class="col-md-6">
+            {% if prize.url %}
             <a class="nav-link" target="_blank" href="{{ prize.url }}">
-            <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+            {% endif %}
+              <img class="winner-prize" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+            {% if prize.url %}
             </a>
+            {% endif %}
             <div class="col-md-12">
               <p>{{ prize.name }}
               - by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
@@ -86,9 +90,13 @@
               </div>
               <div class="text-center">
                 Prize
+                {% if winner.prize.url %}
                 <a class="nav-link" target="_blank" href="{{ winner.prize.url }}">
-                <img class="winner-prize" src="/img/{{ winner.prize.image }}" alt="{{ winner.prize.name }}">
+                {% endif %}
+                  <img class="winner-prize" src="/img/{{ winner.prize.image }}" alt="{{ winner.prize.name }}">
+                {% if winner.prize.url %}
                 </a>
+                {% endif %}
                 <div>
                   <p>{{ winner.prize.name }}
                   - by <strong><a target="_blank" href="{{ winner.prize.sponsor_url }}">{{ winner.prize.sponsor }}</a></strong></p>
