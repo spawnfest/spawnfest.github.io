@@ -77,7 +77,6 @@ social_media_management:
     image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
-    description:
     background_color: "#FFFFFF"
 
 platinum_sponsors:
@@ -85,7 +84,6 @@ platinum_sponsors:
     image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
-    description:
     background_color: "#FFFFFF"
 
 #gold_sponsors:
@@ -93,7 +91,6 @@ platinum_sponsors:
 #    image:
 #    logo:
 #    url:
-#    description:
 #    background_color:
 
 silver_sponsors:
@@ -101,7 +98,6 @@ silver_sponsors:
     image: sponsors_2021/ninefx.png
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
-    description:
     background_color: "#FFFFFF"
 
 prizes:
@@ -116,27 +112,21 @@ prizes:
 
 judges:
   - name: Laura M. Castro
-    url:
     twitter: lauramcastro
     image: judges_2021/Laura.jpg
   - name: Evadne Wu
-    url:
     twitter: evadne
     image: judges_2021/Evadne.png
   - name: Brooklyn Zelenka
-    url:
     twitter: expede
     image: judges_2021/Brooklyn.png
   - name: Quinn Wilton
-    url:
     twitter: wilton_quinn
     image: judges_2021/Quinn.jpg
   - name: Kenji Rikitake
-    url:
     twitter: jj1bdx
     image: judges_2021/Kenji.jpg
   - name: René Föhring
-    url:
     twitter: rrrene
     image: judges_2021/Rene.png
 
