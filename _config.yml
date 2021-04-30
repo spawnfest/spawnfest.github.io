@@ -89,26 +89,12 @@ platinum_sponsors:
     background_color: "#FFFFFF"
 
 #gold_sponsors:
-#  - name: Peer Stritzinger
-#    image: sponsors_2020/peer.svg
-#    logo: sponsors_2020/peer_logo.svg
-#    url: https://www.stritzinger.com/
+#  - name:
+#    image:
+#    logo:
+#    url:
 #    description:
-#    background_color: "#6f4dab"
-#
-#  - name: NextRoll
-#    image: sponsors_2020/nextroll.png
-#    logo: sponsors_2020/nextroll.png
-#    url: https://www.nextroll.com/
-#    description:
-#    background_color: "#FFFFFF"
-#
-#  - name: Code Sync
-#    image: sponsors_2020/codesync.jpg
-#    logo: sponsors_2020/codesync.jpg
-#    url: https://codesync.global/
-#    description:
-#    background_color: "#510512"
+#    background_color:
 
 silver_sponsors:
   - name: NineFX
