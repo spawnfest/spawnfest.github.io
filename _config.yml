@@ -76,7 +76,7 @@ social_media_management:
     name: Erlang Ecosystem Foundation
     image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
-    url: http://www.erlef.org/
+    url: https://www.erlef.org/
     description:
     background_color: "#FFFFFF"
 
@@ -84,7 +84,7 @@ platinum_sponsors:
   - name: Erlang Ecosystem Foundation
     image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
-    url: http://www.erlef.org/
+    url: https://www.erlef.org/
     description:
     background_color: "#FFFFFF"
 
