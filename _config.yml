@@ -104,28 +104,6 @@ silver_sponsors:
     description:
     background_color: "#FFFFFF"
 
-#media_sponsors:
-#  - name: Lambdaclass
-#    image: sponsors_2020/lambdaclass.png
-#    logo: sponsors_2020/lambdaclass.png
-#    url: https://lambdaclass.com/
-#    description:
-#    background_color: "#FFFFFF"
-#
-#  - name: Code Mesh V
-#    image: sponsors_2020/codemesh.jpg
-#    logo: sponsors_2020/codemesh.jpg
-#    url: https://codesync.global/conferences/code-mesh-ldn/
-#    description:
-#    background_color: "#073840"
-#
-#  - name: Code Beam V
-#    image: sponsors_2020/codebeam.jpg
-#    logo: sponsors_2020/codebeam.jpg
-#    url: https://codesync.global/conferences/code-beam-sto/
-#    description:
-#    background_color: "#400A76"
-
 prizes:
   - name: $150 Amazon Gift Card
     sponsor: NineFX
