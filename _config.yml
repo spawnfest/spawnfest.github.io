@@ -109,35 +109,10 @@ prizes:
     sponsor: NineFX
     sponsor_url: https://www.ninefx.com/
     image: prizes_2021/amazon-gift-card5.png
-#  - name: $2000 in DigitalOcean Credit
-#    sponsor: DigitalOcean
-#    sponsor_url: https://www.digitalocean.com/
-#    url:
-#    image: prizes_2020/digitalocean_logo_prize.png
-#
-#  - name: $600 in Amazon gift cards
-#    sponsor: NextRoll
-#    sponsor_url: https://www.nextroll.com/
-#    url:
-#    image: prizes_2020/amazon-gift-card5.png
-#
-#  - name: GRiSP2 boards
-#    sponsor: Peer Stritzinger
-#    sponsor_url: https://www.stritzinger.com/
-#    url:
-#    image: prizes_2020/GRiSP2.png
-#
-#  - name: $1000 (Community Prize)
-#    sponsor: ErlEF
-#    sponsor_url: http://www.erlef.org/
-#    url:
-#    image: sponsors_2020/eef-logo.svg
-#
-#  - name: Free Tickets for Code Mesh V
-#    sponsor: Code Sync
-#    sponsor_url: https://codesync.global/
-#    url:
-#    image: prizes_2020/code_mesh.jpg
+  - name: $2400 Amazon Gift Card
+    sponsor: Erlang Ecosystem Foundation
+    sponsor_url: https://www.erlef.org/
+    image: prizes_2021/amazon-gift-card5.png
 
 judges:
   - name: Laura M. Castro
