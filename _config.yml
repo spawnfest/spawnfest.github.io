@@ -66,7 +66,7 @@ languages:
     image: img/languages/otpcl.svg
 
 organizer:
-  name: Some kind folks of the BEAM community
+  name: Some kind folks from the BEAM community
 #  image:
 #  logo:
   url: "/#organizers"
