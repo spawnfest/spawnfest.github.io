@@ -256,6 +256,10 @@ a.style {
     }
 }
 
+.organizer,.organizer:hover {
+    color: black;
+}
+
 #sponsors{
     padding-top: 40px;
     padding-bottom: 0;
@@ -905,4 +909,23 @@ footer a:hover {
 }
 footer .social-link {
     margin-right: 15px;
+}
+
+.brought-to-you-by {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.brought-to-you-by-imgs img {
+    border-radius: 50% !important;
+    height: 32px;
+    opacity: 80%;
+}
+.brought-to-you-by-imgs a,a:hover {
+    color: white;
+    vertical-align: bottom;
+}
+
+.brought-to-you-by-imgs a:not(:last-child) {
+    padding-right: 20px;
 }
