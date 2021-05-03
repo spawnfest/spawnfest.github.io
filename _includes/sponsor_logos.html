@@ -53,28 +53,3 @@ s
         {% endfor %}
     </div>
 </div>
-
-<div class="container brands">
-    <div class="d-flex justify-content-center align-items-center sponsors">
-        {% for sponsor in site.media_sponsors %}
-        <div class="col-md-2 text-center">
-            <div class="p-2">
-                <a class="nav-link" target="_blank" href="{{ sponsor.url }}">
-                    <img class="img-fluid" src="/img/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
-                </a>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-    <div class="container brands">
-        <div class="d-flex justify-content-center align-items-center sponsors">
-            <div class="col-md-2 text-center">
-                <div class="p-2">
-                    <a class="nav-link" target="_blank" href="{{ site.organizer.url }}">
-                        <img class="img-fluid" src="/img/{{ site.organizer.logo }}" alt="{{ site.organizer.name }}">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>

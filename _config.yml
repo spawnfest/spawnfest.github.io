@@ -65,12 +65,12 @@ languages:
     url: https://otpcl.github.io/
     image: img/languages/otpcl.svg
 
-#organizer:
-#  name: Fiqus
-#  image: sponsors_2020/fiqus.png
-#  logo: sponsors_2020/fiqus.png
-#  url: https://fiqus.coop/en/
-#  background_color: "#FFFFFF"
+organizer:
+  name: Some kind folks from the BEAM community
+#  image:
+#  logo:
+  url: "/#organizers"
+  background_color: "#FFFFFF"
 
 #community_sponsors:
 #  - name: Erlang Ecosystem Foundation
@@ -111,11 +111,11 @@ languages:
 #    background_color: "#510512"
 
 silver_sponsors:
-  - name: NineFX 
-    image: sponsors_2021/ninefx.png 
+  - name: NineFX
+    image: sponsors_2021/ninefx.png
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
-    description: 
+    description:
     background_color: "#FFFFFF"
 
 #media_sponsors:

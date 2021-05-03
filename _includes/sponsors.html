@@ -90,13 +90,17 @@
     </div>
     {% endif %}
 
-    <!-- Organizer Sponsor -->
+    <!-- Organizer -->
     {% if site.organizer.name %}
     <div class="row mt-3 sponsors-container">
         <h2 class="display-5 col-12 text-center">Organizer</h2>
-        <a class="col-md-3 col-sm-12" href="{{ site.organizer.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-organizer " style="background-color: {{ site.organizer.background_color }}; ">
+        <a class="col-md-3 col-sm-12 organizer" href="{{ site.organizer.url }}">
+            <div class="rounded mx-auto text-center" style="background-color: {{ site.organizer.background_color }}; ">
+                {% if site.organizer.image %}
                 <img class=" p-2 " src="/img/{{ site.organizer.image }} " alt="{{ site.organizer.name }} ">
+                {% else %}
+                {{ site.organizer.name }}
+                {% endif %}
             </div>
         </a>
     </div>
