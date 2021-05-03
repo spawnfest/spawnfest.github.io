@@ -256,7 +256,8 @@ a.style {
     }
 }
 
-.organizer,.organizer:hover {
+.organizer,
+.organizer:hover {
     color: black;
 }
 
@@ -922,7 +923,8 @@ footer .social-link {
     height: 32px;
     opacity: 80%;
 }
-.brought-to-you-by-imgs a,a:hover {
+.brought-to-you-by-imgs a,
+.brought-to-you-by-imgs a:hover {
     color: white;
     vertical-align: bottom;
 }
