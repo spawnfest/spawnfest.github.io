@@ -10,9 +10,13 @@
       {% for prize in site.prizes %}
         <div class="col-sm-4">
           <div class="team-member-prizes">
+            {% if prize.url %}
             <a class="nav-link" target="_blank" href="{{ prize.url }}">
+            {% endif %}
               <img class="mx-auto rounded-top" src="/img/{{ prize.image }}" alt="{{ prize.name }}">
+            {% if prize.url %}
             </a>
+            {% endif %}
             <p>{{ prize.name }}</p>
             <p class="text-muted">by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
           </div>

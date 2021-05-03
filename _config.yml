@@ -72,132 +72,61 @@ organizer:
   url: "/#organizers"
   background_color: "#FFFFFF"
 
-#community_sponsors:
-#  - name: Erlang Ecosystem Foundation
-#    image: sponsors_2020/eef-logo.svg
-#    logo: sponsors_2020/eef-logo.svg
-#    url: http://www.erlef.org/
-#    description:
-#    background_color: "#FFFFFF"
+social_media_management:
+    name: Erlang Ecosystem Foundation
+    image: sponsors_2021/eef-logo.svg
+    logo: sponsors_2021/eef-logo.svg
+    url: https://www.erlef.org/
+    background_color: "#FFFFFF"
 
-#platinum_sponsors:
-#  - name: DigitalOcean
-#   image: sponsors_2020/digitalocean.png
-#   logo: sponsors_2020/DO_Logo_Vertical_Blue.png
-#   url: https://www.digitalocean.com/
-#   description:
-#   background_color: "#0080FF"
+platinum_sponsors:
+  - name: Erlang Ecosystem Foundation
+    image: sponsors_2021/eef-logo.svg
+    logo: sponsors_2021/eef-logo.svg
+    url: https://www.erlef.org/
+    background_color: "#FFFFFF"
 
 #gold_sponsors:
-#  - name: Peer Stritzinger
-#    image: sponsors_2020/peer.svg
-#    logo: sponsors_2020/peer_logo.svg
-#    url: https://www.stritzinger.com/
-#    description:
-#    background_color: "#6f4dab"
-#
-#  - name: NextRoll
-#    image: sponsors_2020/nextroll.png
-#    logo: sponsors_2020/nextroll.png
-#    url: https://www.nextroll.com/
-#    description:
-#    background_color: "#FFFFFF"
-#
-#  - name: Code Sync
-#    image: sponsors_2020/codesync.jpg
-#    logo: sponsors_2020/codesync.jpg
-#    url: https://codesync.global/
-#    description:
-#    background_color: "#510512"
+#  - name:
+#    image:
+#    logo:
+#    url:
+#    background_color:
 
 silver_sponsors:
   - name: NineFX
     image: sponsors_2021/ninefx.png
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
-    description:
     background_color: "#FFFFFF"
 
-#media_sponsors:
-#  - name: Lambdaclass
-#    image: sponsors_2020/lambdaclass.png
-#    logo: sponsors_2020/lambdaclass.png
-#    url: https://lambdaclass.com/
-#    description:
-#    background_color: "#FFFFFF"
-#
-#  - name: Code Mesh V
-#    image: sponsors_2020/codemesh.jpg
-#    logo: sponsors_2020/codemesh.jpg
-#    url: https://codesync.global/conferences/code-mesh-ldn/
-#    description:
-#    background_color: "#073840"
-#
-#  - name: Code Beam V
-#    image: sponsors_2020/codebeam.jpg
-#    logo: sponsors_2020/codebeam.jpg
-#    url: https://codesync.global/conferences/code-beam-sto/
-#    description:
-#    background_color: "#400A76"
-
 prizes:
-  - name: $150 Amazon Gift Card
+  - name: $150 in Amazon Gift Cards
     sponsor: NineFX
     sponsor_url: https://www.ninefx.com/
     image: prizes_2021/amazon-gift-card5.png
-#  - name: $2000 in DigitalOcean Credit
-#    sponsor: DigitalOcean
-#    sponsor_url: https://www.digitalocean.com/
-#    url:
-#    image: prizes_2020/digitalocean_logo_prize.png
-#
-#  - name: $600 in Amazon gift cards
-#    sponsor: NextRoll
-#    sponsor_url: https://www.nextroll.com/
-#    url:
-#    image: prizes_2020/amazon-gift-card5.png
-#
-#  - name: GRiSP2 boards
-#    sponsor: Peer Stritzinger
-#    sponsor_url: https://www.stritzinger.com/
-#    url:
-#    image: prizes_2020/GRiSP2.png
-#
-#  - name: $1000 (Community Prize)
-#    sponsor: ErlEF
-#    sponsor_url: http://www.erlef.org/
-#    url:
-#    image: sponsors_2020/eef-logo.svg
-#
-#  - name: Free Tickets for Code Mesh V
-#    sponsor: Code Sync
-#    sponsor_url: https://codesync.global/
-#    url:
-#    image: prizes_2020/code_mesh.jpg
+  - name: $2400 in Amazon Gift Cards
+    sponsor: Erlang Ecosystem Foundation
+    sponsor_url: https://www.erlef.org/
+    image: prizes_2021/amazon-gift-card5.png
 
 judges:
   - name: Laura M. Castro
-    url:
     twitter: lauramcastro
     image: judges_2021/Laura.jpg
   - name: Evadne Wu
-    url:
     twitter: evadne
     image: judges_2021/Evadne.png
   - name: Brooklyn Zelenka
-    url:
     twitter: expede
     image: judges_2021/Brooklyn.png
   - name: Quinn Wilton
-    url:
     twitter: wilton_quinn
     image: judges_2021/Quinn.jpg
   - name: Kenji Rikitake
-    url:
     twitter: jj1bdx
     image: judges_2021/Kenji.jpg
   - name: René Föhring
-    url:
     twitter: rrrene
     image: judges_2021/Rene.png
 
