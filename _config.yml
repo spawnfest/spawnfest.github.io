@@ -217,7 +217,7 @@ rules:
       - text: "Every team member has to be an individual, not an organization."
       - text: "All members of a team should be at least 18 years old."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: Every team has to be registered by completing the <a href="#registration">registration form</a></span>, and it should have a designated leader to handle the prize distribution and communications with the organizers.
+      - text: Every team has to register by completing the <a href="#registration">registration form</a></span>, and it should have a designated leader to handle the prize distribution and communication with the organizers.
   - title: Projects
     icon: "fas fa-rocket"
     details:
@@ -227,12 +227,12 @@ rules:
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
       - text: "Each team should come up with their own project idea."
       - text: "The organizing team will create a public Git repository at GitHub for each team."
-      - text: "All deliverables should be uploaded to the repository, which is what will be used by the jury to evaluate the projects."
+      - text: "All deliverables should be uploaded to the repository, which shall be used by the jury to evaluate the projects."
       - text: "Suggested extra deliverables to include: documentation, comprehensive README.md, project-related art (e.g. logos), tests and anything that makes building and understanding the system easier for the judges."
       - text: "Contributions to the project (e.g. Pull Requests) from developers outside the team will be forbidden during the contest, but encouraged afterwards."
       - text: "Usage of third party libraries and web services is not prohibited, it's even encouraged."
-      - text: "<em>Ownership and Copyright:</em> each team retains all the rights to their submissions and the repository transfership can always be requested. Note that, however, you will only keep read/write access to the repository until 5 months before the next edition of SpawnFest."
-      - text: "<em>User Privacy:</em> projects cannot collect any type of personal information."
+      - text: "<em>Ownership and Copyright:</em> each team retains all the rights to their submissions and the repository transfership can always be requested. Note, however, that you will only keep write access to the repository until 5 months before the next edition of SpawnFest."
+      - text: "<em>User Privacy:</em> projects shall not collect any type of personal identifiable information."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
   - title: Evaluation
     icon: "fas fa-gavel"
@@ -249,9 +249,9 @@ rules:
                 <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd>
               </dl>
               "
-      - text: "Final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score will be the winner of the contest."
+      - text: "The final score of each team will be computed as the sum of the points received in all categories. The team with the highest final score will be the winner of the contest."
       - text: "As long as there are more prizes, those will be awarded to runner-up teams."
-      - text: "Prizes from the sponsors do not have to be given as a whole to the winners, they might be shared among teams (e.g., the total sum value of an Amazon card could be distributed among teams)."
+      - text: "Prizes from the sponsors do not have to be given as a whole to the winners; they might be shared among teams (e.g., the total sum value of an Amazon card could be distributed among teams)."
       - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams."
   - title: Other Rules
     icon: "fas fa-list-alt"
