@@ -918,17 +918,17 @@ footer .social-link {
     padding-top: 20px;
 }
 
-.brought-to-you-by-imgs img {
+.brought-to-you-by-fellows img {
     border-radius: 50% !important;
     height: 32px;
     opacity: 80%;
 }
-.brought-to-you-by-imgs a,
-.brought-to-you-by-imgs a:hover {
+.brought-to-you-by-fellows a,
+.brought-to-you-by-fellows a:hover {
     color: white;
     vertical-align: bottom;
 }
 
-.brought-to-you-by-imgs a:not(:last-child) {
+.brought-to-you-by-fellows span:not(:last-child) {
     padding-right: 20px;
 }
