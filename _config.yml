@@ -217,7 +217,8 @@ rules:
       - text: "Every team member has to be an individual, not an organization."
       - text: "All members of a team should be at least 18 years old."
       - text: "Judges of this contest can not participate in it as members of a team."
-      - text: Every team has to register by completing the <a href="#registration">registration form</a></span>, and it should have a designated leader to handle the prize distribution and communication with the organizers.
+      - text: "Every team has to register by completing the <a href="#registration">registration form</a></span>."
+      - text: "Each team shall have a designated leader to handle the prize distribution among its members as well as communicating with the organizers."
   - title: Projects
     icon: "fas fa-rocket"
     details:
@@ -249,9 +250,9 @@ rules:
                 <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd>
               </dl>
               "
-      - text: "The final score of each team will be computed as the sum of the points received in all categories. The team with the highest final score will be the winner of the contest."
+      - text: "The final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score will be the winner of the contest."
       - text: "As long as there are more prizes, those will be awarded to runner-up teams."
-      - text: "Prizes from the sponsors do not have to be given as a whole to the winners; they might be shared among teams (e.g., the total sum value of an Amazon card could be distributed among teams)."
+      - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the judges may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
       - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams."
   - title: Other Rules
     icon: "fas fa-list-alt"
