@@ -932,3 +932,13 @@ footer .social-link {
 .brought-to-you-by-imgs a:not(:last-child) {
     padding-right: 20px;
 }
+
+.lang-name {
+    font-size: 10px;
+    margin-bottom: 1rem!important;
+    text-align: center;
+}
+
+.lang-link {
+    margin-bottom: 0px!important;
+}
