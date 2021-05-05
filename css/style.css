@@ -937,3 +937,13 @@ footer .social-link {
 .brought-to-you-by-fellows span:not(:last-child) {
     padding-right: 20px;
 }
+
+.lang {
+    margin-top: 15px;
+}
+
+.lang-name {
+    font-size: 10px;
+    margin-bottom: 1rem!important;
+    text-align: center;
+}
