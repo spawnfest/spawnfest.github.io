@@ -782,6 +782,11 @@ section#contact {
     margin-right: 0;
     margin-left: 0;
 }
+.row-center {
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+}
 img.member {
     width: 100px;
     vertical-align: bottom;
