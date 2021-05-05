@@ -30,40 +30,40 @@ social:
 languages:
   - name: Erlang
     url: https://erlang.org/
-    image: img/languages/erlang.svg
+    image: img/languages/erlang-edited.png
   - name: Elixir
     url: https://elixir-lang.org/
-    image: img/languages/elixir.png
+    image: img/languages/elixir-edited.png
   - name: LFE
     url: https://lfe.io/
-    image: img/languages/lfe.svg
+    image: img/languages/lfe-edited.png
   - name: Hamler
     url: https://www.hamler-lang.org/
-    image: img/languages/hamler.png
+    image: img/languages/hamler-edited.png
   - name: Luerl
     url: https://github.com/rvirding/luerl
-    image: img/languages/luerl.svg
+    image: img/languages/luerl-edited.png
   - name: Gleam
     url: https://gleam.run/
-    image: img/languages/gleam.png
+    image: img/languages/gleam-edited.png
   - name: Clojerl
     url: http://clojerl.org/
-    image: img/languages/clojerl.svg
+    image: img/languages/clojerl-edited.png
   - name: Fika
     url: https://github.com/fika-lang/fika
-    image: img/languages/fika.png
+    image: img/languages/fika-edited.png
   - name: Bragful
     url: https://github.com/bragful/ephp
-    image: img/languages/ephp.svg
+    image: img/languages/ephp-edited.png
   - name: Caramel
     url: https://caramel.abstractmachines.dev/
-    image: img/languages/caramel.png
+    image: img/languages/caramel-edited.png
   - name: Elchemy
     url: https://wende.github.io/elchemy/
-    image: img/languages/elchemy.svg
+    image: img/languages/elchemy-edited.png
   - name: OTPCL
     url: https://otpcl.github.io/
-    image: img/languages/otpcl.svg
+    image: img/languages/otpcl-edited.png
 
 organizer:
   name: Some kind folks from the BEAM community

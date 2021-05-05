@@ -933,6 +933,10 @@ footer .social-link {
     padding-right: 20px;
 }
 
+.lang {
+    margin-top: 15px;
+}
+
 .lang-name {
     font-size: 10px;
     margin-bottom: 1rem!important;
@@ -940,5 +944,6 @@ footer .social-link {
 }
 
 .lang-link {
+    height: 77%;
     margin-bottom: 0px!important;
 }
