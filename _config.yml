@@ -88,12 +88,12 @@ platinum_sponsors:
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
 
-#gold_sponsors:
-#  - name:
-#    image:
-#    logo:
-#    url:
-#    background_color:
+gold_sponsors:
+  - name: Erlang Solutions
+    image: sponsors_2021/esl.png
+    logo: sponsors_2021/esl.png
+    url: https://www.erlang-solutions.com
+    background_color: "#FFFFFF"
 
 silver_sponsors:
   - name: NineFX
@@ -120,6 +120,10 @@ prizes:
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com/
     image: prizes_2021/amazon-gift-card5.png
+  - name: 2 virtual conference tickets + 1 virtual tutorial
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com
+    image: prizes_2021/virtual-ticket.png
 
 judges:
   - name: Laura M. Castro
