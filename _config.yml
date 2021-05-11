@@ -99,6 +99,11 @@ gold_sponsors:
     logo: sponsors_2021/esl.png
     url: https://www.erlang-solutions.com
     background_color: "#FFFFFF"
+  - name: Groxio
+    image: sponsors_2021/groxio.svg
+    logo: sponsors_2021/groxio.svg
+    url: https://grox.io
+    background_color: "#FFFFFF"
 
 silver_sponsors:
   - name: NineFX
@@ -133,6 +138,10 @@ prizes:
     sponsor: Code Sync
     sponsor_url: https://codesync.global/
     image: prizes_2021/virtual-ticket.png
+  - name: 4 annual subscriptions Groxio Programmer Passport
+    sponsor: Groxio
+    sponsor_url: https://grox.io
+    image: prizes_2021/passport.png
 
 judges:
   - name: Laura M. Castro
