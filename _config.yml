@@ -101,6 +101,11 @@ silver_sponsors:
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
     background_color: "#FFFFFF"
+  - name: 2600Hz
+    image: sponsors_2021/2600hz.png
+    logo:  sponsors_2021/2600hz.png
+    url: https://www.2600hz.com/
+    background_color: "#FFFFFF"
 
 prizes:
   - name: $150 in Amazon Gift Cards
@@ -110,6 +115,10 @@ prizes:
   - name: $2400 in Amazon Gift Cards
     sponsor: Erlang Ecosystem Foundation
     sponsor_url: https://www.erlef.org/
+    image: prizes_2021/amazon-gift-card5.png
+  - name: $150 in Amazon Gift Cards
+    sponsor: 2600Hz
+    sponsor_url: https://www.2600hz.com/
     image: prizes_2021/amazon-gift-card5.png
 
 judges:
