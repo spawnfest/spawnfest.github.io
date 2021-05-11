@@ -69,50 +69,42 @@ languages:
 
 organizer:
   name: The Fellowship of the BEAM
-#  image:
 #  logo:
   url: "/#organizers"
   background_color: "#FFFFFF"
 
 social_media_management:
     name: Erlang Ecosystem Foundation
-    image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
 
 platinum_sponsors:
   - name: Erlang Ecosystem Foundation
-    image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
   - name: Code Sync
-    image: sponsors_2021/codesync.png
     logo: sponsors_2021/codesync.png
     url: https://codesync.global/
     background_color: "#FFFFFF"
 
 gold_sponsors:
   - name: Erlang Solutions
-    image: sponsors_2021/esl.png
     logo: sponsors_2021/esl.png
     url: https://www.erlang-solutions.com
     background_color: "#FFFFFF"
   - name: Groxio
-    image: sponsors_2021/groxio.svg
     logo: sponsors_2021/groxio.svg
     url: https://grox.io
     background_color: "#FFFFFF"
 
 silver_sponsors:
   - name: NineFX
-    image: sponsors_2021/ninefx.png
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
     background_color: "#FFFFFF"
   - name: 2600Hz
-    image: sponsors_2021/2600hz.png
     logo:  sponsors_2021/2600hz.png
     url: https://www.2600hz.com/
     background_color: "#FFFFFF"
