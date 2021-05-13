@@ -84,16 +84,17 @@ platinum_sponsors:
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
-  - name: Code Sync
-    logo: sponsors_2021/codesync.png
-    url: https://codesync.global/
-    background_color: "#FFFFFF"
-
-gold_sponsors:
   - name: Erlang Solutions
     logo: sponsors_2021/esl.png
     url: https://www.erlang-solutions.com
     background_color: "#FFFFFF"
+  - name: Code Sync
+    logo: sponsors_2021/codesync.png
+    url: https://codesync.global/
+    background_color: "#FFFFFF"
+    
+
+gold_sponsors:
   - name: Groxio
     logo: sponsors_2021/groxio.svg
     url: https://grox.io
@@ -122,11 +123,11 @@ prizes:
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com/
     image: prizes_2021/amazon-gift-card5.png
-  - name: 2 virtual conference tickets + 1 virtual tutorial
+  - name: 4 virtual conference tickets (includes virtual tutorial)
     sponsor: Erlang Solutions
     sponsor_url: https://www.erlang-solutions.com
     image: prizes_2021/virtual-ticket.png
-  - name: 2 virtual conference tickets + 1 virtual tutorial
+  - name: 4 virtual combo conference tickets (includes virtual tutorial)
     sponsor: Code Sync
     sponsor_url: https://codesync.global/
     image: prizes_2021/virtual-ticket.png
