@@ -13,7 +13,7 @@
         {% for sponsor in site.platinum_sponsors %}
         <a class="col-md-6 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-platinum " style="background-color: {{ sponsor.background_color }}; ">
-                <img class=" p-2 " src="/img/{{ sponsor.image }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {% endfor %}
@@ -27,7 +27,7 @@
         {% for sponsor in site.gold_sponsors %}
         <a class="col-md-4 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-gold " style="background-color: {{ sponsor.background_color }}; ">
-                <img class=" p-2 " src="/img/{{ sponsor.image }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {%endfor%}
@@ -41,7 +41,7 @@
         {% for sponsor in site.silver_sponsors %}
         <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-silver " style="background-color: {{ sponsor.background_color }}; ">
-                <img class=" p-2 " src="/img/{{ sponsor.image }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {%endfor%}
@@ -55,7 +55,7 @@
         {% for sponsor in site.bronze_sponsors %}
         <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-bronze " style="background-color: {{ sponsor.background_color }}; ">
-                <img class=" p-2 " src="/img/{{ sponsor.image }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {%endfor%}
@@ -68,7 +68,7 @@
         <h2 class="display-5 col-12 text-center ">Social media management</h2>
         <a class="col-md-4 col-sm-12" href="{{ site.social_media_management.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-community " style="background-color: {{ site.social_media_management.background_color }}; ">
-                <img class=" p-2 " src="/img/{{ site.social_media_management.image }} " alt="{{ site.social_media_management.name }} ">
+                <img class=" p-2 " src="/img/{{ site.social_media_management.logo }} " alt="{{ site.social_media_management.name }} ">
             </div>
         </a>
     </div>
@@ -80,8 +80,8 @@
         <h2 class="display-5 col-12 text-center">Organizer</h2>
         <a class="col-md-3 col-sm-12 organizer" href="{{ site.organizer.url }}">
             <div class="rounded mx-auto text-center" style="background-color: {{ site.organizer.background_color }}; ">
-                {% if site.organizer.image %}
-                <img class=" p-2 " src="/img/{{ site.organizer.image }} " alt="{{ site.organizer.name }} ">
+                {% if site.organizer.logo %}
+                <img class=" p-2 " src="/img/{{ site.organizer.logo }} " alt="{{ site.organizer.name }} ">
                 {% else %}
                 {{ site.organizer.name }}
                 {% endif %}

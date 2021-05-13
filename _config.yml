@@ -69,37 +69,45 @@ languages:
 
 organizer:
   name: The Fellowship of the BEAM
-#  image:
 #  logo:
   url: "/#organizers"
   background_color: "#FFFFFF"
 
 social_media_management:
     name: Erlang Ecosystem Foundation
-    image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
 
 platinum_sponsors:
   - name: Erlang Ecosystem Foundation
-    image: sponsors_2021/eef-logo.svg
     logo: sponsors_2021/eef-logo.svg
     url: https://www.erlef.org/
     background_color: "#FFFFFF"
+  - name: Erlang Solutions
+    logo: sponsors_2021/esl.png
+    url: https://www.erlang-solutions.com
+    background_color: "#FFFFFF"
+  - name: Code Sync
+    logo: sponsors_2021/codesync.png
+    url: https://codesync.global/
+    background_color: "#FFFFFF"
+    
 
-#gold_sponsors:
-#  - name:
-#    image:
-#    logo:
-#    url:
-#    background_color:
+gold_sponsors:
+  - name: Groxio
+    logo: sponsors_2021/groxio.svg
+    url: https://grox.io
+    background_color: "#FFFFFF"
 
 silver_sponsors:
   - name: NineFX
-    image: sponsors_2021/ninefx.png
     logo:  sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
+    background_color: "#FFFFFF"
+  - name: 2600Hz
+    logo:  sponsors_2021/2600hz.png
+    url: https://www.2600hz.com/
     background_color: "#FFFFFF"
 
 prizes:
@@ -111,6 +119,22 @@ prizes:
     sponsor: Erlang Ecosystem Foundation
     sponsor_url: https://www.erlef.org/
     image: prizes_2021/amazon-gift-card5.png
+  - name: $150 in Amazon Gift Cards
+    sponsor: 2600Hz
+    sponsor_url: https://www.2600hz.com/
+    image: prizes_2021/amazon-gift-card5.png
+  - name: 5 virtual combo conference tickets (includes virtual tutorials)
+    sponsor: Erlang Solutions
+    sponsor_url: https://www.erlang-solutions.com
+    image: prizes_2021/virtual-ticket.png
+  - name: 5 virtual combo conference tickets (includes virtual tutorials)
+    sponsor: Code Sync
+    sponsor_url: https://codesync.global/
+    image: prizes_2021/virtual-ticket.png
+  - name: 4 annual subscriptions Groxio Programmer Passport
+    sponsor: Groxio
+    sponsor_url: https://grox.io
+    image: prizes_2021/passport.png
 
 judges:
   - name: Laura M. Castro
