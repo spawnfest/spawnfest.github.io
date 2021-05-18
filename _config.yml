@@ -142,7 +142,7 @@ prizes:
   - name: 1 reMarkable 2
     sponsor: Nomasystems
     sponsor_url: http://www.nomasystems.es/
-    image: prizes_2021:remarkable2.png
+    image: prizes_2021/remarkable2.png
 
 judges:
   - name: Laura M. Castro
