@@ -99,6 +99,10 @@ gold_sponsors:
     logo: sponsors_2021/groxio.svg
     url: https://grox.io
     background_color: "#FFFFFF"
+  - name: Nomasystems
+    logo: sponsors_2021/nomasystems.png
+    url: https://www.nomasystems.es/
+    background_color: "#FFFFFF"
 
 silver_sponsors:
   - name: NineFX
@@ -135,6 +139,10 @@ prizes:
     sponsor: Groxio
     sponsor_url: https://grox.io
     image: prizes_2021/passport.png
+  - name: 1 reMarkable 2
+    sponsor: Nomasystems
+    sponsor_url: http://www.nomasystems.es/
+    image: prizes_2021/remarkable2.png
 
 judges:
   - name: Laura M. Castro
