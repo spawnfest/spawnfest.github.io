@@ -92,6 +92,10 @@ platinum_sponsors:
     logo: sponsors_2021/codesync.png
     url: https://codesync.global/
     background_color: "#FFFFFF"
+  - name: Remote
+    logo: sponsors_2021/remote.png
+    url: https://remote.com/
+    background_color: "#FFFFFF"
     
 
 gold_sponsors:
@@ -143,6 +147,10 @@ prizes:
     sponsor: Nomasystems
     sponsor_url: http://www.nomasystems.es/
     image: prizes_2021/remarkable2.png
+  - name: 4 Oculus Quest 2
+    sponsor: Remote.com
+    sponsor_url: https://remote.com/
+    image: prizes_2021/oculus-quest-2.png
 
 judges:
   - name: Laura M. Castro
