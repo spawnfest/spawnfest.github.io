@@ -262,6 +262,7 @@ a.style {
 }
 
 #sponsors{
+    background-color: #eeeeee;
     padding-top: 40px;
     padding-bottom: 0;
 }
@@ -271,11 +272,23 @@ a.style {
     justify-content: center;
 }
 
+.sponsors-container h2 {
+    padding-bottom: 25px;
+}
+
+.sponsors-container a {
+    padding-bottom: 50px;
+}
+
 .sponsor {
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sponsor-blue {
+    color: #0B478A;
 }
 
 .sponsor-platinum {
@@ -740,7 +753,7 @@ img.sp-img {
 
 .team-member-prizes img {
     width: auto;
-    height: 150px;
+    height: 200px;
 }
 .team-member h3 {
     margin-top: 25px;
