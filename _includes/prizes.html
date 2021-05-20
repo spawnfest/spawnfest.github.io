@@ -8,8 +8,7 @@
     </div>
     <div class="row">
       {% for prize in site.prizes %}
-        <div class="col-sm-4">
-          <div class="team-member-prizes">
+        <div class="col-sm-4 team-member-prizes">
             {% if prize.url %}
             <a class="nav-link" target="_blank" href="{{ prize.url }}">
             {% endif %}
@@ -19,9 +18,12 @@
             {% endif %}
             <p>{{ prize.name }}</p>
             <p class="text-muted">by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
-          </div>
         </div>
       {% endfor %}
     </div>
   </div>
 </section>
+
+<script>
+$('.team-member-prizes').shuffle();
+</script>

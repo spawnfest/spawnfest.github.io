@@ -1,7 +1,6 @@
 <section class="sp-box bg2" id="sponsors">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Sponsors</h2>
             <h3 class="section-subheading text-muted">This event is made possible by our sponsors. You can still <a target="_blank" href="https://forms.gle/HKHghJmYhgA3eN9B6">join them</a>.</h3>
         </div>
     </div>
@@ -9,10 +8,10 @@
     <!-- Platinum sponsors -->
     {% if site.platinum_sponsors %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center">Platinum</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Platinum sponsors</h2>
         {% for sponsor in site.platinum_sponsors %}
         <a class="col-md-6 col-sm-12" href="{{ sponsor.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-platinum " style="background-color: {{ sponsor.background_color }}; ">
+            <div class="rounded mx-auto text-center sponsor sponsor-platinum ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
@@ -23,10 +22,10 @@
     <!-- Gold sponsors -->
     {% if site.gold_sponsors %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center ">Gold</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Gold sponsors</h2>
         {% for sponsor in site.gold_sponsors %}
         <a class="col-md-4 col-sm-12" href="{{ sponsor.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-gold " style="background-color: {{ sponsor.background_color }}; ">
+            <div class="rounded mx-auto text-center sponsor sponsor-gold ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
@@ -37,10 +36,10 @@
     <!-- Silver sponsors -->
     {% if site.silver_sponsors %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center ">Silver</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Silver sponsors</h2>
         {% for sponsor in site.silver_sponsors %}
         <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-silver " style="background-color: {{ sponsor.background_color }}; ">
+            <div class="rounded mx-auto text-center sponsor sponsor-silver ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
@@ -51,10 +50,10 @@
     <!-- Bronze sponsors -->
     {% if site.bronze_sponsors %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center ">Bronze</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Bronze sponsors</h2>
         {% for sponsor in site.bronze_sponsors %}
         <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-bronze " style="background-color: {{ sponsor.background_color }}; ">
+            <div class="rounded mx-auto text-center sponsor sponsor-bronze ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
@@ -65,9 +64,9 @@
     <!-- Social media management -->
     {% if site.social_media_management %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center ">Social media management</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Social media management</h2>
         <a class="col-md-4 col-sm-12" href="{{ site.social_media_management.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-community " style="background-color: {{ site.social_media_management.background_color }}; ">
+            <div class="rounded mx-auto text-center sponsor sponsor-community ">
                 <img class=" p-2 " src="/img/{{ site.social_media_management.logo }} " alt="{{ site.social_media_management.name }} ">
             </div>
         </a>
@@ -77,9 +76,9 @@
     <!-- Organizer -->
     {% if site.organizer.name %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center">Organizer</h2>
+        <h2 class="display-5 col-12 text-center sponsor-blue">Organizer</h2>
         <a class="col-md-3 col-sm-12 organizer" href="{{ site.organizer.url }}">
-            <div class="rounded mx-auto text-center" style="background-color: {{ site.organizer.background_color }}; ">
+            <div class="rounded mx-auto text-center">
                 {% if site.organizer.logo %}
                 <img class=" p-2 " src="/img/{{ site.organizer.logo }} " alt="{{ site.organizer.name }} ">
                 {% else %}
@@ -100,3 +99,10 @@
         </div>
     </div>
 </section>
+
+<script>
+$('.sponsor-platinum').parent().shuffle();
+$('.sponsor-gold').parent().shuffle();
+$('.sponsor-silver').parent().shuffle();
+$('.sponsor-bronze').parent().shuffle();
+</script>
