@@ -90,6 +90,12 @@ platinum_sponsors:
   - name: Remote
     logo: sponsors_2021/remote.png
     url: https://remote.com/
+  - name: WhatsApp
+    logo: sponsors_2021/whatsapp.png
+    url: https://www.whatsapp.com/
+  - name: AppSignal
+    logo: sponsors_2021/appsignal.png
+    url: https://www.appsignal.com/?utm_source=spawnfest_sponsored&utm_medium=web
 
 
 gold_sponsors:
@@ -141,6 +147,14 @@ prizes:
     sponsor: Remote
     sponsor_url: https://remote.com/
     image: prizes_2021/oculus-quest-2.png
+  - name: $1500 in swag
+    sponsor: WhatsApp
+    sponsor_url: https://www.whatsapp.com/
+    image: prizes_2021/swag.jpg
+  - name: 3x €500 in AppSignal credits
+    sponsor: AppSignal
+    sponsor_url: https://www.appsignal.com/?utm_source=spawnfest_sponsored&utm_medium=web
+    image: prizes_2021/appsignal.png
 
 judges:
   - name: Laura M. Castro
