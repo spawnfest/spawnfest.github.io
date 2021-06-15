@@ -105,6 +105,9 @@ gold_sponsors:
   - name: Nomasystems
     logo: sponsors_2021/nomasystems.png
     url: https://www.nomasystems.es/
+  - name: Klarna
+    logo: sponsors_2021/klarna.png
+    url: https://www.klarna.com/
 
 silver_sponsors:
   - name: NineFX
@@ -155,6 +158,10 @@ prizes:
     sponsor: AppSignal
     sponsor_url: https://www.appsignal.com/?utm_source=spawnfest_sponsored&utm_medium=web
     image: prizes_2021/appsignal.png
+  - name: $500 in swag and Amazon Gift Cards
+    sponsor: Klarna
+    sponsor_url: https://www.klarna.com/
+    image: prizes_2021/swag-amazon.png
 
 judges:
   - name: Laura M. Castro
