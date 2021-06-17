@@ -95,7 +95,7 @@ platinum_sponsors:
     url: https://www.whatsapp.com/
   - name: AppSignal
     logo: sponsors_2021/appsignal.png
-    url: https://www.appsignal.com/?utm_source=spawnfest_sponsored&utm_medium=web
+    url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
 
 
 gold_sponsors:
@@ -156,7 +156,7 @@ prizes:
     image: prizes_2021/swag.jpg
   - name: 3x €500 in AppSignal credits
     sponsor: AppSignal
-    sponsor_url: https://www.appsignal.com/?utm_source=spawnfest_sponsored&utm_medium=web
+    sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
     image: prizes_2021/appsignal.png
   - name: $500 in swag and Amazon Gift Cards
     sponsor: Klarna
