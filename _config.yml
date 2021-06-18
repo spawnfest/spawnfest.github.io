@@ -153,7 +153,7 @@ prizes:
   - name: $1500 in swag
     sponsor: WhatsApp
     sponsor_url: https://www.whatsapp.com/
-    image: prizes_2021/swag.jpg
+    image: prizes_2021/whatsapp_socks.png
   - name: 3x €500 in AppSignal credits
     sponsor: AppSignal
     sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
