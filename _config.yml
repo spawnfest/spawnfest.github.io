@@ -108,6 +108,9 @@ gold_sponsors:
   - name: Klarna
     logo: sponsors_2021/klarna.png
     url: https://www.klarna.com/
+  - name: GitHub 
+    logo: sponsors_2021/github.png 
+    url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
 
 silver_sponsors:
   - name: NineFX
@@ -159,9 +162,13 @@ prizes:
     sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
     image: prizes_2021/appsignal.png
   - name: $500 in swag and Amazon Gift Cards
+    image: prizes_2021/swag-amazon.png
     sponsor: Klarna
     sponsor_url: https://www.klarna.com/
-    image: prizes_2021/swag-amazon.png
+  - name: $500 in credits at the Github Shop
+    image: prizes_2021/small_octocat.png
+    sponsor: GitHub
+    sponsor_url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
 
 judges:
   - name: Laura M. Castro
