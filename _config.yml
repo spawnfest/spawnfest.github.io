@@ -252,6 +252,41 @@ rules:
       - text: "Event organizers reserve the right to change these rules without prior notification, up until 5 days before the event starts."
 
 ideas:
+  - title: Dialyzer Simplifier
+    description: We always complain about the cryptic (always right, tho) messages Dialyzer generates. It would be amazing to create something to help newcommers (and experience devs alike) understand them better.
+  - title: rebar3 vendor plugin 
+    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, git, hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
+  - title: visual code coverage reporting tool with history
+    description: Needs definition
+  - title: Native secrets library for projects
+    description: Needs definition (see https://github.com/spawnfest/spawnfest.github.io/issues/123#issuecomment-833963436)
+  - title: Erlang Markdown lib 
+    description: An erlang library that providers parsing and rendering of markdown (common, GFM, etc.) 
+  - title: Pretty diff support for common tests 
+    description: A library that provides assertions which produces pretty diffs ala ExUnit on match and comparison assertions.
+  - title: OS certificate authority library 
+    description: A library to access certificate bundles from the operating system rather than having to carry them with the application.
+  - title: Recurring event site
+    description: A website to organize recurring events (in the style of Meetup but for stuff that happens every week). I'm thinking about… say… a group of friends that gather every week in the same place to play soccer, watch movies, read books, or hike.
+  - title: A public sports field status tracker app/website. 
+    description: This service would allow players to share the status of public sports facilities (i.e. table tennis tables, basketball rings, soccer fields, etc.) around the city. You will be able to know if they're free or if your friends are there or even what's the weather like there, without actually moving to that location.
+    description: A slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
+  - title: Distributed systemd scheduler
+    description: would allow to have multiple machines and use their systemd instance to schedule and manage the applications there. A BEAM reimplementation of fleetctl from CoreOS
+  - title: RSS/email/NNTP client
+    description: would work similarly to Hey.com, but would allow reading news and mailing groups in tree-like format
+  - title: Vulnerabilities store
+    description:  would cooperate with Hex about the issues with the projects there. That should cooperate with CycloneDX SBoM and should provide API for GitHub/GitLab to provide the security notifications.
+  - title: Calendar library in Erlang
+    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing. 
+  - title: Unicode manipulation library 
+    description: The string module does not provide a number of operations that have to be implemented by hand (such as removing accented characters). Support for Unicode codepoint properties ala libicu. Support for decoding/encoding UTF-8 from/to various other character encodings would also be useful, for example when dealing with email data.
+  - title: Hedy on the BEAM
+    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details. 
+  - title: Leex column number support
+    description: Currently Leex https://erlang.org/doc/man/leex.html the lexical analyser generator for Erlang does not support column numbers for the generated scanners. The returned tokens contain only a line number and not a tuple of {line(), column()}. This doesn't matter for the Erlang compiler because it doesn't use a leex generated scanner but all languages that do use leex can't support column numbers in error messages because of that. For backwards compatibility this should probably be optional. Optimally such a project could target itself for inclusion in Erlang/OTP.
+  - title: Generic non-deterministic user level scheduler
+    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in quickcheck. 
   - title: Erlang Code Improver
     description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
   - title: Process Mocker
@@ -260,8 +295,9 @@ ideas:
     description: If you feel adventureous, why not implementing something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
   - title: A Game
     description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
-  - title: Dialyzer Simplifier
-    description: We always complain about the cryptic (always right, tho) messages Dialyzer generates. It would be amazing to create something to help newcommers (and experience devs alike) understand them better.
+
+    
+
 
 ############
 ### 2018 ###
