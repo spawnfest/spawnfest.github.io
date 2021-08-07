@@ -255,7 +255,7 @@ ideas:
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
   - title: rebar3 vendor plugin 
-    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, git, hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
+    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
   - title: visual code coverage reporting tool with history
     description: Needs definition
   - title: Native secrets library for projects
