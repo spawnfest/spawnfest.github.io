@@ -270,7 +270,7 @@ ideas:
     description: A website to organize recurring events (in the style of Meetup but for stuff that happens every week). I'm thinking about... say... a group of friends that gather every week in the same place to play soccer, watch movies, read books, or hike.
   - title: A public sports field status tracker app/website. 
     description: This service would allow players to share the status of public sports facilities (i.e. table tennis tables, basketball rings, soccer fields, etc.) around the city. You will be able to know if they're free or if your friends are there or even what's the weather like there, without actually moving to that location.
-    description: A slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
+    description: A Slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that Slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
   - title: Distributed systemd scheduler
     description: would allow to have multiple machines and use their systemd instance to schedule and manage the applications there. A BEAM reimplementation of fleetctl from CoreOS
   - title: RSS/email/NNTP client
