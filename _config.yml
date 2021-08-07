@@ -257,7 +257,7 @@ ideas:
   - title: rebar3 vendor plugin 
     description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
   - title: visual code coverage reporting tool with history
-    description: Needs definition
+    description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
   - title: Native secrets library for projects
     description: Needs definition (see https://github.com/spawnfest/spawnfest.github.io/issues/123#issuecomment-833963436)
   - title: Erlang Markdown lib 
