@@ -263,7 +263,7 @@ ideas:
   - title: Erlang Markdown lib 
     description: An Erlang library that providers parsing and rendering of Markdown (common, GFM, etc.) 
   - title: Pretty diff support for common tests 
-    description: A library that provides assertions which produces pretty diffs ala ExUnit on match and comparison assertions.
+    description: A library that provides assertions which produce pretty diffs a la ExUnit on match and comparison assertions.
   - title: OS certificate authority library 
     description: A library to access certificate bundles from the operating system rather than having to carry them with the application.
   - title: Recurring event site
