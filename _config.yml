@@ -278,7 +278,7 @@ ideas:
   - title: RSS/email/NNTP client
     description: would work similarly to Hey.com, but would allow reading news and mailing groups in tree-like format
   - title: Vulnerabilities store
-    description:  would cooperate with Hex about the issues with the projects there. That should cooperate with CycloneDX SBoM and should provide API for GitHub/GitLab to provide the security notifications.
+    description:  An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
   - title: Calendar library in Erlang
     description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing. 
   - title: Unicode manipulation library 
