@@ -259,7 +259,8 @@ ideas:
   - title: visual code coverage reporting tool with history
     description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
   - title: Native secrets library for projects
-    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
+    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM 
+    (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
   - title: Erlang Markdown lib 
     description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.) 
   - title: Pretty diff support for common tests 
