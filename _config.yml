@@ -297,6 +297,12 @@ ideas:
     description: If you feel adventurous, why not implement something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
   - title: A Game
     description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
+-title: dependency upgrade suggestion system
+  description: have a way to, given a folder full of random projects (e.g. rebar3 or mix -based) determine what would be the best way to bump dep.s in them: tree analysis + upstream analysis (think [AdRoll/rebar3_depup](https://github.com/AdRoll/rebar3_depup) but for a complete tree)
+- title: a CI-oriented lib.
+  description: a lib. that concentrates good CI practices (testing, analysis, etc.) with an easy way to spawn other lib.s by a template it defines (or maybe a rebar3 plugin?)
+- title: copyright-header creator/updater
+  description: a copyright-header-creator lib. (add an easy copyright - or update an existing one - to all your source files) - might have to deal with parse_trans or regexp
 
     
 
