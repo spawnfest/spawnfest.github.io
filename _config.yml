@@ -252,16 +252,60 @@ rules:
       - text: "Event organizers reserve the right to change these rules without prior notification, up until 5 days before the event starts."
 
 ideas:
+  - title: Dialyzer Simplifier
+    description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
+  - title: rebar3 vendor plugin 
+    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
+  - title: visual code coverage reporting tool with history
+    description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
+  - title: Native secrets library for projects
+    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM 
+    (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
+  - title: Erlang Markdown lib 
+    description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.) 
+  - title: Pretty diff support for common tests 
+    description: A library that provides assertions which produce pretty diffs a la ExUnit on match and comparison assertions.
+  - title: OS certificate authority library 
+    description: A library to access certificate bundles from the operating system rather than having to carry them with the application.
+  - title: Recurring event site
+    description: A website to organize recurring events (in the style of Meetup but for stuff that happens every week). I'm thinking about... say... a group of friends that gather every week in the same place to play soccer, watch movies, read books, or hike.
+  - title: A public sports field status tracker app/website. 
+    description: This service would allow players to share the status of public sports facilities (i.e. table tennis tables, basketball rings, soccer fields, etc.) around the city. You will be able to know if they're free or if your friends are there or even what's the weather like there, without actually moving to that location.
+  - title: An auto-emoji creator for Slack/Discord
+    description: A Slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that Slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
+  - title: Distributed systemd scheduler
+    description:  A BEAM based implementation of fleetctl from CoreOS
+  - title: RSS/email/NNTP client
+    description: would work similarly to Hey.com, but would allow reading news and mailing groups in tree-like format
+  - title: Vulnerabilities store
+    description:  An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
+  - title: Calendar library in Erlang
+    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing. 
+  - title: Unicode manipulation library 
+    description: The string module does not provide a number of operations that have to be implemented by hand (such as removing accented characters). Support for Unicode codepoint properties ala libicu. Support for decoding/encoding UTF-8 from/to various other character encodings would also be useful, for example when dealing with email data.
+  - title: Hedy on the BEAM
+    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details. 
+  - title: Leex column number support
+    description: Currently Leex https://erlang.org/doc/man/leex.html the lexical analyser generator for Erlang does not support column numbers for the generated scanners. The returned tokens contain only a line number and not a tuple of {line(), column()}. This doesn't matter for the Erlang compiler because it doesn't use a leex generated scanner but all languages that do use leex can't support column numbers in error messages because of that. For backwards compatibility this should probably be optional. Optimally such a project could target itself for inclusion in Erlang/OTP.
+  - title: Generic non-deterministic user level scheduler
+    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck. 
   - title: Erlang Code Improver
     description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
   - title: Process Mocker
     description: <a target="_blank" href="https://hex.pm/packages/meck">Meck</a> allows you to mock modules and functions. A similar tool that would allow you to mock processes (i.e. step between a registered process and its callers and mock its behavior, passthrough others, count messages received, etc) would be great.
   - title: Some Application
-    description: If you feel adventureous, why not implementing something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
+    description: If you feel adventurous, why not implement something suggested by <a target="_blank" href="https://appideagenerator.com/">The App Idea Generator</a>?
   - title: A Game
     description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
-  - title: Dialyzer Simplifier
-    description: We always complain about the cryptic (always right, tho) messages Dialyzer generates. It would be amazing to create something to help newcommers (and experience devs alike) understand them better.
+-title: dependency upgrade suggestion system
+  description: have a way to, given a folder full of random projects (e.g. rebar3 or mix -based) determine what would be the best way to bump dep.s in them: tree analysis + upstream analysis (think [AdRoll/rebar3_depup](https://github.com/AdRoll/rebar3_depup) but for a complete tree)
+- title: a CI-oriented lib.
+  description: a lib. that concentrates good CI practices (testing, analysis, etc.) with an easy way to spawn other lib.s by a template it defines (or maybe a rebar3 plugin?)
+- title: copyright-header creator/updater
+  description: a copyright-header-creator lib. (add an easy copyright - or update an existing one - to all your source files) - might have to deal with parse_trans or regexp
+
+    
+
 
 ############
 ### 2018 ###
