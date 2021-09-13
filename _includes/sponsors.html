@@ -1,7 +1,12 @@
 <section class="sp-box bg2" id="sponsors">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h3 class="section-subheading text-muted">This event is made possible by our sponsors. You can still <a target="_blank" href="https://forms.gle/HKHghJmYhgA3eN9B6">join them</a>.</h3>
+            <h3 class="section-subheading text-muted">
+            This event is made possible by our sponsors.
+            {% if site.registration_open %}
+            You can still <a target="_blank" href="https://forms.gle/HKHghJmYhgA3eN9B6">join them</a>.
+            {% endif %}
+            </h3>
         </div>
     </div>
 
@@ -89,6 +94,7 @@
     </div>
     {% endif %}
 
+    {% if site.registration_open %}
     <div class="container ">
         <div class="col-md-12 ">
             <div class="p-5 ">
@@ -98,6 +104,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
 </section>
 
 <script>
