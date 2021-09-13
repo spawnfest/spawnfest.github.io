@@ -14,7 +14,7 @@ nav:
   - name: Rules
     ref: "#rules"
 
-registration_open: true
+registration_open: false
 last_edition_year: 2020
 this_edition_year: 2021
 alt_for_logo: spawnfest 2021 september 18-19
