@@ -471,6 +471,19 @@ header.masthead .img-container .header-logo {
         margin: 40% auto 20px auto;
     }
 }
+
+.header-logo-small {
+    width: 25%;
+    margin-left: 3rem;
+}
+
+@media(max-device-width:700px) {
+    .header-logo-small {
+        width: 100%;
+        margin: 40% auto 20px auto;
+    }
+}
+
 header.masthead .background-video {
     position: absolute;
     top: 0;
