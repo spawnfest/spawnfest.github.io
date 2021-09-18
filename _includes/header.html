@@ -1,20 +1,22 @@
 <header class="masthead">
-    <div class="container">
-        <div class="img-container">
-            <img class="header-logo" src="img/header_logo.png" alt="{{ site.alt_for_logo }}">
+  <div class="container">
+    <div class="intro-text">
+        <img class="header-logo-small" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
+        <div id="countdown" class="pt-1 d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-offset="-200"
+          data-aos-delay="1400"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-quad">
+            {% include countdown_widget.html %}
         </div>
     </div>
-    <div class="background-video">
-        <video playsinline autoplay muted loop>
+  </div>
+  <div class="background-video">
+    <video playsinline autoplay muted loop>
       <source src="img/background.mp4" type="video/mp4">
       <source src="img/background.webm" type="video/webm">
     </video>
-    </div>
-    <a href="winners" class="winners-link">
-        <div class="d-flex justify-content-center">
-            <div class="head-message p-3 {% if site.registration_open %}d-none{% else %}{% endif %}">
-                 <h2 class="d-flex justify-content-center">Registrations are closed! SpawnFest is starting in a few days...</h2>
-            </div>
-        </div>
-    </a>
+  </div>
 </header>
+
