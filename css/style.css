@@ -474,7 +474,7 @@ header.masthead .img-container .header-logo {
 
 .header-logo-small {
     width: 25%;
-    margin-left: 3rem;
+    margin-top: 3rem;
 }
 
 @media(max-device-width:700px) {
