@@ -768,6 +768,11 @@ img.sp-img {
     width: auto;
     height: 200px;
 }
+.team-member-prizes-2 img {
+    width: auto;
+    height: 100px;
+    padding-top: 20px;
+}
 .team-member h3 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -839,8 +844,21 @@ img.member-small {
     width: 75%;
     margin-left: 10%;
 }
+h1.category {
+    margin-top: 0.5em;
+}
 h2.category {
     text-decoration: underline;
+}
+h3.category {
+    margin-top: 0.5em;
+    text-align: center;
+}
+div.categories {
+    text-align: center;
+}
+span.category {
+    text-align: center;
 }
 .comment {
     margin-left: 20px;
@@ -851,13 +869,22 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    font-size: 15px;
 }
-blockquote:before {
+blockquote span:before {
     color: #ccc;
     content: open-quote;
     font-size: 2em;
     line-height: 0.1em;
     margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote span:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-left: 0.25em;
     vertical-align: -0.4em;
 }
 blockquote p {
