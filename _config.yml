@@ -1,3 +1,4 @@
+---
 nav:
   - name: About
     ref: "#about"
@@ -69,13 +70,12 @@ languages:
 
 organizer:
   name: The Fellowship of the BEAM
-#  logo:
   url: "/#organizers"
 
 social_media_management:
-    name: Erlang Ecosystem Foundation
-    logo: sponsors_2021/eef-logo.svg
-    url: https://www.erlef.org/
+  name: Erlang Ecosystem Foundation
+  logo: sponsors_2021/eef-logo.svg
+  url: https://www.erlef.org/
 
 platinum_sponsors:
   - name: Erlang Ecosystem Foundation
@@ -97,7 +97,6 @@ platinum_sponsors:
     logo: sponsors_2021/appsignal.png
     url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
 
-
 gold_sponsors:
   - name: Groxio
     logo: sponsors_2021/groxio.svg
@@ -108,16 +107,16 @@ gold_sponsors:
   - name: Klarna
     logo: sponsors_2021/klarna.png
     url: https://www.klarna.com/
-  - name: GitHub 
-    logo: sponsors_2021/github.png 
+  - name: GitHub
+    logo: sponsors_2021/github.png
     url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
 
 silver_sponsors:
   - name: NineFX
-    logo:  sponsors_2021/ninefx.png
+    logo: sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
   - name: 2600Hz
-    logo:  sponsors_2021/2600hz.png
+    logo: sponsors_2021/2600hz.png
     url: https://www.2600hz.com/
 
 prizes:
@@ -254,41 +253,41 @@ rules:
 ideas:
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
-  - title: rebar3 vendor plugin 
-    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
+  - title: rebar3 vendor plugin
+    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration.
   - title: visual code coverage reporting tool with history
     description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
   - title: Native secrets library for projects
-    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM 
+    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM
     (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
-  - title: Erlang Markdown lib 
-    description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.) 
-  - title: Pretty diff support for common tests 
+  - title: Erlang Markdown lib
+    description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.)
+  - title: Pretty diff support for common tests
     description: A library that provides assertions which produce pretty diffs a la ExUnit on match and comparison assertions.
-  - title: OS certificate authority library 
+  - title: OS certificate authority library
     description: A library to access certificate bundles from the operating system rather than having to carry them with the application.
   - title: Recurring event site
     description: A website to organize recurring events (in the style of Meetup but for stuff that happens every week). I'm thinking about... say... a group of friends that gather every week in the same place to play soccer, watch movies, read books, or hike.
-  - title: A public sports field status tracker app/website. 
+  - title: A public sports field status tracker app/website.
     description: This service would allow players to share the status of public sports facilities (i.e. table tennis tables, basketball rings, soccer fields, etc.) around the city. You will be able to know if they're free or if your friends are there or even what's the weather like there, without actually moving to that location.
   - title: An auto-emoji creator for Slack/Discord
     description: A Slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that Slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
   - title: Distributed systemd scheduler
-    description:  A BEAM based implementation of fleetctl from CoreOS
+    description: A BEAM based implementation of fleetctl from CoreOS
   - title: RSS/email/NNTP client
     description: would work similarly to Hey.com, but would allow reading news and mailing groups in tree-like format
   - title: Vulnerabilities store
-    description:  An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
+    description: An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
   - title: Calendar library in Erlang
-    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing. 
-  - title: Unicode manipulation library 
+    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing.
+  - title: Unicode manipulation library
     description: The string module does not provide a number of operations that have to be implemented by hand (such as removing accented characters). Support for Unicode codepoint properties ala libicu. Support for decoding/encoding UTF-8 from/to various other character encodings would also be useful, for example when dealing with email data.
   - title: Hedy on the BEAM
-    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details. 
+    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details.
   - title: Leex column number support
     description: Currently Leex https://erlang.org/doc/man/leex.html the lexical analyser generator for Erlang does not support column numbers for the generated scanners. The returned tokens contain only a line number and not a tuple of {line(), column()}. This doesn't matter for the Erlang compiler because it doesn't use a leex generated scanner but all languages that do use leex can't support column numbers in error messages because of that. For backwards compatibility this should probably be optional. Optimally such a project could target itself for inclusion in Erlang/OTP.
   - title: Generic non-deterministic user level scheduler
-    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck. 
+    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck.
   - title: Erlang Code Improver
     description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
   - title: Process Mocker
@@ -768,11 +767,11 @@ category_winners_2020:
       - user: alanz
         avatar: https://avatars0.githubusercontent.com/u/409607
     prizes:
-    - name: <strong>300USD</strong> Amazon Gift Card
-      sponsor: Nextroll
-      sponsor_url: https://www.nextroll.com/
-      url: https://www.amazon.com/gift-cards/
-      image: prizes_2020/amazon-gift-card5.png
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: Nextroll
+        sponsor_url: https://www.nextroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: prizes_2020/amazon-gift-card5.png
     comments:
       - text: Nice stuff. And certainly useful. Well documented too, including useful videos. Also instructions for spawnfest judges ;-)
         author: Simon
@@ -784,12 +783,12 @@ category_winners_2020:
     description: Compile Elixir applications into single, easily distributed executable binaries
     category: Innovation
     members:
-        - user: fhunleth
-          avatar: https://avatars2.githubusercontent.com/u/64669
-        - user: jjcarstens
-          avatar: https://avatars2.githubusercontent.com/u/11321326
-        - user: ConnorRigby
-          avatar: https://avatars3.githubusercontent.com/u/21150830
+      - user: fhunleth
+        avatar: https://avatars2.githubusercontent.com/u/64669
+      - user: jjcarstens
+        avatar: https://avatars2.githubusercontent.com/u/11321326
+      - user: ConnorRigby
+        avatar: https://avatars3.githubusercontent.com/u/21150830
     prizes:
       - name: Free CodeMesh V tickets
         sponsor: CodeSync
@@ -874,12 +873,12 @@ category_winners_2020:
     description: Compile Elixir applications into single, easily distributed executable binaries
     category: Community Prize
     members:
-        - user: fhunleth
-          avatar: https://avatars2.githubusercontent.com/u/64669
-        - user: jjcarstens
-          avatar: https://avatars2.githubusercontent.com/u/11321326
-        - user: ConnorRigby
-          avatar: https://avatars3.githubusercontent.com/u/21150830
+      - user: fhunleth
+        avatar: https://avatars2.githubusercontent.com/u/64669
+      - user: jjcarstens
+        avatar: https://avatars2.githubusercontent.com/u/11321326
+      - user: ConnorRigby
+        avatar: https://avatars3.githubusercontent.com/u/21150830
     prizes:
       - name: <strong>1000USD</strong>
         sponsor: EEF
