@@ -1,3 +1,4 @@
+---
 nav:
   - name: About
     ref: "#about"
@@ -69,13 +70,12 @@ languages:
 
 organizer:
   name: The Fellowship of the BEAM
-#  logo:
   url: "/#organizers"
 
 social_media_management:
-    name: Erlang Ecosystem Foundation
-    logo: sponsors_2021/eef-logo.svg
-    url: https://www.erlef.org/
+  name: Erlang Ecosystem Foundation
+  logo: sponsors_2021/eef-logo.svg
+  url: https://www.erlef.org/
 
 platinum_sponsors:
   - name: Erlang Ecosystem Foundation
@@ -97,7 +97,6 @@ platinum_sponsors:
     logo: sponsors_2021/appsignal.png
     url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
 
-
 gold_sponsors:
   - name: Groxio
     logo: sponsors_2021/groxio.svg
@@ -108,16 +107,16 @@ gold_sponsors:
   - name: Klarna
     logo: sponsors_2021/klarna.png
     url: https://www.klarna.com/
-  - name: GitHub 
-    logo: sponsors_2021/github.png 
+  - name: GitHub
+    logo: sponsors_2021/github.png
     url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
 
 silver_sponsors:
   - name: NineFX
-    logo:  sponsors_2021/ninefx.png
+    logo: sponsors_2021/ninefx.png
     url: https://www.ninefx.com/
   - name: 2600Hz
-    logo:  sponsors_2021/2600hz.png
+    logo: sponsors_2021/2600hz.png
     url: https://www.2600hz.com/
 
 prizes:
@@ -254,41 +253,41 @@ rules:
 ideas:
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
-  - title: rebar3 vendor plugin 
-    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration. 
+  - title: rebar3 vendor plugin
+    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration.
   - title: visual code coverage reporting tool with history
     description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
   - title: Native secrets library for projects
-    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM 
+    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM
     (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
-  - title: Erlang Markdown lib 
-    description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.) 
-  - title: Pretty diff support for common tests 
+  - title: Erlang Markdown lib
+    description: An Erlang library that provides parsing and rendering of Markdown (common, GFM, etc.)
+  - title: Pretty diff support for common tests
     description: A library that provides assertions which produce pretty diffs a la ExUnit on match and comparison assertions.
-  - title: OS certificate authority library 
+  - title: OS certificate authority library
     description: A library to access certificate bundles from the operating system rather than having to carry them with the application.
   - title: Recurring event site
     description: A website to organize recurring events (in the style of Meetup but for stuff that happens every week). I'm thinking about... say... a group of friends that gather every week in the same place to play soccer, watch movies, read books, or hike.
-  - title: A public sports field status tracker app/website. 
+  - title: A public sports field status tracker app/website.
     description: This service would allow players to share the status of public sports facilities (i.e. table tennis tables, basketball rings, soccer fields, etc.) around the city. You will be able to know if they're free or if your friends are there or even what's the weather like there, without actually moving to that location.
   - title: An auto-emoji creator for Slack/Discord
     description: A Slack plugin that when you write ":bananas:", if there is no emoji yet for that… it will try to guess what you mean by that, find out a proper image for it, and upload it to that Slack workspace so that ":bananas:" immediately turns into 🍌  without you having to actually create that emoji yourself.
   - title: Distributed systemd scheduler
-    description:  A BEAM based implementation of fleetctl from CoreOS
+    description: A BEAM based implementation of fleetctl from CoreOS
   - title: RSS/email/NNTP client
     description: would work similarly to Hey.com, but would allow reading news and mailing groups in tree-like format
   - title: Vulnerabilities store
-    description:  An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
+    description: An application that tracks vulnerabilities in BEAM libs and applications. Said application would work with https://hex.pm, utilizing CycloneDX SBoM and providing an API for GitHub/GitLab for generating security notifications.
   - title: Calendar library in Erlang
-    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing. 
-  - title: Unicode manipulation library 
+    description: Calendar library with TZ support, sub second support, and anything else the current calendar module in Erlang/OTP is missing.
+  - title: Unicode manipulation library
     description: The string module does not provide a number of operations that have to be implemented by hand (such as removing accented characters). Support for Unicode codepoint properties ala libicu. Support for decoding/encoding UTF-8 from/to various other character encodings would also be useful, for example when dealing with email data.
   - title: Hedy on the BEAM
-    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details. 
+    description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details.
   - title: Leex column number support
     description: Currently Leex https://erlang.org/doc/man/leex.html the lexical analyser generator for Erlang does not support column numbers for the generated scanners. The returned tokens contain only a line number and not a tuple of {line(), column()}. This doesn't matter for the Erlang compiler because it doesn't use a leex generated scanner but all languages that do use leex can't support column numbers in error messages because of that. For backwards compatibility this should probably be optional. Optimally such a project could target itself for inclusion in Erlang/OTP.
   - title: Generic non-deterministic user level scheduler
-    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck. 
+    description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck.
   - title: Erlang Code Improver
     description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
   - title: Process Mocker
@@ -303,6 +302,319 @@ ideas:
     description: Pick your favorite game and make a server for it, like we did with <a target="_blank" href="https://github.com/inaka/serpents">Serpents</a>. You can make it so the clients can be bots, or they can connect through an API or you can actually provide a visual interface to the game.
   - title: dependency upgrade suggestion system
     description: have a way to, given a folder full of random projects (e.g. rebar3 or mix -based) determine what would be the best way to bump deps in them tree analysis + upstream analysis (think <a href="https://github.com/AdRoll/rebar3_depup">AdRoll/rebar3_depup</a> but for a complete tree)
+
+winners_2021:
+  teams:
+    # 1st place overall
+    - team: Forty-Niners
+      project: eep49ers
+      description: Implementation of EEP-49 (Value-Based Error Handling Mechanisms) onto regular Erlang/OTP
+      members:
+        - user: ferd
+          avatar_id: 111141
+        - user: peerst
+          avatar_id: 1201969
+      categories_won:
+        - 1st place overall 🥇
+        - Completion - 1st 🥇
+        - Correctness - 1st 🥇
+        - Usefulness - 1st 🥇
+        - Maintainability - 3rd 🥉
+      comments:
+        - text: bringing a feature from Elixir to Erlang
+          author: Brooklyn
+        - text: great to see cross-pollination of ideas between the two languages [Erlang and Elixir]
+          author: Evadne
+        - text: EEP 49 is a good move
+          author: Kenji
+        - text: astonishing work
+          author: Laura
+        - text: the most impressive Hackathon project I've ever judged
+          author: Quinn
+    # 2nd place overall
+    - team: Toe BEAMs
+      project: Sketch
+      description: A library for creating generative art with Elixir.
+      members:
+        - user: sbinlondon
+          avatar_id: 37520401
+        - user: sannek
+          avatar_id: 17491062
+      categories_won:
+        - 2nd place overall 🥈
+        - Completion - 2nd 🥈
+        - Creativity - 2nd 🥈
+        - Innovation - 2nd 🥈
+        - Maintainability - 2nd 🥈
+        - Correctness - 3rd 🥉
+      prizes:
+        - prize: 5x virtual tickets
+          prize_image: img/prizes_2021/virtual-ticket.png
+          sponsor: Code Sync
+          sponsor_url: https://codesync.global/
+        - prize: $500 in credits
+          prize_image: img/prizes_2021/small_octocat.png
+          sponsor: GitHub
+          sponsor_url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
+        - prize: $792 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+        - prize: 2x annual subscriptions
+          prize_image: img/prizes_2021/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+        - prize: 1x Oculus Quest 2
+          prize_image: img/prizes_2021/oculus-quest-2.png
+          sponsor: Remote
+          sponsor_url: https://remote.com/
+        - prize: $750 in swag
+          prize_image: img/prizes_2021/whatsapp_socks.png
+          sponsor: Whatsapp
+          sponsor_url: https://www.whatsapp.com/
+      comments:
+        - text: clear scope with a fun outcome.  Well done!
+          author: Brooklyn
+        - text: highly competently constructed
+          author: Evadne
+        - text: a beautiful project, I love the idea, love the fact that they used both Erlang (...) and Elixir
+          author: Laura
+        - text: I absolutely adored this project!
+          author: Quinn
+        - text: looking forward to additional ideas in this space
+          author: René
+    # 3rd place overall
+    - team: eflambé
+      project: eflambe
+      description: A tool for rapid profiling of Erlang and Elixir applications
+      members:
+        - user: Stratus3D
+          avatar_id: 1520926
+      categories_won:
+        - Usefulness - 2nd 🥈
+        - 3rd place overall 🥉
+      prizes:
+        - prize: $150 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: 2600Hz
+          sponsor_url: https://www.2600hz.com/
+        - prize: $461 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+        - prize: $280 in swag and Amazon gift cards
+          prize_image: img/prizes_2021/swag-amazon.png
+          sponsor: Klarna
+          sponsor_url: https://www.klarna.com/
+        - prize: 2x annual subscriptions
+          prize_image: img/prizes_2021/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+        - prize: 1x Oculus Quest 2
+          prize_image: img/prizes_2021/oculus-quest-2.png
+          sponsor: Remote
+          sponsor_url: https://remote.com/
+        - prize: $300 in swag
+          prize_image: img/prizes_2021/whatsapp_socks.png
+          sponsor: Whatsapp
+          sponsor_url: https://www.whatsapp.com/
+      comments:
+        - text: very pleased to see an implementation that integrates well with Erlang/OTP based applications
+          author: Evadne
+        - text: will be a great tracing tool
+          author: Kenji
+        - text: I loved the fact that they used _another spawnfest project_ to use their tool on and record the demo video!!
+          author: Laura
+        - text: I was really happy with how simple the API you put together was
+          author: Quinn
+        - text: Really stellar work :)
+          author: Quinn
+    # all other winners, by number of "medals"
+    - team: 🪖🤔🏄‍♀️🧙‍♂️
+      project: beamoji
+      description: 🪄
+      members:
+        - user: tetiana12345678
+          avatar_id: 7498434
+        - user: marianoguerra
+          avatar_id: 68463
+        - user: manuel-rubio
+          avatar_id: 2188638
+        - user: elbrujohalcon
+          avatar_id: 93657
+      categories_won:
+        - Creativity - 1st 🥇
+        - Innovation - 1st 🥇
+      prizes:
+        - prize: $150 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: NineFX
+          sponsor_url: https://www.ninefx.com/
+        - prize: $387 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+        - prize: $220 in swag and Amazon gift cards
+          prize_image: img/prizes_2021/swag-amazon.png
+          sponsor: Klarna
+          sponsor_url: https://www.klarna.com/
+        - prize: 1x virtual conference ticket
+          prize_image: img/prizes_2021/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com/
+        - prize: 1x Oculus Quest 2
+          prize_image: img/prizes_2021/oculus-quest-2.png
+          sponsor: Remote
+          sponsor_url: https://remote.com/
+        - prize: 2x €500 in credits
+          prize_image: img/prizes_2021/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
+        - prize: $300 in swag
+          prize_image: img/prizes_2021/whatsapp_socks.png
+          sponsor: Whatsapp
+          sponsor_url: https://www.whatsapp.com/
+      comments:
+        - text: 👀🤔🤨🥴😆👍🎉
+          author: Brooklyn
+        - text: the first automatic Erlang to Emoji transpiler 🙃 (...) 🙈
+          author: Evadne
+        - text: This is the absolute winner in creativity (...) 😍
+          author: Laura
+        - text: Had you only implemented the transpiler, the project would have already been incredible
+          author: Quinn
+        - text: clearly capable of providing real world value by stress testing Erlang tooling in unique ways
+          author: Quinn
+    - team: Doctor Who
+      project: eArangoDB
+      description: Easy communication with ArangoDB database
+      members:
+        - user: aleklisi
+          avatar_id: 16130626
+      categories_won:
+        - Maintainability - 1st 🥇
+        - Correctness - 2nd 🥈
+        - Completion - 3rd 🥉
+      prizes:
+        - prize: 1x reMarkable 2
+          prize_image: img/prizes_2021/remarkable2.png
+          sponsor: Nomasystems
+          sponsor_url: http://www.nomasystems.es/
+        - prize: $492 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+        - prize: 3x virtual tickets
+          prize_image: img/prizes_2021/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com/
+        - prize: 1x Oculus Quest 2
+          prize_image: img/prizes_2021/oculus-quest-2.png
+          sponsor: Remote
+          sponsor_url: https://remote.com/
+        - prize: 1x €500 in credits
+          prize_image: img/prizes_2021/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
+        - prize: $150 in swag
+          prize_image: img/prizes_2021/whatsapp_socks.png
+          sponsor: Whatsapp
+          sponsor_url: https://www.whatsapp.com/
+      comments:
+        - text: The code reads well, is easy to follow
+          author: Brooklyn
+        - text: What is impressive is that (...) the team [did] a fine job of implementing a well defined project
+          author: Evadne
+        - text: A useful library for accessing external ArangoDB servers.
+          author: Kenji
+        - text: I was thankful for the demo project they included to show off their tooling with a real problem!
+          author: Quinn
+        - text: I was excited to see such consistent use of typespecs!
+          author: Quinn
+    - team: pro.elixir
+      project: ielixir
+      description: Jupyter's kernel for Elixir
+      members:
+        - user: hissssst
+          avatar_id: 37012324
+        - user: Virviil
+          avatar_id: 3989623
+      categories_won:
+        - Creativity - 3rd 🥉
+      prizes:
+        - prize: $70 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+      comments:
+        - text: a very nice integrated solution
+          author: Evadne
+        - text: an impressive project
+          author: Evadne
+        - text: I value positively that they included a CoC
+          author: Laura
+        - text: Wow, this project is a cool combination of technologies!
+          author: Quinn
+        - text: competition like this is a really healthy thing that can lead to a cross-pollination of ideas like you've demonstrated
+          author: Quinn
+    - team: Discovery
+      project: discovery
+      description: Platform for hosting realtime, stateful servers with zero downtime deployment and horizontal scaling on Kubernetes
+      members:
+        - user: madclaws
+          avatar_id: 17821575
+        - user: ghostdsb
+          avatar_id: 20119474
+      categories_won:
+        - Usefulness - 3rd 🥉
+      prizes:
+        - prize: $60 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+        - prize: 1x virtual ticket
+          prize_image: img/prizes_2021/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com/
+      comments:
+        - text: This project makes sense
+          author: Brooklyn
+        - text: it is helpful to see projects like these
+          author: Evadne
+        - text: I absolutely love the idea of this project
+          author: Laura
+        - text: It represents the spirit of the BEAM all right!
+          author: Laura
+        - text: super impressed by how much you were able to accomplish with this project!
+          author: Quinn
+    - team: The Alembic
+      project: thebugcatcher
+      description: Morph between Ecto & JSON Schemas!
+      members:
+        - user: ericsullivan
+          avatar_id: 698585
+        - user: aeturnumfluctus
+          avatar_id: 2947066
+        - user: thebugcatcher
+          avatar_id: 10440910
+      categories_won:
+        - Innovation - 3rd 🥉
+      prizes:
+        - prize: $138 in Amazon gift cards
+          prize_image: img/prizes_2021/amazon-gift-card5.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://www.erlef.org/
+      comments:
+        - text: It's great seeing schema-generated interop showing up in various places
+          author: Brooklyn
+        - text: solves an interesting issue of impedance mismatch and tedium often faced by Client SDK authors
+          author: Evadne
+        - text: useful for (...) real-world applications
+          author: Kenji
+        - text: I can see real value in it for actual use
+          author: Laura
+        - text: This project tackles a very real problem that many in the ecosystem have experienced
+          author: Brooklyn
 
 ############
 ### 2018 ###
@@ -768,11 +1080,11 @@ category_winners_2020:
       - user: alanz
         avatar: https://avatars0.githubusercontent.com/u/409607
     prizes:
-    - name: <strong>300USD</strong> Amazon Gift Card
-      sponsor: Nextroll
-      sponsor_url: https://www.nextroll.com/
-      url: https://www.amazon.com/gift-cards/
-      image: prizes_2020/amazon-gift-card5.png
+      - name: <strong>300USD</strong> Amazon Gift Card
+        sponsor: Nextroll
+        sponsor_url: https://www.nextroll.com/
+        url: https://www.amazon.com/gift-cards/
+        image: prizes_2020/amazon-gift-card5.png
     comments:
       - text: Nice stuff. And certainly useful. Well documented too, including useful videos. Also instructions for spawnfest judges ;-)
         author: Simon
@@ -784,12 +1096,12 @@ category_winners_2020:
     description: Compile Elixir applications into single, easily distributed executable binaries
     category: Innovation
     members:
-        - user: fhunleth
-          avatar: https://avatars2.githubusercontent.com/u/64669
-        - user: jjcarstens
-          avatar: https://avatars2.githubusercontent.com/u/11321326
-        - user: ConnorRigby
-          avatar: https://avatars3.githubusercontent.com/u/21150830
+      - user: fhunleth
+        avatar: https://avatars2.githubusercontent.com/u/64669
+      - user: jjcarstens
+        avatar: https://avatars2.githubusercontent.com/u/11321326
+      - user: ConnorRigby
+        avatar: https://avatars3.githubusercontent.com/u/21150830
     prizes:
       - name: Free CodeMesh V tickets
         sponsor: CodeSync
@@ -874,12 +1186,12 @@ category_winners_2020:
     description: Compile Elixir applications into single, easily distributed executable binaries
     category: Community Prize
     members:
-        - user: fhunleth
-          avatar: https://avatars2.githubusercontent.com/u/64669
-        - user: jjcarstens
-          avatar: https://avatars2.githubusercontent.com/u/11321326
-        - user: ConnorRigby
-          avatar: https://avatars3.githubusercontent.com/u/21150830
+      - user: fhunleth
+        avatar: https://avatars2.githubusercontent.com/u/64669
+      - user: jjcarstens
+        avatar: https://avatars2.githubusercontent.com/u/11321326
+      - user: ConnorRigby
+        avatar: https://avatars3.githubusercontent.com/u/21150830
     prizes:
       - name: <strong>1000USD</strong>
         sponsor: EEF
