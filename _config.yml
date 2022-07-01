@@ -99,11 +99,11 @@ rules:
   - title: "Schedule"
     icon: "fas fa-calendar-alt"
     details:
-      - text: The event will start on <strong>2021-09-18 00:00 UTC</strong>.
-      - text: The event will end on <strong>2021-09-19 23:59 UTC</strong>.
+      - text: The event will start on <strong>2022-10-15 00:00 UTC</strong>.
+      - text: The event will end on <strong>2022-10-16 23:59 UTC</strong>.
       - text: Registration will close 5 days prior to the start date.
       - text: Each team will have exactly 48 hours to work on their projects.
-      - text: The jury will have a month to evaluate all the submissions.
+      - text: The jury will have a month to evaluate all the submissions (this might take longer, as it's voluntary work).
   - title: Teams
     icon: "fas fa-users"
     details:
@@ -146,7 +146,7 @@ rules:
               "
       - text: "The final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score will be the winner of the contest."
       - text: "As long as there are more prizes, those will be awarded to runner-up teams."
-      - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the judges may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
+      - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the organizers may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
       - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams."
   - title: Other Rules
     icon: "fas fa-list-alt"
