@@ -1,12 +1,29 @@
 <header class="masthead">
   <div class="container">
-        <img class="header-logo-small" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
-          <div class="d-flex justify-content-center">
-        <div class="head-message p-1">
-          <h2 class="d-flex justify-content-center">THE VOTES ARE OUT</h2>
-          <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="2021.html">here</a></h2>
-        </div>
+
+    {% if site.countdown_present %}
+    <div class="intro-text">
+      <img class="header-logo-small-left" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
+      <div id="countdown" class="pt-1 d-flex justify-content-center"
+        data-aos="fade-up"
+        data-aos-offset="-200"
+        data-aos-delay="1400"
+        data-aos-duration="1000"
+        data-aos-easing="ease-out-quad">
+        {% include countdown_widget.html %}
       </div>
+    </div>
+    {% endif %}
+
+    {% if site.votes_are_out %}
+    <img class="header-logo-small-top" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
+    <div class="d-flex justify-content-center">
+      <div class="head-message p-1">
+        <h2 class="d-flex justify-content-center">THE VOTES ARE OUT</h2>
+        <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="2022.html">here</a></h2>
+      </div>
+    </div>
+    {% endif %}
 
   </div>
   <div class="background-video">

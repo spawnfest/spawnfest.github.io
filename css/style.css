@@ -145,7 +145,6 @@ section#registration {
 }
 
 .registration-team {
-    max-width: 40%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -472,7 +471,12 @@ header.masthead .img-container .header-logo {
     }
 }
 
-.header-logo-small {
+.header-logo-small-top {
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.header-logo-small-left {
     width: 25%;
     margin-top: 3rem;
 }

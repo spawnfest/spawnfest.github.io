@@ -1,27 +1,14 @@
 <section class="sp-box bg1" id="registration">
     <div class="p-5 container">
-        <div class="row">
-            <div class="col-md-6 text-center registration-team">
+        <div class="row-center">
                 <h2 class="section-heading text-uppercase">Register your team</h2>
                 {% if site.registration_open %}
                 <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
-                <p>Fill out <a class="registration-section-link" target="_blank" href="https://forms.gle/g3GB8SCzjxSde7h1A">this form</a> to register your team.</p>
+                <p>Fill out <a class="registration-section-link" target="_blank" href="http://play.spawnfest.org">this form</a> to register your team.</p>
                 <p>Also check out the contest rules <a class="registration-section-link" href="#rules">here</a>.</p>
                 {% else %}
                 <p><strong>The registration is no longer open.</strong></p>
                 {% endif %}
-            </div>
-
-            <div class="col-md-6 text-center registration-team">
-                <h2 class="section-heading text-uppercase">Find a team</h2>
-                {% if site.registration_open %}
-                <p>Don't have a team yet?</p>
-                <p>Fill out <a class="registration-section-link"  target="_blank" href="https://forms.gle/sLzS8EPmFi8a5ooP8">this form</a>.</p>
-                <p>We'll hook you up with a team as soon as possible!</p>
-                {% else %}
-                <p><strong>The registration is no longer open.</strong></p>
-                {% endif %}
-            </div>
         </div>
         <div class="row-center">
           <p>If you need inspiration for a cool project, check our <a class="registration-section-link" href="/ideas">list of project ideas</a>!</p>

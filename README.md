@@ -7,6 +7,8 @@ This is the source code for <https://spawnfest.github.io/>.
 You need Ruby version 2.1 or above, then
 
 ```shell
-$ gem install jekyll
-$ jekyll serve
+brew install ruby 
+bundle config set --local path 'vendor/cache'
+bundle # Install stuff from Gemfile
+jekyll serve
 ```
