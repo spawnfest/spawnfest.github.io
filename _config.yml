@@ -91,9 +91,24 @@ prizes:
 #    image: prizes_2022/image.png
 
 judges:
-#  - name: judge name
-#  twitter: twitter_handle
-#  image: judges_2022/image.png
+  - name: Brujo Benavides
+    twitter: elbrujohalcon
+    image: judges_2022/Brujo.png
+  - name: Kenji Rikitake
+    twitter: jj1bdx
+    image: judges_2022/Kenji.jpg
+  - name: Laura M. Castro
+    twitter: lauramcastro
+    image: judges_2022/Laura.jpg
+  - name: Evadne W.
+    twitter: evadne
+    image: judges_2022/Evadne.png
+  - name: Brooklyn Zelenka
+    twitter: expede
+    image: judges_2022/Brooklyn.png
+  - name: Quinn Wilton
+    twitter: wilton_quinn
+    image: judges_2022/Quinn.jpg
 
 rules:
   - title: "Schedule"
