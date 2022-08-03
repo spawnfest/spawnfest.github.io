@@ -192,8 +192,6 @@ ideas:
     description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck.
   - title: Erlang Code Improver
     description: We have <a target="_blank" href="https://github.com/inaka/elvis">Elvis</a> which will show places where we can improve our code, but it won't fix them. It would be cool to go one step further and build something to apply changes to our code to improve it.
-  - title: Process Mocker
-    description: <a target="_blank" href="https://hex.pm/packages/meck">Meck</a> allows you to mock modules and functions. A similar tool that would allow you to mock processes (i.e. step between a registered process and its callers and mock its behavior, passthrough others, count messages received, etc) would be great.
   - title: copyright-header creator/updater
     description: a copyright-header-creator lib. (add an easy copyright - or update an existing one - to all your source files) - might have to deal with parse_trans or regexp
   - title: Some Application
