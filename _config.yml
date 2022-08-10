@@ -80,15 +80,15 @@ silver_sponsors:
 #    url: https://placeholder.ext
 
 bronze_sponsors:
-#  - name: sponsor name 
-#    logo: sponsors_2022/image.png
-#    url: https://placeholder.ext
+  - name: 2600Hz
+    logo: sponsors_2022/2600hz.svg
+    url: https://www.2600hz.com
 
 prizes:
-#  - name: prize Name
-#    sponsor: sponsor Name
-#    sponsor_url: https://placeholder.ext
-#    image: prizes_2022/image.png
+  - name: $200 in Amazon gift cards
+    sponsor: 2600Hz
+    sponsor_url: https://www.2600hz.com
+    image: prizes_2022/amazon-gift-card
 
 judges:
   - name: Brujo Benavides
