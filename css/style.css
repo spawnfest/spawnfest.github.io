@@ -294,8 +294,7 @@ a.style {
     height: 200px;
 }
 
-.sponsor-gold,
-.sponsor-community {
+.sponsor-gold {
     height: 125px
 }
 
@@ -305,10 +304,6 @@ a.style {
 
 .sponsor-bronze {
     height: 55px;
-}
-
-.sponsor-bracket {
-    height: 75px
 }
 
 .sponsor>img {
