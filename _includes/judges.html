@@ -31,7 +31,7 @@
     </div>
     <div class="row">
       {% for judge in site.bracket_judges %}
-        <div class="col-sm-4 judge">
+        <div class="col-sm-4 bracket-judge">
           <div class="team-member"
           data-aos="zoom-in"
           data-aos-duration="600"
@@ -51,4 +51,5 @@
 
 <script>
 $('.judge').shuffle();
+$('.bracket-judge').shuffle();
 </script>
