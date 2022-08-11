@@ -127,7 +127,8 @@ rules:
       - text: "All members of a team should be at least 18 years old."
       - text: "Judges of this contest can not participate in it as members of a team."
       - text: "Every team has to register by completing the <a href=\"#registration\">registration form</a></span>."
-      - text: "Each team shall have a designated leader to handle the prize distribution among its members as well as communicating with the organizers."
+      - text: "Each team shall have a designated leader to handle the prize distribution among its members as well as communicating with the organizers. A team's decision on forfeiting a prize is a private one and the organization will not get involved with that."
+      - text: "We highly advise this player to be able to log into our Discord server for communicating with the organisation during the contest."
   - title: Projects
     icon: "fas fa-rocket"
     details:
@@ -137,6 +138,7 @@ rules:
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
       - text: "Each team should come up with their own project idea, or use one from <a href=\"/ideas\">our list of project ideas</a>."
       - text: "The organizing team will create a public Git repository at GitHub for each team."
+      - text: "The name of this GitHub repository cannot be changed."
       - text: "All deliverables should be uploaded to the repository, which shall be used by the jury to evaluate the projects."
       - text: "Suggested extra deliverables to include: documentation, comprehensive README.md, project-related art (e.g. logos), tests and anything that makes building and understanding the system easier for the judges."
       - text: "Contributions to the project (e.g. Pull Requests) from developers outside the team will be forbidden during the contest, but encouraged afterwards."
@@ -144,6 +146,8 @@ rules:
       - text: "<em>Ownership and Copyright:</em> each team retains all the rights to their submissions and the repository transfership can always be requested. Note, however, that you will only keep write access to the repository until 5 months before the next edition of SpawnFest."
       - text: "<em>User Privacy:</em> projects shall not collect any type of personally identifiable information."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
+      - text: "Players will not be able to write to their GitHub repositories while their submissions are being evaluated."
+      - text: "Accepting the organization's GitHub invitation to join a team is compulsory until the moment the competition starts; failing to do so means we consider you won't be joining the competition."
   - title: Evaluation
     icon: "fas fa-gavel"
     details:
@@ -162,7 +166,7 @@ rules:
       - text: "The final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score will be the winner of the contest."
       - text: "As long as there are more prizes, those will be awarded to runner-up teams."
       - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the organizers may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
-      - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams."
+      - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams, after the organization has attributed them."
   - title: Other Rules
     icon: "fas fa-list-alt"
     details:
