@@ -22,6 +22,31 @@
       {% endfor %}
     </div>
   </div>
+  {% if site.bracket_judges %}
+  <div class="container-fluid">
+    <div class="row p-5">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Bracket judges</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for judge in site.bracket_judges %}
+        <div class="col-sm-4 judge">
+          <div class="team-member"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+          data-aos-easing="ease-out-quad">
+            <img class="mx-auto rounded-circle" src="img/{{ judge.image }}" alt="{{ judge.name }}'s picture">
+            <h3 class="text-dark judge-name">{{ judge.name }}</h3>
+            {% if judge.twitter %}
+              <strong> <a class="team-member-info" href="https://twitter.com/{{ judge.twitter }}" alt="@{{ judge.twitter }}" target="_blank">@{{ judge.twitter }}</a></strong>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 </section>
 
 <script>

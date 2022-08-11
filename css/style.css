@@ -307,6 +307,10 @@ a.style {
     height: 55px;
 }
 
+.sponsor-bracket {
+    height: 75px
+}
+
 .sponsor>img {
     max-width: 100%;
     max-height: 100%;
