@@ -188,6 +188,8 @@ rules:
       - text: "Event organizers reserve the right to change these rules without prior notification, up until 5 days before the event starts."
 
 ideas:
+  - title: Add branch coverage to cover
+    description: Add branch coverage to cover, so that if you see expr1() orelse expr2() and the right-hand side of an orelse is never invoked in the test, the line is shown as yellow (partially covered)
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
   - title: rebar3 vendor plugin
