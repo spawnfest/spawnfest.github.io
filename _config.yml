@@ -99,6 +99,11 @@ bracket_sponsors:
         image: prizes_2022/project-numbat.png
       - name: $750 in Amazon gift cards
         image: prizes_2022/amazon-gift-card.png
+    ideas:
+      - title: Livebook notebooks
+        description: Be creative and submit Livebook notebook(s)!
+      - title: Livebook Smart Cells
+        description: Be creative and submit Livebook Smart Cell(s)!
 
 prizes:
   - name: $200 in Amazon gift cards

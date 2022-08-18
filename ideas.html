@@ -20,6 +20,19 @@ permalink: /ideas
           Here you have a list of project ideas to inspire you and your team
         </p>
         <dl class="ideas">
+          {% for sponsor in site.bracket_sponsors %}
+            {% for idea in sponsor.ideas %}
+              <hr />
+              <dt class="idea">
+                {{ idea.title }}
+              </dt>
+              <p>(for {{ sponsor.bracket_name }} bracket)</p>
+              <dd class="idea">
+                {{ idea.description }}
+              </dd>
+            {% endfor %}
+          {% endfor %}
+
           {% for idea in site.ideas %}
             <hr />
             <dt class="idea">
