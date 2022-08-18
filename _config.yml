@@ -15,7 +15,7 @@ nav:
   - name: Rules
     ref: "#rules"
 
-registration_open: true 
+registration_open: true
 countdown_present: true
 votes_are_out: false
 last_edition_year: 2021
@@ -75,7 +75,7 @@ gold_sponsors:
 #    url: https://placeholder.ext
 
 silver_sponsors:
-#  - name: sponsor name 
+#  - name: sponsor name
 #    logo: sponsors_2022/image.png
 #    url: https://placeholder.ext
 
@@ -83,6 +83,22 @@ bronze_sponsors:
   - name: 2600Hz
     logo: sponsors_2022/2600hz.svg
     url: https://www.2600hz.com
+
+bracket_sponsors:
+  - name: Livebook
+    bracket_name: Livebook projects
+    logo: sponsors_2022/livebook.png
+    url: https://livebook.dev
+    type: gold
+    judge:
+      - name: José Valim
+        twitter: josevalim
+        image: judges_2022/Jose.png
+    prizes:
+      - name: $300 in Project Numbat SWAG
+        image: prizes_2022/project-numbat.png
+      - name: $750 in Amazon gift cards
+        image: prizes_2022/amazon-gift-card.png
 
 prizes:
   - name: $200 in Amazon gift cards
@@ -137,7 +153,7 @@ rules:
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
       - text: "Each team should come up with their own project idea, or use one from <a href=\"/ideas\">our list of project ideas</a>."
-      - text: "The organizing team will create a public Git repository at GitHub for each team."
+      - text: "The organizing team will create a public GitHub repository for each team."
       - text: "The name of this GitHub repository cannot be changed."
       - text: "All deliverables should be uploaded to the repository, which shall be used by the jury to evaluate the projects."
       - text: "Suggested extra deliverables to include: documentation, comprehensive README.md, project-related art (e.g. logos), tests and anything that makes building and understanding the system easier for the judges."
@@ -176,6 +192,8 @@ rules:
       - text: "Event organizers reserve the right to change these rules without prior notification, up until 5 days before the event starts."
 
 ideas:
+  - title: Add branch coverage to cover
+    description: Add branch coverage to cover, so that if you see expr1() orelse expr2() and the right-hand side of an orelse is never invoked in the test, the line is shown as yellow (partially covered)
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
   - title: rebar3 vendor plugin

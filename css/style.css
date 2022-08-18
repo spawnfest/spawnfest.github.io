@@ -290,20 +290,23 @@ a.style {
     color: #0B478A;
 }
 
-.sponsor-platinum {
+.sponsor-platinum,
+.sponsor-bracket-platinum {
     height: 200px;
 }
 
 .sponsor-gold,
-.sponsor-community {
+.sponsor-bracket-gold {
     height: 125px
 }
 
-.sponsor-silver {
+.sponsor-silver,
+.sponsor-bracket-silver {
     height: 75px
 }
 
-.sponsor-bronze {
+.sponsor-bronze,
+.sponsor-bracket-bronze {
     height: 55px;
 }
 

@@ -20,6 +20,21 @@
             <p class="text-muted">by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
         </div>
       {% endfor %}
+      {% for sponsor in site.bracket_sponsors %}
+        {% for prize in sponsor.prizes %}
+          <div class="col-sm-4 team-member-prizes">
+              {% if prize.url %}
+              <a class="nav-link" target="_blank" href="{{ prize.url }}">
+              {% endif %}
+                <img class="mx-auto rounded-top" src="/img/{{ prize.image }}" alt="{{ prize.name }} (for bracket {{ sponsor.bracket_name }})">
+              {% if prize.url %}
+              </a>
+              {% endif %}
+              <p>{{ prize.name }} (for bracket "{{ sponsor.bracket_name }}")</p>
+              <p class="text-muted">by <strong><a target="_blank" href="{{ sponsor.url }}">{{ sponsor.name }}</a></strong></p>
+          </div>
+        {% endfor %}
+      {% endfor %}
     </div>
   </div>
 </section>
