@@ -69,8 +69,8 @@
     <!-- Bracket sponsors -->
     {% if site.bracket_sponsors %}
     <div class="row mt-3 sponsors-container">
-        <h2 class="display-5 col-12 text-center sponsor-blue">Bracket "..." sponsor</h2>
         {% for sponsor in site.bracket_sponsors %}
+        <h2 class="display-5 col-12 text-center sponsor-blue">Bracket "{{ sponsor.bracket_name }}" sponsor</h2>
         <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-bracket sponsor-bracket-{{ sponsor.type }} ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">

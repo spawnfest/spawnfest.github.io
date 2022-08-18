@@ -85,17 +85,23 @@ bronze_sponsors:
     url: https://www.2600hz.com
 
 bracket_sponsors:
-  - name: 2600Hz (for bracket "Bracket")
-    logo: sponsors_2022/2600hz.svg
-    url: https://www.2600hz.com
+  - name: Livebook
+    bracket_name: Livebook projects
+    logo: sponsors_2022/livebook.png
+    url: https://livebook.dev
     type: gold
+    judge:
+      - name: José Valim
+        twitter: josevalim
+        image: judges_2022/Jose.png
+    prizes:
+      - name: $300 in Project Numbat SWAG
+        image: prizes_2022/project-numbat.png
+      - name: $750 in Amazon gift cards
+        image: prizes_2022/amazon-gift-card.png
 
 prizes:
   - name: $200 in Amazon gift cards
-    sponsor: 2600Hz
-    sponsor_url: https://www.2600hz.com
-    image: prizes_2022/amazon-gift-card.png
-  - name: $200 in Amazon gift cards (for bracket "Bracket")
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com
     image: prizes_2022/amazon-gift-card.png
@@ -119,11 +125,6 @@ judges:
   - name: Quinn Wilton
     twitter: wilton_quinn
     image: judges_2022/Quinn.jpg
-
-bracket_judges:
-  - name: Brujo Benavides
-    twitter: elbrujohalcon
-    image: judges_2022/Brujo.png
 
 rules:
   - title: "Schedule"

@@ -22,7 +22,7 @@
       {% endfor %}
     </div>
   </div>
-  {% if site.bracket_judges %}
+  {% if site.bracket_sponsors %}
   <div class="container-fluid">
     <div class="row p-5">
       <div class="col-lg-12 text-center">
@@ -30,19 +30,22 @@
       </div>
     </div>
     <div class="row">
-      {% for judge in site.bracket_judges %}
-        <div class="col-sm-4 bracket-judge">
-          <div class="team-member"
-          data-aos="zoom-in"
-          data-aos-duration="600"
-          data-aos-easing="ease-out-quad">
-            <img class="mx-auto rounded-circle" src="img/{{ judge.image }}" alt="{{ judge.name }}'s picture">
-            <h3 class="text-dark judge-name">{{ judge.name }}</h3>
-            {% if judge.twitter %}
-              <strong> <a class="team-member-info" href="https://twitter.com/{{ judge.twitter }}" alt="@{{ judge.twitter }}" target="_blank">@{{ judge.twitter }}</a></strong>
-            {% endif %}
+      {% for sponsor in site.bracket_sponsors %}
+        {% for judge in sponsor.judge %}
+          <div class="col-sm-4 bracket-judge">
+            <div class="team-member"
+            data-aos="zoom-in"
+            data-aos-duration="600"
+            data-aos-easing="ease-out-quad">
+              <img class="mx-auto rounded-circle" src="img/{{ judge.image }}" alt="{{ judge.name }}'s picture">
+              <h3 class="text-dark judge-name">{{ judge.name }}</h3>
+              <p class="text-dark bracket-name">(for bracket "{{ sponsor.bracket_name }}")</p>
+              {% if judge.twitter %}
+                <strong> <a class="team-member-info" href="https://twitter.com/{{ judge.twitter }}" alt="@{{ judge.twitter }}" target="_blank">@{{ judge.twitter }}</a></strong>
+              {% endif %}
+            </div>
           </div>
-        </div>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
