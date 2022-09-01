@@ -70,9 +70,9 @@ platinum_sponsors:
 #    url: https://placeholder.ext
 
 gold_sponsors:
-#  - name: sponsor name
-#    logo: sponsors_2022/image.png
-#    url: https://placeholder.ext
+  - name: AppSignal 
+    logo: sponsors_2022/appsignal.png
+    url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
 
 silver_sponsors:
 #  - name: sponsor name
@@ -110,6 +110,10 @@ prizes:
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com
     image: prizes_2022/amazon-gift-card.png
+  - name: 3 x $500 in AppSignal credits
+    sponsor: AppSignal
+    sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+    image: prizes_2022/appsignal.png
 
 judges:
   - name: Brujo Benavides
