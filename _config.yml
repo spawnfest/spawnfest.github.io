@@ -65,9 +65,9 @@ organizer:
   url: "/#organizers"
 
 platinum_sponsors:
-#  - name: sponsor name
-#    logo: sponsors_2022/image.png
-#    url: https://placeholder.ext
+  - name: Erlang Ecosystem Foundation
+    logo: sponsors_2022/eef-logo.svg
+    url: https://erlef.org
 
 gold_sponsors:
   - name: AppSignal 
@@ -106,6 +106,10 @@ bracket_sponsors:
         description: Be creative and submit Livebook Smart Cell(s)!
 
 prizes:
+  - name: $3000 in Amazon gift cards
+    sponsor: Erlang Ecosystem Foundation
+    sponsor_url: https://erlef.org
+    image: prizes_2022/amazon-gift-card.png
   - name: $200 in Amazon gift cards
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com
