@@ -78,9 +78,9 @@ gold_sponsors:
     url: https://www.erlang-solutions.com
 
 silver_sponsors:
-#  - name: sponsor name
-#    logo: sponsors_2022/image.png
-#    url: https://placeholder.ext
+  - name: Groxio
+    logo: sponsors_2022/groxio.svg
+    url: https://grox.io
 
 bronze_sponsors:
   - name: 2600Hz
@@ -125,6 +125,10 @@ prizes:
     sponsor: Erlang Solutions
     sponsor_url: https://www.erlang-solutions.com
     image: prizes_2022/virtual-ticket.png
+  - name: 4 x annual subscriptions
+    sponsor: Groxio
+    sponsor_url: https://grox.io
+    image: prizes_2022/passport.png
 
 judges:
   - name: Brujo Benavides
