@@ -123,7 +123,7 @@ prizes:
     image: prizes_2022/appsignal.png
   - name: 7 x virtual tickets
     sponsor: Erlang Solutions
-    sponsor_url: www.erlang-solutions.com 
+    sponsor_url: https://www.erlang-solutions.com
     image: prizes_2022/virtual-ticket.png
 
 judges:
