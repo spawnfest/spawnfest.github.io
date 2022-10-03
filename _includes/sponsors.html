@@ -15,11 +15,21 @@
     <div class="row mt-3 sponsors-container">
         <h2 class="display-5 col-12 text-center sponsor-blue">Platinum sponsors</h2>
         {% for sponsor in site.platinum_sponsors %}
-        <a class="col-md-6 col-sm-12" href="{{ sponsor.url }}">
+        <a class="sponsor sponsor-platinum-a col-md-6 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-platinum ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
+        {% endfor %}
+        {% for sponsor in site.bracket_sponsors %}
+          {% if sponsor.type == "platinum" %}
+          <a class="sponsor sponsor-platinum-a col-md-6 col-sm-12" href="{{ sponsor.url }}">
+              <div class="rounded mx-auto text-center sponsor sponsor-platinum ">
+                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+              </div>
+              <p>(for bracket {{ sponsor.bracket_name }} )</p>
+          </a>
+          {% endif %}
         {% endfor %}
     </div>
     {% endif %}
@@ -29,12 +39,22 @@
     <div class="row mt-3 sponsors-container">
         <h2 class="display-5 col-12 text-center sponsor-blue">Gold sponsors</h2>
         {% for sponsor in site.gold_sponsors %}
-        <a class="col-md-4 col-sm-12" href="{{ sponsor.url }}">
+        <a class="sponsor sponsor-gold-a col-md-4 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-gold ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
-        {%endfor%}
+        {% endfor %}
+        {% for sponsor in site.bracket_sponsors %}
+          {% if sponsor.type == "gold" %}
+          <a class="sponsor sponsor-gold-a col-md-4 col-sm-12" href="{{ sponsor.url }}">
+              <div class="rounded mx-auto text-center sponsor sponsor-gold ">
+                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+              </div>
+              <p>(for bracket {{ sponsor.bracket_name }} )</p>
+          </a>
+          {% endif %}
+        {% endfor %}
     </div>
     {% endif %}
 
@@ -43,12 +63,22 @@
     <div class="row mt-3 sponsors-container">
         <h2 class="display-5 col-12 text-center sponsor-blue">Silver sponsors</h2>
         {% for sponsor in site.silver_sponsors %}
-        <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
+        <a class="sponsor sponsor-silver-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-silver ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
-        {%endfor%}
+        {% endfor %}
+        {% for sponsor in site.bracket_sponsors %}
+          {% if sponsor.type == "silver" %}
+          <a class="sponsor sponsor-silver-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
+              <div class="rounded mx-auto text-center sponsor sponsor-silver ">
+                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+              </div>
+              <p>(for bracket {{ sponsor.bracket_name }} )</p>
+          </a>
+          {% endif %}
+        {% endfor %}
     </div>
     {% endif %}
 
@@ -57,26 +87,22 @@
     <div class="row mt-3 sponsors-container">
         <h2 class="display-5 col-12 text-center sponsor-blue">Bronze sponsors</h2>
         {% for sponsor in site.bronze_sponsors %}
-        <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
+        <a class="sponsor sponsor-bronze-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-bronze ">
                 <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
-        {%endfor%}
-    </div>
-    {% endif %}
-
-    <!-- Bracket sponsors -->
-    {% if site.bracket_sponsors %}
-    <div class="row mt-3 sponsors-container">
+        {% endfor %}
         {% for sponsor in site.bracket_sponsors %}
-        <h2 class="display-5 col-12 text-center sponsor-blue">Bracket "{{ sponsor.bracket_name }}" sponsor</h2>
-        <a class="col-md-3 col-sm-12" href="{{ sponsor.url }}">
-            <div class="rounded mx-auto text-center sponsor sponsor-bracket sponsor-bracket-{{ sponsor.type }} ">
-                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
-            </div>
-        </a>
-        {%endfor%}
+          {% if sponsor.type == "bronze" %}
+          <a class="sponsor sponsor-bronze-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
+              <div class="rounded mx-auto text-center sponsor sponsor-bronze ">
+                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+              </div>
+              <p>(for bracket {{ sponsor.bracket_name }} )</p>
+          </a>
+          {% endif %}
+        {% endfor %}
     </div>
     {% endif %}
 
@@ -114,8 +140,4 @@ $('.sponsor-platinum').parent().shuffle();
 $('.sponsor-gold').parent().shuffle();
 $('.sponsor-silver').parent().shuffle();
 $('.sponsor-bronze').parent().shuffle();
-$('.sponsor-bracket-platinum').parent().shuffle();
-$('.sponsor-bracket-gold').parent().shuffle();
-$('.sponsor-bracket-silver').parent().shuffle();
-$('.sponsor-bracket-bronze').parent().shuffle();
 </script>

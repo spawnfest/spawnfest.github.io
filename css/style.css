@@ -101,6 +101,13 @@ a.winners-link {
     top: 35vh;
 }
 
+a.sponsor {
+    text-decoration: none;
+    text-align: center;
+    color: darkgrey;
+    display: block;
+}
+
 @media (min-width: 768px) {
     section {
         padding: 11px 0;
@@ -269,6 +276,7 @@ a.style {
 .sponsors-container {
     padding-top: 30px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .sponsors-container h2 {
@@ -291,22 +299,22 @@ a.style {
 }
 
 .sponsor-platinum,
-.sponsor-bracket-platinum {
+.sponsor-platinum-a {
     height: 200px;
 }
 
 .sponsor-gold,
-.sponsor-bracket-gold {
-    height: 125px
+.sponsor-gold-a {
+    height: 125px;
 }
 
-.sponsor-silver,
-.sponsor-bracket-silver {
-    height: 75px
+.sponsor-silver, 
+.sponsor-silver-a {
+    height: 75px;
 }
 
 .sponsor-bronze,
-.sponsor-bracket-bronze {
+.sponsor-bronze-a {
     height: 55px;
 }
 
