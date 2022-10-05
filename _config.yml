@@ -70,7 +70,7 @@ platinum_sponsors:
     url: https://erlef.org
 
 gold_sponsors:
-  - name: AppSignal 
+  - name: AppSignal
     logo: sponsors_2022/appsignal.png
     url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
   - name: Erlang Solutions
@@ -107,6 +107,18 @@ bracket_sponsors:
         description: Be creative and submit Livebook notebook(s)!
       - title: Livebook Smart Cells
         description: Be creative and submit Livebook Smart Cell(s)!
+  - name: TI Tokyo
+    bracket_name: Riak
+    logo: sponsors_2022/ti_tokyo.png
+    url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+    type: platinum
+    judge:
+      - name: Andriy Zavada
+        twitter: AndreiZavada
+        image: judges_2022/Andriy.jpeg
+    prizes:
+      - name: 1 year Riak support (5 nodes) or $2000 in Amazon gift cards
+        image: prizes_2022/riak.png
 
 prizes:
   - name: $3000 in Amazon gift cards
