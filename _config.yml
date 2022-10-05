@@ -68,9 +68,6 @@ platinum_sponsors:
   - name: Erlang Ecosystem Foundation
     logo: sponsors_2022/eef-logo.svg
     url: https://erlef.org
-  - name: TI Tokyo
-    logo: sponsors_2022/ti_tokyo.png
-    url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
 
 gold_sponsors:
   - name: AppSignal 
