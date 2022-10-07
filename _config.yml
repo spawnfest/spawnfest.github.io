@@ -76,6 +76,9 @@ gold_sponsors:
   - name: Erlang Solutions
     logo: sponsors_2022/esl.png
     url: https://www.erlang-solutions.com
+  - name: Entelios
+    logo: sponsors_2022/entelios.gif
+    url: https://www.entelios.com/de/produkte-und-dienstleistungen/
 
 silver_sponsors:
   - name: Groxio
@@ -141,6 +144,10 @@ prizes:
     sponsor: Groxio
     sponsor_url: https://grox.io
     image: prizes_2022/passport.png
+  - name: 7 x GRiSP 2 boards
+    sponsor: Entelios
+    sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
+    image: prizes_2022/grisp2.png
 
 judges:
   - name: Brujo Benavides
