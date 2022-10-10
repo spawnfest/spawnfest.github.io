@@ -15,7 +15,7 @@ nav:
   - name: Rules
     ref: "#rules"
 
-registration_open: true
+registration_open: false
 countdown_present: true
 votes_are_out: false
 last_edition_year: 2021
