@@ -1262,3 +1262,57 @@ l_2011:
     - url: https://www.rabbitmq.com/
       alt_text: VMWare RabbitMQ
       img_src: /2011/static/img/rabbitmq.png
+
+l_2012:
+  description: "An annual 48 hour development competition in which teams of skilled application developers get exactly one weekend to develop the best Erlang software that they can"
+
+  nav:
+    - name: Home
+      url: /2012/
+    - name: Rules
+      url: /2012/rules/
+    - name: Judges
+      url: /2012/judges/
+    - name: Sponsors & Prizes
+      url: /2012/sponsors_and_prizes/
+
+  sponsors:
+    - url: http://basho.com/
+      alt_text: Visit Basho
+      img_src: /2012/static/img/basho.png
+    - url: http://greenqloud.com
+      alt_text: Visit GreenQloud
+      img_src: /2012/static/img/greenqloud.png
+    - url: http://github.com
+      alt_text: Visit Github
+      img_src: /2012/static/img/github.png
+    - url: https://cloudant.com
+      alt_text: Visit Cloudant
+      img_src: /2012/static/img/cloudant.png
+    - url: http://inaka.net
+      alt_text: Visit Inaka
+      img_src: /2012/static/img/inaka.png
+    - url: http://www.erlang-solutions.com/
+      alt_text: Visit Erlang Solutions
+      img_src: /2012/static/img/esl.png
+    - url: http://oreilly.com/
+      alt_text: Visit O'Reilly
+      img_src: /2012/static/img/oreilly.png
+    - url: http://heroku.com
+      alt_text: Visit Heroku
+      img_src: /2012/static/img/heroku.png
+    - url: http://vmware.com
+      alt_text: vmware
+      img_src: /2012/static/img/vmware.jpeg
+    - url: http://rabbitmq.com
+      alt_text: RabbitMQ
+      img_src: /2012/static/img/rabbitmq.png
+    - url: http://ninenines.eu
+      alt_text: Nine Nines
+      img_src: /2012/static/img/99s.png
+    - url: http://spawngrid.com
+      alt_text: Visit Spawngrid
+      img_src: /2012/static/img/spawngrid.png
+    - url: http://kodiak.is
+      alt_text: Visit Kodiak
+      img_src: /2012/static/img/kodiak.png
