@@ -16,7 +16,8 @@ nav:
     ref: "#rules"
 
 registration_open: false
-countdown_present: true
+countdown_present: false 
+waiting_for_votes: true 
 votes_are_out: false
 last_edition_year: 2021
 this_edition_year: 2022
