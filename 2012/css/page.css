@@ -1,0 +1,126 @@
+
+body {
+   background: url('../img/furley_bg.png');
+}
+
+div#head {
+   margin-top: 50px;
+}
+
+div#head header h1 {
+   font-family: Exo, sans-serif;
+   font-size: 6.2em;
+   letter-spacing: 0.1em;
+   color: rgb(0,0,159);
+   text-shadow: 2px 2px 3px white;
+}
+
+div#head header h1 a {
+   color: rgb(0,0,159);
+   text-decoration: none;
+}
+
+div#head header h1 small {
+   font-size: .4em;
+}
+
+div#head nav {
+   margin-top: 10px;
+}
+
+div#head nav ul {
+   display: inline;
+   float: right;
+}
+
+div#head nav ul li {
+   font-size: 1.5em;
+   margin-right: 10px;
+   display: inline;
+}
+
+div#head nav ul li a {
+   padding: 5px;
+}
+
+div#line_sep {
+   padding: 25px 0;
+   margin-top: 28px;
+   background: url('../img/darkdenim3.png');
+}
+
+div#about div#tagline p {
+   font-size: 1.7em;
+   line-height: 36px;
+   color: rgb(240,240,240);
+   font-weight: bold;
+}
+
+div#sign_up_now {
+   float: right;
+   border-radius: 5px;
+}
+
+div#sign_up_now .action {
+   padding: 10px;
+}
+
+div#sign_up_now a {
+   margin-top: 12px;
+}
+
+div#sign_up_now h1 {
+   font-size: 2.5em;
+   text-align: center;
+}
+
+div#sign_up_now h2 {
+   font-size: 1.3em;
+   text-align: center;
+}
+
+div#sign_up_now h1,h2 {
+   color: rgb(240,240,240);
+}
+
+div#page {
+   margin-top: 20px;
+}
+
+div#page div.story {
+   border-bottom: 1px solid rgb(200,200,200);
+   margin-bottom: 10px;
+}
+
+div#page div.story h1 {
+   padding: 6px;
+   margin-bottom: 5px;
+}
+
+div#page div.story p {
+   padding: 6px;
+   font-size: 1.1em;
+   line-height: 1.4em;
+}
+
+div.judge h2 {
+   color: #333;
+}
+
+footer {
+   margin-bottom: 25px;
+}
+
+footer h1 {
+   font-color: rgb(200,200,200);
+   font-size: 1.3em;
+}
+
+footer ul {
+   display: inline;
+}
+
+footer ul li {
+   display: inline;
+   padding: 4px;
+}
