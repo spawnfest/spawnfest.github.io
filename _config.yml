@@ -1200,3 +1200,65 @@ category_winners_2020:
         author: Brooklin
       - text: works  as advertised; code is clean
         author: René
+
+l_2011:
+  description: "An annual 48 hour development competition in which teams of skilled application developers get exactly one weekend to develop the best Erlang software that they can"
+
+  nav:
+    - name: Pictures
+      url: /2011/pics/
+    - name: Rules
+      url: /2011/rules/
+    - name: Prizes
+      url: /2011/prizes/
+    - name: Judges
+      url: /2011/judges/
+    - name: Winners
+      url: /2011/winners/
+
+  sponsors:
+    - url: https://www.soft10.es
+      alt_text: Visit Soft10
+      img_src: /2011/static/img/soft10.jpg
+    - url: https://dev-extend.eu
+      alt_text: Visit Dev:Extend
+      img_src: /2011/static/img/devextend.jpg
+    - url: https://github.com/
+      alt_tetx: Visit GitHub
+      img_src: /2011/static/img/github.png
+    - url: https://erlang-solutions.com
+      alt_text: Visit Erlang Solutions
+      img_src: /2011/static/img/esl.png
+    - url: https://kodiak.is
+      alt_text: Visit Kodiak
+      img_src: /2011/static/img/kodiak.png
+    - url: https://spawngrid.com
+      alt_text: Visit Spawngrid
+      img_src: /2011/static/img/spawngrid.png
+    - url: https://www.manning.com/
+      alt_text: Visit Manning
+      img_src: /2011/static/img/manning.gif
+    - url: https://www.oreilly.com/
+      alt_text: Visit O'Reilly
+      img_src: /2011/static/img/oreilly.png
+    - url: https://inakanetworks.com/
+      alt_text: Visit Inaka Networks
+      img_src: /2011/static/img/inaka.png
+    - url: https://www.travelping.com/
+      alt_text: Visit Travelping
+      img_src: /2011/static/img/travelping.png
+    - url: https://www.managedhosting.de/products/vmware_en.php?svlang=en&sid=a54e17eb435128d2a8d8a0d41d8c8cc0&svpage=product_vcloud
+      alt_text: Visit managedhosting.de
+      img_src: /2011/static/img/managedhosting.png
+    - url: https://www.gandi.net/
+      alt_text: Visit Gandi
+      img_src: /2011/static/img/gandi.gif
+    - url: https://www.irccloud.com/
+      alt_text: Visit IRC Cloud
+      img_src: /2011/static/img/irccloud.png
+    - url: https://www.vmware.com/
+      alt_text: VMWare
+      img_src: /2011/static/img/vmware.jpeg
+    - url: https://www.rabbitmq.com/
+      alt_text: VMWare RabbitMQ
+      img_src: /2011/static/img/rabbitmq.png
