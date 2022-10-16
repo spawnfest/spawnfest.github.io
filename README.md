@@ -4,11 +4,11 @@ This is the source code for <https://spawnfest.github.io/>.
 
 ## Development
 
-You need Ruby version 2.1 or above, then
+You need `asdf` (https://asdf-vm.com/guide/getting-started.html#_3-install-asdf).
 
 ```shell
-brew install ruby 
-bundle config set --local path 'vendor/cache'
-bundle # Install stuff from Gemfile
+asdf plugin add ruby # Allows asdf to "control" Ruby
+CFLAGS= asdf install # Installs asdf-controlled Ruby
+bundle               # Installs stuff from Gemfile
 jekyll serve
 ```
