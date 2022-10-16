@@ -12,7 +12,9 @@
       <p>Participation in SpawnFest is 100% <strong>Free of Charge</strong>.</p>
       {% if site.registration_open %}
       {% else %}
+      {% if site.countdown_present == false %}
       <p>We'll be opening registration soon. <strong>Stay tuned!</strong></p>
+      {% endif %}
       {% endif %}
       <strong>All BEAM languages are welcome!</strong>
       <div id="langs" class="row text-center text-lg-left mt-3">
