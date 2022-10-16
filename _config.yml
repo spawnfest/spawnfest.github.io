@@ -15,10 +15,13 @@ nav:
   - name: Rules
     ref: "#rules"
 
-registration_open: false
-countdown_present: false 
-waiting_for_votes: true 
-votes_are_out: false
+# We move by flags, one phase at a time (these are ordered)
+before_dates_are_known: false # competition dates are not yet known
+before_countdown_to_start: false # countdown to start of competition is in effect
+before_registration_is_over: false # players and sponsor can no longer apply
+before_countdown_to_end: false # after competition starts (the 2 days)
+before_votes_are_out: true # while judges are doing their thing
+
 last_edition_year: 2021
 this_edition_year: 2022
 alt_for_logo: spawnfest 2022 october 15-16
