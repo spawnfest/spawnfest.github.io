@@ -1,9 +1,10 @@
 <header class="masthead">
   <div class="container">
 
-    {% if site.countdown_present %}
     <div class="intro-text">
       <img class="header-logo-small-left" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
+      {% if site.before_countdown_to_end or site.before_votes_are_out %}
+      {% if site.before_countdown_to_end %}
       <div id="countdown" class="pt-1 d-flex justify-content-center"
         data-aos="fade-up"
         data-aos-offset="-200"
@@ -12,18 +13,25 @@
         data-aos-easing="ease-out-quad">
         {% include countdown_widget.html %}
       </div>
-    </div>
-    {% endif %}
+      {% elsif site.before_votes_are_out %}
+      <div class="d-flex justify-content-center">
+        <div class="head-message p-1">
+          <h2 class="d-flex justify-content-center">CODING TIME IS OVER</h2>
+          <h2 class="big-screen d-flex justify-content-center">The judges are evaluating the projects</h2>
+        </div>
+      </div> 
+      {% endif %}
+      {% endif %}
 
-    {% if site.votes_are_out %}
-    <img class="header-logo-small-top" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
-    <div class="d-flex justify-content-center">
-      <div class="head-message p-1">
-        <h2 class="d-flex justify-content-center">THE VOTES ARE OUT</h2>
-        <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="2022.html">here</a></h2>
+      {% if site.before_votes_are_out == false %}
+      <div class="d-flex justify-content-center">
+        <div class="head-message p-1">
+          <h2 class="d-flex justify-content-center">THE VOTES ARE OUT</h2>
+          <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="2022.html">here</a></h2>
+        </div>
       </div>
+      {% endif %}
     </div>
-    {% endif %}
 
   </div>
   <div class="background-video">
