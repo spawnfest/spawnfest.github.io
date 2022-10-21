@@ -226,8 +226,8 @@ rules:
                 <dt>Completion</dt><dd>Is the project functional? Did the team get to a point where there is something to show, even if there are a few bugs here and there?</dd>
               </dl>
               "
-      - text: "The final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score will be the winner of the contest."
-      - text: "As long as there are more prizes, those will be awarded to runner-up teams."
+      - text: "The final score of each team will be computed as the sum of the points received in all those categories. The team with the highest final score (in a non-specific bracket) will be the overall winner of the contest."
+      - text: "As long as there are more prizes, those might be awarded to runner-up teams, or bracket-specific teams."
       - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the organizers may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
       - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams, after the organization has attributed them."
   - title: Other Rules
