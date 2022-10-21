@@ -265,6 +265,7 @@ a.style {
 .organizer,
 .organizer:hover {
     color: black;
+    text-decoration: none;
 }
 
 #sponsors{
@@ -284,12 +285,11 @@ a.style {
 }
 
 .sponsors-container a {
-    padding-bottom: 225px;
+    margin-bottom: 70px;
 }
 
 .sponsor {
     height: 60px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -305,7 +305,7 @@ a.style {
 
 .sponsor-gold,
 .sponsor-gold-a {
-    height: 125px;
+    height: 100px;
 }
 
 .sponsor-silver, 
