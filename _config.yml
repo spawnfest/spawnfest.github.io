@@ -16,11 +16,11 @@ nav:
     ref: "#rules"
 
 # We move by flags, one phase at a time (these are ordered)
-before_dates_are_known: false # competition dates are not yet known
-before_countdown_to_start: false # countdown to start of competition is in effect
-before_registration_is_over: false # players and sponsor can no longer apply
-before_countdown_to_end: false # after competition starts (the 2 days)
-before_votes_are_out: true # while judges are doing their thing
+before_dates_are_known: false  # competition dates are not yet known
+before_countdown_to_start: false  # countdown to start of competition is in effect
+before_registration_is_over: false  # players and sponsor can no longer apply
+before_countdown_to_end: false  # after competition starts (the 2 days)
+before_votes_are_out: false  # while judges are doing their thing
 
 last_edition_year: 2021
 this_edition_year: 2022
@@ -396,8 +396,8 @@ winners_2021:
         - user: Stratus3D
           avatar_id: 1520926
       categories_won:
-        - Usefulness - 2nd 🥈
         - 3rd place overall 🥉
+        - Usefulness - 2nd 🥈
       prizes:
         - prize: $150 in Amazon gift cards
           prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
