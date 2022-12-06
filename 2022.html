@@ -22,8 +22,8 @@ permalink: /2022
           by <strong>{{ site.winners_2022.teams[i].team }}</strong>
           <br/><br/>
           {% for member in site.winners_2022.teams[i].members %}
-            <a href="https://github.com/{{ member.user }}" target="_blank">
-              <img class="member"  src="https://avatars.githubusercontent.com/u/{{ member.avatar_id }}">
+            <a class="team-member" href="https://github.com/{{ member.user }}" target="_blank">
+              <img class="member" src="https://avatars.githubusercontent.com/u/{{ member.avatar_id }}">
             </a>
           {% endfor %}
         </div>

@@ -16,11 +16,11 @@ nav:
     ref: "#rules"
 
 # We move by flags, one phase at a time (these are ordered)
-before_dates_are_known: false # competition dates are not yet known
-before_countdown_to_start: false # countdown to start of competition is in effect
-before_registration_is_over: false # players and sponsor can no longer apply
-before_countdown_to_end: false # after competition starts (the 2 days)
-before_votes_are_out: true # while judges are doing their thing
+before_dates_are_known: false  # competition dates are not yet known
+before_countdown_to_start: false  # countdown to start of competition is in effect
+before_registration_is_over: false  # players and sponsor can no longer apply
+before_countdown_to_end: false  # after competition starts (the 2 days)
+before_votes_are_out: false  # while judges are doing their thing
 
 last_edition_year: 2021
 this_edition_year: 2022
@@ -286,25 +286,338 @@ ideas:
     description: have a way to, given a folder full of random projects (e.g. rebar3 or mix -based) determine what would be the best way to bump deps in them tree analysis + upstream analysis (think <a href="https://github.com/AdRoll/rebar3_depup">AdRoll/rebar3_depup</a> but for a complete tree)
 
 winners_2022:
-#  teams:
-#    - team: team name
-#      project: project_name
-#      description: project description
-#      members:
-#        - user: user
-#          avatar_id: 1111111111111111
-#      categories_won:
-#        - gold 🥇
-#        - silver 🥈
-#        - bronze 🥇
-#      prizes:
-#        - prize: prize name
-#          prize_image: img/prizes_2022/image.png
-#          sponsor: sponsor name
-#          sponsor_url: https://placeholder.ext
-#      comments:
-#        - text: comment
-#          author: author
+  teams:
+    - team: Jason
+      project: json_native
+      description: An extension of the Jason package - the blazing fast JSON encoder for Elixir
+      members:
+        - user: michalmuskala
+          avatar_id: 477062
+      categories_won:
+        - 1st place overall 🥇
+        - creativity - 2nd 🥈
+        - usefulness - 1st 🥇
+        - innovation - 1st 🥇
+        - correctness - 1st 🥇
+        - maintainability - 1st 🥇
+        - completion - 2nd (ex æquo) 🥈
+      prizes:
+        - prize: $1000 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $800 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
+        - prize: 2 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 1 x annual subscriptions
+          prize_image: img/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+        - prize: $200 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: 2600Hz
+          sponsor_url: https://www.2600hz.com
+      comments:
+        - text: I'm really hopeful that this pattern becomes more popular within the ecosystem
+          author: Quinn
+        - text: A nice addition to jason
+          author: Kenji
+        - text: Highly focused project with an established upgrade path
+          author: Evadne
+    - team: ruos
+      project: secret_vault
+      description: All-in-one solution for storing your Elixir application secrets inside the repository
+      members:
+        - user: hissssst
+          avatar_id: 37012324
+        - user: yunmikun2
+          avatar_id: 49944027
+      categories_won:
+        - 2nd place overall (ex æquo) 🥈
+        - usefulness - 3rd 🥉
+        - correctness - 3rd (ex æquo) 🥉
+        - maintainability - 2nd 🥈
+        - completion - 1st 🥇
+      prizes:
+        - prize: $413 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $500 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 2 x annual subscriptions
+          prize_image: img/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+      comments:
+        - text: Amazing work here! Lots of Documatation (sic)! It even includes a tutorial (O_O)
+          author: Brujo
+        - text: This implementation is of excellent quality, worth adopting in production projects
+          author: Evadne
+        - text: This tool will be useful for securing Elixir applications
+          author: Kenji
+    - team: The Arborists
+      project: the-arborists
+      description: Extend the Livebook with an easy way to explore nested data structures in the UI
+      members:
+        - user: stefanchrobot
+          avatar_id: 8614029
+      categories_won:
+        - 2nd place overall (ex æquo) 🥈
+        - creativity - 3rd 🥉
+        - innovation - 3rd 🥉
+        - usefulness - 2nd 🥈
+        - completion - 2nd (ex æquo) 🥈
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $350 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: A perfect example of the sort of real-world innovations that can come out of a small, focused hackathon project
+          author: Quinn
+        - text: This project [...] exhibits the OG spirit of Spawnfest, where useful enhancements were made to an established project
+          author: Evadne
+        - text: Very simple, yet very useful idea
+          author: Brujo
+    - team: SquarePants
+      project: dtu
+      description: DTU is a data format that, unlike YAML, allows to define pretty decent programming language
+      members:
+        - user: marianoguerra
+          avatar_id: 68463
+      categories_won:
+        - 3rd place overall 🥉
+        - creativity - 1st 🥇
+        - innovation - 2nd 🥈
+        - correctness - 3rd (ex æquo) 🥉
+        - completion - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $599 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $250 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: Absolutely incredible work! This is such a fun project
+          author: Quinn
+        - text: This language will make a good alternative to existing web description languages
+          author: Kenji
+        - text: ... showcasing the power of Erlang when it comes to transformation between executable data structures
+          author: Evadne
+    - team: one-man-army
+      project: OMA
+      description: Leex column support
+      members:
+        - user: MarkoMin
+          avatar_id: 48245318
+      categories_won:
+        - correctness - 2nd 🥈
+        - maintainability - 3rd (ex æquo) 🥉
+        - completion - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: It's nice to see that the ideas from the spawnfest website finally serve their purpose
+          author: Brujo
+        - text: The contestant made a patch for OTP, which is highly commendable
+          author: Evadne
+        - text: This is a genuinely useful addition to Leex
+          author: Quinn
+    - team: Tres Web
+      project: tres-web
+      description: TresWeb is a local-first tool to inspect, explore and understand the core properties over which the modern decentralized web is made of
+      members:
+        - user: madclaws
+          avatar_id: 17821575
+        - user: ghostdsb
+          avatar_id: 20119474
+        - user: Brotchu
+          avatar_id: 35734995
+        - user: droidcafe
+          avatar_id: 13436433
+      categories_won:
+        - maintainability - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+      comments:
+        - text: I was [...] impressed with how feature-complete the whole experience was
+          author: Quinn
+        - text: This tool is a good example of a CID/Multiaddr application on Elixir
+          author: Kenji
+        - text: A tour de force regarding the kind of productivity a small team may enjoy when using the BEAM
+          author: Evadne
+    - team: Lively
+      project: lively
+      description: Lively is a collection of utilities for working with Ecto and Livebook
+      members:
+        - user: vorce
+          avatar_id: 983376
+        - user: filipecabaco
+          avatar_id: 1697301
+        - user: thiagoramos23
+          avatar_id: 189809
+        - user: vittoriabitton
+          avatar_id: 16309149
+      categories_won:
+        - Livebook - 1st 🥇
+      prizes:
+        - prize: $180 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $113 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: $180 in Project Numbat SWAG
+          prize_image: img/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $450 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: 1 x virtual tickets
+          prize_image: img/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 1 x annual subscriptions
+          prize_image: img/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+      comments:
+        - text: Bring[s] the integration between Livebook and Ecto to the next level
+          author: José
+    - team: eFlambè Live
+      project: eflambe_live
+      description: Generate and view flamegraphs in Livebook
+      members:
+        - user: Stratus3D
+          avatar_id: 1520926
+      categories_won:
+        - Livebook - 2nd 🥈
+      prizes:
+        - prize: $250 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: img/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: $90 in Project Numbat SWAG
+          prize_image: img/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $225 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+    - team: GraphQLiens
+      project: graphql_smart_cell
+      description: A Livebook Smart Cell designed to run GraphQL queries
+      members:
+        - user: mcrumm
+          avatar_id: 168677
+        - user: elbow-jason
+          avatar_id: 4923601
+        - user: billylanchantin
+          avatar_id: 10274508
+      categories_won:
+        - Livebook - 3rd 🥉
+      prizes:
+        - prize: $108 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $137 in AppSignal credits
+          prize_image: img/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: $30 in Project Numbat SWAG
+          prize_image: img/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $75 in Amazon gift cards
+          prize_image: img/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+      comments:
+        - text: Great example of using the new AbsintheClient with Livebook and making GraphQL accessible
+          author: José
 
 ## Legacy
 
@@ -396,8 +709,8 @@ winners_2021:
         - user: Stratus3D
           avatar_id: 1520926
       categories_won:
-        - Usefulness - 2nd 🥈
         - 3rd place overall 🥉
+        - Usefulness - 2nd 🥈
       prizes:
         - prize: $150 in Amazon gift cards
           prize_image: img/legacy/prizes_2021/amazon-gift-card5.png

@@ -101,6 +101,10 @@ a.winners-link {
     top: 35vh;
 }
 
+a.team-member {
+    text-decoration: none;
+}
+
 a.sponsor {
     text-decoration: none;
     text-align: center;
