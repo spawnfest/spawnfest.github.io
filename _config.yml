@@ -4,8 +4,6 @@ nav:
     ref: "#about"
   - name: Registration
     ref: "#registration"
-  - name: Project ideas
-    ref: "ideas"
   - name: Judges
     ref: "#judges"
   - name: Sponsors
@@ -14,17 +12,17 @@ nav:
     ref: "#prizes"
   - name: Rules
     ref: "#rules"
+  - name: Project ideas
+    ref: "ideas.html"
 
 # We move by flags, one phase at a time (these are ordered)
-before_dates_are_known: false  # competition dates are not yet known
-before_countdown_to_start: false  # countdown to start of competition is in effect
-before_registration_is_over: false  # players and sponsor can no longer apply
-before_countdown_to_end: false  # after competition starts (the 2 days)
+before_registration_is_over: true  # players and sponsor can no longer apply
+before_countdown_to_end: false  # after contest starts (the 2 days)
 before_votes_are_out: false  # while judges are doing their thing
 
-last_edition_year: 2021
-this_edition_year: 2022
-alt_for_logo: spawnfest 2022 october 15-16
+last_edition_year: 2022
+this_edition_year: 2023
+alt_for_logo: spawnfest 2023 october 28-29
 
 languages:
   - name: Erlang
@@ -65,156 +63,99 @@ languages:
     image: /img/languages/otpcl-edited.png
 
 organizer:
-  name: The Three MuskeBEAMers
+  name: The BEAM Brothers
   url: "/#organizers"
 
 platinum_sponsors:
-  - name: Erlang Ecosystem Foundation
-    logo: sponsors_2022/eef-logo.svg
-    url: https://erlef.org
+  #- name: name
+  #  logo: img/sponsors_2023/logo
+  #  url: https://url
 
 gold_sponsors:
-  - name: AppSignal
-    logo: sponsors_2022/appsignal.png
-    url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-  - name: Erlang Solutions
-    logo: sponsors_2022/esl.png
-    url: https://www.erlang-solutions.com
-  - name: Entelios
-    logo: sponsors_2022/entelios.gif
-    url: https://www.entelios.com/de/produkte-und-dienstleistungen/
+  #- name: name
+  #  logo: img/sponsors_2023/logo
+  #  url: https://url
 
 silver_sponsors:
-  - name: Groxio
-    logo: sponsors_2022/groxio.svg
-    url: https://grox.io
+  #- name: name
+  #  logo: img/sponsors_2023/logo
+  #  url: https://url
 
 bronze_sponsors:
-  - name: 2600Hz
-    logo: sponsors_2022/2600hz.svg
-    url: https://www.2600hz.com
+  #- name: name
+  #  logo: img/sponsors_2023/logo
+  #  url: https://url
 
 bracket_sponsors:
-  - name: Livebook
-    bracket_name: Livebook projects
-    logo: sponsors_2022/livebook.png
-    url: https://livebook.dev
-    type: gold
-    judge:
-      - name: José Valim
-        twitter: josevalim
-        image: /img/legacy/judges_2022/Jose.png
-    prizes:
-      - name: $300 in Project Numbat SWAG
-        image: /img/legacy/prizes_2022/project-numbat.png
-      - name: $750 in Amazon gift cards
-        image: /img/legacy/prizes_2022/amazon-gift-card.png
-    ideas:
-      - title: Livebook notebooks
-        description: Be creative and submit Livebook notebook(s)!
-      - title: Livebook Smart Cells
-        description: Be creative and submit Livebook Smart Cell(s)!
-  - name: TI Tokyo
-    bracket_name: Riak
-    logo: sponsors_2022/ti_tokyo.png
-    url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
-    type: platinum
-    judge:
-      - name: Andriy Zavada
-        twitter: AndreiZavada
-        image: /img/legacy/judges_2022/Andriy.jpeg
-    prizes:
-      - name: 1 year Riak support (5 nodes) or $2000 in Amazon gift cards
-        image: /img/legacy/prizes_2022/riak.png
+  #- name: name
+  #  bracket_name: bracket_name
+  #  logo: img/sponsors_2023/logo
+  #  url: https://url
+  #  type: platinum | gold | silver | bronze
+  #  judge:
+  #    - name: name
+  #      twitter: twitter
+  #      image: /img/judges_2023/image
+  #  prizes:
+  #    - name: name
+  #      image: /img/prizes_2023/image
+  #  ideas:
+  #    - title: title
+  #      description: description
 
 prizes:
-  - name: $3000 in Amazon gift cards
-    sponsor: Erlang Ecosystem Foundation
-    sponsor_url: https://erlef.org
-    image: /img/legacy/prizes_2022/amazon-gift-card.png
-  - name: $200 in Amazon gift cards
-    sponsor: 2600Hz
-    sponsor_url: https://www.2600hz.com
-    image: /img/legacy/prizes_2022/amazon-gift-card.png
-  - name: 3 x $500 in AppSignal credits
-    sponsor: AppSignal
-    sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-    image: /img/legacy/prizes_2022/appsignal.png
-  - name: 7 x virtual tickets
-    sponsor: Erlang Solutions
-    sponsor_url: https://www.erlang-solutions.com
-    image: /img/legacy/prizes_2022/virtual-ticket.png
-  - name: 4 x annual subscriptions
-    sponsor: Groxio
-    sponsor_url: https://grox.io
-    image: /img/legacy/prizes_2022/passport.png
-  - name: 7 x GRiSP 2 boards
-    sponsor: Entelios
-    sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
-    image: /img/legacy/prizes_2022/grisp2.png
+  #- name: name
+  #  sponsor: sponsor
+  #  sponsor_url: https://sponsor_url
+  #  image: /img/prizes_2023/image
 
 judges:
-  - name: Brujo Benavides
-    twitter: elbrujohalcon
-    image: /img/legacy/judges_2022/Brujo.png
-  - name: Kenji Rikitake
-    twitter: jj1bdx
-    image: /img/legacy/judges_2022/Kenji.jpg
-  - name: Laura M. Castro
-    twitter: lauramcastro
-    image: /img/legacy/judges_2022/Laura.jpg
-  - name: Evadne W.
-    twitter: evadne
-    image: /img/legacy/judges_2022/Evadne.png
-  - name: Brooklyn Zelenka
-    twitter: expede
-    image: /img/legacy/judges_2022/Brooklyn.png
-  - name: Quinn Wilton
-    twitter: wilton_quinn
-    image: /img/legacy/judges_2022/Quinn.jpg
+  #- name: name
+  #  twitter: twitter
+  #  image: /img/judges_2023/image
 
 rules:
   - title: "Schedule"
     icon: "fas fa-calendar-alt"
     details:
-      - text: The event will start on <strong>2022-10-15 00:00 UTC</strong>.
-      - text: The event will end on <strong>2022-10-16 23:59 UTC</strong>.
-      - text: Registration will close 5 days prior to the start date.
-      - text: Each team will have exactly 48 hours to work on their projects.
-      - text: The jury will have a month to evaluate all the submissions (this might take longer, as it's voluntary work).
-  - title: Teams
+      - text: "The event will start on <strong>2023-10-28 00:01 UTC</strong>."
+      - text: "The event will end on <strong>2023-10-29 23:59 UTC</strong>."
+      - text: "Registration will close 5 days prior to the start date."
+      - text: "Each team will have exactly 48 hours to work on their projects."
+      - text: "The jury will have a month to evaluate all the submissions (this might take longer, as it's voluntary work)."
+  - title: "Teams"
     icon: "fas fa-users"
     details:
       - text: "Team size is 1 to 4."
       - text: "Every team member has to be an individual, not an organization."
       - text: "All members of a team should be at least 18 years old."
-      - text: "Judges of this contest can not participate in it as members of a team."
+      - text: "Judges of this contest cannot participate in it as members of a team."
       - text: "Every team has to register by completing the <a href=\"#registration\">registration form</a></span>."
       - text: "Each team shall have a designated leader to handle the prize distribution among its members as well as communicating with the organizers. A team's decision on forfeiting a prize is a private one and the organization will not get involved with that."
-      - text: "We highly advise this player to be able to log into our Discord server for communicating with the organisation during the contest."
-  - title: Projects
+      - text: "We highly advise this player to be able to log into our private Slack channel (#spawnfest-[year]) for communicating with the organisation during the contest."
+  - title: "Projects"
     icon: "fas fa-rocket"
     details:
       - text: "All projects should be written to run on the Erlang VM / BEAM, and any BEAM-based language is valid (e.g., Erlang, Elixir, LFE, Gleam, Clojerl, Luerl, Caramel, etc.)."
       - text: "Supplementary languages such as Javascript (and JS frameworks), Rust, Elm, Go, etc., are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
-      - text: "Each team should come up with their own project idea, or use one from <a href=\"/ideas\">our list of project ideas</a>."
+      - text: "Each team should come up with their own project idea, or use one from <a href=\"/ideas.html\">our list of project ideas</a>."
       - text: "The organizing team will create a public GitHub repository for each team."
       - text: "The name of this GitHub repository cannot be changed."
       - text: "All deliverables should be uploaded to the repository, which shall be used by the jury to evaluate the projects."
       - text: "Suggested extra deliverables to include: documentation, comprehensive README.md, project-related art (e.g. logos), tests and anything that makes building and understanding the system easier for the judges."
       - text: "Contributions to the project (e.g. Pull Requests) from developers outside the team will be forbidden during the contest, but encouraged afterwards."
       - text: "Usage of third party libraries and web services is not prohibited, it's even encouraged."
-      - text: "<em>Ownership and Copyright:</em> each team retains all the rights to their submissions and the repository transfership can always be requested. Note, however, that you will only keep write access to the repository until 5 months before the next edition of SpawnFest."
-      - text: "<em>User Privacy:</em> projects shall not collect any type of personally identifiable information."
+      - text: "<em>Ownership and Copyright</em>: each team retains all the rights to their submissions and the repository transfership can always be requested. Note, however, that you will only keep write access to the repository until 5 months before the next edition of SpawnFest."
+      - text: "<em>User Privacy</em>: projects shall not collect any type of personally identifiable information."
       - text: "Lawful submissions only: please do not submit anything that can be considered harmful, unlawful or both."
       - text: "Players will not be able to write to their GitHub repositories while their submissions are being evaluated."
-      - text: "Accepting the organization's GitHub invitation to join a team is compulsory until the moment the competition starts; failing to do so means we consider you won't be joining the competition."
-  - title: Evaluation
+      - text: "Accepting the organization's GitHub invitation to join a team is compulsory until the moment the contest starts; failing to do so means we consider you won't be joining the contest."
+  - title: "Evaluation"
     icon: "fas fa-gavel"
     details:
-      - text: "Your work will be judged by a publicly known jury, unless previously disqualified."
+      - text: "Your work will be judged by a publicly known jury, unless your team is previously disqualified."
       - text: "Each project will be evaluated in 6 different categories: Creativity, Usefulness, Innovation, Correctness, Maintainability and Completion."
       - text: "Final interpretation of each category meaning is up to the judges, but as general guidelines:
               <dl class=\"pl-3\">
@@ -230,7 +171,7 @@ rules:
       - text: "As long as there are more prizes, those might be awarded to runner-up teams, or bracket-specific teams."
       - text: "Prizes gifted from sponsors shall be distributed among all winning teams and players at the organizer's discretion. For example, if Acme, Inc. puts up a 1 million USD Amazon gift card, the organizers may award the overall winner 500,000 USD Amazon gift and split up the remaining value among other winning teams and players."
       - text: "Each sponsor is responsible for delivering the prize they provided to the winning teams, after the organization has attributed them."
-  - title: Other Rules
+  - title: "Other Rules"
     icon: "fas fa-list-alt"
     details:
       - text: "Individual participants or even entire teams can be disqualified if they don't abide by these rules, or other types of behaviour that the organizers might find unacceptable. The organizers reserve the right to apply the punishment they consider fit to any transgression."
@@ -285,339 +226,24 @@ ideas:
   - title: dependency upgrade suggestion system
     description: have a way to, given a folder full of random projects (e.g. rebar3 or mix -based) determine what would be the best way to bump deps in them tree analysis + upstream analysis (think <a href="https://github.com/AdRoll/rebar3_depup">AdRoll/rebar3_depup</a> but for a complete tree)
 
-winners_2022:
+winners_2023:
   teams:
-    - team: Jason
-      project: json_native
-      description: An extension of the Jason package - the blazing fast JSON encoder for Elixir
-      members:
-        - user: michalmuskala
-          avatar_id: 477062
-      categories_won:
-        - 1st place overall 🥇
-        - creativity - 2nd 🥈
-        - usefulness - 1st 🥇
-        - innovation - 1st 🥇
-        - correctness - 1st 🥇
-        - maintainability - 1st 🥇
-        - completion - 2nd (ex æquo) 🥈
-      prizes:
-        - prize: $1000 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $800 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: TI Tokyo
-          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
-        - prize: $250 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
-        - prize: 2 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
-          prize_image: /img/legacy/prizes_2022/passport.png
-          sponsor: Groxio
-          sponsor_url: https://grox.io
-        - prize: $200 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: 2600Hz
-          sponsor_url: https://www.2600hz.com
-      comments:
-        - text: I'm really hopeful that this pattern becomes more popular within the ecosystem
-          author: Quinn
-        - text: A nice addition to jason
-          author: Kenji
-        - text: Highly focused project with an established upgrade path
-          author: Evadne
-    - team: ruos
-      project: secret_vault
-      description: All-in-one solution for storing your Elixir application secrets inside the repository
-      members:
-        - user: hissssst
-          avatar_id: 37012324
-        - user: yunmikun2
-          avatar_id: 49944027
-      categories_won:
-        - 2nd place overall (ex æquo) 🥈
-        - usefulness - 3rd 🥉
-        - correctness - 3rd (ex æquo) 🥉
-        - maintainability - 2nd 🥈
-        - completion - 1st 🥇
-      prizes:
-        - prize: $413 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $500 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: TI Tokyo
-          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 2 x annual subscriptions
-          prize_image: /img/legacy/prizes_2022/passport.png
-          sponsor: Groxio
-          sponsor_url: https://grox.io
-      comments:
-        - text: Amazing work here! Lots of Documatation (sic)! It even includes a tutorial (O_O)
-          author: Brujo
-        - text: This implementation is of excellent quality, worth adopting in production projects
-          author: Evadne
-        - text: This tool will be useful for securing Elixir applications
-          author: Kenji
-    - team: The Arborists
-      project: the-arborists
-      description: Extend the Livebook with an easy way to explore nested data structures in the UI
-      members:
-        - user: stefanchrobot
-          avatar_id: 8614029
-      categories_won:
-        - 2nd place overall (ex æquo) 🥈
-        - creativity - 3rd 🥉
-        - innovation - 3rd 🥉
-        - usefulness - 2nd 🥈
-        - completion - 2nd (ex æquo) 🥈
-      prizes:
-        - prize: $350 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $350 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: TI Tokyo
-          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
-        - prize: $250 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-      comments:
-        - text: A perfect example of the sort of real-world innovations that can come out of a small, focused hackathon project
-          author: Quinn
-        - text: This project [...] exhibits the OG spirit of Spawnfest, where useful enhancements were made to an established project
-          author: Evadne
-        - text: Very simple, yet very useful idea
-          author: Brujo
-    - team: SquarePants
-      project: dtu
-      description: DTU is a data format that, unlike YAML, allows to define pretty decent programming language
-      members:
-        - user: marianoguerra
-          avatar_id: 68463
-      categories_won:
-        - 3rd place overall 🥉
-        - creativity - 1st 🥇
-        - innovation - 2nd 🥈
-        - correctness - 3rd (ex æquo) 🥉
-        - completion - 3rd (ex æquo) 🥉
-      prizes:
-        - prize: $599 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $250 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-      comments:
-        - text: Absolutely incredible work! This is such a fun project
-          author: Quinn
-        - text: This language will make a good alternative to existing web description languages
-          author: Kenji
-        - text: ... showcasing the power of Erlang when it comes to transformation between executable data structures
-          author: Evadne
-    - team: one-man-army
-      project: OMA
-      description: Leex column support
-      members:
-        - user: MarkoMin
-          avatar_id: 48245318
-      categories_won:
-        - correctness - 2nd 🥈
-        - maintainability - 3rd (ex æquo) 🥉
-        - completion - 3rd (ex æquo) 🥉
-      prizes:
-        - prize: $350 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: TI Tokyo
-          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
-        - prize: $250 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-      comments:
-        - text: It's nice to see that the ideas from the spawnfest website finally serve their purpose
-          author: Brujo
-        - text: The contestant made a patch for OTP, which is highly commendable
-          author: Evadne
-        - text: This is a genuinely useful addition to Leex
-          author: Quinn
-    - team: Tres Web
-      project: tres-web
-      description: TresWeb is a local-first tool to inspect, explore and understand the core properties over which the modern decentralized web is made of
-      members:
-        - user: madclaws
-          avatar_id: 17821575
-        - user: ghostdsb
-          avatar_id: 20119474
-        - user: Brotchu
-          avatar_id: 35734995
-        - user: droidcafe
-          avatar_id: 13436433
-      categories_won:
-        - maintainability - 3rd (ex æquo) 🥉
-      prizes:
-        - prize: $350 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-      comments:
-        - text: I was [...] impressed with how feature-complete the whole experience was
-          author: Quinn
-        - text: This tool is a good example of a CID/Multiaddr application on Elixir
-          author: Kenji
-        - text: A tour de force regarding the kind of productivity a small team may enjoy when using the BEAM
-          author: Evadne
-    - team: Lively
-      project: lively
-      description: Lively is a collection of utilities for working with Ecto and Livebook
-      members:
-        - user: vorce
-          avatar_id: 983376
-        - user: filipecabaco
-          avatar_id: 1697301
-        - user: thiagoramos23
-          avatar_id: 189809
-        - user: vittoriabitton
-          avatar_id: 16309149
-      categories_won:
-        - Livebook - 1st 🥇
-      prizes:
-        - prize: $180 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $113 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: $180 in Project Numbat SWAG
-          prize_image: /img/legacy/prizes_2022/project-numbat.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-        - prize: $450 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-        - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
-          sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
-          prize_image: /img/legacy/prizes_2022/passport.png
-          sponsor: Groxio
-          sponsor_url: https://grox.io
-      comments:
-        - text: Bring[s] the integration between Livebook and Ecto to the next level
-          author: José
-    - team: eFlambè Live
-      project: eflambe_live
-      description: Generate and view flamegraphs in Livebook
-      members:
-        - user: Stratus3D
-          avatar_id: 1520926
-      categories_won:
-        - Livebook - 2nd 🥈
-      prizes:
-        - prize: $250 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: 1 x GRiSP 2 board
-          prize_image: /img/legacy/prizes_2022/grisp2.png
-          sponsor: Entelios
-          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
-        - prize: $90 in Project Numbat SWAG
-          prize_image: /img/legacy/prizes_2022/project-numbat.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-        - prize: $225 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-    - team: GraphQLiens
-      project: graphql_smart_cell
-      description: A Livebook Smart Cell designed to run GraphQL queries
-      members:
-        - user: mcrumm
-          avatar_id: 168677
-        - user: elbow-jason
-          avatar_id: 4923601
-        - user: billylanchantin
-          avatar_id: 10274508
-      categories_won:
-        - Livebook - 3rd 🥉
-      prizes:
-        - prize: $108 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Erlang Ecosystem Foundation
-          sponsor_url: https://erlef.org
-        - prize: $137 in AppSignal credits
-          prize_image: /img/legacy/prizes_2022/appsignal.png
-          sponsor: AppSignal
-          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-        - prize: $30 in Project Numbat SWAG
-          prize_image: /img/legacy/prizes_2022/project-numbat.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-        - prize: $75 in Amazon gift cards
-          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
-          sponsor: Livebook
-          sponsor_url: https://livebook.dev
-      comments:
-        - text: Great example of using the new AbsintheClient with Livebook and making GraphQL accessible
-          author: José
+    #- team: team
+    #  project: project
+    #  description: descripion
+    #  members:
+    #    - user: user
+    #      avatar_id: avatar_id
+    #  categories_won:
+    #    -
+    #  prizes:
+    #    - prize: prize
+    #      prize_image: /img/prizes_2023/prize_image
+    #      sponsor: sponsor
+    #      sponsor_url: https://sponsor_url
+    #  comments:
+    #    - text: text
+    #      author: author
 
 ## Legacy
 
