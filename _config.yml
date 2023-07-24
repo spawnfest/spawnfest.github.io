@@ -16,6 +16,7 @@ nav:
     ref: "ideas.html"
 
 # We move by flags, one phase at a time (these are ordered)
+before_countdown_to_start: true  # countdown to start of competition is in effect
 before_registration_is_over: true  # players and sponsor can no longer apply
 before_countdown_to_end: true  # after contest starts (the 2 days)
 before_votes_are_out: true  # while judges are doing their thing
@@ -140,7 +141,7 @@ rules:
       - text: "Supplementary languages such as Javascript (and JS frameworks), Rust, Elm, Go, etc., are allowed."
       - text: "Only code created after the start of the contest will be evaluated by the judges."
       - text: "The system may include code that was written before the start of the contest, as long as the division between that code and the new one is made perfectly clear for the judges to see."
-      - text: "Each team should come up with their own project idea, or use one from <a href=\"/ideas.html\">our list of project ideas</a>."
+      - text: "Each team should come up with their own project idea, or alternatively use one from <a href=\"/ideas.html\">our list of project ideas</a>."
       - text: "The organizing team will create a public GitHub repository for each team."
       - text: "The name of this GitHub repository cannot be changed."
       - text: "All deliverables should be uploaded to the repository, which shall be used by the jury to evaluate the projects."
