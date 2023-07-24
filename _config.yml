@@ -17,8 +17,8 @@ nav:
 
 # We move by flags, one phase at a time (these are ordered)
 before_registration_is_over: true  # players and sponsor can no longer apply
-before_countdown_to_end: false  # after contest starts (the 2 days)
-before_votes_are_out: false  # while judges are doing their thing
+before_countdown_to_end: true  # after contest starts (the 2 days)
+before_votes_are_out: true  # while judges are doing their thing
 
 last_edition_year: 2022
 this_edition_year: 2023
