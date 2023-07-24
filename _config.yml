@@ -29,40 +29,40 @@ alt_for_logo: spawnfest 2022 october 15-16
 languages:
   - name: Erlang
     url: https://erlang.org/
-    image: img/languages/erlang-edited.png
+    image: /img/languages/erlang-edited.png
   - name: Elixir
     url: https://elixir-lang.org/
-    image: img/languages/elixir-edited.png
+    image: /img/languages/elixir-edited.png
   - name: LFE
     url: https://lfe.io/
-    image: img/languages/lfe-edited.png
+    image: /img/languages/lfe-edited.png
   - name: Hamler
     url: https://www.hamler-lang.org/
-    image: img/languages/hamler-edited.png
+    image: /img/languages/hamler-edited.png
   - name: Luerl
     url: https://github.com/rvirding/luerl
-    image: img/languages/luerl-edited.png
+    image: /img/languages/luerl-edited.png
   - name: Gleam
     url: https://gleam.run/
-    image: img/languages/gleam-edited.png
+    image: /img/languages/gleam-edited.png
   - name: Clojerl
     url: http://clojerl.org/
-    image: img/languages/clojerl-edited.png
+    image: /img/languages/clojerl-edited.png
   - name: Fika
     url: https://github.com/fika-lang/fika
-    image: img/languages/fika-edited.png
+    image: /img/languages/fika-edited.png
   - name: Bragful
     url: https://github.com/bragful/ephp
-    image: img/languages/ephp-edited.png
+    image: /img/languages/ephp-edited.png
   - name: Caramel
     url: https://caramel.run/
-    image: img/languages/caramel-edited.png
+    image: /img/languages/caramel-edited.png
   - name: Elchemy
     url: https://wende.github.io/elchemy/
-    image: img/languages/elchemy-edited.png
+    image: /img/languages/elchemy-edited.png
   - name: OTPCL
     url: https://otpcl.github.io/
-    image: img/languages/otpcl-edited.png
+    image: /img/languages/otpcl-edited.png
 
 organizer:
   name: The Three MuskeBEAMers
@@ -103,12 +103,12 @@ bracket_sponsors:
     judge:
       - name: José Valim
         twitter: josevalim
-        image: judges_2022/Jose.png
+        image: /img/legacy/judges_2022/Jose.png
     prizes:
       - name: $300 in Project Numbat SWAG
-        image: prizes_2022/project-numbat.png
+        image: /img/legacy/prizes_2022/project-numbat.png
       - name: $750 in Amazon gift cards
-        image: prizes_2022/amazon-gift-card.png
+        image: /img/legacy/prizes_2022/amazon-gift-card.png
     ideas:
       - title: Livebook notebooks
         description: Be creative and submit Livebook notebook(s)!
@@ -122,56 +122,56 @@ bracket_sponsors:
     judge:
       - name: Andriy Zavada
         twitter: AndreiZavada
-        image: judges_2022/Andriy.jpeg
+        image: /img/legacy/judges_2022/Andriy.jpeg
     prizes:
       - name: 1 year Riak support (5 nodes) or $2000 in Amazon gift cards
-        image: prizes_2022/riak.png
+        image: /img/legacy/prizes_2022/riak.png
 
 prizes:
   - name: $3000 in Amazon gift cards
     sponsor: Erlang Ecosystem Foundation
     sponsor_url: https://erlef.org
-    image: prizes_2022/amazon-gift-card.png
+    image: /img/legacy/prizes_2022/amazon-gift-card.png
   - name: $200 in Amazon gift cards
     sponsor: 2600Hz
     sponsor_url: https://www.2600hz.com
-    image: prizes_2022/amazon-gift-card.png
+    image: /img/legacy/prizes_2022/amazon-gift-card.png
   - name: 3 x $500 in AppSignal credits
     sponsor: AppSignal
     sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
-    image: prizes_2022/appsignal.png
+    image: /img/legacy/prizes_2022/appsignal.png
   - name: 7 x virtual tickets
     sponsor: Erlang Solutions
     sponsor_url: https://www.erlang-solutions.com
-    image: prizes_2022/virtual-ticket.png
+    image: /img/legacy/prizes_2022/virtual-ticket.png
   - name: 4 x annual subscriptions
     sponsor: Groxio
     sponsor_url: https://grox.io
-    image: prizes_2022/passport.png
+    image: /img/legacy/prizes_2022/passport.png
   - name: 7 x GRiSP 2 boards
     sponsor: Entelios
     sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
-    image: prizes_2022/grisp2.png
+    image: /img/legacy/prizes_2022/grisp2.png
 
 judges:
   - name: Brujo Benavides
     twitter: elbrujohalcon
-    image: judges_2022/Brujo.png
+    image: /img/legacy/judges_2022/Brujo.png
   - name: Kenji Rikitake
     twitter: jj1bdx
-    image: judges_2022/Kenji.jpg
+    image: /img/legacy/judges_2022/Kenji.jpg
   - name: Laura M. Castro
     twitter: lauramcastro
-    image: judges_2022/Laura.jpg
+    image: /img/legacy/judges_2022/Laura.jpg
   - name: Evadne W.
     twitter: evadne
-    image: judges_2022/Evadne.png
+    image: /img/legacy/judges_2022/Evadne.png
   - name: Brooklyn Zelenka
     twitter: expede
-    image: judges_2022/Brooklyn.png
+    image: /img/legacy/judges_2022/Brooklyn.png
   - name: Quinn Wilton
     twitter: wilton_quinn
-    image: judges_2022/Quinn.jpg
+    image: /img/legacy/judges_2022/Quinn.jpg
 
 rules:
   - title: "Schedule"
@@ -303,31 +303,31 @@ winners_2022:
         - completion - 2nd (ex æquo) 🥈
       prizes:
         - prize: $1000 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $800 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: TI Tokyo
           sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
         - prize: $250 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
         - prize: 2 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
-          prize_image: img/prizes_2022/passport.png
+          prize_image: /img/legacy/prizes_2022/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io
         - prize: $200 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: 2600Hz
           sponsor_url: https://www.2600hz.com
       comments:
@@ -353,23 +353,23 @@ winners_2022:
         - completion - 1st 🥇
       prizes:
         - prize: $413 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $500 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: TI Tokyo
           sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: 1 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 2 x annual subscriptions
-          prize_image: img/prizes_2022/passport.png
+          prize_image: /img/legacy/prizes_2022/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io
       comments:
@@ -393,23 +393,23 @@ winners_2022:
         - completion - 2nd (ex æquo) 🥈
       prizes:
         - prize: $350 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $350 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: TI Tokyo
           sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
         - prize: $250 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: 1 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
       comments:
@@ -433,19 +433,19 @@ winners_2022:
         - completion - 3rd (ex æquo) 🥉
       prizes:
         - prize: $599 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $250 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: 1 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
       comments:
@@ -467,19 +467,19 @@ winners_2022:
         - completion - 3rd (ex æquo) 🥉
       prizes:
         - prize: $350 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: TI Tokyo
           sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
         - prize: $250 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: 1 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
       comments:
@@ -505,7 +505,7 @@ winners_2022:
         - maintainability - 3rd (ex æquo) 🥉
       prizes:
         - prize: $350 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
       comments:
@@ -531,31 +531,31 @@ winners_2022:
         - Livebook - 1st 🥇
       prizes:
         - prize: $180 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $113 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: $180 in Project Numbat SWAG
-          prize_image: img/prizes_2022/project-numbat.png
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
         - prize: $450 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
         - prize: 1 x virtual tickets
-          prize_image: img/prizes_2022/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
-          prize_image: img/prizes_2022/passport.png
+          prize_image: /img/legacy/prizes_2022/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io
       comments:
@@ -571,19 +571,19 @@ winners_2022:
         - Livebook - 2nd 🥈
       prizes:
         - prize: $250 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: 1 x GRiSP 2 board
-          prize_image: img/prizes_2022/grisp2.png
+          prize_image: /img/legacy/prizes_2022/grisp2.png
           sponsor: Entelios
           sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
         - prize: $90 in Project Numbat SWAG
-          prize_image: img/prizes_2022/project-numbat.png
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
         - prize: $225 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
     - team: GraphQLiens
@@ -600,19 +600,19 @@ winners_2022:
         - Livebook - 3rd 🥉
       prizes:
         - prize: $108 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org
         - prize: $137 in AppSignal credits
-          prize_image: img/prizes_2022/appsignal.png
+          prize_image: /img/legacy/prizes_2022/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
         - prize: $30 in Project Numbat SWAG
-          prize_image: img/prizes_2022/project-numbat.png
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
         - prize: $75 in Amazon gift cards
-          prize_image: img/prizes_2022/amazon-gift-card.png
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
           sponsor: Livebook
           sponsor_url: https://livebook.dev
       comments:
@@ -620,6 +620,340 @@ winners_2022:
           author: José
 
 ## Legacy
+
+winners_2022:
+  teams:
+    - team: Jason
+      project: json_native
+      description: An extension of the Jason package - the blazing fast JSON encoder for Elixir
+      members:
+        - user: michalmuskala
+          avatar_id: 477062
+      categories_won:
+        - 1st place overall 🥇
+        - creativity - 2nd 🥈
+        - usefulness - 1st 🥇
+        - innovation - 1st 🥇
+        - correctness - 1st 🥇
+        - maintainability - 1st 🥇
+        - completion - 2nd (ex æquo) 🥈
+      prizes:
+        - prize: $1000 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $800 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen/
+        - prize: 2 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 1 x annual subscriptions
+          prize_image: /img/legacy/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+        - prize: $200 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: 2600Hz
+          sponsor_url: https://www.2600hz.com
+      comments:
+        - text: I'm really hopeful that this pattern becomes more popular within the ecosystem
+          author: Quinn
+        - text: A nice addition to jason
+          author: Kenji
+        - text: Highly focused project with an established upgrade path
+          author: Evadne
+    - team: ruos
+      project: secret_vault
+      description: All-in-one solution for storing your Elixir application secrets inside the repository
+      members:
+        - user: hissssst
+          avatar_id: 37012324
+        - user: yunmikun2
+          avatar_id: 49944027
+      categories_won:
+        - 2nd place overall (ex æquo) 🥈
+        - usefulness - 3rd 🥉
+        - correctness - 3rd (ex æquo) 🥉
+        - maintainability - 2nd 🥈
+        - completion - 1st 🥇
+      prizes:
+        - prize: $413 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $500 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 2 x annual subscriptions
+          prize_image: /img/legacy/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+      comments:
+        - text: Amazing work here! Lots of Documatation (sic)! It even includes a tutorial (O_O)
+          author: Brujo
+        - text: This implementation is of excellent quality, worth adopting in production projects
+          author: Evadne
+        - text: This tool will be useful for securing Elixir applications
+          author: Kenji
+    - team: The Arborists
+      project: the-arborists
+      description: Extend the Livebook with an easy way to explore nested data structures in the UI
+      members:
+        - user: stefanchrobot
+          avatar_id: 8614029
+      categories_won:
+        - 2nd place overall (ex æquo) 🥈
+        - creativity - 3rd 🥉
+        - innovation - 3rd 🥉
+        - usefulness - 2nd 🥈
+        - completion - 2nd (ex æquo) 🥈
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $350 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: A perfect example of the sort of real-world innovations that can come out of a small, focused hackathon project
+          author: Quinn
+        - text: This project [...] exhibits the OG spirit of Spawnfest, where useful enhancements were made to an established project
+          author: Evadne
+        - text: Very simple, yet very useful idea
+          author: Brujo
+    - team: SquarePants
+      project: dtu
+      description: DTU is a data format that, unlike YAML, allows to define pretty decent programming language
+      members:
+        - user: marianoguerra
+          avatar_id: 68463
+      categories_won:
+        - 3rd place overall 🥉
+        - creativity - 1st 🥇
+        - innovation - 2nd 🥈
+        - correctness - 3rd (ex æquo) 🥉
+        - completion - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $599 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $250 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: Absolutely incredible work! This is such a fun project
+          author: Quinn
+        - text: This language will make a good alternative to existing web description languages
+          author: Kenji
+        - text: ... showcasing the power of Erlang when it comes to transformation between executable data structures
+          author: Evadne
+    - team: one-man-army
+      project: OMA
+      description: Leex column support
+      members:
+        - user: MarkoMin
+          avatar_id: 48245318
+      categories_won:
+        - correctness - 2nd 🥈
+        - maintainability - 3rd (ex æquo) 🥉
+        - completion - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: TI Tokyo
+          sponsor_url: https://www.tiot.jp/en/?utn_campaign=spawnfest2022
+        - prize: $250 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: 1 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+      comments:
+        - text: It's nice to see that the ideas from the spawnfest website finally serve their purpose
+          author: Brujo
+        - text: The contestant made a patch for OTP, which is highly commendable
+          author: Evadne
+        - text: This is a genuinely useful addition to Leex
+          author: Quinn
+    - team: Tres Web
+      project: tres-web
+      description: TresWeb is a local-first tool to inspect, explore and understand the core properties over which the modern decentralized web is made of
+      members:
+        - user: madclaws
+          avatar_id: 17821575
+        - user: ghostdsb
+          avatar_id: 20119474
+        - user: Brotchu
+          avatar_id: 35734995
+        - user: droidcafe
+          avatar_id: 13436433
+      categories_won:
+        - maintainability - 3rd (ex æquo) 🥉
+      prizes:
+        - prize: $350 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+      comments:
+        - text: I was [...] impressed with how feature-complete the whole experience was
+          author: Quinn
+        - text: This tool is a good example of a CID/Multiaddr application on Elixir
+          author: Kenji
+        - text: A tour de force regarding the kind of productivity a small team may enjoy when using the BEAM
+          author: Evadne
+    - team: Lively
+      project: lively
+      description: Lively is a collection of utilities for working with Ecto and Livebook
+      members:
+        - user: vorce
+          avatar_id: 983376
+        - user: filipecabaco
+          avatar_id: 1697301
+        - user: thiagoramos23
+          avatar_id: 189809
+        - user: vittoriabitton
+          avatar_id: 16309149
+      categories_won:
+        - Livebook - 1st 🥇
+      prizes:
+        - prize: $180 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $113 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: $180 in Project Numbat SWAG
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $450 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: 1 x virtual tickets
+          prize_image: /img/legacy/prizes_2022/virtual-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://www.erlang-solutions.com
+        - prize: 1 x annual subscriptions
+          prize_image: /img/legacy/prizes_2022/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io
+      comments:
+        - text: Bring[s] the integration between Livebook and Ecto to the next level
+          author: José
+    - team: eFlambè Live
+      project: eflambe_live
+      description: Generate and view flamegraphs in Livebook
+      members:
+        - user: Stratus3D
+          avatar_id: 1520926
+      categories_won:
+        - Livebook - 2nd 🥈
+      prizes:
+        - prize: $250 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: 1 x GRiSP 2 board
+          prize_image: /img/legacy/prizes_2022/grisp2.png
+          sponsor: Entelios
+          sponsor_url: https://www.entelios.com/de/produkte-und-dienstleistungen
+        - prize: $90 in Project Numbat SWAG
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $225 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+    - team: GraphQLiens
+      project: graphql_smart_cell
+      description: A Livebook Smart Cell designed to run GraphQL queries
+      members:
+        - user: mcrumm
+          avatar_id: 168677
+        - user: elbow-jason
+          avatar_id: 4923601
+        - user: billylanchantin
+          avatar_id: 10274508
+      categories_won:
+        - Livebook - 3rd 🥉
+      prizes:
+        - prize: $108 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org
+        - prize: $137 in AppSignal credits
+          prize_image: /img/legacy/prizes_2022/appsignal.png
+          sponsor: AppSignal
+          sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest&utm_medium=website&utm_campaign=sponsoredevent
+        - prize: $30 in Project Numbat SWAG
+          prize_image: /img/legacy/prizes_2022/project-numbat.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+        - prize: $75 in Amazon gift cards
+          prize_image: /img/legacy/prizes_2022/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev
+      comments:
+        - text: Great example of using the new AbsintheClient with Livebook and making GraphQL accessible
+          author: José
 
 winners_2021:
   teams:
@@ -667,27 +1001,27 @@ winners_2021:
         - Correctness - 3rd 🥉
       prizes:
         - prize: 5x virtual tickets
-          prize_image: img/legacy/prizes_2021/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2021/virtual-ticket.png
           sponsor: Code Sync
           sponsor_url: https://codesync.global/
         - prize: $500 in credits
-          prize_image: img/legacy/prizes_2021/small_octocat.png
+          prize_image: /img/legacy/prizes_2021/small_octocat.png
           sponsor: GitHub
           sponsor_url: https://github.com/about/careers?utm_source=announcement&utm_medium=event&utm_campaign=spawnfest-20210918
         - prize: $792 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
         - prize: 2x annual subscriptions
-          prize_image: img/legacy/prizes_2021/passport.png
+          prize_image: /img/legacy/prizes_2021/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
         - prize: 1x Oculus Quest 2
-          prize_image: img/legacy/prizes_2021/oculus-quest-2.png
+          prize_image: /img/legacy/prizes_2021/oculus-quest-2.png
           sponsor: Remote
           sponsor_url: https://remote.com/
         - prize: $750 in swag
-          prize_image: img/legacy/prizes_2021/whatsapp_socks.png
+          prize_image: /img/legacy/prizes_2021/whatsapp_socks.png
           sponsor: Whatsapp
           sponsor_url: https://www.whatsapp.com/
       comments:
@@ -713,27 +1047,27 @@ winners_2021:
         - Usefulness - 2nd 🥈
       prizes:
         - prize: $150 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: 2600Hz
           sponsor_url: https://www.2600hz.com/
         - prize: $461 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
         - prize: $280 in swag and Amazon gift cards
-          prize_image: img/legacy/prizes_2021/swag-amazon.png
+          prize_image: /img/legacy/prizes_2021/swag-amazon.png
           sponsor: Klarna
           sponsor_url: https://www.klarna.com/
         - prize: 2x annual subscriptions
-          prize_image: img/legacy/prizes_2021/passport.png
+          prize_image: /img/legacy/prizes_2021/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
         - prize: 1x Oculus Quest 2
-          prize_image: img/legacy/prizes_2021/oculus-quest-2.png
+          prize_image: /img/legacy/prizes_2021/oculus-quest-2.png
           sponsor: Remote
           sponsor_url: https://remote.com/
         - prize: $300 in swag
-          prize_image: img/legacy/prizes_2021/whatsapp_socks.png
+          prize_image: /img/legacy/prizes_2021/whatsapp_socks.png
           sponsor: Whatsapp
           sponsor_url: https://www.whatsapp.com/
       comments:
@@ -765,31 +1099,31 @@ winners_2021:
         - Innovation - 1st 🥇
       prizes:
         - prize: $150 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: NineFX
           sponsor_url: https://www.ninefx.com/
         - prize: $387 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
         - prize: $220 in swag and Amazon gift cards
-          prize_image: img/legacy/prizes_2021/swag-amazon.png
+          prize_image: /img/legacy/prizes_2021/swag-amazon.png
           sponsor: Klarna
           sponsor_url: https://www.klarna.com/
         - prize: 1x virtual conference ticket
-          prize_image: img/legacy/prizes_2021/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2021/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com/
         - prize: 1x Oculus Quest 2
-          prize_image: img/legacy/prizes_2021/oculus-quest-2.png
+          prize_image: /img/legacy/prizes_2021/oculus-quest-2.png
           sponsor: Remote
           sponsor_url: https://remote.com/
         - prize: 2x €500 in credits
-          prize_image: img/legacy/prizes_2021/appsignal.png
+          prize_image: /img/legacy/prizes_2021/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
         - prize: $300 in swag
-          prize_image: img/legacy/prizes_2021/whatsapp_socks.png
+          prize_image: /img/legacy/prizes_2021/whatsapp_socks.png
           sponsor: Whatsapp
           sponsor_url: https://www.whatsapp.com/
       comments:
@@ -815,27 +1149,27 @@ winners_2021:
         - Completion - 3rd 🥉
       prizes:
         - prize: 1x reMarkable 2
-          prize_image: img/legacy/prizes_2021/remarkable2.png
+          prize_image: /img/legacy/prizes_2021/remarkable2.png
           sponsor: Nomasystems
           sponsor_url: http://www.nomasystems.es/
         - prize: $492 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
         - prize: 3x virtual tickets
-          prize_image: img/legacy/prizes_2021/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2021/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com/
         - prize: 1x Oculus Quest 2
-          prize_image: img/legacy/prizes_2021/oculus-quest-2.png
+          prize_image: /img/legacy/prizes_2021/oculus-quest-2.png
           sponsor: Remote
           sponsor_url: https://remote.com/
         - prize: 1x €500 in credits
-          prize_image: img/legacy/prizes_2021/appsignal.png
+          prize_image: /img/legacy/prizes_2021/appsignal.png
           sponsor: AppSignal
           sponsor_url: https://www.appsignal.com/elixir?utm_source=spawnfest_sponsored&utm_medium=web
         - prize: $150 in swag
-          prize_image: img/legacy/prizes_2021/whatsapp_socks.png
+          prize_image: /img/legacy/prizes_2021/whatsapp_socks.png
           sponsor: Whatsapp
           sponsor_url: https://www.whatsapp.com/
       comments:
@@ -861,7 +1195,7 @@ winners_2021:
         - Creativity - 3rd 🥉
       prizes:
         - prize: $70 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
       comments:
@@ -887,11 +1221,11 @@ winners_2021:
         - Usefulness - 3rd 🥉
       prizes:
         - prize: $60 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
         - prize: 1x virtual ticket
-          prize_image: img/legacy/prizes_2021/virtual-ticket.png
+          prize_image: /img/legacy/prizes_2021/virtual-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com/
       comments:
@@ -919,7 +1253,7 @@ winners_2021:
         - Innovation - 3rd 🥉
       prizes:
         - prize: $138 in Amazon gift cards
-          prize_image: img/legacy/prizes_2021/amazon-gift-card5.png
+          prize_image: /img/legacy/prizes_2021/amazon-gift-card5.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://www.erlef.org/
       comments:
