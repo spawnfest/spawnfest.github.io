@@ -185,13 +185,8 @@ ideas:
     description: Add branch coverage to cover, so that if you see expr1() orelse expr2() and the right-hand side of an orelse is never invoked in the test, the line is shown as yellow (partially covered)
   - title: Dialyzer Simplifier
     description: We always complain about the cryptic (but right, though!) messages Dialyzer generates. It would be amazing to create something to help newcomers (and experienced devs alike) understand them better.
-  - title: rebar3 vendor plugin
-    description: Create a rebar3 plugin that vendors in dependencies from multiple sources (paths, Git, Hex, etc.). Said plugin would properly handle renaming files and module names per consumer configuration.
   - title: visual code coverage reporting tool with history
     description: A tool that keeps history of coverage percentage and allows displaying results in a visual fashion (e.g. like a graph with the run id on the x axis and the coverage percentage on the y axis)
-  - title: Native secrets library for projects
-    description: A tool to allow storing secrets in Git (or another CVS) with minimal configuration effort, native to BEAM
-    (from https://github.com/elasticdog/transcrypt: configure transparent encryption of sensitive files stored in a Git repository)
   - title: Pretty diff support for common tests
     description: A library that provides assertions which produce pretty diffs a la ExUnit on match and comparison assertions.
   - title: Recurring event site
@@ -212,8 +207,6 @@ ideas:
     description: The string module does not provide a number of operations that have to be implemented by hand (such as removing accented characters). Support for Unicode codepoint properties ala libicu. Support for decoding/encoding UTF-8 from/to various other character encodings would also be useful, for example when dealing with email data.
   - title: Hedy on the BEAM
     description: Implement Hedy on the BEAM. See <a href="https://www.hedycode.com/">Hedy Code</a> for details.
-  - title: Leex column number support
-    description: Currently Leex https://erlang.org/doc/man/leex.html the lexical analyser generator for Erlang does not support column numbers for the generated scanners. The returned tokens contain only a line number and not a tuple of {line(), column()}. This doesn't matter for the Erlang compiler because it doesn't use a leex generated scanner but all languages that do use leex can't support column numbers in error messages because of that. For backwards compatibility this should probably be optional. Optimally such a project could target itself for inclusion in Erlang/OTP.
   - title: Generic non-deterministic user level scheduler
     description: Create a general purpose non-deterministic user level scheduler that generates random schedules, provides hook for shrinking, and produces seeds for repeatability ala PULSE in QuickCheck.
   - title: Erlang Code Improver
