@@ -499,14 +499,10 @@ header.masthead .img-container .header-logo {
     }
 }
 
-.header-logo-small-top {
-    width: 25%;
-    margin-top: 3rem;
-}
-
 .header-logo-small-left {
-    width: 25%;
-    margin-bottom: 3rem;
+    width: 30%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 @media(max-device-width:700px) {
