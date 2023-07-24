@@ -1,0 +1,60 @@
+---
+permalink: /legacy/2012/instagram/
+---
+<html>
+<head>
+<style>
+body { font-family: sans-serif;}
+.instagram-placeholder { float: left; }
+.photos {display: block; float: left;}
+</style>
+</head>
+<body>
+  <div class="photos">
+    <h1>Insta Spawnfest!</h1>
+    <p>All Spawnfest pictures tagged with <em>#spawnfest</em> on  instagram for Spawnfest 2012!</p>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <div class="instagram"></div>
+  </div>
+  
+  <div class="photos">
+    <h1>Spawnfest Twitter pictures!</h1>
+    <p>All Spawnfest pictures tagged with <em>#spawnfest</em> on Twitter for Spawnfest 2012!</p>
+    <div class="twitter"></div>
+  </div>
+
+<script>
+$(function() {
+      $.ajax({type: "GET",
+	      dataType: "jsonp",
+	      cache: false,
+	      url: "https://api.instagram.com/v1/tags/spawnfest/media/recent?access_token=18360510.f59def8.d8d77acfa353492e8842597295028fd3",
+              success: function(data) {
+		  var l = data.data.length;
+		  var i = 0;
+		  while( i <= l - 1) {
+		      $(".instagram").append("<div class='instagram-placeholder'><a href='" + data.data[i].link +"'><img class='instagram-image' src='" + data.data[i].images.low_resolution.url +"' /></a></div>");   
+		      i++;
+		  }
+              }
+	     });
+      
+      $.ajax({type: "GET",
+	      dataType: "jsonp",
+	      cache: false,
+	      url: "https://api.twicsy.com/search/spawnfest/callback/renderpics",
+	      success: function(d) {
+		  d.results.reverse();
+		  var l = d.results.length;
+		  var i = 0;
+		  while( i <= l - 1) {
+		      $(".twitter").append("<div class='instagram-placeholder'><a href='" + d.results[i].url +"'><img class='instagram-image' src='" + d.results[i].thumb +"' /></a></div>");   
+		      i++;
+		  }
+	      }
+	     });
+  });
+</script>
+
+</body>
+</html>

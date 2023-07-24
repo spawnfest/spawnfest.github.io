@@ -1,0 +1,76 @@
+---
+layout: default
+title: 2021
+permalink: /legacy/2021
+---
+
+<!-- Navigation -->
+{% include navigation.html %}
+
+<div class="pt-5">
+  <div class="pt-5 row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <h2 class="display-4 text-center">SpawnFest 2021 winners</h2>
+      {% for _ in site.winners_2021.teams %}
+      {% assign i = forloop.index | minus: 1 %}
+      <div class="text-center">
+        <div class="winner-box">
+          <h2>Project <a href="https://github.com/spawnfest/{{ site.winners_2021.teams[i].project }}" target="_blank">{{ site.winners_2021.teams[i].project }}</a></h2>
+        </div>
+        <div>
+          by <strong>{{ site.winners_2021.teams[i].team }}</strong>
+          <br/><br/>
+          {% for member in site.winners_2021.teams[i].members %}
+            <a href="https://github.com/{{ member.user }}" target="_blank">
+              <img class="member"  src="https://avatars.githubusercontent.com/u/{{ member.avatar_id }}">
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="winner-description" style="text-align: center">
+        <span>{{ site.winners_2021.teams[i].description }}</span>
+      </div>
+      <h3 class="category">was distinguished in the following categories</h3>
+      <div class="categories">
+         {% for category in site.winners_2021.teams[i].categories_won %}
+         <span class="display-5 p-3 category">{{ category }}</span><br/>
+         {% endfor %}
+      </div>
+      <div class="comments-box">
+        <div>
+          {% for comment in site.winners_2021.teams[i].comments %}
+            <div class="comment">
+              <blockquote>
+                <span>{{ comment.text }}</span>
+                <footer class="cmt-author">- {{ comment.author }}</footer>
+              </blockquote>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% if site.winners_2021.teams[i].prizes %}
+      <h3 class="category">with the following prizes</h3>
+      <div class="row text-center">
+        {% for prize in site.winners_2021.teams[i].prizes %}
+          <div class="col-sm-4 team-member-prizes-2">
+            <img class="winner-prize" src="{{ prize.prize_image }}" alt="{{ prize.prize }}">
+            <div class="col-md-15">
+              <span style="white-space:nowrap">{{ prize.prize }}</span>
+              <p style="white-space:nowrap">by <strong><a target="_blank" href="{{ prize.sponsor_url }}">{{ prize.sponsor }}</a></strong></p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <hr/>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- Sponsor Logos -->
+{% include sponsors.html %}
+
+<!-- Footer -->
+{% include footer.html %}
