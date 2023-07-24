@@ -48,11 +48,11 @@ section h3.section-subheading {
 }
 
 section#about, section#registration, section#judges, section#prizes, section#rules {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 #ideas, #winners {
-    padding-top: 0px;
+    padding-top: 15px;
 }
 
 h2.about {
@@ -286,7 +286,7 @@ a.style {
 }
 
 #sponsors{
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     padding-bottom: 0;
 }
