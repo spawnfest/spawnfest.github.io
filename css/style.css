@@ -153,8 +153,7 @@ a.sponsor {
 }
 
 #countdown {
-    margin-bottom: 1rem;
-    margin-top: 5rem;
+    padding-top: 3rem!important;
 }
 
 section#registration {
