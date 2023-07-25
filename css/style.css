@@ -505,7 +505,8 @@ header.masthead .img-container .header-logo {
 
 .header-logo-small-left {
     width: 375px;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 @media(max-device-width:700px) {
