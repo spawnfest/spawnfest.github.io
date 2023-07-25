@@ -47,6 +47,19 @@ section h3.section-subheading {
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+section#about, section#registration, section#judges, section#prizes, section#rules {
+    /*padding-top: 50px;*/
+}
+
+#ideas, #winners {
+    padding-top: 15px;
+}
+
+h2.about {
+    margin-left: 0px !important;
+    padding-top: 25px;
+}
+
 .disabled-section {
     opacity: 0.4;
 }
@@ -139,6 +152,9 @@ a.sponsor {
     }
 }
 
+#countdown {
+    padding-top: 3rem!important;
+}
 
 section#registration {
     background: #3f66b2;
@@ -273,8 +289,8 @@ a.style {
 }
 
 #sponsors{
-    background-color: #eeeeee;
-    padding-top: 40px;
+    padding-top: 60px;
+    text-align: center;
     padding-bottom: 0;
 }
 
@@ -409,7 +425,7 @@ a.btn-previous-edition:focus {
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
-    padding: 0.75em 0;
+    padding: 0.75em 0 0.75em 0.75em;
     letter-spacing: 1px;
     color: white;
     font-family: 'Quattrocento Sans', sans-serif;
@@ -486,14 +502,10 @@ header.masthead .img-container .header-logo {
     }
 }
 
-.header-logo-small-top {
-    width: 25%;
-    margin-top: 3rem;
-}
-
 .header-logo-small-left {
-    width: 25%;
-    margin-bottom: 3rem;
+    width: 375px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 @media(max-device-width:700px) {
@@ -1012,10 +1024,15 @@ footer .social-link {
 
 .lang {
     margin-top: 15px;
+    text-align: center;
 }
 
 .lang-name {
     font-size: 10px;
     margin-bottom: 1rem!important;
     text-align: center;
+}
+
+.lang-link img {
+    width: 120px;
 }

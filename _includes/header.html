@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="intro-text">
-      <img class="header-logo-small-left" src="img/header_logo.png"  alt="{{ site.alt_for_logo }}">
+      <img class="header-logo-small-left" src="/img/header_logo.png"  alt="{{ site.alt_for_logo }}">
       {% if site.before_countdown_to_end or site.before_votes_are_out %}
       {% if site.before_countdown_to_end %}
       <div id="countdown" class="pt-1 d-flex justify-content-center"
@@ -27,7 +27,7 @@
       <div class="d-flex justify-content-center">
         <div class="head-message p-1">
           <h2 class="d-flex justify-content-center">THE VOTES ARE OUT</h2>
-          <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="2022.html">here</a></h2>
+          <h2 class="big-screen d-flex justify-content-center">Check out the winners,&nbsp;<a style="color:orange" href="{{ site.this_edition_year }}.html">here</a></h2>
         </div>
       </div>
       {% endif %}
@@ -36,8 +36,8 @@
   </div>
   <div class="background-video">
     <video playsinline autoplay muted loop>
-      <source src="img/background.mp4" type="video/mp4">
-      <source src="img/background.webm" type="video/webm">
+      <source src="/img/background.mp4" type="video/mp4">
+      <source src="/img/background.webm" type="video/webm">
     </video>
   </div>
 </header>

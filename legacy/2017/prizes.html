@@ -1,0 +1,28 @@
+---
+layout: 2017
+title: Prizes
+permalink: /legacy/2017/prizes
+---
+
+<div class="container">
+  <div class="p-3 text-center">
+    <p>These are the prizes you may win, thanks to our generous <a href="/legacy/2017/sponsors">sponsors</a></p>
+  </div>
+  <div class="row align-items-center">
+    {% for prize in site.l_2017.prizes %}
+      <div class="col-md-6 text-center">
+        <a class="nav-link" target="_blank" href="{{prize.url}}">
+          <img class="img-fluid img-fluid-small" src="/legacy/2017/img/{{prize.image}}" alt="{{prize.name}}" style="max-height: 204px">
+        </a>
+        <div class="col-md-12">
+          <p>{{prize.name}}
+          - by <strong><a target="_blank" href="{{prize.sponsor_url}}">{{prize.sponsor}}</a></strong></p>
+        </div>
+        <div class="col-md-12">
+          <p>{{prize.description}}</p>
+        </div>
+        <hr/>
+      </div>
+    {% endfor %}
+  </div>
+</div>

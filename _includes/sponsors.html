@@ -1,10 +1,14 @@
-<section class="sp-box bg2" id="sponsors">
+<section class="sp-box bg2">
     <div class="row">
         <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase" id="sponsors">Sponsors</h2>
             <h3 class="section-subheading text-muted">
             This event is made possible by our sponsors.
             {% if site.before_registration_is_over %}
-            You can still <a target="_blank" href="http://sponsor.spawnfest.org">join them</a>.
+            <br><br>
+            If you want to be a sponsor of this event, you merely need to contribute prizes.<br><br>
+            You can find more information, and register as a sponsor, in <a href="http://sponsor.spawnfest.org" target="_blank ">this form</a>.<br><br>
+            Alternatively, you can contact us at <a href="mailto:organizers@spawnfest.org ">organizers@spawnfest.org</a>..
             {% endif %}
             </h3>
         </div>
@@ -17,7 +21,7 @@
         {% for sponsor in site.platinum_sponsors %}
         <a class="sponsor sponsor-platinum-a col-md-6 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-platinum ">
-                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {% endfor %}
@@ -25,7 +29,7 @@
           {% if sponsor.type == "platinum" %}
           <a class="sponsor sponsor-platinum-a col-md-6 col-sm-12" href="{{ sponsor.url }}">
               <div class="rounded mx-auto text-center sponsor sponsor-platinum ">
-                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                  <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
                   <p>(for bracket {{ sponsor.bracket_name }} )</p>
               </div>
           </a>
@@ -41,7 +45,7 @@
         {% for sponsor in site.gold_sponsors %}
         <a class="sponsor sponsor-gold-a col-md-4 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-gold ">
-                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {% endfor %}
@@ -49,7 +53,7 @@
           {% if sponsor.type == "gold" %}
           <a class="sponsor sponsor-gold-a col-md-4 col-sm-12" href="{{ sponsor.url }}">
               <div class="rounded mx-auto text-center sponsor sponsor-gold ">
-                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                  <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
                   <p>(for bracket {{ sponsor.bracket_name }} )</p>
               </div>
           </a>
@@ -65,7 +69,7 @@
         {% for sponsor in site.silver_sponsors %}
         <a class="sponsor sponsor-silver-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-silver ">
-                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {% endfor %}
@@ -73,7 +77,7 @@
           {% if sponsor.type == "silver" %}
           <a class="sponsor sponsor-silver-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
               <div class="rounded mx-auto text-center sponsor sponsor-silver ">
-                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                  <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
                   <p>(for bracket {{ sponsor.bracket_name }} )</p>
               </div>
           </a>
@@ -89,7 +93,7 @@
         {% for sponsor in site.bronze_sponsors %}
         <a class="sponsor sponsor-bronze-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
             <div class="rounded mx-auto text-center sponsor sponsor-bronze ">
-                <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
             </div>
         </a>
         {% endfor %}
@@ -97,7 +101,7 @@
           {% if sponsor.type == "bronze" %}
           <a class="sponsor sponsor-bronze-a col-md-3 col-sm-12" href="{{ sponsor.url }}">
               <div class="rounded mx-auto text-center sponsor sponsor-bronze ">
-                  <img class=" p-2 " src="/img/{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
+                  <img class=" p-2 " src="{{ sponsor.logo }} " alt="{{ sponsor.name }} ">
                   <p>(for bracket {{ sponsor.bracket_name }} )</p>
               </div>
           </a>
@@ -113,24 +117,12 @@
         <a class="col-md-3 col-sm-12 organizer" href="{{ site.organizer.url }}">
             <div class="rounded mx-auto text-center">
                 {% if site.organizer.logo %}
-                <img class=" p-2 " src="/img/{{ site.organizer.logo }} " alt="{{ site.organizer.name }} ">
+                <img class=" p-2 " src="{{ site.organizer.logo }} " alt="{{ site.organizer.name }} ">
                 {% else %}
                 {{ site.organizer.name }}
                 {% endif %}
             </div>
         </a>
-    </div>
-    {% endif %}
-
-    {% if site.before_registration_is_over %}
-    <div class="container ">
-        <div class="col-md-12 ">
-            <div class="p-5 ">
-                <h2 class="display-5 ">Be a Sponsor!</h2>
-                <p>If you want to be a sponsor of this event, you merely need to contribute prizes. You can find more information, and register as a sponsor, in <a href="http://sponsor.spawnfest.org" target="_blank ">this form</a>. Alternatively, you can
-                    contact us at <a href="mailto:organizers@spawnfest.org ">organizers@spawnfest.org</a>.</p>
-            </div>
-        </div>
     </div>
     {% endif %}
 </section>
