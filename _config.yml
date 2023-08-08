@@ -88,21 +88,21 @@ bronze_sponsors:
   #  url: https://url
 
 bracket_sponsors:
-  #- name: name
-  #  bracket_name: bracket_name
-  #  logo: img/sponsors_2023/logo
-  #  url: https://url
-  #  type: platinum | gold | silver | bronze
-  #  judge:
-  #    - name: name
-  #      twitter: twitter
-  #      image: /img/judges_2023/image
-  #  prizes:
-  #    - name: name
-  #      image: /img/prizes_2023/image
-  #  ideas:
-  #    - title: title
-  #      description: description
+  - name: Livebook
+    bracket_name: Livebook Apps
+    logo: img/sponsors_2023/livebook.png
+    url: https://livebook.dev/?ref=spawnfest
+    type: silver
+    judge:
+      - name: Hugo Baraúna
+        twitter: hugobarauna
+        image: /img/judges_2023/hugo.jpg
+    prizes:
+      - name: $750 in Amazon gift cards
+        image: /img/prizes_2023/amazon-gift-card.png
+    ideas:
+      - title: Livebook Apps
+        description: A Livebook App is a way to turn a Livebook notebook into an interactive web application (<a href="https://github.com/spawnfest/spawnfest.github.io/issues/176#issuecomment-1669701317">more details</a>)
 
 prizes:
   #- name: name
