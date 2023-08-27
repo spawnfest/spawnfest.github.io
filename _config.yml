@@ -96,7 +96,9 @@ bracket_sponsors:
     type: silver
     judge:
       - name: Hugo Baraúna
-        twitter: hugobarauna
+        social_media:
+          at: hugobarauna
+          url: https://twitter.com/@hugobarauna
         image: /img/judges_2023/hugo.jpg
     prizes:
       - name: $750 in Amazon gift cards
