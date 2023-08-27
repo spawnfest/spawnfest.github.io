@@ -124,6 +124,11 @@ judges:
       at: elbrujohalcon
       url: http://twitter.com/@elbrujohalcon
     image: /img/judges_2023/brujo_rodriguez.png
+  - name: Kenji Rikitake
+    social_media:
+      at: jj1bdx
+      url: https://github.com/jj1bdx
+    image: /img/judges_2023/kenji_rikitake.jpg
 
 rules:
   - title: "Schedule"
