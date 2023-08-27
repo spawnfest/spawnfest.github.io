@@ -134,6 +134,11 @@ judges:
       at: kikofernandez
       url: http://twitter.com/@kikofernandez
     image: /img/judges_2023/kiko_fernandez_reyes.jpg
+  - name: Evadne W.
+    social_media:
+      at: evadne
+      url: http://twitter.com/@evadne
+    image: /img/judges_2023/evadne_wu.png
 
 rules:
   - title: "Schedule"
