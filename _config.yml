@@ -119,6 +119,11 @@ judges:
       at: adolfont
       url: http://twitter.com/@adolfont
     image: /img/judges_2023/adolfo_neto.jpg
+  - name: Brujo Benavides Rodríguez
+    social_media:
+      at: elbrujohalcon
+      url: http://twitter.com/@elbrujohalcon
+    image: /img/judges_2023/brujo_rodriguez.png
 
 rules:
   - title: "Schedule"
