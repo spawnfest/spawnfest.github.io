@@ -129,6 +129,11 @@ judges:
       at: jj1bdx
       url: https://github.com/jj1bdx
     image: /img/judges_2023/kenji_rikitake.jpg
+  - name: Kiko Fernandez-Reyes
+    social_media:
+      at: kikofernandez
+      url: http://twitter.com/@kikofernandez
+    image: /img/judges_2023/kiko_fernandez_reyes.jpg
 
 rules:
   - title: "Schedule"
