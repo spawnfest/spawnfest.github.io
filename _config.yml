@@ -114,9 +114,11 @@ prizes:
     image: /img/prizes_2023/passport.png
 
 judges:
-  #- name: name
-  #  twitter: twitter
-  #  image: /img/judges_2023/image
+  - name: Adolfo Neto
+    social_media:
+      at: adolfont
+      url: http://twitter.com/@adolfont
+    image: /img/judges_2023/adolfo_neto.jpg
 
 rules:
   - title: "Schedule"
