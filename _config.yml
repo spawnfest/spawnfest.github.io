@@ -139,6 +139,11 @@ judges:
       at: evadne
       url: http://twitter.com/@evadne
     image: /img/judges_2023/evadne_wu.png
+  - name: Robert Virding
+    social_media:
+      at: rvirding
+      url: http://twitter.com/@rvirding
+    image: /img/judges_2023/robert_virding.jpg
 
 rules:
   - title: "Schedule"
