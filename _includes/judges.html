@@ -14,8 +14,8 @@
           data-aos-easing="ease-out-quad">
             <img class="mx-auto rounded-circle" src="{{ judge.image }}" alt="{{ judge.name }}'s picture">
             <h3 class="text-dark judge-name">{{ judge.name }}</h3>
-            {% if judge.twitter %}
-              <strong> <a class="team-member-info" href="https://twitter.com/{{ judge.twitter }}" alt="@{{ judge.twitter }}" target="_blank">@{{ judge.twitter }}</a></strong>
+            {% if judge.social_media %}
+              <strong> <a class="team-member-info" href="{{ judge.social_media.url }}" alt="@{{ judge.social_media.at }}" target="_blank">@{{ judge.social_media.at }}</a></strong>
             {% endif %}
           </div>
         </div>
@@ -40,8 +40,8 @@
               <img class="mx-auto rounded-circle" src="{{ judge.image }}" alt="{{ judge.name }}'s picture">
               <h3 class="text-dark judge-name">{{ judge.name }}</h3>
               <p class="text-dark bracket-name">(for bracket "{{ sponsor.bracket_name }}")</p>
-              {% if judge.twitter %}
-                <strong> <a class="team-member-info" href="https://twitter.com/{{ judge.twitter }}" alt="@{{ judge.twitter }}" target="_blank">@{{ judge.twitter }}</a></strong>
+              {% if judge.social_media %}
+                <strong> <a class="team-member-info" href="{{ judge.social_media.url }}" alt="@{{ judge.social_media.at }}" target="_blank">@{{ judge.social_media.at }}</a></strong>
               {% endif %}
             </div>
           </div>

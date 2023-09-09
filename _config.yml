@@ -96,8 +96,10 @@ bracket_sponsors:
     type: silver
     judge:
       - name: Hugo Baraúna
-        twitter: hugobarauna
-        image: /img/judges_2023/hugo.jpg
+        social_media:
+          at: hugobarauna
+          url: https://twitter.com/@hugobarauna
+        image: /img/judges_2023/hugo_barauna.jpg
     prizes:
       - name: $750 in Amazon gift cards
         image: /img/prizes_2023/amazon-gift-card.png
@@ -112,9 +114,36 @@ prizes:
     image: /img/prizes_2023/passport.png
 
 judges:
-  #- name: name
-  #  twitter: twitter
-  #  image: /img/judges_2023/image
+  - name: Adolfo Neto
+    social_media:
+      at: adolfont
+      url: http://twitter.com/@adolfont
+    image: /img/judges_2023/adolfo_neto.jpg
+  - name: Brujo Benavides Rodríguez
+    social_media:
+      at: elbrujohalcon
+      url: https://about.me/elbrujohalcon
+    image: /img/judges_2023/brujo_rodriguez.png
+  - name: Kenji Rikitake
+    social_media:
+      at: jj1bdx
+      url: https://github.com/jj1bdx
+    image: /img/judges_2023/kenji_rikitake.jpg
+  - name: Kiko Fernandez-Reyes
+    social_media:
+      at: kikofernandez
+      url: http://twitter.com/@kikofernandez
+    image: /img/judges_2023/kiko_fernandez_reyes.jpg
+  - name: Evadne W.
+    social_media:
+      at: evadne
+      url: http://twitter.com/@evadne
+    image: /img/judges_2023/evadne_wu.png
+  - name: Robert Virding
+    social_media:
+      at: rvirding
+      url: http://twitter.com/@rvirding
+    image: /img/judges_2023/robert_virding.jpg
 
 rules:
   - title: "Schedule"
