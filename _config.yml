@@ -76,6 +76,9 @@ gold_sponsors:
   - name: Groxio
     logo: img/sponsors_2023/groxio.svg
     url: https://grox.io
+  - name: Erlang Solutions
+    logo: img/sponsors_2023/erlang-solutions.svg
+    url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
 
 silver_sponsors:
   true
@@ -112,6 +115,10 @@ prizes:
     sponsor: Groxio
     sponsor_url: https://grox.io
     image: /img/prizes_2023/passport.png
+  - name: 7 virtual tickets for Code BEAM America 2024
+    sponsor: Erlang Solutions
+    sponsor_url: https://pbs.twimg.com/media/F57Ig-OWYAAj8I_?format=jpg&name=large
+    image: /img/prizes_2023/virtual-ticket.png
 
 judges:
   - name: Adolfo Neto
