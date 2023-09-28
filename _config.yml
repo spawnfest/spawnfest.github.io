@@ -90,6 +90,9 @@ bronze_sponsors:
   - name: Code Code Ship
     logo: /img/sponsors_2023/codecodeship.svg
     url: https://codecodeship.com?utm_source=spawnfest
+  - name: Gleam
+    logo: /img/sponsors_2023/gleam.svg
+    url: https://gleam.run/?ref=spawnfest-2023
 
 bracket_sponsors:
   - name: Livebook
@@ -123,6 +126,10 @@ prizes:
     sponsor: Code Code Ship
     sponsor_url: https://codecodeship.com?utm_source=spawnfest
     image: /img/prizes_2023/keychron-q1.webp
+  - name: 200 USD in money, vouchers or something
+    sponsor: Gleam
+    sponsor_url: https://gleam.run/?ref=spawnfest-2023
+    image: /img/prizes_2023/200usd_voucher.png
 
 judges:
   - name: Adolfo Neto
