@@ -69,32 +69,32 @@ organizer:
 
 platinum_sponsors:
   #- name: name
-  #  logo: img/sponsors_2023/logo
+  #  logo: /img/sponsors_2023/logo
   #  url: https://url
 
 gold_sponsors:
   - name: Groxio
-    logo: img/sponsors_2023/groxio.svg
+    logo: /img/sponsors_2023/groxio.svg
     url: https://grox.io
   - name: Erlang Solutions
-    logo: img/sponsors_2023/erlang-solutions.svg
+    logo: /img/sponsors_2023/erlang-solutions.svg
     url: https://erlang-solutions.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
 
 silver_sponsors:
   true
   #- name: name
-  #  logo: img/sponsors_2023/logo
+  #  logo: /img/sponsors_2023/logo
   #  url: https://url
 
 bronze_sponsors:
   - name: Code Code Ship
-    logo: img/sponsors_2023/codecodeship.svg
+    logo: /img/sponsors_2023/codecodeship.svg
     url: https://codecodeship.com?utm_source=spawnfest
 
 bracket_sponsors:
   - name: Livebook
     bracket_name: Livebook Apps
-    logo: img/sponsors_2023/livebook.png
+    logo: /img/sponsors_2023/livebook.png
     url: https://livebook.dev/?ref=spawnfest
     type: silver
     judge:
