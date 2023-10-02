@@ -43,7 +43,7 @@ languages:
     image: /img/languages/luerl-edited.png
   - name: Gleam
     url: https://gleam.run/
-    image: /img/languages/gleam-edited.png
+    image: /img/languages/gleam.svg
   - name: Clojerl
     url: http://clojerl.org/
     image: /img/languages/clojerl-edited.png
