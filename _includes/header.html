@@ -3,7 +3,6 @@
 
     <div class="intro-text">
       <img class="header-logo-small-left" src="/img/header_logo.png"  alt="{{ site.alt_for_logo }}">
-      {% if site.before_countdown_to_end or site.before_votes_are_out %}
       {% if site.before_countdown_to_end %}
       <div id="countdown" class="pt-1 d-flex justify-content-center"
         data-aos="fade-up"
@@ -20,7 +19,6 @@
           <h2 class="big-screen d-flex justify-content-center">The judges are evaluating the projects</h2>
         </div>
       </div> 
-      {% endif %}
       {% endif %}
 
       {% if site.before_votes_are_out == false %}

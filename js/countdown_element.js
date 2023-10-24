@@ -1,9 +1,9 @@
 var Countdown = new Countdown({
   year     : 2023,
   month    : 10,
-  day      : 30,
+  day      : 28,
   hour     : 0,
-  minute   : 0,
+  minute   : 1,
   second   : 0,
   timezone : 0,
   rangeHi  : "day",

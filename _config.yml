@@ -16,8 +16,8 @@ nav:
     ref: "ideas.html"
 
 # We move by flags, one phase at a time (these are ordered)
-before_countdown_to_start: true  # countdown to start of competition is in effect
-before_registration_is_over: true  # players and sponsor can no longer apply
+before_countdown_to_start: false  # countdown to start of competition is in effect
+before_registration_is_over: false  # players and sponsor can no longer apply
 before_countdown_to_end: true  # after contest starts (the 2 days)
 before_votes_are_out: true  # while judges are doing their thing
 
