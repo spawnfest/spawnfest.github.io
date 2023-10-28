@@ -185,7 +185,7 @@ rules:
       - text: "Judges of this contest cannot participate in it as members of a team."
       - text: "Every team has to register by completing the <a href=\"#registration\">registration form</a></span>."
       - text: "Each team shall have a designated leader to handle the prize distribution among its members as well as communicating with the organizers. A team's decision on forfeiting a prize is a private one and the organization will not get involved with that."
-      - text: "We highly advise this player to be able to log into our private Slack channel (#spawnfest-[year]) for communicating with the organisation during the contest."
+      - text: "This player must log into our private Erlang Ecosystem Foundation Slack channel (#spawnfest-[year]) for communicating with the organisation during the contest. This is done by invitation-only."
   - title: "Projects"
     icon: "fas fa-rocket"
     details:
