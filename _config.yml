@@ -174,7 +174,7 @@ rules:
       - text: "The event will start on <strong>2023-10-28 00:01 UTC</strong>."
       - text: "The event will end on <strong>2023-10-29 23:59 UTC</strong>."
       - text: "Registration will close 5 days prior to the start date."
-      - text: "Each team will have exactly 48 hours (minus 2 minutes) to work on their projects."
+      - text: "Each team will have exactly 48 hours (plus 2 minutes) to work on their projects."
       - text: "The jury will have a month to evaluate all the submissions (this might take longer, as it's voluntary work)."
   - title: "Teams"
     icon: "fas fa-users"
