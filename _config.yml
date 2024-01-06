@@ -296,7 +296,7 @@ winners_2023:
           sponsor: Gleam
           sponsor_url: https://gleam.run/?ref=spawnfest-2023
         - prize: 3 x virtual tickets
-          prize_image: /img/legacy/prizes_2023/virtual-ticket.png
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
@@ -325,7 +325,7 @@ winners_2023:
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
         - prize: 2 x virtual tickets
-          prize_image: /img/legacy/prizes_2023/virtual-ticket.png
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
@@ -349,7 +349,7 @@ winners_2023:
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
         - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2023/virtual-ticket.png
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
@@ -376,7 +376,7 @@ winners_2023:
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
         - prize: 1 x virtual tickets
-          prize_image: /img/legacy/prizes_2023/virtual-ticket.png
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
           sponsor_url: https://www.erlang-solutions.com
         - prize: 1 x annual subscriptions
