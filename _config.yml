@@ -280,8 +280,10 @@ winners_2023:
       project: heimdall
       description: A web application that lets you share sensitive data in a secure and easy way.
       members:
-        - user: Adi Iyengar
+        - user: thebugcatcher
           avatar_id: 10440910
+        - user: susanwalker
+          avatar_id: 56761232
       categories_won:
         - 1st place overall 🥇
         - 2nd place maintainability 🥈
