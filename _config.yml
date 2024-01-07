@@ -276,7 +276,7 @@ ideas:
 
 winners_2023:
   teams:
-    - team: Heimdall
+    - team: Team Heimdall
       project: heimdall
       description: A web application that lets you share sensitive data in a secure and easy way.
       members:
@@ -286,32 +286,33 @@ winners_2023:
           avatar_id: 56761232
       categories_won:
         - 1st place overall 🥇
+        - 1st place completion 🥇
         - 2nd place maintainability 🥈
         - 3rd place correctness 🥉
       prizes:
-        - prize: $429 in Amazon gift cards
+        - prize: $429 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
-        - prize: $200 usd gleam
+        - prize: $200 USD in money, vouchers or something
           prize_image: /img/prizes_2023/200usd_voucher.png
           sponsor: Gleam
           sponsor_url: https://gleam.run/?ref=spawnfest-2023
-        - prize: 3 x virtual tickets
+        - prize: 3 virtual tickets for Code BEAM America 2024
           prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
           prize_image: /img/prizes_2023/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
-        - prize: Keychron Q1 Pro
+        - prize: Keychron Q1 Pro QMK/VIA
           prize_image: /img/prizes_2023/keychron-q1.webp
-          sponsor: Code Code ship
+          sponsor: Code Code Ship
           sponsor_url: https://codecodeship.com/?utm_source=spawnfest
     - team: Fluffy Train
       project: fluffytrain
-      description: An application for generating working elixir code using OpenAI GPT-4.
+      description: An application for generating working Elixir code using OpenAI GPT-4.
       members:
         - user: ValedL
           avatar_id: 23161560
@@ -320,21 +321,21 @@ winners_2023:
         - 1st place creativity 🥇
         - 1st place innovation 🥇
         - 1st place correctness 🥇
-        - 3rd place completetion 🥉
+        - 3rd place completion 🥉
       prizes:
-        - prize: $869 in Amazon gift cards
+        - prize: $861 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
-        - prize: 2 x virtual tickets
+        - prize: 2 virtual tickets for Code BEAM America 2024
           prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
           prize_image: /img/prizes_2023/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
-    - team: One Man Army
+    - team: one_man_army
       project: tabtab
       description: An autocompletion generator plugin for rebar3.
       members:
@@ -342,7 +343,7 @@ winners_2023:
           avatar_id: 48245318
       categories_won:
         - 3rd place overall 🥉
-        - 2nd place innovation 🥈
+        - 2nd place usefulness 🥈
         - 2nd place completion 🥈
         - 3rd place innovation 🥉
       prizes:
@@ -350,11 +351,11 @@ winners_2023:
           prize_image: /img/prizes_2023/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
-        - prize: 1 x virtual tickets
+        - prize: 1 virtual ticket for Code BEAM America 2024
           prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
           prize_image: /img/prizes_2023/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
@@ -377,11 +378,11 @@ winners_2023:
           prize_image: /img/prizes_2023/amazon-gift-card.png
           sponsor: Erlang Ecosystem Foundation
           sponsor_url: https://erlef.org/
-        - prize: 1 x virtual tickets
+        - prize: 1 virtual ticket for Code BEAM America 2024
           prize_image: /img/prizes_2023/codebeam-america-ticket.png
           sponsor: Erlang Solutions
-          sponsor_url: https://www.erlang-solutions.com
-        - prize: 1 x annual subscriptions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
           prize_image: /img/prizes_2023/passport.png
           sponsor: Groxio
           sponsor_url: https://grox.io/
@@ -406,7 +407,7 @@ winners_2023:
         - user: williamthome
           avatar_id: 35941533
       categories_won:
-        - 1st place usefullness 🥇
+        - 1st place usefulness 🥇
       prizes:
         - prize: $215 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
@@ -419,7 +420,7 @@ winners_2023:
         - user: hkrutzer
           avatar_id: 3464899
       categories_won:
-        - 3rd place usefullness 🥉
+        - 3rd place usefulness 🥉
       prizes:
         - prize: $72 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
@@ -427,10 +428,7 @@ winners_2023:
           sponsor_url: https://erlef.org/
     - team: fyrlang
       project: wfnet1
-      description: Embedded work flow engine for Erlang applications.
-      members:
-        - user: fredyouhanaie
-          avatar_id: 1966202
+      description: wfnet provides a configuration based workflow enactment engine within an Erlang application.
       categories_won:
         - 2nd place correctness 🥈
       prizes:
@@ -440,7 +438,7 @@ winners_2023:
           sponsor_url: https://erlef.org/
     - team: youcan
       project: youcan
-      description: Embedded work flow engine for Erlang applications.
+      description: Elixir library to help the next generation of applications make use of UCANs in their authorization flows.
       members:
         - user: madclaws
           avatar_id: 17821575
@@ -458,7 +456,7 @@ winners_2023:
         - user: wtedw
           avatar_id: 1834473
       categories_won:
-        - Livebook Apps 1st place 🥇
+        - Livebook Apps 1st place 🥇 (ex aequo)
       prizes:
         - prize: $375 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
@@ -475,7 +473,7 @@ winners_2023:
         - user: miladamilli
           avatar_id: 47519511
       categories_won:
-        - Livebook Apps 1st place 🥇
+        - Livebook Apps 1st place 🥇 (ex aequo)
       prizes:
         - prize: $375 USD in Amazon gift cards
           prize_image: /img/prizes_2023/amazon-gift-card.png
