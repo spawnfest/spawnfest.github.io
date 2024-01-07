@@ -19,7 +19,7 @@ nav:
 before_countdown_to_start: false  # countdown to start of competition is in effect
 before_registration_is_over: false  # players and sponsor can no longer apply
 before_competition_is_over: false  # while competition is ongoing
-before_votes_are_out: true  # while judges are doing their thing
+before_votes_are_out: false  # while judges are doing their thing
 
 last_edition_year: 2022
 this_edition_year: 2023
@@ -276,22 +276,208 @@ ideas:
 
 winners_2023:
   teams:
-    #- team: team
-    #  project: project
-    #  description: descripion
-    #  members:
-    #    - user: user
-    #      avatar_id: avatar_id
-    #  categories_won:
-    #    -
-    #  prizes:
-    #    - prize: prize
-    #      prize_image: /img/prizes_2023/prize_image
-    #      sponsor: sponsor
-    #      sponsor_url: https://sponsor_url
-    #  comments:
-    #    - text: text
-    #      author: author
+    - team: Team Heimdall
+      project: heimdall
+      description: A web application that lets you share sensitive data in a secure and easy way.
+      members:
+        - user: thebugcatcher
+          avatar_id: 10440910
+        - user: susanwalker
+          avatar_id: 56761232
+      categories_won:
+        - 1st place overall 🥇
+        - 1st place completion 🥇
+        - 2nd place maintainability 🥈
+        - 3rd place correctness 🥉
+      prizes:
+        - prize: $429 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+        - prize: $200 USD in money, vouchers or something
+          prize_image: /img/prizes_2023/200usd_voucher.png
+          sponsor: Gleam
+          sponsor_url: https://gleam.run/?ref=spawnfest-2023
+        - prize: 3 virtual tickets for Code BEAM America 2024
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
+          prize_image: /img/prizes_2023/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+        - prize: Keychron Q1 Pro QMK/VIA
+          prize_image: /img/prizes_2023/keychron-q1.webp
+          sponsor: Code Code Ship
+          sponsor_url: https://codecodeship.com/?utm_source=spawnfest
+    - team: Fluffy Train
+      project: fluffytrain
+      description: An application for generating working Elixir code using OpenAI GPT-4.
+      members:
+        - user: ValedL
+          avatar_id: 23161560
+      categories_won:
+        - 2nd place overall 🥈
+        - 1st place creativity 🥇
+        - 1st place innovation 🥇
+        - 1st place correctness 🥇
+        - 3rd place completion 🥉
+      prizes:
+        - prize: $861 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+        - prize: 2 virtual tickets for Code BEAM America 2024
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
+          prize_image: /img/prizes_2023/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+    - team: one_man_army
+      project: tabtab
+      description: An autocompletion generator plugin for rebar3.
+      members:
+        - user: MarkoMin
+          avatar_id: 48245318
+      categories_won:
+        - 3rd place overall 🥉
+        - 2nd place usefulness 🥈
+        - 2nd place completion 🥈
+        - 3rd place innovation 🥉
+      prizes:
+        - prize: $503 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+        - prize: 1 virtual ticket for Code BEAM America 2024
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
+          prize_image: /img/prizes_2023/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+    - team: Sector E(LLM)
+      project: ELMS.P.A.R.K
+      description: ELM Software Produced By AI's Responsive Knowledge
+      members:
+        - user: 7hoenix
+          avatar_id: 8015081
+        - user: Andre-Bryan
+          avatar_id: 15573401
+        - user: blackeuler
+          avatar_id: 26696646
+      categories_won:
+        - 1st place maintainability 🥇
+        - 2nd place creativity 🥈
+        - 2nd place innovation 🥈
+      prizes:
+        - prize: $432 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+        - prize: 1 virtual ticket for Code BEAM America 2024
+          prize_image: /img/prizes_2023/codebeam-america-ticket.png
+          sponsor: Erlang Solutions
+          sponsor_url: https://codebeamamerica.com/?utm_source=sponsorship&utm_medium=logo&utm_campaign=spawnfest
+        - prize: 1 annual subscription to Groxio
+          prize_image: /img/prizes_2023/passport.png
+          sponsor: Groxio
+          sponsor_url: https://grox.io/
+    - team: hackercat42
+      project: nine
+      description: A data-driven routing library for elli web servers.
+      members:
+        - user: fancycade
+          avatar_id: 51537236
+      categories_won:
+        - 3rd place creativity 🥉
+      prizes:
+        - prize: $72 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+    - team: williamthome
+      project: arizona
+      description: Arizona is a Web Framework for Erlang.
+      members:
+        - user: williamthome
+          avatar_id: 35941533
+      categories_won:
+        - 1st place usefulness 🥇
+      prizes:
+        - prize: $215 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+    - team: etaoin shrdlu
+      project: latch
+      description: Latch allows viewing OpenTelemetry data as it is coming in, as well as a time-limited amount of recent data.
+      members:
+        - user: hkrutzer
+          avatar_id: 3464899
+      categories_won:
+        - 3rd place usefulness 🥉
+      prizes:
+        - prize: $72 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+    - team: fyrlang
+      project: wfnet1
+      description: wfnet provides a configuration based workflow enactment engine within an Erlang application.
+      categories_won:
+        - 2nd place correctness 🥈
+      prizes:
+        - prize: $144 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+    - team: youcan
+      project: youcan
+      description: Elixir library to help the next generation of applications make use of UCANs in their authorization flows.
+      members:
+        - user: madclaws
+          avatar_id: 17821575
+      categories_won:
+        - 3rd place maintainability 🥉
+      prizes:
+        - prize: $72 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Erlang Ecosystem Foundation
+          sponsor_url: https://erlef.org/
+    - team: lorax
+      project: lorax
+      description: A package that implements Low-Rank Adaptation (LoRA), a popular method for fine-tuning large language models.
+      members:
+        - user: wtedw
+          avatar_id: 1834473
+      categories_won:
+        - Livebook Apps 1st place 🥇 (ex aequo)
+      prizes:
+        - prize: $375 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev/?ref=spawnfest
+    - team: Karel Dreams
+      project: karel_dreams
+      description: A package that implements Low-Rank Adaptation (LoRA), a popular method for fine-tuning large language models.
+      members:
+        - user: towhans
+          avatar_id: 620179
+        - user: bossek
+          avatar_id: 1016718
+        - user: miladamilli
+          avatar_id: 47519511
+      categories_won:
+        - Livebook Apps 1st place 🥇 (ex aequo)
+      prizes:
+        - prize: $375 USD in Amazon gift cards
+          prize_image: /img/prizes_2023/amazon-gift-card.png
+          sponsor: Livebook
+          sponsor_url: https://livebook.dev/?ref=spawnfest
 
 ## Legacy
 
