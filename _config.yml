@@ -463,7 +463,7 @@ winners_2023:
           sponsor_url: https://livebook.dev/?ref=spawnfest
     - team: Karel Dreams
       project: karel_dreams
-      description: A package that implements Low-Rank Adaptation (LoRA), a popular method for fine-tuning large language models.
+      description: Control a robot named Karel moving on a board using the AI! (Or with a script.)
       members:
         - user: towhans
           avatar_id: 620179
