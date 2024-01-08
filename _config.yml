@@ -427,6 +427,9 @@ winners_2023:
           sponsor_url: https://erlef.org/
     - team: fyrlang
       project: wfnet1
+      members:
+        - user: fredyouhanaie
+          avatar_id: 1966202
       description: wfnet provides a configuration based workflow enactment engine within an Erlang application.
       categories_won:
         - 2nd place correctness 🥈
